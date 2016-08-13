@@ -44,7 +44,8 @@ But wait, there's more! Notes are organized by topic, but there's a suggested or
 | Topic | Assignments |
 | ----- | ----------- |
 | [Internet Fundamentals][1] | [Internet Lab][1000] |
-| [Command Line][2] <br><br> [Intro to Git][3] | [Command Line Murder Mystery][1001] |
+| [Command Line][2] | [Command Line Murder Mystery][1001] |
+| [Intro to Git][3] | [Learn Git News Room Style][1026] |
 | [HTML][5] <br><br> [CSS Selectors][6] |  |
 | [CSS Box Model and Positioning][9] | [Recreate Instagram][1023] <br><br> [Recreate Airbnb][1024] |
 | [JavaScript Primitives][4] | [Primitives Exercises][1003]  |
@@ -116,6 +117,7 @@ But wait, there's more! Notes are organized by topic, but there's a suggested or
 [1023]: https://github.com/WDI-SEA/css-positioning
 [1024]: https://github.com/WDI-SEA/css-airbnb
 [1025]: https://github.com/WDI-SEA/code-review
+[1026]: https://github.com/ga-students/learn-git-newsroom-style
 
 
 ###NodeJS/Express
