@@ -1,8 +1,6 @@
 #WDI5 (Singapore)
 
-Welcome to GA Singapore! This is the notes repository for our Web Development Immersive. You can view the content in a more searchable/friendly format on Gitbook:
-
-https://davified.gitbooks.io/wdi-5-gitbooks/content/
+Welcome to GA Singapore! Here are the notes for our Web Development Immersive. Do take your own notes too (Psst, you'll learn better that way!)
 
 ![GA Logo](./_assets/ga_cog.png)
 
@@ -92,7 +90,7 @@ https://davified.gitbooks.io/wdi-5-gitbooks/content/
 [1025]: https://github.com/WDI-SEA/code-review
 [1026]: https://github.com/ga-students/learn-git-newsroom-style
 
-
+<!--
 ###Unit 2: NodeJS/Express
 
 | Topic | Assignments |
@@ -319,7 +317,7 @@ https://davified.gitbooks.io/wdi-5-gitbooks/content/
 [1317]: https://github.com/WDI-SEA/react-yearbook
 
 ---
-
+-->
 ## Licensing
 1. All content is licensed under a CC-BY-NC-SA 4.0 license.
 2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
