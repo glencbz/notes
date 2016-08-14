@@ -29,3 +29,4 @@
     * [Additional Topics](03-html-css/css-responsive-design/05additional.md)
     * [Flexbox (Game)](03-html-css/css-responsive-design/flexbox.md)
   * [Bootstrap](03-html-css/css-bootstrap/readme.md)
+* [Useful Resources](useful-resources.md)
