@@ -28,6 +28,8 @@
     * [Additional Topics](03-html-css/css-responsive-design/05additional.md)
     * [Flexbox (Game)](03-html-css/css-responsive-design/flexbox.md)
   * [Bootstrap](03-html-css/css-bootstrap/readme.md)
+
+  <!--
 * [JavaScript](02-js-jquery/javascript.md)
   * [Primitives](02-js-jquery/js-primitives/readme.md)
   * [Conditionals and Loops](02-js-jquery/js-control-flow/readme.md)
@@ -225,3 +227,4 @@
   * [PostgreSQL Cheat Sheet](12-resources/sqlcheatsheet.md)
   * [Sequelize Cheat Sheet](12-resources/sequelizecheatsheet.md)
   * [Database Administration](12-resources/dbadmin.md)
+-->
