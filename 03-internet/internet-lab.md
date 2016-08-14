@@ -1,4 +1,4 @@
-# Internet Fundamentals
+# Pinging Around the World
 
 #### Answer and discuss the following questions with a partner:
 
