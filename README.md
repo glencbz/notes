@@ -40,7 +40,7 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 | [Project 1][1022] |
 | [Code Review][1025] |
 
-[1]: 09-other-topics/internet-fundamentals/readme.md
+[1]: 03-internet/how-the-internet-works.md
 [2]: 01-workflow/command-line/01readme.md
 [3]: 01-workflow/intro-git/readme.md
 [4]: 02-js-jquery/js-primitives/readme.md
@@ -62,7 +62,7 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 [21]: 02-js-jquery/js-scopes/readme.md
 [22]: 02-js-jquery/js-inheritance/01readme.md
 
-[1000]: 09-other-topics/internet-fundamentals/internetlab.md
+[1000]: 03-internet/internet-lab.md
 [1001]: https://github.com/WDI-SEA/command-line-murder-mystery
 [1002]: https://github.com/WDI-SEA/google-shopping-conditionals-loops
 [1003]: https://github.com/WDI-SEA/js-primitives
