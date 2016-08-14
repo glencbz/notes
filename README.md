@@ -1,34 +1,8 @@
-#WDI Seattle
+#WDI5 (Singapore)
 
-![Seattle and the Olympic Mountains by Brian Hague on 500px.com](https://drscdn.500px.org/photo/134493425/m%3D900/f16538c0cf8632e88f50eb219b305723)
-
-
-Welcome to GA Seattle! This is the notes repository for our Web Development Immersive. You can view the content in a more searchable/friendly format on Gitbook:
-
-https://wdi_sea.gitbooks.io/notes/content/
+Welcome to GA Singapore! Here are the notes for our Web Development Immersive. Do take your own notes too (Psst, you'll learn better that way!)
 
 ![GA Logo](./_assets/ga_cog.png)
-
-##Setting up the Notes locally
-
-* Fork this repository
-* Clone your fork to your development machine
-* Setup a remote for your fork
-  * Run `git remote add upstream git@github.com:WDI-SEA/notes.git`
-* Install the Gitbook CLI tool by running `npm install -g gitbook-cli`
-* Preview the Gitbook by running `gitbook serve`
-
-##Contributing to the Notes
-
-* All contributions can be done via pull requests
-* Recommended process:
-  * Make changes in your forked repository (use a separate branch)
-  * Create a pull request and be sure to be very explicit about the changes you've made
-  * Ask someone on the WDI team to look at your pull request
-
-##Directory
-
-But wait, there's more! Notes are organized by topic, but there's a suggested order to go through the notes, complete with assignments.
 
 ###Prework
 
@@ -36,13 +10,7 @@ But wait, there's more! Notes are organized by topic, but there's a suggested or
 * [WDI Fundamentals](http://fundamentals.generalassemb.ly/)
 * [FreeCodeCamp](http://www.freecodecamp.com/)
 
-###Templates
-
-* [Front-end Template](https://github.com/WDI-SEA/TEMPLATE-js)
-* [Express Template](https://github.com/WDI-SEA/TEMPLATE-express)
-* [Express Authentication Template](https://github.com/WDI-SEA/express-authentication)
-
-###Front End Development
+###Unit 1: Front End Development
 
 | Topic | Assignments |
 | ----- | ----------- |
@@ -122,8 +90,8 @@ But wait, there's more! Notes are organized by topic, but there's a suggested or
 [1025]: https://github.com/WDI-SEA/code-review
 [1026]: https://github.com/ga-students/learn-git-newsroom-style
 
-
-###NodeJS/Express
+<!--
+###Unit 2: NodeJS/Express
 
 | Topic | Assignments |
 | ----- | ----------- |
@@ -184,7 +152,7 @@ But wait, there's more! Notes are organized by topic, but there's a suggested or
 [1112]: https://github.com/WDI-SEA/express-authentication
 [1113]: https://github.com/WDI-SEA/tacoapp
 
-###Ruby on Rails
+###Unit 3: Ruby on Rails
 
 | Topic | Assignments |
 | ----- | ----------- |
@@ -243,7 +211,7 @@ But wait, there's more! Notes are organized by topic, but there's a suggested or
 [1212]: https://github.com/WDI-SEA/js-jquery-review
 
 
-###AngularJS 1.x and APIs
+###Unit 4: AngularJS 1.x and APIs
 
 | Topic | Assignments |
 | ----- | ----------- |
@@ -349,7 +317,7 @@ But wait, there's more! Notes are organized by topic, but there's a suggested or
 [1317]: https://github.com/WDI-SEA/react-yearbook
 
 ---
-
+-->
 ## Licensing
 1. All content is licensed under a CC-BY-NC-SA 4.0 license.
 2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
