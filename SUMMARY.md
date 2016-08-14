@@ -1,4 +1,5 @@
 * [Introduction](README.md)
+* [Calendar](calendar.md)
 * [Classroom Culture](classroom_culture.md)
 * [Development Workflow](01-workflow/readme.md)
   * [Command Line](01-workflow/command-line/01readme.md)
