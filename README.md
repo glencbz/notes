@@ -6,40 +6,13 @@ https://davified.gitbooks.io/wdi-5-gitbooks/content/
 
 ![GA Logo](./_assets/ga_cog.png)
 
-##Setting up the Notes locally
-
-* Fork this repository
-* Clone your fork to your development machine
-* Setup a remote for your fork
-  * Run `git remote add upstream git@github.com:WDI-SEA/notes.git`
-* Install the Gitbook CLI tool by running `npm install -g gitbook-cli`
-* Preview the Gitbook by running `gitbook serve`
-
-##Contributing to the Notes
-
-* All contributions can be done via pull requests
-* Recommended process:
-  * Make changes in your forked repository (use a separate branch)
-  * Create a pull request and be sure to be very explicit about the changes you've made
-  * Ask someone on the WDI team to look at your pull request
-
-##Directory
-
-But wait, there's more! Notes are organized by topic, but there's a suggested order to go through the notes, complete with assignments.
-
 ###Prework
 
 * [GA Dash](https://dash.generalassemb.ly/)
 * [WDI Fundamentals](http://fundamentals.generalassemb.ly/)
 * [FreeCodeCamp](http://www.freecodecamp.com/)
 
-###Templates
-
-* [Front-end Template](https://github.com/WDI-SEA/TEMPLATE-js)
-* [Express Template](https://github.com/WDI-SEA/TEMPLATE-express)
-* [Express Authentication Template](https://github.com/WDI-SEA/express-authentication)
-
-###Front End Development
+###Unit 1: Front End Development
 
 | Topic | Assignments |
 | ----- | ----------- |
@@ -120,7 +93,7 @@ But wait, there's more! Notes are organized by topic, but there's a suggested or
 [1026]: https://github.com/ga-students/learn-git-newsroom-style
 
 
-###NodeJS/Express
+###Unit 2: NodeJS/Express
 
 | Topic | Assignments |
 | ----- | ----------- |
@@ -181,7 +154,7 @@ But wait, there's more! Notes are organized by topic, but there's a suggested or
 [1112]: https://github.com/WDI-SEA/express-authentication
 [1113]: https://github.com/WDI-SEA/tacoapp
 
-###Ruby on Rails
+###Unit 3: Ruby on Rails
 
 | Topic | Assignments |
 | ----- | ----------- |
@@ -240,7 +213,7 @@ But wait, there's more! Notes are organized by topic, but there's a suggested or
 [1212]: https://github.com/WDI-SEA/js-jquery-review
 
 
-###AngularJS 1.x and APIs
+###Unit 4: AngularJS 1.x and APIs
 
 | Topic | Assignments |
 | ----- | ----------- |
