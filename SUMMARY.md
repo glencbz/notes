@@ -15,6 +15,7 @@
     * [Git Workflows](01-workflow/group-collab/02gitworkflows.md)
     * [Project Roles and Tools](01-workflow/group-collab/03rolestools.md)
 * [HTML/CSS](03-html-css/readme.md)
+  * [How the Internet Works](03_html_css/how_the_internet_works.md)
   * [HTML](03-html-css/html-review/readme.md)
   * [CSS Selectors](03-html-css/css-selectors/readme.md)
   * [CSS Box Model and Positioning](03-html-css/css-box-model/readme.md)
