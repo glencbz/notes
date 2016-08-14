@@ -12,27 +12,29 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 
 ###Unit 1: Front End Development
 
-| Topic | Assignments |
-| ----- | ----------- |
-| [Internet Fundamentals][1] | [Internet Lab][1000] |
-| [Command Line][2] | [Command Line Murder Mystery][1001] |
-| [Intro to Git][3] | [Learn Git News Room Style][1026] |
-| [HTML][5] <br><br> [CSS Selectors][6] |  |
-| [CSS Box Model and Positioning][9] | [Recreate Instagram][1023] <br><br> [Recreate Airbnb][1024] |
-| [JavaScript Primitives][4] | [Primitives Exercises][1003]  |
-| [JavaScript Control Flow][7] | [Control Flow Problems][1004] <br><br> [Google Shopping][1002] |
-| [JavaScript Functions][10] | [Functions Problem Set][1007] <br><br> [Google Shopping Functions][1006] |
-| [DOM and Events][11] | [Reddit DOM][1008] <br><br> [Temperature Converter][1009] |
-| [Callbacks and Iterators][12] | [Iterators Lab][1011] <br><br> [Iterators with Reddit][1012] |
-| [Intro to jQuery][13] | [Random Quote Generator][1013] <br><br> [Todo List][1014] |
-| [jQuery Plugins][14] | [jQuery UI Lab][1015] |
-| [AJAX][15] | [AJAX Doughnuts][1016] <br><br> [Reddit AJAX Slideshow][1017] |
-| [Responsive CSS][16] | |
-| [Bootstrap][17] | [Bootstrap Mockups][1018] |
-| [User Stories and Wireframing][18] | [Wireframing: Build an Idea][1019] |
-| [OOP with Constructors/Prototypes][19] <br><br> [Intro to TDD][20] | [Prototype Body Shop][1020] |
-| [Scopes][21] | |
-| [JavaScript Inheritance][22] | [Body Shop 2][1021] |
+| Topic                                                              | Assignments                                                              |
+| -----                                                              | -----------                                                              |
+| [Internet Fundamentals][1]                                         | [Internet Lab][1000]                                                     |
+| [Command Line][2]                                                  | [Command Line Murder Mystery][1001]                                      |
+| [Intro to Git][3]                                                  | [Learn Git News Room Style][1026]                                        |
+| [HTML (tables)][5]                                                 | [HTML Top Ten Movies Lab][900]                                           |
+| [HTML (user input)][5]                                             | [HTML User Input Lab][901]                                               |
+| [CSS Selectors][6]                                                 |                                                                          |
+| [CSS Box Model and Positioning][9]                                 | [Recreate Instagram][1023] <br><br> [Recreate Airbnb][1024]              |
+| [JavaScript Primitives][4]                                         | [Primitives Exercises][1003]                                             |
+| [JavaScript Control Flow][7]                                       | [Control Flow Problems][1004] <br><br> [Google Shopping][1002]           |
+| [JavaScript Functions][10]                                         | [Functions Problem Set][1007] <br><br> [Google Shopping Functions][1006] |
+| [DOM and Events][11]                                               | [Reddit DOM][1008] <br><br> [Temperature Converter][1009]                |
+| [Callbacks and Iterators][12]                                      | [Iterators Lab][1011] <br><br> [Iterators with Reddit][1012]             |
+| [Intro to jQuery][13]                                              | [Random Quote Generator][1013] <br><br> [Todo List][1014]                |
+| [jQuery Plugins][14]                                               | [jQuery UI Lab][1015]                                                    |
+| [AJAX][15]                                                         | [AJAX Doughnuts][1016] <br><br> [Reddit AJAX Slideshow][1017]            |
+| [Responsive CSS][16]                                               |                                                                          |
+| [Bootstrap][17]                                                    | [Bootstrap Mockups][1018]                                                |
+| [User Stories and Wireframing][18]                                 | [Wireframing: Build an Idea][1019]                                       |
+| [OOP with Constructors/Prototypes][19] <br><br> [Intro to TDD][20] | [Prototype Body Shop][1020]                                              |
+| [Scopes][21]                                                       |                                                                          |
+| [JavaScript Inheritance][22]                                       | [Body Shop 2][1021]                                                      |
 
 | Projects and Additional Topics |
 | -------- |
@@ -62,6 +64,8 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 [21]: 02-js-jquery/js-scopes/readme.md
 [22]: 02-js-jquery/js-inheritance/01readme.md
 
+[900]: https://github.com/WDI-SEA/html_top_ten_movies_table
+[901]: https://github.com/WDI-SEA/html_user_inputs
 [1000]: 03-internet/internet-lab.md
 [1001]: https://github.com/WDI-SEA/command-line-murder-mystery
 [1002]: https://github.com/WDI-SEA/google-shopping-conditionals-loops
