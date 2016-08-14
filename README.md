@@ -90,7 +90,7 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 [1025]: https://github.com/WDI-SEA/code-review
 [1026]: https://github.com/ga-students/learn-git-newsroom-style
 
-<!--
+
 ###Unit 2: NodeJS/Express
 
 | Topic | Assignments |
@@ -317,7 +317,7 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 [1317]: https://github.com/WDI-SEA/react-yearbook
 
 ---
--->
+
 ## Licensing
 1. All content is licensed under a CC-BY-NC-SA 4.0 license.
 2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
