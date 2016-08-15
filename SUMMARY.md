@@ -19,7 +19,6 @@
   * [How the Internet Works](03-internet/how-the-internet-works.md)
   * [Internet Lab](03-internet/internet-lab.md)
 * [HTML/CSS](03-html-css/readme.md)
-  * [How the Internet Works](03-html-css/how_the_internet_works.md)
   * [HTML](03-html-css/html-review/readme.md)
   * [CSS Selectors](03-html-css/css-selectors/readme.md)
   * [CSS Box Model and Positioning](03-html-css/css-box-model/readme.md)
