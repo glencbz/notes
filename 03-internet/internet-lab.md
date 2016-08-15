@@ -21,7 +21,7 @@ find some that take longer to respond. Hit `CTRL + C` if you need to exit
 
 > University servers are usually hosted on their actual campuses. Use
 > university servers to estimate how long it takes requests to travel around
-> the world. Look up the distance between cities and calculate miles / time in
+> the world. Look up the distance between cities and calculate kilometers / time in
 > milliseconds to calculate how fast these requests travel.
 
 ```
@@ -70,10 +70,12 @@ round-trip min/avg/max/stddev = 173.482/187.338/201.556/11.464 ms
 Try pinging these other campuses around the world.
 
 ```
-$ ping www.cam.ac.uk # Cambridge University in London: 4,757 miles from Seattle
-$ ping www.u-tokyo.ac.jp # The University of Tokyo: 4,787 miles from Seattle, in the other direction!
-$ ping sydney.edu.au # The University of Sydney in Australia: 7,757 miles from Seattle
-$ ping www.hbc.ac.za # Helderberg College in Cape Town, South Africa: 10,217 miles from Seattle
+$ ping www.u-tokyo.ac.jp # The University of Tokyo: 5,312 km from Singapore, in the other direction!
+$ ping www.cam.ac.uk # Cambridge University in London: 10,841 km from Singapore
+$ ping sydney.edu.au # The University of Sydney in Australia: 7,822 km from Singapore
+$ ping www.hbc.ac.za # Helderberg College in Cape Town, South Africa: 9,661 km from Singapore
+$ ping www.cs.nyu.edu # New York University: 15,323 km from Singapore
+$ ping www.uce.edu.ec # Central University of Ecuador in South America: 19,774 km from Singapore
 ```
 
 ##### Mystery IP Address
