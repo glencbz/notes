@@ -11,7 +11,7 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 * [FreeCodeCamp](http://www.freecodecamp.com/)
 
 ###Administrative matters:
-* At the end of each day's lesson, kindly fill up the [Exit Tickets](https://docs.google.com/forms/d/1XuVNQMQc_4RYl266si9NrNb5c6EOMbkkM4stly0j9so/viewform?edit_requested=true) to provide feedback for the day's lessons
+* At the end of each day's lesson, kindly fill up the [Exit Tickets](https://docs.google.com/a/generalassemb.ly/forms/d/e/1FAIpQLSfcW90PyxHC5fc2DBaJH5Ep0AGMrbKl-SAmpge9L8ZZ-zrJUg/viewform) to provide feedback for the day's lessons
 * Please fill in your personal particulars [here](https://docs.google.com/spreadsheets/d/1tWXs5Xl0nE6EJcD-QbSW74kXLcfPsMxW0fw9jHn-1zk/edit#gid=0)
 
 ###Unit 1: Front End Development
