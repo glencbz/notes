@@ -16,6 +16,7 @@
   * [Group Collaboration](01-workflow/group-collab/01readme.md)
     * [Git Workflows](01-workflow/group-collab/02gitworkflows.md)
     * [Project Roles and Tools](01-workflow/group-collab/03rolestools.md)
+  * [Code Editor Packages](01-workflow/text-editor-packages/readme.md)
 * [Internet Fundamentals](03-internet/how-the-internet-works.md)
   * [How the Internet Works](03-internet/how-the-internet-works.md)
   * [Internet Lab](03-internet/internet-lab.md)
