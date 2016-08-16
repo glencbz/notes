@@ -93,8 +93,8 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 [1020]: https://github.com/WDI-SEA/oop-prototype-car
 [1021]: https://github.com/WDI-SEA/oop-inheritance-car
 [1022]: 11-projects/project-1/readme.md
-[1023]: https://github.com/WDI-SEA/css-positioning
-[1024]: https://github.com/WDI-SEA/css-airbnb
+[1023]: https://github.com/ga-students/css-positioning
+[1024]: https://github.com/ga-students/css-airbnb
 [1025]: https://github.com/WDI-SEA/code-review
 [1026]: https://github.com/ga-students/learn-git-newsroom-style
 
