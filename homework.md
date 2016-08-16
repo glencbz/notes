@@ -8,9 +8,12 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 | Week   |   Day  | Topic | Homework |
 | ------ | ------ | ----- | -------- |
+|   1    | Tuesday| CSS   | 1. [Recreate Instagram][902] <br> 2. [Recreate AirBnB][903]|
 |   1    | Monday | HTML  | 1. [HTML Top Ten Movies Lab][900] <br> 2. [HTML User Input Lab][901]|
 
 
 <!-- Links to labs -->
 [900]: https://github.com/WDI-SEA/html_top_ten_movies_table
 [901]: https://github.com/WDI-SEA/html_user_inputs
+[902]: https://github.com/ga-students/css-positioning 
+[903]: https://github.com/ga-students/css-airbnb
