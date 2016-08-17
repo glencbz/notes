@@ -27,7 +27,7 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 | [CSS Box Model and Positioning][9]                                 | [Recreate Instagram][1023] <br><br> [Recreate Airbnb][1024]              |
 | [JavaScript Primitives][4]                                         | [Primitives Exercises][1003]                                             |
 | [JavaScript Control Flow][7]                                       | [Control Flow Problems][1004] <br><br> [Google Shopping][1002]           |
-| [JavaScript Functions][10]                                         | [Functions Problem Set][1007] <br><br> [Google Shopping Functions][1006] |
+| [JavaScript Functions][10]                                         | [Thriller Lyrics][902] <br><br> [Functions Problem Set][1007] <br><br> [Google Shopping Functions][1006] |
 | [DOM and Events][11]                                               | [Reddit DOM][1008] <br><br> [Temperature Converter][1009]                |
 | [Callbacks and Iterators][12]                                      | [Iterators Lab][1011] <br><br> [Iterators with Reddit][1012]             |
 | [Intro to jQuery][13]                                              | [Random Quote Generator][1013] <br><br> [Todo List][1014]                |
@@ -70,6 +70,7 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 
 [900]: https://github.com/WDI-SEA/html_top_ten_movies_table
 [901]: https://github.com/WDI-SEA/html_user_inputs
+[902]: https://github.com/ga-students/functions-thriller-lyrics
 [1000]: 03-internet/internet-lab.md
 [1001]: https://github.com/WDI-SEA/command-line-murder-mystery
 [1002]: https://github.com/WDI-SEA/google-shopping-conditionals-loops
