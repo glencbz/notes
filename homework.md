@@ -6,10 +6,11 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 ## Homework schedule
 
-| Week   |   Day  | Topic | Homework |
-| ------ | ------ | ----- | -------- |
-|   1    | Tuesday| CSS   | 1. [Recreate Instagram][902] <br> 2. [Recreate AirBnB][903]|
-|   1    | Monday | HTML  | 1. [HTML Top Ten Movies Lab][900] <br> 2. [HTML User Input Lab][901]|
+| Week   | Day       | Topic      | Homework                                                             |
+| ------ | ------    | -----      | --------                                                             |
+| 1      | Wednesday | JavaScript | No Homework                                                          |
+| 1      | Tuesday   | CSS        | 1. [Recreate Instagram][902] <br> 2. [Recreate AirBnB][903]          |
+| 1      | Monday    | HTML       | 1. [HTML Top Ten Movies Lab][900] <br> 2. [HTML User Input Lab][901] |
 
 
 <!-- Links to labs -->
