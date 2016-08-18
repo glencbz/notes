@@ -284,9 +284,8 @@ function isUnique(a) {
         }
       }
     }
-    
-    return true;
   }
+  return true;
 }
 
 isUnique([1,2,3,3,4]) // returns false
