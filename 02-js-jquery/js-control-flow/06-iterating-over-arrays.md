@@ -206,6 +206,26 @@ if (a.length > 0) {
 
 Think of this as a one-way valve that only ever goes up.
 
+## Counting One Item in an Array
+
+Write a function called `inventory` that accepts an array of strings representing
+a store inventory and accepts a string representing a product. Return the total
+number of times the product occurs in the array.
+
+```js
+function inventory(inventory, product) {
+  var tally = 0;
+
+  for (var i = 0; i < inventory.length; i++) {
+    if (inventory[i] === product) {
+      tally++;
+    }
+  }
+
+  return tally;
+}
+```
+
 ## Double For Loops / Nested For Loops
 
 Sometimes it's useful to nest a for loop inside a for loop. This code tests to
@@ -250,24 +270,3 @@ function isUnique(a)  {
   return isUnique;
 }
 ```
-
-## Counting One Item in an Array
-
-Write a function called `inventory` that accepts an array of strings representing
-a store inventory and accepts a string representing a product. Return the total
-number of times the product occurs in the array.
-
-```js
-function inventory(inventory, product) {
-  var tally = 0;
-
-  for (var i = 0; i < inventory.length; i++) {
-    if (inventory[i].equals(product) {
-      tally++;
-    }
-  }
-
-  return tally;
-}
-```
-
