@@ -80,7 +80,7 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 [1006]: https://github.com/WDI-SEA/google-shopping-functions
 [1007]: https://github.com/WDI-SEA/js-functions
 [1008]: https://github.com/WDI-SEA/selecting-reddit
-[1009]: https://github.com/WDI-SEA/temperature-converter-dom
+[1009]: https://github.com/ga-students/temperature-converter-dom
 [1010]: https://github.com/WDI-SEA/tic-tac-toe
 [1011]: https://github.com/WDI-SEA/js-callbacks-iterators
 [1012]: https://github.com/WDI-SEA/iterators-reddit
