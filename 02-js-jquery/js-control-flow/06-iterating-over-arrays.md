@@ -236,17 +236,23 @@ Use another variable name other than `i` for the second for loop. `i, j, k, n`
 are common for loop variable names.
 
 ```js
-for (var i = 0; i < a.length; i++) {
-  for (var j = 0; j < a.length; j++) {
-    if (j !== i) {
-      if (a[i] === a[j]) {
-        return false;
+function isUnique(a) {
+  for (var i = 0; i < a.length; i++) {
+    for (var j = 0; j < a.length; j++) {
+      if (j !== i) {
+        if (a[i] === a[j]) {
+          return false;
+        }
       }
     }
+    
+    return true;
   }
-  
-  return true;
 }
+
+isUnique([1,2,3,3,4]) // returns false
+isUnique([1,2,3,4])   // returns true
+isUnique([])          // returns true
 ```
 
 ## Mousetrap
