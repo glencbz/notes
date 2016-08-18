@@ -238,8 +238,8 @@ are common for loop variable names.
 ```js
 for (var i = 0; i < a.length; i++) {
   for (var j = 0; j < a.length; j++) {
-    if (j != i) {
-      if (a[i] == a[j]) {
+    if (j !== i) {
+      if (a[i] === a[j]) {
         return false;
       }
     }
@@ -259,8 +259,8 @@ function isUnique(a)  {
 
   for (var i = 0; i < a.length; i++) {
     for (var j = 0; j < a.length; j++) {
-      if (j != i) {
-        if (a[i] == a[j]) {
+      if (j !== i) {
+        if (a[i] === a[j]) {
           isUnique = false;
         }
       }
