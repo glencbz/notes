@@ -206,6 +206,45 @@ if (a.length > 0) {
 
 Think of this as a one-way valve that only ever goes up.
 
+## String Builders
+
+Some problems require building up a final result. A Classic example is traversing over
+a string backwards to produce a reversed string.
+
+Set up a variable outside the for loop to keep track of the final result.
+
+```js
+function reverseString(s) {
+  var result = "";
+
+  for (var i = s.length(); i >= 0; i--) {
+    result += s.charAt(i);
+  }
+
+  return result;
+}
+
+reverseString("burrito"); // returns "otirrub"
+```
+
+## Reversing an Array
+The same idea can be applied to reverse an array. Create a new empty array
+and push elements into it.
+
+```
+function reverseArray(a) {
+  var result = [];
+
+  for (var i = a.length - 1; i >= 0; i--) {
+    result.push(a[i]);
+  }
+  
+  return result;
+}
+
+reverseArray([1,2,3,4,5]); // returns [5, 4, 3, 2, 1]
+```
+
 ## Counting One Item in an Array
 
 Write a function called `inventory` that accepts an array of strings representing
