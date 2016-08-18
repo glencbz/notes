@@ -10,10 +10,13 @@
 
 ##Defining a function
 
-A function is a module that can store and invoke code. When writing repetitive code, we can isolate code into **functions** in order to reduce repetition. For example, if we needed to say "Hello World" to the screen multiple times, we can create a function like so.
+A function is a module that can store and invoke code. When writing repetitive
+code, we can isolate code into **functions** in order to reduce repetition. For
+example, if we needed to say "Hello World" to the screen multiple times, we can
+create a function like so.
 
 ```js
-var greeting = function() {
+function greeting() {
 	console.log("Hello World");
 }
 
@@ -25,7 +28,7 @@ Note that a function is assigned to a variable, and we can **call** the function
 **Parts of a function**
 
 ```
-var FUNCTIONNAME = function() {
+function FUNCTIONNAME() {
 	//CODE
 }
 ```
@@ -34,7 +37,7 @@ We can also create functions that accept **parameters**, and use those parameter
 
 ##Defining a function with a parameter
 ```js
-var greeting = function(taco) {
+function greeting(taco) {
 	// anything inside of here will execute when called
 	console.log("Good morning", taco);
 }
@@ -50,7 +53,7 @@ greeting(name2);
 Functions can have multiple parameters, separated by commas.
 
 ```js
-var greeting = function(taco, stuff) {
+function greeting(taco, stuff) {
 	// anything inside of here will execute when called
 	console.log("Good morning", stuff, taco);
 	console.log("taco:", taco);
@@ -70,7 +73,7 @@ Note that functions can have **input** via parameters. They can also have **outp
 Note that printing something to the screen using `console.log` is not the same as returning values.
 
 ```js
-var multiply = function(num1, num2) {
+function multiply(num1, num2) {
 	console.log("inside the function");
 	// return result = num1 * num2;
 	return num1 * num2
@@ -85,14 +88,14 @@ console.log(firstNum + " multiplied by " + secNum + " is " + taco )
 
 ```js
 // With a return value
-var returnHello = function (name) {
+function returnHello(name) {
 	return("Hello, " + name)
 }
 
 console.log("with a return value:", returnHello("jane") );
 
 // Without a return value
-var returnHello2 = function(name) {
+function returnHello2(name) {
 	console.log("inside returnHello2: Hello, " + name);
 }
 returnHello2("nachos");
@@ -103,7 +106,7 @@ console.log("without a return value:", returnHello2("taco") ); //will show as un
 
 There are two different ways to declare a function
 ```js
-var multiply = function(a, b) {
+function multiply(a, b) {
 	return a * b;
 }
 
@@ -116,7 +119,7 @@ The difference between these two is that the first one is defined at run-time, m
 ```js
 multiply(2, 2); // ERROR
 
-var multiply = function(a, b) {
+function multiply(a, b) {
 	return a * b;
 }
 ```
@@ -137,7 +140,7 @@ Despite being more flexible, the former declaration that assigns the function to
 1. What is the return value of this function when called?
 
 ```js
-var lightsabers = function(num) {
+function lightsabers(num) {
 	console.log('I have ' + num + ' lightsabers.');
 }
 
@@ -152,7 +155,7 @@ var myLightsaberCollection = {
 	green: 3
 }
 
-var lightsabers = function(lightsaberCollection) {
+function lightsabers(lightsaberCollection) {
 	//code here
 }
 

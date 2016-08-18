@@ -41,6 +41,7 @@
     * [Boolean Expressions](02-js-jquery/js-control-flow/02boolean.md)
     * [Conditionals](02-js-jquery/js-control-flow/03conditionals.md)
     * [Loops](02-js-jquery/js-control-flow/04loops.md)
+    * [Iterating Over Arrays](02-js-jquery/js-control-flow/06-iterating-over-arrays.md)
     * [Additional Topics](02-js-jquery/js-control-flow/05additional.md)
   * [Functions](02-js-jquery/js-functions/readme.md)
   * [DOM and Events](02-js-jquery/js-dom-events/readme.md)
