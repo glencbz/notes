@@ -2,6 +2,7 @@
 * [Calendar](calendar.md)
 * [Homework](homework.md)
 * [Classroom Culture](classroom_culture.md)
+* [Cheat Sheet](cheat-sheet.md)
 * [Development Workflow](01-workflow/readme.md)
   * [Command Line](01-workflow/command-line/01readme.md)
     * [The Terminal](01-workflow/command-line/02intro-terminal.md)

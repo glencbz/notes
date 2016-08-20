@@ -46,6 +46,8 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 | [Project 1][1022] |
 | [Code Review][1025] |
 
+See Week 1 cheat-sheet [here]][23]
+
 [1]: 03-internet/how-the-internet-works.md
 [2]: 01-workflow/command-line/01readme.md
 [3]: 01-workflow/intro-git/readme.md
@@ -67,6 +69,7 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 [20]: 02-js-jquery/js-tdd-intro/readme.md
 [21]: 02-js-jquery/js-scopes/readme.md
 [22]: 02-js-jquery/js-inheritance/01readme.md
+[23]: cheat-sheet.md
 
 [900]: https://github.com/WDI-SEA/html_top_ten_movies_table
 [901]: https://github.com/WDI-SEA/html_user_inputs
