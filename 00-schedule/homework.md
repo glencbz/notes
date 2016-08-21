@@ -11,8 +11,10 @@ To keep your assignments neat, each piece of homework should have its own repo.
 |   1    | Friday    | Javascript | [Tic Tac Toe][1010]                                                  |
 |   1    | Thursday | DOM & Events| [Temperature Converter][1009]                                        |
 |   1    | Wednesday | JavaScript | No Homework                                                          |
-|   1    | Tuesday   | CSS        | 1. [Recreate Instagram][902] <br> 2. [Recreate AirBnB][903]          |
-|   1    | Monday    | HTML       | 1. [HTML Top Ten Movies Lab][900] <br> 2. [HTML User Input Lab][901] |
+|   1    | Tuesday   | CSS        | 1. [Recreate AirBnB][903]          |
+|   1    | Tuesday   | CSS        | 2. [Recreate Instagram][902] |
+|   1    | Monday    | HTML       | 1. [HTML User Input Lab][901] |
+|   1    | Monday    | HTML       | 2. [HTML Top Ten Movies Lab][900] |
 
 
 <!-- Links to homework -->

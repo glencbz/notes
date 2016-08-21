@@ -8,7 +8,8 @@
 
 | Week   | Day       | Topic      | Lab                                                             |
 | ------ | ------    | -----      | --------                                                             |
-|   1    | Friday    | Javascript | 1. [Javascript Control Flow][1004]<br>2. [Javascript Functions][1007]|
+|   1    | Friday    | Javascript | [Javascript Control Flow][1004] |
+|   1    | Friday    | Javascript | [Javascript Functions][1007] |
 |   1    | Thursday | Javascript| Javascript exercises in Class                                        |
 |   1    | Wednesday | JavaScript | Javascript exercises in Class                                       |
 |   1    | Tuesday   | CSS        | [Recreate Instagram][902]                                            |
