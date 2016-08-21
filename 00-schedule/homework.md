@@ -6,6 +6,10 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 ## Homework schedule
 
+| Week   | Day    | Topic                        | Homework                                                                  |
+| ------ | ------ | -----                        | --------                                                                  |
+| 2      | Monday | Javascript Callbacks, Timers | [Sim City Bomb Squad](https://github.com/ga-students/sim-city-bomb-squad) |
+
 | Week   | Day       | Topic      | Homework                                                             |
 | ------ | ------    | -----      | --------                                                             |
 |   1    | Friday    | Javascript | [Tic Tac Toe][1010]                                                  |
