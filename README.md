@@ -46,6 +46,8 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 | [Project 1][1022] |
 | [Code Review][1025] |
 
+See Week 1 cheat-sheet [here]][23]
+
 [1]: 03-internet/how-the-internet-works.md
 [2]: 01-workflow/command-line/01readme.md
 [3]: 01-workflow/intro-git/readme.md
@@ -67,6 +69,7 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 [20]: 02-js-jquery/js-tdd-intro/readme.md
 [21]: 02-js-jquery/js-scopes/readme.md
 [22]: 02-js-jquery/js-inheritance/01readme.md
+[23]: cheat-sheet.md
 
 [900]: https://github.com/WDI-SEA/html_top_ten_movies_table
 [901]: https://github.com/WDI-SEA/html_user_inputs
@@ -75,13 +78,13 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 [1001]: https://github.com/WDI-SEA/command-line-murder-mystery
 [1002]: https://github.com/WDI-SEA/google-shopping-conditionals-loops
 [1003]: https://github.com/WDI-SEA/js-primitives
-[1004]: https://github.com/WDI-SEA/js-control-flow
+[1004]: https://github.com/davified/js-control-flow
 [1005]: https://github.com/WDI-SEA/css-selectors-animal-style
 [1006]: https://github.com/WDI-SEA/google-shopping-functions
-[1007]: https://github.com/WDI-SEA/js-functions
+[1007]: https://github.com/davified/js-functions
 [1008]: https://github.com/WDI-SEA/selecting-reddit
 [1009]: https://github.com/ga-students/temperature-converter-dom
-[1010]: https://github.com/WDI-SEA/tic-tac-toe
+[1010]: https://github.com/davified/tic-tac-toe
 [1011]: https://github.com/WDI-SEA/js-callbacks-iterators
 [1012]: https://github.com/WDI-SEA/iterators-reddit
 [1013]: https://github.com/WDI-SEA/random-quote-jquery
