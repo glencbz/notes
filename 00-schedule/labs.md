@@ -1,5 +1,11 @@
 ## Lab schedule
 
+| Week  | Day | Topic  | Lab
+| ----- | ----| ------ | ----
+| 2     | Monday | JavaScript Iterators | [Using Iterators](https://github.com/WDI-SEA/js-callbacks-iterators)
+| 2     | Monday | Git Merging | [Learn Git News Room Style](https://github.com/ga-students/learn-git-newsroom-style)
+
+
 | Week   | Day       | Topic      | Lab                                                             |
 | ------ | ------    | -----      | --------                                                             |
 |   1    | Friday    | Javascript | 1. [Javascript Control Flow][1004]<br>2. [Javascript Functions][1007]|
