@@ -8,7 +8,8 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 | Week   | Day    | Topic                        | Homework                                                                  |
 | ------ | ------ | -----                        | --------                                                                  |
-| 2      | Monday | Javascript Callbacks, Timers | [Sim City Bomb Squad](https://github.com/ga-students/sim-city-bomb-squad) |
+| 2      | Tuesday | Javascript Callbacks, Timers | [Sim City Bomb Squad](https://github.com/ga-students/sim-city-bomb-squad) |
+| 2      | Monday | Review | Finish Tic Tac Toe! |
 
 | Week   | Day       | Topic      | Homework                                                             |
 | ------ | ------    | -----      | --------                                                             |
