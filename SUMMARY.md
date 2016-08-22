@@ -4,6 +4,7 @@
 * [In-Class Labs](00-schedule/labs.md)
 * [Classroom Culture](classroom_culture.md)
 * [Cheat Sheet](cheat-sheet.md)
+* [Weekly Q&A](00-weekly-questions/week-01-questions.md)
 * [Development Workflow](01-workflow/readme.md)
   * [Command Line](01-workflow/command-line/01readme.md)
     * [The Terminal](01-workflow/command-line/02intro-terminal.md)
