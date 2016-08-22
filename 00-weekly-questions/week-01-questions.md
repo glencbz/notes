@@ -4,10 +4,10 @@ Tic-Tac-Toe assignment.
 
 ### What's the difference Between innerHTML and textContent?
 `innerHTML` will allow you to enter a String with HTML elements and it
-will render the content as actual HTML. If you set it to "<h1>Welcome</h1>"
+will render the content as actual HTML. If you set it to `"<h1>Welcome</h1>"`
 then an actual big header will appear on the page.
 
-`textContent` only accepts text. If you set it to "<h1>Welcome</h1>"
+`textContent` only accepts text. If you set it to `"<h1>Welcome</h1>"`
 you will only see it as text on the page.
 
 It is generally better to use `textContent`. If you want to add actual HTML
