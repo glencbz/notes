@@ -153,9 +153,18 @@ h1.textContent = "treating textContent like a function will cause the error!!";
 `console.log` only prints things out to the console. `return` actually passes
 a value back from a function.
 
-```js
+`return` allows you to pass values back from a function, save them in a variable
+and use them later throughout your program.
 
+```js
+function double(n) {
+  return n * 2;
+}
+
+// this prints 4 because values were returned from the function and added together
+console.log(double(1) + double(1))
 ```
 
-### Why doesn't `getElementById`, `getElementsByClassName` doesn't work for all
-situations?
+### Why doesn't `getElementById`, `getElementsByClassName` doesn't work for all situations?
+`getElementById` only gets one item. `getElementsByClassName` returns a list of all elements
+with the given class.
