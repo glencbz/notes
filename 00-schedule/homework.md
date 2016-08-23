@@ -8,6 +8,7 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 | Day    | Topic                        | Homework                                                                  |
 | ------ | -----                        | --------                                                                  |
+| Tuesday | JavaScript Iterators | [Using Iterators](https://github.com/WDI-SEA/js-callbacks-iterators) |
 | Tuesday | Javascript Callbacks, Timers | [Sim City Bomb Squad](https://github.com/ga-students/sim-city-bomb-squad) |
 | Monday | Review | Finish Tic Tac Toe! |
 
