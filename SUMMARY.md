@@ -1,5 +1,5 @@
 * [Introduction](README.md)
-* [Schedule]
+* [Schedule](00-schedule/calendar.md)
   * [Calendar](00-schedule/calendar.md)
   * [Homework](00-schedule/homework.md)
   * [In-Class Labs](00-schedule/labs.md)
