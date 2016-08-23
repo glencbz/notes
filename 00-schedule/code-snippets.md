@@ -2,6 +2,13 @@
 
 ## Week 2
 
+### JavaScript Clock
+
+Look at the commits on the `sol` solution branch to see different
+implementations:
+
+<https://github.com/ga-students/js-clock-intervals/commits/sol>
+
 ### Intervals and Timeouts
 - a simple interval, timeout counter: <https://repl.it/CqVJ>
 - ding, and stop ding: <https://repl.it/CqV8/2>
