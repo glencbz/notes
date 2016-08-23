@@ -3,6 +3,7 @@
 | Week  | Day | Topic  | Lab
 | ----- | ----| ------ | ----
 | 2     | Tuesday | JavaScript Iterators | [Using Iterators](https://github.com/WDI-SEA/js-callbacks-iterators)
+| 2     | Tuesday | Intervals | [JavaScript Clock Intervals](https://github.com/ga-students/js-clock-intervals)
 | 2     | Monday | Git Merging | [Learn Git News Room Style](https://github.com/ga-students/learn-git-newsroom-style)
 
 
