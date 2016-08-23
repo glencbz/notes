@@ -3,6 +3,7 @@
 ## Instructor Team
 - [geluso](http://github.com/geluso)
 - [davified](http://github.com/davified)
+- [remmihsorp](http://github.com/remmihsorp)
 
 ## Students
 - [blueyoghurt](http://github.com/blueyoghurt)

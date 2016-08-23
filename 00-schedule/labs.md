@@ -6,6 +6,7 @@
 | ----| ------ | ----
 | Wednesday | jQuery DOM | [to be updated] |
 | Wednesday | jQuery DOM | [jQuery Intro Lab](https://github.com/davified/jquery-intro-lab) |
+| Wednesday | DOM Manipulation | [Times Tables](https://github.com/ga-students/dom-times-table) |
 | Tuesday | Intervals | [JavaScript Clock Intervals](https://github.com/ga-students/js-clock-intervals) |
 | Monday | Git Merging | [Learn Git News Room Style](https://github.com/ga-students/learn-git-newsroom-style) |
 
