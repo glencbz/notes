@@ -196,6 +196,22 @@ var account = (function bankAccount(initialCash, initialPin) {
 
 Not bad! Take another look at the jQuery source code. You'll see that importing global variables as arguments is also done in the source code.
 
+## You Try It
+
+Create a closure around this object containing a secret message.
+
+Attach a function called `printSecret` that accepts a password parameter.
+If the password passed to the function matches the password in the secret
+object then `return` the secret message. Other wise, return `false` to
+indicate the password was incorrect.
+
+```
+var secret = {
+  message: "my bank pin is 2323",
+  password: "abc123"
+}
+```
+
 ## More Reading
 
 If you would like to learn more about design patterns in JavaScript check out these sources, they are advanced but incredibly valuable.
