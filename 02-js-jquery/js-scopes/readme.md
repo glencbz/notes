@@ -205,6 +205,9 @@ If the password passed to the function matches the password in the secret
 object then `return` the secret message. Other wise, return `false` to
 indicate the password was incorrect.
 
+Make sure your closure prevents anyone from accessing the message using
+something like `secret.message`!
+
 ```
 var secret = {
   message: "my bank pin is 2323",
