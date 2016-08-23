@@ -19,3 +19,7 @@ implementations:
 - scope example: <https://repl.it/CqS4/4>
 - bank account closure: <https://repl.it/CqTA/2>
 - bad vs good scope/closure examples: <https://repl.it/CqVY/2>
+
+### Iterators
+- .reduce() example: <https://repl.it/CqZD>
+- .filter() .map() .reduce() in one breath: <https://repl.it/CqZH/0>
