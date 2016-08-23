@@ -6,20 +6,22 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 ## Homework schedule
 
-| Week   | Day    | Topic                        | Homework                                                                  |
-| ------ | ------ | -----                        | --------                                                                  |
-| 2      | Tuesday | Javascript Callbacks, Timers | [Sim City Bomb Squad](https://github.com/ga-students/sim-city-bomb-squad) |
-| 2      | Monday | Review | Finish Tic Tac Toe! |
+| Day    | Topic                        | Homework                                                                  |
+| ------ | -----                        | --------                                                                  |
+| Tuesday | Javascript Callbacks, Timers | [Sim City Bomb Squad](https://github.com/ga-students/sim-city-bomb-squad) |
+| Monday | Review | Finish Tic Tac Toe! |
 
-| Week   | Day       | Topic      | Homework                                                             |
-| ------ | ------    | -----      | --------                                                             |
-|   1    | Friday    | Javascript | [Tic Tac Toe][1010]                                                  |
-|   1    | Thursday | DOM & Events| [Temperature Converter][1009]                                        |
-|   1    | Wednesday | JavaScript | No Homework                                                          |
-|   1    | Tuesday   | CSS        | 1. [Recreate AirBnB][903]          |
-|   1    | Tuesday   | CSS        | 2. [Recreate Instagram][902] |
-|   1    | Monday    | HTML       | 1. [HTML User Input Lab][901] |
-|   1    | Monday    | HTML       | 2. [HTML Top Ten Movies Lab][900] |
+Week 1
+
+| Day       | Topic      | Homework                                                             |
+| ------    | -----      | --------                                                             |
+| Friday    | Javascript | [Tic Tac Toe][1010]                                                  |
+| Thursday | DOM & Events| [Temperature Converter][1009]                                        |
+| Wednesday | JavaScript | No Homework                                                          |
+| Tuesday   | CSS        | 1. [Recreate AirBnB][903]          |
+| Tuesday   | CSS        | 2. [Recreate Instagram][902] |
+| Monday    | HTML       | 1. [HTML User Input Lab][901] |
+| Monday    | HTML       | 2. [HTML Top Ten Movies Lab][900] |
 
 
 <!-- Links to homework -->
