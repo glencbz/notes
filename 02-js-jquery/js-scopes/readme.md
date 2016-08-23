@@ -196,9 +196,11 @@ var account = (function bankAccount(initialCash, initialPin) {
 
 Not bad! Take another look at the jQuery source code. You'll see that importing global variables as arguments is also done in the source code.
 
-## You Try It
+## Try It Again
 
-Create a closure around this object containing a secret message.
+Create a function called `createSecret` that returns a closure wrapped around a
+secret message. The function should accept two parameters. The first parameter
+should be the `secretMessage`. The second parameter should be the `password`.
 
 Attach a function called `printSecret` that accepts a password parameter.
 If the password passed to the function matches the password in the secret
@@ -209,10 +211,10 @@ Make sure your closure prevents anyone from accessing the message using
 something like `secret.message`!
 
 ```
-var secret = {
-  message: "my bank pin is 2323",
-  password: "abc123"
-}
+var secret = createSecret("my bank pin is 2323", "abc123");
+
+secret.printSecret("wrong password"); // returns false
+secret.printSecret("abc123") // returns "my bank pin is 2323"
 ```
 
 ## More Reading
