@@ -1,19 +1,24 @@
 ## Lab schedule
 
-| Week  | Day | Topic  | Lab
-| ----- | ----| ------ | ----
-| 2     | Tuesday | JavaScript Iterators | [Using Iterators](https://github.com/WDI-SEA/js-callbacks-iterators)
-| 2     | Monday | Git Merging | [Learn Git News Room Style](https://github.com/ga-students/learn-git-newsroom-style)
+Week 2
 
+| Day | Topic  | Lab
+| ----| ------ | ----
+| Wednesday | jQuery DOM | [to be updated] |
+| Tuesday | jQuery DOM | [jQuery Intro Lab](https://github.com/davified/jquery-intro-lab)
+| Tuesday | JavaScript Iterators | [Using Iterators](https://github.com/WDI-SEA/js-callbacks-iterators)
+| Monday | Git Merging | [Learn Git News Room Style](https://github.com/ga-students/learn-git-newsroom-style)
 
-| Week   | Day       | Topic      | Lab                                                             |
-| ------ | ------    | -----      | --------                                                             |
-|   1    | Friday    | Javascript | [Javascript Control Flow][1004] |
-|   1    | Friday    | Javascript | [Javascript Functions][1007] |
-|   1    | Thursday | Javascript| Javascript exercises in Class                                        |
-|   1    | Wednesday | JavaScript | Javascript exercises in Class                                       |
-|   1    | Tuesday   | CSS        | [Recreate Instagram][902]                                            |
-|   1    | Monday    | Internet   | [Internet Lab][1000]                                                 |
+Week 1
+
+| Day       | Topic      | Lab                                                             |
+| ------    | -----      | --------                                                             |
+| Friday    | Javascript | [Javascript Control Flow][1004] |
+| Friday    | Javascript | [Javascript Functions][1007] |
+| Thursday | Javascript| Javascript exercises in Class                                        |
+| Wednesday | JavaScript | Javascript exercises in Class                                       |
+| Tuesday   | CSS        | [Recreate Instagram][902]                                            |
+| Monday    | Internet   | [Internet Lab][1000]                                                 |
 
 <!--  links to labs -->
 

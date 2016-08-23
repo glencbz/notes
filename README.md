@@ -10,6 +10,14 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 * [WDI Fundamentals](http://fundamentals.generalassemb.ly/)
 * [FreeCodeCamp](http://www.freecodecamp.com/)
 
+### Essentials
+
+* [Calendar](00-schedule/calendar.md)
+* [Homework](00-schedule/homework.md)
+* [In-Class Labs](00-schedule/labs.md)
+* [Cheat Sheet](cheat-sheet.md)
+* [Classroom Culture](classroom_culture.md)
+
 ###Administrative matters:
 * At the end of each day's lesson, kindly fill up the [Exit Tickets](https://docs.google.com/a/generalassemb.ly/forms/d/e/1FAIpQLSfcW90PyxHC5fc2DBaJH5Ep0AGMrbKl-SAmpge9L8ZZ-zrJUg/viewform) to provide feedback for the day's lessons
 * Please fill in your personal particulars [here](https://docs.google.com/spreadsheets/d/1tWXs5Xl0nE6EJcD-QbSW74kXLcfPsMxW0fw9jHn-1zk/edit#gid=0)
