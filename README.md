@@ -15,8 +15,8 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 * [Calendar](00-schedule/calendar.md)
 * [Homework](00-schedule/homework.md)
 * [In-Class Labs](00-schedule/labs.md)
-* [Cheat Sheet](cheat-sheet.md)
-* [Classroom Culture](classroom_culture.md)
+* [Cheat Sheet](00-schedule/cheat-sheet.md)
+* [Classroom Culture](00-schedule/classroom_culture.md)
 
 ###Administrative matters:
 * At the end of each day's lesson, kindly fill up the [Exit Tickets](https://docs.google.com/a/generalassemb.ly/forms/d/e/1FAIpQLSfcW90PyxHC5fc2DBaJH5Ep0AGMrbKl-SAmpge9L8ZZ-zrJUg/viewform) to provide feedback for the day's lessons
