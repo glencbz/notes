@@ -4,6 +4,7 @@
   * [Homework](00-schedule/homework.md)
   * [In-Class Labs](00-schedule/labs.md)
   * [Code Snippets](00-schedule/code-snippets.md)
+  * [GitHub Accounts](00-schedule/github-accounts.md)
   * [Classroom Culture](00-schedule/classroom_culture.md)
   * [Cheat Sheet](00-schedule/cheat-sheet.md)
 * [Weekly Q&A](00-weekly-questions/week-01-questions.md)
