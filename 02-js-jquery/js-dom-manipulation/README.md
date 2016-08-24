@@ -120,7 +120,7 @@ whatever you choose.
 
 ## Creating Complex DOM Elements
 It's possible to build up complex arrangements of HTML elements in JavaScript
-and add them to the page. 
+and add them to the page.
 
 ```html
 <div class="chat-message">
@@ -176,6 +176,56 @@ parent.appendChild(chat);
 And there you go! It requires lots of writing, but the ability to create truly
 new and complex DOM elements on-the-fly within JavaScript is awesome!
 
+## The Case Against `.innerHTML`
+It's true that instead of doing any of those fancy DOM manipulation we could
+just use set `.innerHTML` equal to strings.
+
+- Using `innerHTML` may be a security concern. Someone can sneak malicious
+  content on your page. Using `.textContent` guarantees strings will only
+  appear as text.
+
+  ```html
+  <script>
+  window.location = "http://evil.com";
+  </script>
+  ```
+- Using `innerHTML` requires of string manipulation when it's mixed with
+  functions and parameters. These lines get long, and it's easy to confuse
+  when to use necessary single-quotes or double-quotes to make attributes
+  in HTML tags render correctly.
+
+  It totally works, but I'm telling you, I promise, it gets nasty!
+
+  ```js
+  var username = "netizen42";
+  var now = new Date();
+  var timestamp = now.getHour() + ":" + now.getMinutes();
+
+  var message = I'm hacking into the mainframe now. You better be ready.
+
+  var container = document.getElementById("some-container");
+  container.innerHTML = "<div class='chat-message'>" +
+      "<div class='info'>" +
+        "<img class='profile-pic' src='" + username + ".png' />" +
+        "<div class='username'>" + username + "</div>" +
+        "<div class='timestamp'>" + timestamp + " </div>" +
+      "</div>" +
+      "<div class='message'>" + message + "</div>" +
+    "</div>";
+  ```
+
+- A final reason to prefer manual DOM manipulation over `.innerHTML` is
+  that it's much faster. The browser is optimized to make changes to
+  the DOM via the `.appendChild`, `insertBefore` methods described here.
+
+  The browser spends more time manually computing how to interpret string
+  content added via `.innerHTML`.
+
+As elements become more complex innerHTML becomes hairier to use and you'll
+find that creating elements as described here offers more modularity and
+fine-grain control over how things are added to the page.
+
+
 ## Destroying DOM Elements
 
 It's way easier to remove elements than it is to add them. Use this syntax:
@@ -219,4 +269,3 @@ if there's nothing left in the breakfast list.
   <li>Sandwich</li>
 </ul>
 ```
-
