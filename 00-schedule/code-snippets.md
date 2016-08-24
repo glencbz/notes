@@ -4,7 +4,7 @@
 
 ### Array Equality
 
-a function that returns true if two arrays are equal: https://repl.it/Cqzr
+a function that returns true if two arrays are equal: <https://repl.it/Cqzr/1>
 
 ### JavaScript Clock
 
