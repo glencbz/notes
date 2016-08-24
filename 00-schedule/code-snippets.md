@@ -2,6 +2,10 @@
 
 ## Week 2
 
+### Array Equality
+
+a function that returns true if two arrays are equal: https://repl.it/Cqzr
+
 ### JavaScript Clock
 
 Look at the commits on the `sol` solution branch to see different
