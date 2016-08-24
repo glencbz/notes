@@ -10,6 +10,9 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 | Day    | Topic                        | Homework                                                                  |
 | ------ | -----                        | --------                                                                  |
+| Wednesday | Intro to jQuery | [jQuery Intro](https://github.com/davified/jquery-intro-lab) |
+| Wednesday | Catch Up | Finish [Times Table](https://github.com/ga-students/dom-times-table) |
+| Wednesday | Catch Up | Finish [Sim City Bomb Squad](https://github.com/ga-students/sim-city-bomb-squad) |
 | Tuesday | JavaScript Iterators | [Using Iterators](https://github.com/WDI-SEA/js-callbacks-iterators) |
 | Tuesday | Javascript Callbacks, Timers | [Sim City Bomb Squad](https://github.com/ga-students/sim-city-bomb-squad) |
 | Monday | Review | Finish Tic Tac Toe! |
