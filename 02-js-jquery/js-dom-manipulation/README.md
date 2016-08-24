@@ -167,6 +167,10 @@ info.appendChild(time);
 // add the info container and the message to the total chat container
 chat.appendChild(info);
 chat.appendChild(msg);
+
+// finally, attach the entire new structure to some container on the page.
+var parent = document.getElementById("some-container");
+parent.appendChild(chat);
 ```
 
 And there you go! It requires lots of writing, but the ability to create truly
