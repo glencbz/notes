@@ -10,6 +10,7 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 | Day    | Topic                        | Homework                                                                  |
 | ------ | -----                        | --------                                                                  |
+| Thursday | Bootstrap Mockup | [Bootstrap Mockup](https://github.com/WDI-SEA/bootstrap-mockups) |
 | Wednesday | Intro to jQuery | [jQuery Intro](https://github.com/davified/jquery-intro-lab) |
 | Wednesday | Catch Up | Finish [Times Table](https://github.com/ga-students/dom-times-table) |
 | Wednesday | Catch Up | Finish [Sim City Bomb Squad](https://github.com/ga-students/sim-city-bomb-squad) |
