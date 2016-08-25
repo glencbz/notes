@@ -5,7 +5,27 @@
 - [davified](http://github.com/davified)
 - [remmihsorp](http://github.com/remmihsorp)
 
-## Students
+## Students (18 total)
+Bright Chew
+Celine Wong
+Denise Lim
+Dexter Leow
+Eugene Oei
+Irsyad Muhd
+Jonathan Tan
+Keng Hong
+Kuan Yu Phua
+Luke Lim
+Mikella Seth
+Nick Ang
+Tang Wei
+Tek Yong Lim
+Victor Seah
+Wei Ying Eng
+Yi Hui Lee
+Yvonne Chia
+
+## GitHub Accounts
 - [blueyoghurt](http://github.com/blueyoghurt)
 - [brightchew](http://github.com/brightchew)
 - [celinewsm](http://github.com/celinewsm)
