@@ -41,7 +41,7 @@
     * [Additional Topics](03-html-css/css-responsive-design/05additional.md)
     * [Flexbox (Game)](03-html-css/css-responsive-design/flexbox.md)
   * [Bootstrap](03-html-css/css-bootstrap/readme.md)
-  * [Page Template](03-html-css/03-html-css/html-page-template/readme.md)
+  * [Page Template](03-html-css/html-page-template/readme.md)
 * [JavaScript](02-js-jquery/javascript.md)
   * [Primitives](02-js-jquery/js-primitives/readme.md)
   * [Conditionals and Loops](02-js-jquery/js-control-flow/readme.md)
