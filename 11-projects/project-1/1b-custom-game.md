@@ -69,13 +69,13 @@ Test your wits & knowledge with whatever-the-heck you know about (so you can act
 
 ---
 
-### Potential Project Ideas
+### Past Sample Game Projects 
 
-* **[Beat Repeat]**(http://pacalabre.github.io/GA-Project-1/)
-* **[Connect Four]**(https://brusinow.github.io/connect-four/)
-* **[Project Brain Storm]**(http://d-robertson.github.io/Project-Brain-Storm/)
-* **[Word Scramble]**(http://keidra.github.io/Word-Scramble/)
-* **[Snake Game]**(http://davified.github.io/snake-game/)
+* **[Beat Repeat](http://pacalabre.github.io/GA-Project-1/)**
+* **[Connect Four](https://brusinow.github.io/connect-four/)**
+* **[Project Brain Storm](http://d-robertson.github.io/Project-Brain-Storm/)**
+* **[Word Scramble](http://keidra.github.io/Word-Scramble/)**
+* **[Snake Game](http://davified.github.io/snake-game/)**
 
 ---
 
