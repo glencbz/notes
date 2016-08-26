@@ -1,27 +1,24 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game
 ## Project 1
-Project 1 is split into two parts.
+Project 1 is split into two options. You may choose to do either Project 1a or
+Project 1b.
 - **Project 1a**: a quiz game!
 - **Project 1b**: your own custom game!
 
 ## Project 1a: Quiz Game
-Everyone is required to build the quiz game. We've provided a test file that
-expects your quiz program to behave in a certain way and it will test your
-program for errors. This is test-driven development!
+We've provided a test file that expects your quiz program to behave in a
+certain way and it will test your program for errors. This is test-driven
+development!
 
 Read more about [Project 1a Specifications](1a-quiz-game.md).
 
 ## Project 1b: Custom Game
-When you finish the quiz game you may choose to build your own custom game.
-You can build whatever you want!
+If you choose not to do the quiz, then you can build whatever you want!
 
 Read more about [Project 1b Specifications](1b-custom-game.md).
 
 ## Project Feedback + Evaluation
-
-Both Project 1a and Project 1b will be graded on the following rubric. Project 1b
-is entirely optional. Completing only Project 1a will award you full marks. Project
-1b is all about giving you a chance to explore a project on your own.
+Both Project 1a and Project 1b will be graded on the same rubric. 
 
 #### Scoring
 | Score | Expectations |
