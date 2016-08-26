@@ -9,13 +9,13 @@ Everyone is required to build the quiz game. We've provided a test file that
 expects your quiz program to behave in a certain way and it will test your
 program for errors. This is test-driven development!
 
-Read more about (Project 1a Specifications)[1a-quiz-game.md].
+Read more about [Project 1a Specifications](1a-quiz-game.md).
 
 ## Project 1b: Custom Game
 When you finish the quiz game you may choose to build your own custom game.
 You can build whatever you want!
 
-Read more about (Project 1b Specifications)[1b-custom-game.md].
+Read more about [Project 1b Specifications](1b-custom-game.md).
 
 ## Project Feedback + Evaluation
 

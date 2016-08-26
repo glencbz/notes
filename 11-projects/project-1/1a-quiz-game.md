@@ -38,7 +38,13 @@ Goal: Build a two-player multiple-choice quiz game!
   * Use of bootstrap
   * Mobile responsive design
 
-## Tips
+## Specification
+Writing programs according to a specification like this allows developers to
+agree how programs will work before they're actually written. Here it allows us to
+write tests separate of you writing the program. In the future program specifications
+will be necessary to reach agreement on how things will work when working on
+large projects with teams.
+
 
 Define each question as an object, so that you can add key-value pairs each property of the question (e.g. the prompt, the options, and the index of the correct answer). This will be helpful in checking if the user's answer for each question is correct.
 
@@ -68,15 +74,12 @@ var quiz = {
 ```
 
 ## Test-driven development
+Using this test library is optional. You may choose to ignore this and build your
+quiz game however you like.
+
 We've built a test library that will check to see if your quiz runs correctly. In order
 for it to work you'll need to format questions in your quiz exactly as descibed above.
 You'll need to create a quiz object with properties exactly as shown above.
-
-Writing programs according to a specification like this allows developers to
-agree how programs will work before they're actually written. Here it allows us to
-write tests separate of you writing the program. In the future program specifications
-will be necessary to reach agreement on how things will work when working on
-large projects with teams.
 
 This script will test the game logic of your multiple choice quiz.
 To use it you will need to include it in your html file after you main quiz script.
