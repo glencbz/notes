@@ -1,5 +1,9 @@
 # Code Snippets From Lecture
 
+## Week 3
+
+Sorting, Reverse Sorting, and Shuffling: <https://repl.it/CzDF/0>
+
 ## Week 2
 
 ### Array Equality
