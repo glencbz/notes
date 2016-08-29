@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game
+\# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game
 
 ### Overview
 
@@ -66,6 +66,16 @@ Sometimes just called "Memory", it's a card game in which all of the cards are l
 
 ##### Self-scoring Trivia
 Test your wits & knowledge with whatever-the-heck you know about (so you can actually win). Guess answers, have the computer tell you how right you are!
+
+---
+
+### Past Sample Game Projects 
+
+* **[Beat Repeat](http://pacalabre.github.io/GA-Project-1/)**
+* **[Connect Four](https://brusinow.github.io/connect-four/)**
+* **[Project Brain Storm](http://d-robertson.github.io/Project-Brain-Storm/)**
+* **[Word Scramble](http://keidra.github.io/Word-Scramble/)**
+* **[Snake Game](http://davified.github.io/snake-game/)**
 
 ---
 
