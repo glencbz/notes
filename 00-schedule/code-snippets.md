@@ -2,6 +2,8 @@
 
 ## Week 3
 
+Detecting keyboard interactions, moving things: <https://repl.it/DBp4>
+
 Sorting, Reverse Sorting, and Shuffling: <https://repl.it/CzDF/0>
 
 ## Week 2
