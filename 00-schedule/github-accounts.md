@@ -31,7 +31,7 @@
 - [celinewsm](http://github.com/celinewsm)
 - [Dexterleow](http://github.com/Dexterleow)
 - [eugeneoei](http://github.com/eugeneoei)
-- [JonathanTKK](http://github.com/JonathanTKK)
+- [Jonalogy](https://github.com/Jonalogy/)
 - [kengste](http://github.com/kengste)
 - [leeyihui](http://github.com/leeyihui)
 - [mdchad](http://github.com/mdchad)
