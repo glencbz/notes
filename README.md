@@ -26,6 +26,12 @@ course. 15 minutes late = 1 tardy. 3 tardies = 1 absence.
 If you know you'll be late or absent, please let us know and we'll arrange
 to have your tardy or absence excused.
 
+### Homework and Project Policies
+
+Homework: 80% of the homework needs to be submitted for completion.
+
+Projects:  We would like everyone to complete their project as it will significantly affect your chances for graduation if you fail to do so. A Minimum Viable Product (MVP) is a must. 
+
 ###Administrative matters:
 * At the end of each day's lesson, kindly fill up the [Exit Tickets](https://docs.google.com/a/generalassemb.ly/forms/d/e/1FAIpQLSfcW90PyxHC5fc2DBaJH5Ep0AGMrbKl-SAmpge9L8ZZ-zrJUg/viewform) to provide feedback for the day's lessons
 * Please fill in your personal particulars [here](https://docs.google.com/spreadsheets/d/1tWXs5Xl0nE6EJcD-QbSW74kXLcfPsMxW0fw9jHn-1zk/edit#gid=0)
