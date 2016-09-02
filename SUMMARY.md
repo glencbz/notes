@@ -222,6 +222,7 @@
     * [FAQ](09-other-topics/post-wdi/faq.md)
 * [Projects](11-projects/readme.md)
   * [Presentation Format](11-projects/presentation-format.md)
+  * [Project Links](11-projects/project-links.md)
   * [Project 1](11-projects/project-1/readme.md)
     * [1a - Quiz Game](11-projects/project-1/1a-quiz-game.md)
     * [1b - Custom Game](11-projects/project-1/1b-custom-game.md)
