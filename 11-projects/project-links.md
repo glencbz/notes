@@ -2,12 +2,12 @@
 
 ## Project 1 - Make a Game
 <table>
-  <th>
-    <td>Student Name</td>
-    <td>Project Name</td>
-    <td>GitHub Link</td>
-    <td>Live Link</td>
-  </th>
+  <tr>
+    <th>Student Name</th>
+    <th>Project Name</th>
+    <th>GitHub Link</th>
+    <th>Live Link</th>
+  </tr>
   <tr>
     <td>Lee Yi Hui</td>
     <td>Feed or Fade</td>
