@@ -42,16 +42,19 @@ Below is a collection of useful resources collected by students of GA Singapore'
  and Callbacks With Ease
 
 
-## Ruby:
+## Ruby
 - Ruby koans: https://github.com/MakeSchool-17/ruby-koans-cmaher92/tree/master/download
 - Ruby koans (more detailed instructions): https://github.com/sf-wdi-26/modules/tree/master/w04/d01/m2
 - Ruby guide with comics: http://poignant.guide/book/
 
-## Rails:
+## Rails
 - Guide for installing rails: http://installrails.com/
 
 ## Awesome textbooks (Must read!)
 - Eloquent Javascript: http://eloquentjavascript.net/ (sandbox: http://eloquentjavascript.net/code/)
+
+## Game Mechanics
+- Character Movement with in a Grid System: <http://www.redditmirror.cc/cache/websites/troygilbert.com_ai9pd/troygilbert.com/2006/10/the-movement-and-attack-mechanics-of-the-legend-of-zelda/index.html>
 
 ## General
 #### Useful Chrome extensions
