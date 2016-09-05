@@ -6,6 +6,11 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 ## Homework schedule
 
+### Week 4
+| Day    | Topic                        | Homework                                                                  |
+| ------ | -----                        | --------                                                                  |
+| Monday | AJAX | No homework. |
+
 ### Week 2
 
 | Day    | Topic                        | Homework                                                                  |
