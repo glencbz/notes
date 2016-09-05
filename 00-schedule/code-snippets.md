@@ -1,5 +1,23 @@
 # Code Snippets From Lecture
 
+## Week 4
+
+#### Redit API Search
+
+Reddit allows you to search their own content. Here's their own description of
+how the search endpoint of their API works: [Reddit Search API Documentation](https://www.reddit.com/dev/api/#GET_search)
+
+```
+js
+$.get('https://www.reddit.com/search.json', {
+  q: 'kittens'
+  }).done(function(data) {
+    console.log(data);
+  });
+```
+
+Here's how you can make a request to search their API for kittens:
+
 ## Week 3
 
 Detecting keyboard interactions, moving things: <https://repl.it/DBp4>
