@@ -7,16 +7,15 @@
 Reddit allows you to search their own content. Here's their own description of
 how the search endpoint of their API works: [Reddit Search API Documentation](https://www.reddit.com/dev/api/#GET_search)
 
+Here's how you can make a request to search their API for kittens:
+
 ```
-js
 $.get('https://www.reddit.com/search.json', {
   q: 'kittens'
   }).done(function(data) {
     console.log(data);
   });
 ```
-
-Here's how you can make a request to search their API for kittens:
 
 ## Week 3
 
