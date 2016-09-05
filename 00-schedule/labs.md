@@ -1,10 +1,14 @@
 ## Lab schedule
 
+### Week 3
+| Day | Topic  | Lab |
+| ----| ------ | ---- |
+| Monday | OOP | [Prototype Body Shop][1020]|
+
 ### Week 2
 
-| Day | Topic  | Lab
-| ----| ------ | ----
-| Wednesday | jQuery DOM | [to be updated] |
+| Day | Topic  | Lab |
+| ----| ------ | ---- |
 | Wednesday | jQuery DOM | [jQuery Intro Lab](https://github.com/davified/jquery-intro-lab) |
 | Wednesday | DOM Manipulation | [Times Tables](https://github.com/ga-students/dom-times-table) |
 | Tuesday | Intervals | [JavaScript Clock Intervals](https://github.com/ga-students/js-clock-intervals) |
@@ -26,3 +30,4 @@
 [1000]: 03-internet/internet-lab.md
 [1004]: https://github.com/davified/js-control-flow
 [1007]: https://github.com/davified/js-functions
+[1020]: https://github.com/WDI-SEA/oop-prototype-car

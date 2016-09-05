@@ -32,8 +32,8 @@
   <tr>
     <td>Nick Ang</td>
     <td>Spot the difference!</td>
-    <td><a href="https://github.com/nickangtc/sherlock-the-diffe"rence>code</td>
-    <td><a href="https://nickangtc.github.io/sherlock-the-differ"ence/>demo</td>
+    <td><a href="https://github.com/nickangtc/spot-the-difference">code</td>
+    <td><a href="https://nickangtc.github.io/spot-the-difference"/>demo</td>
   </tr>
 
   <tr>
@@ -60,8 +60,8 @@
   <tr>
     <td>Jonathan</td>
     <td>Putty Poodle</td>
-    <td><a href="https://github.com/Jonalogy">code</td>
-    <td><a href="https://jonalogy.github.io/puttyPoodle/puttyPoo"dle.beta/>demo</td>
+    <td><a href="https://github.com/Jonalogy/puttyPoodle">code</td>
+    <td><a href="https://jonalogy.github.io/puttyPoodle/puttyPoodle.beta/">demo</td>
   </tr>
 
   <tr>
@@ -88,8 +88,8 @@
   <tr>
     <td>Yvonne Chia</td>
     <td>Shopkins Memory Game</td>
-    <td><a href="https://paperplanegirl.github.io/proj1/">demo</td>
     <td><a href="https://github.com/paperplanegirl/proj1">code</td>
+    <td><a href="https://paperplanegirl.github.io/proj1/">demo</td>
   </tr>
 
   <tr>
@@ -102,8 +102,8 @@
   <tr>
     <td>Dexter Leow</td>
     <td>Bomberman</td>
-    <td><a href="https://github.com/Dexterleow/Project-1-Bomberm"an>code</td>
-    <td><a href="https://dexterleow.github.io/Project-1-Bomberma"n/>demo</td>
+    <td><a href="https://github.com/Dexterleow/Project-1-Bomberman">code</td>
+    <td><a href="https://dexterleow.github.io/Project-1-Bomberman/"">demo</td>
   </tr>
 
   <tr>
