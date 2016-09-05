@@ -3,6 +3,8 @@
 ### Week 4
 | Day | Topic  | Lab |
 | ----| ------ | ---- |
+| Tuesday | Node Express Server | [CRUD Newspaper Website](https://github.com/WDI-SEA/express-daily-planet)|
+| Tuesday | Morning Exercise | [URL Encode](https://gist.github.com/geluso/5388d0a83fdfb56a4b84c98d2aad5f8b)|
 | Monday | OOP | [Prototype Body Shop][1020]|
 | Monday | AJAX | [Reddit JSON Image Search][0130]|
 
