@@ -1,9 +1,11 @@
 ## Lab schedule
 
-### Week 3
+### Week 4
 | Day | Topic  | Lab |
 | ----| ------ | ---- |
 | Monday | OOP | [Prototype Body Shop][1020]|
+| Monday | AJAX | [Reddit JSON Image Search][0130]|
+
 
 ### Week 2
 
@@ -31,3 +33,4 @@
 [1004]: https://github.com/davified/js-control-flow
 [1007]: https://github.com/davified/js-functions
 [1020]: https://github.com/WDI-SEA/oop-prototype-car
+[0130]: https://github.com/ga-students/reddit-json-image-search-results
