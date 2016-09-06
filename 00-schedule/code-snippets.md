@@ -2,7 +2,14 @@
 
 ## Week 4
 
-#### Redit API Search
+### Node Express EJS Templates
+
+Here's a project all set up with basic static file serving,
+some route configruations, and some advanced ejs templates.
+
+https://github.com/ga-students/simple-node-express-ejs-template
+
+### Redit API Search
 
 Reddit allows you to search their own content. Here's their own description of
 how the search endpoint of their API works: [Reddit Search API Documentation](https://www.reddit.com/dev/api/#GET_search)
