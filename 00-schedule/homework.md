@@ -7,8 +7,9 @@ To keep your assignments neat, each piece of homework should have its own repo.
 ## Homework schedule
 
 ### Week 4
-| Day     | Topic                        | Homework                                                                  |
-| ------  | -----                        | --------                                                                  |
+| Day     | Topic                        | Homework     |
+| ------  | -----                        | --------     |
+| Wednesday  | Node / Express            | No homework. |
 | Tuesday | Node / Express               | No homework. |
 | Monday  | AJAX                         | No homework. |
 
