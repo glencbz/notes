@@ -9,6 +9,7 @@ To keep your assignments neat, each piece of homework should have its own repo.
 ### Week 4
 | Day     | Topic                        | Homework     |
 | ------  | -----                        | --------     |
+| Thursday | Node Express Server | [Besty Buy CRUD REST Inventory Manager](https://github.com/WDI-SEA/express-daily-planet)|
 | Wednesday  | Node / Express            | No homework. |
 | Tuesday | Node / Express               | No homework. |
 | Monday  | AJAX                         | No homework. |
