@@ -24,8 +24,6 @@
        * [Git Workflows](01-workflow/group-collab/02gitworkflows.md)
        * [Project Roles and Tools](01-workflow/group-collab/03rolestools.md)
    * [Code Editor Packages](01-workflow/text-editor-packages/readme.md)
-* [Internet Fundamentals](03-internet/how-the-internet-works.md)
-   * [Internet Lab](03-internet/internet-lab.md)
 * [HTML/CSS](03-html-css/readme.md)
    * [HTML](03-html-css/html-review/readme.md)
    * [CSS Selectors](03-html-css/css-selectors/readme.md)
@@ -246,5 +244,7 @@
    * [PostgreSQL Cheat Sheet](12-resources/sqlcheatsheet.md)
    * [Sequelize Cheat Sheet](12-resources/sequelizecheatsheet.md)
    * [Database Administration](12-resources/dbadmin.md)
+* [Internet Fundamentals](03-internet/how-the-internet-works.md)
+   * [Internet Lab](03-internet/internet-lab.md)
 * Unit 1
 
