@@ -19,8 +19,14 @@ Most HTML elements consist of content (text and other elements) surrounded by a 
 <h1>Sample Header</h1>
 ```
 
+```html
+<img src="_assets/ga_cog.png">
+```
 
-Elements can be nested (elements can contain elements). Nesting allows you to break down a webpage into smaller pieces that contain related pieces of data:
+Note that the last element is an example that does **not** need a closing element. These are known as **void elements**.
+
+
+Elements can be nested (elements can contain elements). Nesting allows you to create big elements that contain elements related to each other:
 
 <blockquote>
     <h1>Trump said something again!</h1>
@@ -30,21 +36,21 @@ Elements can be nested (elements can contain elements). Nesting allows you to br
 
 ```html
 <blockquote>
-  <h1>Header text!</h1>
-  <p> Paragraph <strong>text</strong>!</p>
+ <h1>Trump said something again!</h1>
+ <p>Build <strong>another</strong> wall?!</p>
 </blockquote>
 ```
 
 ### Attributes
-Elements often contain attributes, which are key-value pairs.
+Elements often contain attributes, which are key-value pairs. They   look like `key="value"` in the start tag:
 
 ```html
-<div data-attr="5"></div>
+<div data-attribute="5"></div>
 
-<img src="imageurl.png">
+<p class="trump-words">Wall?!</p>
 ```
 
-Note that the last element is an example that does **not** need a closing element. These are known as **void elements**.
+
 
 Some of the more important attributes are `class` and `id`, which we will see later in CSS. Just know that class names can be used in more than one element, but ids must be unique. See below.
 
