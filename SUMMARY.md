@@ -1,10 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* [Unit 1&lt;!---](unit-1.md)
+* [Unit 1](unit-1.md)
   * [Internet Fundamentals](03-internet/how-the-internet-works.md)
     * [Internet Lab](03-internet/internet-lab.md)
-    * ---&gt;
 
 
 
@@ -47,6 +46,7 @@
   * [Functions](02-js-jquery/js-functions/readme.md)
 
   * [DOM and Events](02-js-jquery/js-dom-events/readme.md)
+
   * [DOM Manipulation](02-js-jquery/js-dom-manipulation/README.md)
   * [Callbacks and Iterators](02-js-jquery/js-callbacks-iterators/readme.md)
   * [OOP with Prototypes](02-js-jquery/js-prototypes/01readme.md)
@@ -57,6 +57,7 @@
   * [Intro to TDD](02-js-jquery/js-tdd-intro/readme.md)
 
   * [Closures & Scoping](02-js-jquery/js-scopes/readme.md)
+
   * [Inheritance](02-js-jquery/js-inheritance/01readme.md)
 
     * [Prototypal Inheritance](02-js-jquery/js-inheritance/02prototypalinheritance.md)
@@ -77,6 +78,7 @@
 
 
 
+
 * [jQuery](02-js-jquery/jquery.md)
 
   * [Intro](02-js-jquery/jquery-intro/readme.md)
@@ -89,6 +91,7 @@
   * [Plugins](02-js-jquery/jquery-plugins/readme.md)
 
   * [AJAX](02-js-jquery/jquery-ajax/readme.md)
+
 
 * [Development Workflow](01-workflow/readme.md)
 
@@ -114,9 +117,11 @@
   * [Code Editor Packages](01-workflow/text-editor-packages/readme.md)
 
 
+
 * [Unit 2](unit-2.md)
 
 * [Databases](04-databases/readme.md)
+
   * [Intro to SQL](04-databases/sql-intro/readme.md)
   * [Advanced SQL](04-databases/sql-advanced/readme.md)
   * [MongoDB](04-databases/mongo-intro/readme.md)
@@ -209,6 +214,7 @@
   * [Rails M:M](06-ruby-rails/rails-M-M/readme.md)
 
   * [ActiveRecord Polymorphism](06-ruby-rails/rails-polymorphism/readme.md)
+
   * [Additional Topics](06-ruby-rails/additional-topics/readme.md)
     * [oAuth](06-ruby-rails/additional-topics/rails-oauth/readme.md)
     * [SASS](06-ruby-rails/additional-topics/sass/readme.md)
@@ -229,6 +235,7 @@
   * [Angular Directives and Filters](07-angular/angular-directives-filters/readme.md)
 
   * [Angular Animation](07-angular/angular-animation/readme.md)
+
   * [Angular Bootstrap Directives](07-angular/angular-bootstrap-directives/readme.md)
 
     * [Bootstrap Modals](07-angular/angular-bootstrap-directives/modals.md)
@@ -244,6 +251,7 @@
   * [Angular Routing](07-angular/angular-routing/readme.md)
 
   * [Angular + Express](07-angular/angular-express/readme.md)
+
   * [Angular Authentication](07-angular/angular-authentication/readme.md)
 
     * [Additional Topics](07-angular/angular-authentication/additional-topics.md)
@@ -251,6 +259,7 @@
   * [Angular Custom Filters](07-angular/angular-custom-filters/readme.md)
 
   * [Angular Custom Directives](07-angular/angular-custom-directives/readme.md)
+
 
 * [ReactJS](10-react/readme.md)
 
