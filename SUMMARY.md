@@ -1,11 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
-* Unit 1
+* [Unit 1](unit-1.md)
 * [Internet Fundamentals](03-internet/how-the-internet-works.md)
     * [Internet Lab](03-internet/internet-lab.md)
 * [HTML\/CSS](03-html-css/readme.md)
     * [HTML](03-html-css/html-review/readme.md)
+        * [HTML Cheatsheet](03-html-css/html-review/html-cheatsheet.md)
     * [CSS Selectors](03-html-css/css-selectors/readme.md)
     * [CSS Box Model and Positioning](03-html-css/css-box-model/readme.md)
         * [Box Model](03-html-css/css-box-model/02box-model.md)
@@ -18,8 +19,6 @@
         * [Vendor Prefixes](03-html-css/css-responsive-design/04vendorprefixes.md)
         * [Additional Topics](03-html-css/css-responsive-design/05additional.md)
         * [Flexbox \(Game\)](03-html-css/css-responsive-design/flexbox.md)
-    * [Bootstrap](03-html-css/css-bootstrap/readme.md)
-    * [Page Template](03-html-css/html-page-template/readme.md)
 * [JavaScript](02-js-jquery/javascript.md)
     * [Primitives](02-js-jquery/js-primitives/readme.md)
     * [Conditionals and Loops](02-js-jquery/js-control-flow/readme.md)

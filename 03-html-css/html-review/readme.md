@@ -1,38 +1,42 @@
 #HTML
 
-### Objectives
+### What is HTML?
 
-- Construct a HTML page with common elements and attributes
+> **H**yper**T**ext **M**arkup **L**anguage
 
-
-### Cool Stuff using HTML/CSS/JavaScript
-
-* [Tearable Cloth](http://codepen.io/dissimulate/pen/KrAwx)
-* [3D Solar System](http://codepen.io/juliangarnier/pen/idhuG)
-* [Fun with Primes](http://codepen.io/simeydotme/pen/PqQzRG)
-* [Snake Grid](http://codepen.io/hexapode/pen/ZGvNae)
-
-HTML stands for **H**yper**T**ext **M**arkup **L**anguage
-
-We're going to step through a HTML document, disect the parts, and view some examples. But first, let's explore the syntax of HTML elements.
+At its most fundamental level, HTML is the language that describes the documents you see on the web. Think of HTML as the part that contains the actual data, rather the way the page is presented (CSS) or the logic of the page (Javascript).
 
 ### HTML elements
 
-HTML elements consist of a start tag, an end tag, and content in-between. Example:
+HTML documents consist of elements - the things that hold the data. **Different kinds of elements** correspond to **different kinds of data** (`h1` for big headers, `p` for paragraphs, etc). This means that the kind of element you choose doesn't just affect the layout, it actually has meaning!
+
+Most HTML elements consist of content (text and other elements) surrounded by a start tag and an end tag. We could write a big header like so:
+
+
+<h1>Sample Header</h1>
 
 ```html
-<h1>Here is some text</h1>
+<h1>Sample Header</h1>
 ```
 
-Elements can be nested.
+
+Elements can be nested (elements can contain elements). Nesting allows you to break down a webpage into smaller pieces that contain related pieces of data:
+
+<blockquote>
+    <h1>Trump said something again!</h1>
+    <p>Build <strong>another</strong> wall?!</p>
+</blockquote>
+
 
 ```html
-<div>
-  <h1>Here is <strong>some</strong> text</h1>
-</div>
+<blockquote>
+  <h1>Header text!</h1>
+  <p> Paragraph <strong>text</strong>!</p>
+</blockquote>
 ```
 
-Elements can also contain attributes, which are key-value pairs.
+### Attributes
+Elements often contain attributes, which are key-value pairs.
 
 ```html
 <div data-attr="5"></div>
