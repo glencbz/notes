@@ -10,21 +10,22 @@ At its most fundamental level, HTML is the language that describes the documents
 
 HTML documents consist of elements - the things that hold the data. **Different kinds of elements** correspond to **different kinds of data** (`h1` for big headers, `p` for paragraphs, etc). This means that the kind of element you choose doesn't just affect the layout, it actually has meaning!
 
-Most HTML elements consist of content (text and other elements) surrounded by a start tag and an end tag. We could write a big header like so:
+Most HTML elements consist of content (text and other elements) surrounded by a start tag and an end tag. We could write a small header like so:
 
 
-<h1>Sample Header</h1>
-
-```html
-<h1>Sample Header</h1>
-```
+<h6>Sample Header</h6>
 
 ```html
-<img src="_assets/ga_cog.png">
+<h6>Sample Header</h6>
 ```
 
-Note that the last element is an example that does **not** need a closing element. These are known as **void elements**.
+There exists exceptions that do **not** need a closing tag (such as the `img` tag). These are known as **void elements**.
 
+<img src="/_assets/ga_cog.png">
+
+```html
+<img src="/_assets/ga_cog.png">
+```
 
 Elements can be nested (elements can contain elements). Nesting allows you to create big elements that contain elements related to each other:
 
