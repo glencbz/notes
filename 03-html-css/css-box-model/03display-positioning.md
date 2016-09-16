@@ -1,32 +1,49 @@
 # Taking Up Space using Display
 
-Cool, right? Each HTML element gets its own box to live in.
-
-As you saw, the outermost box of each element went all the way across the page. This is why, until now, your HTML elements have been sitting on top of one another: by default, they take up the full width of the page.
+In our box model exercises, we've used `<div>`s and as a result our HTML elements have been sitting on top of one another. This is because of their `display` property, by default, `<div>`s don't allow other elements to sit beside them i.e. they take up the full width of the page.
 
 We can change all this with the first positioning property we'll learn, the `display` property and the four values we can use: inline, block, inline-block, and none.
 
-* An **inline** element has no line break before or after it. This makes the element sit on the same line as another element, but without formatting it like a block. It only takes up as much width as it needs (not the whole line). Inline places all your elements on a single line. The bad news is that it doesn't maintain their "box"ness. So much for that padding...
-
 * A **block** element has some whitespace above and below it and does not tolerate any HTML elements next to it. This makes the element a block box. It won't let anything sit next to it on the page and takes up the full width.
-
-* An **inline-block** element is placed as an inline element (on the same line as adjacent content), but it behaves as a block element. This makes the element a block box but will allow other elements to sit next to it on the same line.
-
+* An **inline** element has no line break before or after it. This makes the element sit on the same line as another element, but without formatting it like a block. It **only takes up as much width as it needs**. This means that you can't change the width/height of an inline element, even with CSS. Also, because it's inline, you **can't change its vertical padding or margin** either.
+* An **inline-block** element is placed as an inline element (on the same line as adjacent content), but it behaves as a block element. This makes the element a block box (you can change its height/width, etc.) but will allow other elements to sit next to it on the same line.
 * If you assign **none** as the value of the display, this will make the element and its content disappear from the page entirely!
 
-Here are a few examples in CSS, written as classes:
+To illustrate this, if we had this HTML:
+
+```html
+<div class="inline">
+    <div class="inline">Content</div>
+    <div class="inline">Content</div>
+    <div class="inline">Content</div>
+</div>
+
+<div class="block">
+    <div class="block">Content</div>
+    <div class="block">Content</div>
+    <div class="block">Content</div>
+</div>
+
+<div class="inline-block">
+    <div class="inline-block">Content</div>
+    <div class="inline-block">Content</div>
+    <div class="inline-block">Content</div>
+</div>
+```
+
+With this CSS:
 
 ```css
 .inline {
-  display: inline;
+    display: inline;
 }
 
 .block {
-  display: block;
+    display: block;
 }
 
 .inline-block {
-  display: inline-block;
+    display: inline-block;
 }
 ```
 
