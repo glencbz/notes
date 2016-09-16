@@ -1,21 +1,5 @@
 # How the Internet works
 
-### Objectives
-*After this lesson, students will be able to:*
-
-- Explain the differences between a client and server
-- Explain the difference between the Internet and the World Wide Web
-- Explain the significance of an Internet Protocol (IP) address
-- Explain how data travels through the internet
-- Breakdown the components of a URL: protocol, subdomain, domain, extension, resources
-- Identify and describe the most common HTTP request/response headers and the information associated with each
-- Create a basic HTML webpage using the most common tags
-
-### Preparation
-*Before this lesson, students should already be able to:*
-
-- Use a web browser
-
 ## Internet Acronym Test
 
 Working as web developers you will be bombarded with acronyms, but don't worry just like the MRT you don't need to know what it stands for in order to use it.
