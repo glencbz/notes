@@ -1,8 +1,14 @@
-#Navigating the Filesystem
+# Navigating the Filesystem
 
 The file structure you see in the Terminal is the same as the one you see in the `Finder` application. Finder tends to hide some of the folders from you to keep things simple for most users, but everywhere that you go in Finder is accessible through the Terminal.
 
-##Common Navigation Commands
+## Special directories
+- `/` - the root directory
+- `~` - the user's directory
+- `.` - current directory
+- `..` - the parent of this directory
+
+## Common Navigation Commands
 
 * `pwd` - print working directory
 * `open` - open a file/directory
@@ -19,7 +25,9 @@ pwd
 /Users/brian
 ```
 
-Typically the terminal will start in your `HOME` directory, each user has their own `HOME` directory, but on your computer it is common for you to be the only real user. At any given time a terminal shell process has one **current working directory**
+Typically the terminal will start in your `HOME` directory i.e. `~`, each user has their own `HOME` directory, but on your computer it is common for you to be the only real user. At any given time a terminal shell process has one **current working directory**
+
+---
 
 ## `open` - Open a file/directory
 
@@ -27,13 +35,15 @@ Typically the terminal will start in your `HOME` directory, each user has their 
 open .
 ```
 
-Wherever we are, `open .` opens a Finder window in the current directory. This can be handy for going between the terminal and Finder interfaces.
+Wherever we are, `open .` opens a Finder window in the current directory. This can be handy for going between the terminal and Finder interfaces. Since `.` is the current directory, `open .` literally means "open this directory".
 
 Additionally, we can open a file using the default application for the file.
 
 ```
 open index.html
 ```
+
+---
 
 ## `ls` - Listing directory contents
 

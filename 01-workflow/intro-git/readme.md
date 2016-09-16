@@ -1,12 +1,6 @@
 #Intro to Git
 
-## Objectives
-
-* Define version control systems
-* Identify main git commands to manage files
-* Distinguish bewteen local and remote repositories
-
-## Motivation
+## Why Git?
 
 Have you ever worked on a paper or any document collaboratively with others?
 

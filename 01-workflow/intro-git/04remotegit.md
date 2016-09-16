@@ -5,6 +5,7 @@ In the previous section, we worked with a local git repo. Now, let's try working
 ## Setup for this section
 
 * Create a new repo on Github (we'll use `tacos` for ours)
+* [Generate an SSH key](https://help.github.com/articles/generating-an-ssh-key/)
 
 ## Working with Remote Repositories
 
@@ -54,6 +55,6 @@ By default, cloning your Github repo will create remotes for pushing and pulling
 
 When we work on deliverables in WDI and in the software industry, we'll usually be building upon pre-existing scaffolds or projects. In these cases, we'll usually want our own copies to work on, because the project owner won't allow you to make direct changes. Otherwise chaos would ensue!
 
-The solution is to create a **fork** of a repo. It's kinda like a clone, but it's all done on Github and gives you ownership of the copy. You'll then make changes in this fork.
+The solution is to create a **fork** of a repo. It's kinda like a clone, but it's all done on Github and gives **you** ownership of your own copy. You'll then make changes in this fork.
 
 Once you want to officially submit your changes, you'll perform what's called a **pull request**, which we'll demo before your first deliverable.
