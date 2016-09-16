@@ -1,6 +1,6 @@
-#Functions
+# Functions
 
-##Objectives
+## Objectives
 * Define a function
 * Define a function with a parameter
 * Define a function that operates on two parameters
@@ -8,7 +8,7 @@
 * Create functions with and without return values
 * Recognize the scope of variables inside and outside functions
 
-##Defining a function
+## Defining a function
 
 A function is a module that can store and invoke code. When writing repetitive
 code, we can isolate code into **functions** in order to reduce repetition. For

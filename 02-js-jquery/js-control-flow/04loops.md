@@ -26,7 +26,7 @@ while (CONDITION) {
   //CODE
 }
 ```
-
+---
 #### `for`
 
 A **for loop** is a fancy **while loop**.
@@ -54,7 +54,7 @@ for (VARIABLE DECLARATION; CONDITION; UPDATE) {
 
 In other words, you declare a variable and test to see if that variable passes a condition in order to run the code block. The update statement runs after the code block is executed.
 
-Very commonly, you will use it to loop through an array.
+It is recommended to use `for` loops to do an action a fixed number of times. The most common example of this is to loop through an array:
 
 ```js
 var foods = ["pizza", "tacos", "ice cream"];
@@ -89,7 +89,11 @@ for (var thing in car) {
 // > my car has 5 seats
 ```
 
-###Exercises
+A note to those who come from other languages, although you *could* use `for...in` for arrays, it actually operates on keys. This means that if your array has some extra keys, it won't work the way you intended.
+
+---
+
+### Exercises
 
 1. Implement [Fizz Buzz](http://en.wikipedia.org/wiki/Fizz_buzz). Loop
    from 1 to 100.  If the number is divible by both 3 and 5, print

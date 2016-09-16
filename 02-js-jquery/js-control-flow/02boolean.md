@@ -12,7 +12,7 @@ The equality operator aka double equal (`==`) is used to compare two values.
 //false
 ```
 
-The equality operator allows type cohersion which means that if you compare two values of different types you might get unexpected results.
+The equality operator allows type coercion which means that if you compare two values of different types you might get unexpected results.
 
 ```js
 3 == "3"
@@ -27,7 +27,7 @@ The equality operator allows type cohersion which means that if you compare two 
 
 ### Identity Operator (recommended)
 
-The identity operator aka triple quotes (`===`) works exactly like the equality operator (`==`) except it is a strict comparison operator. It does not convert types so it is more predictable and therefore the prefered method for comparision.
+The identity operator aka triple quotes (`===`) works exactly like the equality operator (`==`) except it is a strict comparison operator. It does not convert types so it is more predictable and therefore the preferred method for comparison.
 
 ```js
 3 === 3

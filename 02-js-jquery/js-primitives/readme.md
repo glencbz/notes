@@ -1,11 +1,5 @@
 # Javascript Primitives
 
-## Objectives
-
-* understand the history of JavaScript and its purpose as a language
-* conceptualize JavaScript variables and data structures
-* utilize primitives and operators in order to solve problems using JavaScript
-
 ## History
 
 **Then**
@@ -42,6 +36,8 @@ Comments come in two forms
 
 ```
 
+---
+
 ## Numbers
 
 Numbers are one of the *types* of **values** we want to be able to interact and play with in JS.
@@ -76,6 +72,7 @@ This can infrequently cause problems!
 
 How would you get the `2 + 2` to execute before the `* 3`? In other words, how would you change this expression to get 12?
 
+---
 ## Strings
 
 Strings are collections of letters and symbols known as **Characters**, and we use them to deal with words and text in Javascript. Strings are just another type of **value** in Javascript.
@@ -99,6 +96,8 @@ Try this...
 
 Without removing the quotes, how would you get this to equal 2?
 
+---
+
 ## Booleans
 
 Booleans are a type that can only have one of two values: true or false.
@@ -107,6 +106,8 @@ Booleans are a type that can only have one of two values: true or false.
 true
 false
 ```
+
+---
 
 ## Operator Review
 
@@ -181,13 +182,11 @@ var myString = "Greetings y'all!";
 The main note to make here is that these variables should always have the `var` keyword and use `camelCase`
 
 
-## Objects Everywhere
+## Objects and Methods
 
-In Javascript we just discussed two types of values we can use. We call these values objects, which for now just means that in addition to storing some data you also get to use some helpful methods when you are working with them.
+We've discussed primitives, but Javascript has another kind of value: objects. In JavaScript, almost everything is an object!
 
-In JavaScript, almost everything is an object (primitive types are the exception).
-
-* If you want to turn a number into a string you can use a helpful method called `toString`.
+For now, just think of an object as a collection of data and methods. For example, if you want to turn a number into a string you can use a helpful method called `toString`.
 
 ```js
 myNumber.toString()

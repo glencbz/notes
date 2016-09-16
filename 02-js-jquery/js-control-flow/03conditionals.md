@@ -71,3 +71,29 @@ switch(grade) {
     break;
 }
 ```
+
+#### Truthy and falsey values
+
+Remember how we typed `if (true)` earlier on? In Javascript, it is possible for the value inside the parentheses `()` to be something other than a boolean. For example, we can do the following:
+
+```Javascript
+if (1)
+  console.log('this runs!');
+if (0)
+    console.log("this doesn't!");
+```
+
+The way this works is determined by what are considered **truthy** and **falsey** values.
+
+- Truthy values evaluate to true (like 1)
+- Falsey values evaluate to false (like 0)
+
+There are only several falsey values in Javascript
+- false
+- 0 and -0
+- "" and ''
+- null
+- undefined
+- NaN
+
+It is possible however, for a truthy value to `== false`. [Some great reading on truthy-falsey values can be found here ](http://stackoverflow.com/questions/19839952/all-falsey-values-in-javascript)
