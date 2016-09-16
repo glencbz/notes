@@ -222,8 +222,6 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 - Currently at Version 5 (as of October 2014)
 - Made up of tags (opening and closing usually), which in turn create elements
 
-> Note. Example of russian dolls is really good
-> https://en.wikipedia.org/wiki/Matryoshka_doll#/media/File:Russian-Matroshka2.jpg
 
 ```html
 <!--    This whole thing is an element      -->
@@ -232,7 +230,7 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 <!-- A paragraph tag with two classes, could be selected in CSS using p.default-paragraph.another-class {} -->
 <p class="default-paragraph another-class">Some content in here</p>
 ```
-What does an HTML document need?
+#### What does an HTML document need?
 
 ```html
 <!doctype html> <!-- Always have this - it describes which version of HTML you are using -->
