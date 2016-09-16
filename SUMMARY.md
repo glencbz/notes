@@ -107,7 +107,7 @@
       * [Code Editor Packages](01-workflow/text-editor-packages/readme.md)
 
 
-
+<!--
 * [Unit 2](unit-2.md)
 
     * [Databases](04-databases/readme.md)
@@ -272,3 +272,4 @@
       * [React Animations](10-react/react-animations/readme.md)
 
         * [CSS Animations](10-react/react-animations/css-animations.md)
+-->
