@@ -212,7 +212,7 @@ As web developers we'll be spending a lot of time in web browsers. Web Browsers 
 
 
 
-## HTML Recap (10 mins)
+## HTML Recap
 
 Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS and Javascript. You will use these all the time. HTML is about defining the structure or a document. CSS is about the design and presentation of it, and Javascript is about control the behaviours of it. We'll cover all three but first let's focus on HTML.
 
@@ -231,6 +231,7 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 
 <!-- A paragraph tag with two classes, could be selected in CSS using p.default-paragraph.another-class {} -->
 <p class="default-paragraph another-class">Some content in here</p>
+```
 What does an HTML document need?
 
 <!doctype html> <!-- Always have this - it describes which version of HTML you are using -->
