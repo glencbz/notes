@@ -4,7 +4,6 @@
 * [Unit 1](unit-1.md)
     * [Internet Fundamentals](03-internet/how-the-internet-works.md)
         * [Internet Lab](03-internet/internet-lab.md)
-    * [Browsers and HTML](browsers-and-html.md)
     * [Development Workflow](01-workflow/readme.md)
         * [Command Line](01-workflow/command-line/01readme.md)
             * [The Terminal](01-workflow/command-line/02intro-terminal.md)
