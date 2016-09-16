@@ -4,6 +4,7 @@ Please submit the link(s) to the repo (github repository) with your homework (e.
 
 To keep your assignments neat, each piece of homework should have its own repo.
 
+<!-- 
 ## Homework schedule
 
 ### Week 4
@@ -38,6 +39,7 @@ To keep your assignments neat, each piece of homework should have its own repo.
 | Monday    | HTML       | 1. [HTML User Input Lab][901] |
 | Monday    | HTML       | 2. [HTML Top Ten Movies Lab][900] |
 
+-->
 
 <!-- Links to homework -->
 [1010]: https://github.com/davified/tic-tac-toe

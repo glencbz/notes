@@ -1,4 +1,4 @@
-#WDI5 (Singapore)
+#WDI6 (Singapore)
 
 Welcome to GA Singapore! Here are the notes for our Web Development Immersive. Do take your own notes too (Psst, you'll learn better that way!)
 
