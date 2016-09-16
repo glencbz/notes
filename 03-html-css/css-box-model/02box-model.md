@@ -1,8 +1,10 @@
 # The Box Model
 
-All HTML elements can be considered boxes. Even if you see a circle, it's living within a box.
+All HTML elements can be considered boxes. Even if you see a circle, it's living within a box. This is what we refer to as the CSS box model: all HTML elements are wrapped in rectangular boxes. Understanding the different parts of the box model is esse
 
-The CSS box model describes this principal - a box wraps around all HTML elements, and it consists of: margins, borders, padding, and the actual content.  This model allows us to place a border around elements and space elements in relation to other elements.
+
+
+margins, borders, padding, and the actual content.  This model allows us to place a border around elements and space elements in relation to other elements.
 
 With CSS properties and values, it is possible to apply specific styles to each of these elements, and change the way they behave and/or display on the page.
 
