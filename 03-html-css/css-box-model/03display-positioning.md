@@ -54,34 +54,9 @@ We would end up with something like this:
 
 ## Positioning
 
-Another CSS property, "position", can take `relative` or `absolute` values, among others.
+Another way to influence how elements are displayed is by using the CSS `position` property. `position` allows us to place elements essentially anywhere we want, even overlapping other elements! Because of this, it is easy to create problems when using `position`. You can use margins/paddings to create most of your layouts.
 
-A page element with "relative positioning" gives you the control to "absolutely position" children elements inside of it. This might not be obvious to everyone - that's probably because this isn't intuitive, at all. Let's look at an example.
-
-
-![css position relative](https://i.imgur.com/LRd7lBy.png)
-
-The relative positioning on the parent is what matters here. This what would happen if we forgot that:
-
-![](https://i.imgur.com/0vGcPFL.png)
-
-In this small example, it doesn't seem to matter much, but it really is a significant change.
-
-⇒ The "absolutely positioned" elements are positioning themselves in relation to the body element, instead of their direct parent. So if the browser window grows, that element in the bottom left is going to stick with the browser window, not hang back inside, like it was the case in the previous example.
-
-#### Relative Positioning
-
-Declaring `position:relative` allows you to position the element top, bottom, left, or right relative to where it would normally occur.
-
-```css
-.relative-item {
-  position: relative;
-  top: 0;
-  left: 40px;
-}
-```
-
-#### Static Positioning
+### Static Positioning
 
 HTML elements are positioned static by default. A "static positioned" element is always positioned according to the normal flow of the page and are not affected by the top, bottom, left, and right properties.
 
@@ -95,9 +70,36 @@ Again, the default positioning for all elements is static. This means that no po
 
 You rarely explicitly declare `position:static` like this because it is the default.
 
-#### Fixed Positioning
+### Relative Positioning
 
-An element with fixed position is positioned relative to the browser window.  It will not move even if the window is scrolled, so a fixed positioned element will stay right where it is.
+Declaring `position:relative` allows you to position the element relative to where it would **normally** occur. This is done using the `top`, `bottom`, `left`, and `right` properties. Note that if you relatively position an element, the rest of the document will flow as if the element wasn't moved at all.
+
+```css
+.relative-item {
+  position: relative;
+  top: 0;
+  left: 40px;
+}
+```
+
+### Absolute Positioning
+
+Specifying `position: absolute` _removes the element from the document flow_ and places it exactly where you tell it to be (as opposed to where it would be normally). Because the element is removed from the flow, this means that all other elements will be arranged as if the absolutely positioned element were not there.
+
+This position is calculated based on the element's **closest positioned ancestor** (not static positioned). We'll look at what happens with and without making the parent positioned.
+
+With relative positioning, note how `top: 0; left:0;` places the element in the top left corner of the parent.
+![css position relative](https://i.imgur.com/LRd7lBy.png)
+
+ If we forgot that however, the "absolutely positioned" elements are positioning themselves in relation to the body element, instead of their direct parent. Now the elements stick with the browser window (and not inside the parent) :
+
+![](https://i.imgur.com/0vGcPFL.png)
+
+
+
+### Fixed Positioning
+
+An element with fixed position is positioned relative to the browser window. It will not move even if the window is scrolled, so a fixed positioned element will stay right where it is. Just like absolutely positioned elements, fixed positioned elements are removed from the document flow.
 
 ```css
 .fixed-item {
@@ -106,22 +108,3 @@ An element with fixed position is positioned relative to the browser window.  It
   left: 0;
 }
 ```
-
-#### Absolute Positioning
-
-Specifying `position: absolute` _removes the element from the document flow_ and places it exactly where you tell it to be.
-
-```css
-.absolute-item {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-```
-
-#### Using Absolute + Relative Together
-
-There are many cases where you'll want to use `absolute`, but position an element _exactly relative to another element_. In that case, you can use `absolute` inside a `relative` element. See this Codepen for an example.
-
-<p data-height="665" data-theme-id="0" data-slug-hash="WwVKMq" data-default-tab="css,result" data-user="bhague1281" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/bhague1281/pen/WwVKMq/">Relative + Absolute</a> by Brian Hague (<a href="http://codepen.io/bhague1281">@bhague1281</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
