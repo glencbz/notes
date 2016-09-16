@@ -234,6 +234,7 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 ```
 What does an HTML document need?
 
+```html
 <!doctype html> <!-- Always have this - it describes which version of HTML you are using -->
 <html lang="en">
     <head>
@@ -245,7 +246,7 @@ What does an HTML document need?
         <!-- This is where the actual content is -->
     </body> 
 </html>
-````
+```
 
 #### Common Elements
 
