@@ -124,7 +124,7 @@ See Week 1 cheat-sheet [here][23]
 [1025]: https://github.com/WDI-SEA/code-review
 [1026]: https://github.com/ga-students/learn-git-newsroom-style
 
-
+<!--
 ###Unit 2: NodeJS/Express
 
 | Topic | Assignments |
@@ -351,6 +351,7 @@ See Week 1 cheat-sheet [here][23]
 [1317]: https://github.com/WDI-SEA/react-yearbook
 
 ---
+-->
 
 ## Licensing
 1. All content is licensed under a CC-BY-NC-SA 4.0 license.
