@@ -12,7 +12,7 @@ As we saw with constructors and prototypes, JavaScript features design patterns 
 
 ## Namespacing
 
-When multiple files are being used, it can be a major issue when global variables start conflicting. To avoid this, we introduce namespaces, which are not a native concept to JavaScript. Namespaces are contianers used to organize data. They can help limit global impact of variables and provide data protection.
+When multiple files are being used, it can be a major issue when global variables start conflicting. To avoid this, we introduce namespaces, which are not a native concept to JavaScript. Namespaces are containers used to organize data. They can help limit global impact of variables and provide data protection.
 
 Since namespaces aren't a native concept to JavaScript, they are commonly implemented as objects. For example:
 
@@ -42,7 +42,10 @@ Create a namespace and call it your first name. Then, add these four properties:
 
 ## Closures
 
-So far, our module has only public properties. This means that someone can access our namespace and it's properties - what if we don't want that? What if we want to protect values? First we decide which should be public and private. Let's look at this example.
+> Closures are functions that refer to independent (free) variables (variables that are used locally, but defined in an enclosing scope). In other words, these functions 'remember' the environment in which they were created.
+ [MDN on Closures](https://developer.mozilla.org/en/docs/Web/JavaScript/Closures)
+
+Closures are a complicated concept, so we will illustrate them with an example. So far, our module has only public properties. This means that someone can access our namespace and it's properties - what if we don't want that? What if we want to protect values? We can accomplish this using closures! First we decide which should be public and private.
 
 ```js
 var bankAccount = {
@@ -63,9 +66,9 @@ It's also really easy to empty the account!
 bankAccount.cash = 0;
 ```
 
-We need to make these variables private. To 'privatize' properties, we can use what's called a closure, which is a function inside a function.
+We need to make these variables private. To 'privatize' properties, we can use what's called a closure. Referring to the description from MDN, the private variable is a 'free variable' that the `withdraw` function can access, but can't be accessed otherwise.
 
-####Bank Account via Closure
+#### Bank Account via Closure
 
 ```js
 function bankAccount() {
@@ -107,7 +110,7 @@ account.cash
 
 **Why does this work?**
 
-* `cash` and `pin` only exist inside the `bankAccount` function.
+* `cash` and `pin` only exist inside the `bankAccount` function, we can't normally access these variables outside of this function.
 * By creating closures, the inside functions `withdraw` and `balance` have access to `cash` and `pin`.
 * By returning closures, we can access the inside functions without directly accessing `cash` and `pin`.
 

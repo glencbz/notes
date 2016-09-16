@@ -2,13 +2,6 @@
 
 Programming with functions! Weren't we already doing that? Well yes, but we can use functions more heavily, especially in place of loops.
 
-##Objectives
-
-* Use callbacks with setInterval and setTimeout
-* Understand how functions can be passed in and out of other functions
-* Compare and contrast the four main JavaScript iterators: forEach, map, reduce, filter
-* Utilize callbacks with JavaScript iterators
-
 Previously, we saw that functions can be assigned to variables. For example:
 
 ```js
@@ -34,9 +27,9 @@ var bag = function() {
 console.log(bag);
 ```
 
-We can take advantage of this behavior by defining **callback functions**. Callback functions are passed via variable name (reference), and are *called* at a specific time.
+We can take advantage of this behavior by defining **callback functions**. Callback functions are passed in and *called* at a specific time.
 
-## Do something later: Callbacks
+## Callbacks in `setTimeout` and `setInterval`
 
 The `setTimeout()` function takes a function and a delay in
 milliseconds, and executes the function as soon as possible after that
@@ -50,8 +43,7 @@ var announce = function() {
 var threeSecondTimeout = setTimeout(announce, 3000);
 ```
 
-This can be done via **anonymous functions** as well. Anonymous functions are functions that are not stored to a variable. They are great for functions you only need to define once. Here's an example.
-
+What if we didn't need to reuse the `announce` function? We can use an **anonymous function** instead:
 ```js
 var fiveSecondTimeout = setTimeout(function() {
   console.log('Ding!');
@@ -70,9 +62,9 @@ function annoy() {
 var oneSecondInterval = setInterval(annoy, 1000);
 ```
 
-Things to be careful of: you need to know what the function expects as parameters. Javascript is forgiving, but not a mind-reader.
+`setInterval` and `setTimeout` accept callbacks without parameters. However, there are many more cases where callbacks should have parameters. Make sure your callbacks handle the parameters properly!
 
-Oh, and if you want to disable the timers before they fire, you can use the `clearTimeout(timeoutHandle)` or `clearInterval(intervalHandle)` functions:
+If you want to disable the timers, you can use the `clearTimeout(timeoutHandle)` or `clearInterval(intervalHandle)` functions. Remember to assign the timeout or interval to a variable first!:
 
 ```js
 var fourSecondTimeout = setTimeout(announce, 4000);
@@ -134,7 +126,7 @@ We could accomplish all of this using `for` loops, but writing `for` loops is er
 4. Get results
 
 
-##forEach
+##`forEach`
 
 `forEach` is the _functional programming_ replacement for your standard `for` loop.  You can take the body from your `for` loop, wrap it in a function, and pass that argument to `forEach`. Let's look at an example:
 
@@ -195,11 +187,11 @@ var foods = [
 ```
 
 
-##map
+## `map`
 
 Sometimes we want to loop over an array and build a new array in the
 process. This is what `map` helps us solve. It is like `forEach`, but
-it returns the new array that is created.
+it returns a new array based on the return value of the function.
 
 ```js
 var names = ["tim", "ilias", "elie", "markus"];
@@ -222,7 +214,7 @@ console.log(cased);
 // > ["TIM", "ILIAS", "ELIE", "MARKUS"]
 ```
 
-##filter
+##`filter`
 
 Filter is an iterator that loops through your array and filters it
 down to a subset of the original array. A callback is called on each
@@ -250,10 +242,10 @@ console.log(oddLengthNames);
 // > ["tim", "ilias"]
 ```
 
-##reduce
+##`reduce`
 
 Reduce iterates over an array and turns it into one, accumulated
-value. In some other languages it is called `fold`.
+value. In some other languages it is called `fold`. Note that the `reduce` function takes two parameters.
 
 ```js
 var nums = [1,2,3,4];

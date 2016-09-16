@@ -61,6 +61,7 @@
                   * [Local Storage](02-js-jquery/additional-topics/ajax-localstorage/03localstorage.md)
               * [Async module](02-js-jquery/js-async/readme.md)
               * [Data Scraping](02-js-jquery/js-data-scraping/readme.md)
+
 <!--
 * [Unit 2](unit-2.md)
 

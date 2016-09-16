@@ -94,10 +94,6 @@ function Person(firstName, lastName) {
 
 **Think about it:** What would happen if we didn't use `this` inside the `.fullName` function above?
 
-What's the difference between these two? In short, The difference is that `var Person = function() {}` is defined at run-time (which means that if we were to call it before defining it we would get an error), whereas `function Person() {}` is defined at parse-time (which means that if we were to call it before defining it we would **not** get an error).
-
-You can read more about the difference [here](http://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname)
-
 ---
 
 Let's now take a closer look at the constructor function.

@@ -23,19 +23,20 @@ function greeting() {
 greeting();
 ```
 
-Note that a function is assigned to a variable, and we can **call** the function by taking the variable name and appending parentheses to the end of the function variable.
+We took the `console.log("Hello World")` code and put it in a function! This is then assigned to a variable called `greeting`. To use it, we take the variable name and append parentheses to the end of the function variable. This is known as **calling** the function.
 
 **Parts of a function**
 
 ```
-function FUNCTIONNAME() {
+function FUNCTIONNAME(PARAMETERS) {
 	//CODE
 }
 ```
 
+## Defining a function with a parameter
+
 We can also create functions that accept **parameters**, and use those parameters as variables in the function.
 
-##Defining a function with a parameter
 ```js
 function greeting(taco) {
 	// anything inside of here will execute when called
@@ -45,7 +46,9 @@ function greeting(taco) {
 var name = "Josh"
 var name2 = "Brian"
 greeting(name);
+// Good morning Josh
 greeting(name2);
+// Good morning Brian
 ```
 
 ##Defining a function with two parameters
@@ -66,16 +69,13 @@ greeting(name, name2);
 greeting(name2, name);
 ```
 
-##Printing and returning are different
+## Returning
 
 Note that functions can have **input** via parameters. They can also have **output** as return values. Returning values from a function is denoted by the keyword `return`. Also, return values are optional.
-
-Note that printing something to the screen using `console.log` is not the same as returning values.
 
 ```js
 function multiply(num1, num2) {
 	console.log("inside the function");
-	// return result = num1 * num2;
 	return num1 * num2
 }
 
@@ -102,11 +102,34 @@ returnHello2("nachos");
 console.log("without a return value:", returnHello2("taco") ); //will show as undefined
 ```
 
-##Declaring functions
+Note that printing something to the screen using `console.log` is not the same as returning values. Returning a value is like "assigning a value" to the function call. This means that returned values can be used again in your code. Compare these two examples:
 
-There are two different ways to declare a function
 ```js
-function multiply(a, b) {
+//Expected behaviour
+function multiply(num1, num2) {
+	return num1 * num2;
+}
+
+console.log("2 * 3 =", multiply(2,3));
+//2 * 3 = 6
+```
+
+```js
+//Totally unexpected behaviour
+function multiply(num1, num2) {
+	console.log(num1 * num2);
+}
+
+console.log("2 * 3 =", multiply(2,3));
+//6
+//2 * 3 = undefined
+```
+
+## Declaring functions
+
+There are two main ways to declare a function
+```js
+var multiply = function(a, b) {
 	return a * b;
 }
 
@@ -115,7 +138,7 @@ function multiply(a, b) {
 }
 ```
 
-The difference between these two is that the first one is defined at run-time, meaning that if we try to call the function before it's declared, an error will be thrown:
+The main difference between these two is that the first one is defined at run-time, meaning that if we try to call the function before it's declared, an error will be thrown:
 ```js
 multiply(2, 2); // ERROR
 
@@ -133,7 +156,45 @@ function multiply(a, b) {
 }
 ```
 
-Despite being more flexible, the former declaration that assigns the function to a variable is more common when developing Node applications.
+Despite being more flexible, the former declaration that assigns the function to a variable is more common when developing Node applications. You can read more about the difference [here](http://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname)
+
+## Anonymous functions
+
+Anonymous functions are functions that are not stored to a variable. Here is an analog
+
+```js
+// this assigns the value 3 to three
+var three = 3;
+
+//this is just the value 3
+3;
+
+// these do the same thing
+console.log(2 + three);
+console.log(2 + 3);
+```
+
+Similarly
+
+```js
+//named function
+var hi = function(){
+	console.log('hi!');
+}
+
+//anonymous function
+function(){
+	console.log('hi!');
+}
+
+//these do the same thing
+hi();
+(function(){
+	console.log('hi!');
+})()
+```
+
+Anonymous functions look like a mess, but they are great for functions you only need once and will never use again. We'll see more of them when we review **callbacks**.
 
 ###Exercises
 
