@@ -1,5 +1,6 @@
 ## Lab schedule
 
+<!--
 ### Week 4
 | Day | Topic  | Lab |
 | ----| ------ | ---- |
@@ -27,7 +28,7 @@
 | Wednesday | JavaScript | Javascript exercises in Class                                       |
 | Tuesday   | CSS        | [Recreate Instagram][902]                                            |
 | Monday    | Internet   | [Internet Lab][1000]                                                 |
-
+-->
 <!--  links to labs -->
 
 [1000]: 03-internet/internet-lab.md
