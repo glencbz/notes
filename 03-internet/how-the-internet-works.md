@@ -1,29 +1,6 @@
 # How the Internet works
 
-## Internet Acronym Test
-
-Working as web developers you will be bombarded with acronyms, but don't worry just like the MRT you don't need to know what it stands for in order to use it.
-
-1. WWW (World Wide Web)
-2. ISP (Internet Service Provider)
-3. DNS (Domain Name System)
-4. TCP (Transmission Control Protocol)
-5. IP (Internet Protocol)
-6. URL (Uniform Resource Locator)
-7. TLD (Top Level Domain)
-8. HTTPS (Hyper Text Transfer Protocol Secure)
-9. FTP (File Transfer Protocol)
-10. JSON (Javascript Object Notation) 
-11. HTML (HyperText Markup Language)
-12. CSS (Cascading Style Sheet)
-13. IE (Internet Explorer)
-14. CLI (Command Line Interface)
-15. GUI (Graphical User Interface)
-16. ECMA (European Computer Manufacturers Association)
-17. W3C (World Wide Web Consortium)
-18. DOM (Display Object Model)
-
-## Server, Client, Request, HTTP
+### Server, Client, Request, HTTP
 
 The internet as you know comes down to requests and responses - you send information out, and based on the info you send, you get information back.
 
@@ -41,29 +18,27 @@ Don't worry about this too much, this isn't a networking course but a basic unde
 
 #### HTTP 101 (Application Layer)
 
-HTTP is the most common protocol we'll work with. It stands for "Hyper Text Transfer Protocol", it allows for communication between a variety of different computers and supports a ton of different network configurations. To make this possible, it assumes very little about a particular system, and does not keep state between different message exchanges.
+HTTP is the most common protocol we'll work with. It stands for "**H**yper **T**ext **T**ransfer **P**rotocol", it allows for communication between a variety of different computers and supports a ton of different network configurations. To make this possible, it assumes very little about a particular system, and does not keep state between different message exchanges.
 
 Read this as: "HTTP makes it easy for many different computers to talk to each other."
 
-This makes HTTP a stateless protocol.
-
 Let's define the following vocabulary:
 
-- **Host** - a computer or other device connected to a computer network; host may offer information resources, services, and applications (via computer code!) to users or other computers on the network. Often used interchangeably with the term server.
+- **Host/Server** - a computer or other device connected to a computer network; host may offer information resources, services, and applications (via computer code!) to users or other computers on the network.
   - Ex: servers and web services
 - **Client** - the requesting program in the client/host relationship; the client initiates an HTTP request message, which is serviced through a HTTP response message in return
   - Ex: browsers, terminals, SQL clients
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c9/Client-server-model.svg)
 
-To sum it up, communication between a host and a client occurs via a request/response pair. The client initiates an HTTP request message, which is serviced through a HTTP response message in return. We will look at this fundamental message-pair in the next section.
+Communication between a host and a client occurs via a request/response pair. The client initiates an HTTP request message, which is serviced through a HTTP response message in return. We will look at this fundamental message-pair in the next section.
 
 Now, we're making this really simple, just to give you the big idea - there are a ton of intricacies that go into getting your request message to the right place and delivering the information you requested.  We'll go into more detail today and over the rest of the course.
 
 
-_Text From [Tuts +](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)_
+_Text modified From [Tuts +](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)_
 
-Note that you will have seen HTTPS used on websites, this is the secure version of the http protocol and is used when transmitting sensitive data. It uses encryption and is more secure but is slower.
+Note that you will have seen HTTPS used on websites, this is the secure version of the HTTP protocol and is used when transmitting sensitive data. It uses encryption and is more secure but is slower.
 
 #### How to reach a specific server
 
