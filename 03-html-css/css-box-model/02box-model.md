@@ -1,37 +1,28 @@
 # The Box Model
 
-All HTML elements can be considered boxes. Even if you see a circle, it's living within a box. This is what we refer to as the CSS box model: all HTML elements are wrapped in rectangular boxes. Understanding the different parts of the box model is esse
+All HTML elements can be considered boxes. Even if you see a circle, it's living within a box. This is what we refer to as the CSS box model: all HTML elements are wrapped in rectangular boxes. Understanding the different parts of the box model is essential to creating the layouts that you want!
 
-
-
-margins, borders, padding, and the actual content.  This model allows us to place a border around elements and space elements in relation to other elements.
-
-With CSS properties and values, it is possible to apply specific styles to each of these elements, and change the way they behave and/or display on the page.
-
-The image below illustrates the box model and what you should have seen in your dev tools:
+The image below illustrates the four parts of the box model (you can see this in your dev tools):
 
 ![box-model](http://s6.postimg.org/gi8r6c341/css_box_model.png)
 
 _From [www.theslate.org](http://www.theslate.org)_
 
-But what do these different layers mean, and how are they relating to one another?
+These parts are:
 
----
+- **Content** - the content of your element, where text and images appear
+- **Padding** - the area between the content and the border; possesses the element's background color
+- **Border** - a border that goes around the padding and content; possesses the element's background color (but usually has its own background color)
 
-* **Margin** - clears an area around the border; the margin does not have a background color, it is completely transparent
-  * The margin is **outside the element**
-* **Border** - a border that goes around the padding and content; the border is affected by the background color of the box
-  * The border is **inside the element**
-* **Padding** - clears an area around the content; the space between the content and the border; the padding is affected by the background color of the box
-  * The padding is **inside the element**
-* **Content** - The content of the box, where text and images appear
-  * The content is **inside the element**
+* **Margin** - clears an area around the border; the margin does not have a background color, it is completely transparent (because it is **outside the element**)
 
----
+By default, when you specify a `height` or `width` in CSS, this applies only to the height or width of the content. This is actually a CSS property: `box-sizing: content-box` and can lead to some very unexpected results.
 
-## Layers of the Box Model
+The remedy to this is the CSS property `box-sizing`. `box-sizing: border-box` causes the `height` and `width` to include everything up to the border. To see how intuitive this is over the default `box-sizing: content-box`, we'll refer to http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-sizing2. Notice that even though we have two elements `width: 50%`, we still require `border-box` to make the elements sit nicely together. 
 
-Let's get go into some more detail and practice with each of these elements of The Box Model.
+
+
+## Parts of the Box Model
 
 #### Margin
 
@@ -60,13 +51,15 @@ div {
 }
 ```
 
-You can do top-bottom and side side - let's add this to our css for now:
+You can do top-bottom and left-right:
 
 ```css
 div {
   margin: 0 auto;
 }
 ```
+
+Automatic left-right margins is actually a handy trick used to horizontally center elements.
 
 #### Border
 

@@ -4,23 +4,23 @@
 * [Unit 1](unit-1.md)
   * [Internet Fundamentals](03-internet/how-the-internet-works.md)
     * [Internet Lab](03-internet/internet-lab.md)
-    * [HTML\/CSS](03-html-css/readme.md)
-      * [HTML](03-html-css/html-review/readme.md)
-      * [CSS Selectors](03-html-css/css-selectors/readme.md)
-      * [CSS Box Model and Positioning](03-html-css/css-box-model/readme.md)
-      
-        * [Box Model](03-html-css/css-box-model/02box-model.md)
-        * [Display and Positioning](03-html-css/css-box-model/03display-positioning.md)
-        * [Floats and Clears](03-html-css/css-box-model/04floats-clears.md)
-        * [Additional Topics](03-html-css/css-box-model/05additional.md)
+  * [HTML\/CSS](03-html-css/readme.md)
+    * [HTML](03-html-css/html-review/readme.md)
+    * [CSS Selectors](03-html-css/css-selectors/readme.md)
+    * [CSS Box Model and Positioning](03-html-css/css-box-model/readme.md)
 
-      * [Advanced CSS](03-html-css/css-responsive-design/readme.md)
+      * [Box Model](03-html-css/css-box-model/02box-model.md)
+      * [Display and Positioning](03-html-css/css-box-model/03display-positioning.md)
+      * [Floats and Clears](03-html-css/css-box-model/04floats-clears.md)
+      * [Additional Topics](03-html-css/css-box-model/05additional.md)
 
-        * [Responsive Design](03-html-css/css-responsive-design/02responsivedesign.md)
-        * [Pseudo-Classes\/Elements](03-html-css/css-responsive-design/03pseudo.md)
-        * [Vendor Prefixes](03-html-css/css-responsive-design/04vendorprefixes.md)
-        * [Additional Topics](03-html-css/css-responsive-design/05additional.md)
-        * [Flexbox \(Game\)](03-html-css/css-responsive-design/flexbox.md)
+    * [Advanced CSS](03-html-css/css-responsive-design/readme.md)
+
+      * [Responsive Design](03-html-css/css-responsive-design/02responsivedesign.md)
+      * [Pseudo-Classes\/Elements](03-html-css/css-responsive-design/03pseudo.md)
+      * [Vendor Prefixes](03-html-css/css-responsive-design/04vendorprefixes.md)
+      * [Additional Topics](03-html-css/css-responsive-design/05additional.md)
+      * [Flexbox \(Game\)](03-html-css/css-responsive-design/flexbox.md)
 
     * [JavaScript](02-js-jquery/javascript.md)
 
