@@ -35,6 +35,7 @@
             * [Flexbox \(Game\)](03-html-css/css-responsive-design/flexbox.md)
     * [JavaScript](02-js-jquery/javascript.md)
         * [Primitives](02-js-jquery/js-primitives/readme.md)
+        * [Objects and Arrays](02-js-jquery/js-primitives/objects-arrays.md)
         * [Conditionals and Loops](02-js-jquery/js-control-flow/readme.md)
             * [Boolean Expressions](02-js-jquery/js-control-flow/02boolean.md)
             * [Conditionals](02-js-jquery/js-control-flow/03conditionals.md)

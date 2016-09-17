@@ -15,7 +15,7 @@
 | [JavaScript Primitives][4] Day 3         | Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List](https://www.freecodecamp.com/challenges/shopping-list)  [Javascript Primitives][13-labs/unit-1/primitives.md] (HW) |
 | [JavaScript Control Flow][7]             | [Control Flow Problems][1004] <br><br> [Google Shopping][1002] |
 | [JavaScript Functions][10]               | [Thriller Lyrics][902] <br><br> [Functions Problem Set][1007] <br><br> [Google Shopping Functions][1006] |
-| [DOM and Events][11]                     | [Reddit DOM][1008] <br><br> [Temperature Converter][1009] |
+| [DOM and Events][11]                     | [Fellowship of the Ring](13-labs/unit-1/fellowship.md) |
 | [Callbacks and Iterators][12]            | [Iterators Lab][1011] <br><br> [Iterators with Reddit][1012] |
 | [Intro to jQuery][13]                    | [Random Quote Generator][1013] <br><br> [Todo List][1014] |
 | [jQuery Plugins][14]                     | [jQuery UI Lab][1015]                    |
