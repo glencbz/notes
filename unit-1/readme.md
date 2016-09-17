@@ -18,7 +18,8 @@
 | [JavaScript Functions][10]               | Lab: [Functions practice][1039] |
 | [DOM and Events][11]                     | Lab:[Fellowship of the Ring][1040]|
 |Day 5||
-|Debugging in Javascript[1041]||
+|Debugging in Javascript||
+||Lab: Tic-Tac-Toe[1041]|
 
 See Week 1 cheat-sheet [here][23]
 
@@ -67,6 +68,7 @@ See Week 1 cheat-sheet [here][23]
 [22]:  unit-1/02-js-jquery/js-inheritance/01readme.md
 [23]:  00-schedule/cheat-sheet.md
 [24]:  unit-1/02-js-jquery/js-primitives/objects-arrays.md
+[25]: unit-1/
 
 [900]: https://github.com/WDI-SEA/html_top_ten_movies_table
 [901]: https://github.com/WDI-SEA/html_user_inputs
