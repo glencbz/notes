@@ -1,27 +1,24 @@
 #Unit 1: Front End Development
 
-##Week 1
+### Week 1
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
-| [Internet Fundamentals][1] Day 1         | [Internet Lab (optional)][1000]          |
-| [Command Line][2] Day 1                  | [Command Line Murder Mystery (HW)][1001] |
-| [Intro to Git][3] Day 1                  | [Git and GitHub Intro Lab][1026]         |
-| [HTML][5] Day 1                          | [HTML CSS Challenge: Profile Content (HW)](https://github.com/lewagon/html-css-challenges/tree/master/01-profile-content) |
-| [HTML (user input)][5] Day 1             | [HTML User Input Lab][901]               |
-| [CSS Selectors][6] Day 2                 | [HTML CSS Challenge: Fonts Colors(HW)](https://github.com/lewagon/html-css-challenges/tree/master/02-fonts-colors) |
-| [CSS Selectors][6] Day 2                 | [Flukeout](https://flukeout.github.io/)  |
-| [CSS Box Model and Positioning][9] Day 2 | [Recreate Instagram][1023] <br><br> [Recreate Airbnb][1024] |
-| [CSS Box Model and Positioning][9] Day 2 | [HTML CSS Challenge: Box Model](https://github.com/lewagon/html-css-challenges/tree/master/03-box-model) (HW) |
-| [JavaScript Primitives][4] Day 2         | Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks](https://www.freecodecamp.com/challenges/word-blanks) (HW) |
-| [JavaScript Primitives][4] and [JavaScript Control Flow][7]  Day 3         | Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List](https://www.freecodecamp.com/challenges/shopping-list) (Plan A), [Javascript Primitives][13-labs/unit-1/primitives.md] (HW) + Javascript FreeCodeCamp from https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops to https://www.freecodecamp.com/challenges/nesting-for-loops Plan B| 
-|[Javascript Objects][10???]|FreeCodeCamp from [Objects as variables](https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables) to [Make Object Properties Private](https://www.freecodecamp.com/challenges/make-object-properties-private)|
-| [JavaScript Functions][10]               | [Thriller Lyrics][902] <br><br> [Functions Problem Set][1007] <br><br> [Google Shopping Functions][1006] |
-| [DOM and Events][11]                     | Fellowship of the Ring(13-labs/unit-1/fellowship.md) |
+| [Internet Fundamentals][1] Day 1         | Lab: [Internet Lab (optional)][1000]     |
+| [Command Line][2] Day 1                  | Lab: [Command Line Murder Mystery][1001] |
+| [Intro to Git][3] Day 1                  | Lab: [Git and GitHub Intro Lab][1026]    |
+| [HTML][5] Day 1                          | Lab:[HTML User Input Lab][901]<br><br>HW:[HTML CSS Challenge: Profile Content][1028] |
+| [CSS Selectors][6] Day 2                 | Lab:[Flukeout][1029]<br><br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
+| [CSS Box Model and Positioning][9] Day 2 | Lab:[Recreate Instagram][1023] <br> [Recreate Airbnb][1024] <br><br> HW:[HTML CSS Challenge: Box Model][1031]|
+| [JavaScript Primitives][4] Day 2         | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032](HW) |
+| [JavaScript Primitives][4] and [JavaScript Control Flow][7]  Day 3 | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!--(Plan A)—><!— <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B—> |
+| [Javascript Objects][24]              | Lab: FreeCodeCamp from [Objects as variables][1037] to [Make Object Properties Private][1038]|
+| [JavaScript Functions][10]               | Lab: [Functions practice][1039] |
+| [DOM and Events][11]                     | Lab:[Fellowship of the Ring][1040|
 
 See Week 1 cheat-sheet [here][23]
 
 <!--
-##Week 2
+### Week 2
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
 | [Callbacks and Iterators][12]            | [Iterators Lab][1011] <br><br> [Iterators with Reddit][1012] |
@@ -42,33 +39,34 @@ See Week 1 cheat-sheet [here][23]
 | [Code Review][1025]            |
 -->
 
-[1]: 03-internet/how-the-internet-works.md
-[2]: 01-workflow/command-line/01readme.md
-[3]: 01-workflow/intro-git/readme.md
-[4]: 02-js-jquery/js-primitives/readme.md
-[5]: 03-html-css/html-review/readme.md
-[6]: 03-html-css/css-selectors/readme.md
-[7]: 02-js-jquery/js-control-flow/readme.md
-[9]: 03-html-css/css-box-model/readme.md
-[10]: 02-js-jquery/js-functions/readme.md
-[11]: 02-js-jquery/js-dom-events/readme.md
-[12]: 02-js-jquery/js-callbacks-iterators/readme.md
-[13]: 02-js-jquery/jquery-intro/readme.md
-[14]: 02-js-jquery/jquery-plugins/readme.md
-[15]: 02-js-jquery/jquery-ajax/readme.md
-[16]: 03-html-css/css-responsive-design/readme.md
-[17]: 03-html-css/css-bootstrap/readme.md
-[18]: 09-other-topics/user-stories-wireframing/readme.md
-[19]: 02-js-jquery/js-prototypes/01readme.md
-[20]: 02-js-jquery/js-tdd-intro/readme.md
-[21]: 02-js-jquery/js-scopes/readme.md
-[22]: 02-js-jquery/js-inheritance/01readme.md
-[23]: 00-schedule/cheat-sheet.md
+[1]:  unit-1/03-internet/how-the-internet-works.md
+[2]:  unit-1/01-workflow/command-line/01readme.md
+[3]:  unit-1/01-workflow/intro-git/readme.md
+[4]:  unit-1/02-js-jquery/js-primitives/readme.md
+[5]:  unit-1/03-html-css/html-review/readme.md
+[6]:  unit-1/03-html-css/css-selectors/readme.md
+[7]:  unit-1/02-js-jquery/js-control-flow/readme.md
+[9]:  unit-1/03-html-css/css-box-model/readme.md
+[10]:  unit-1/02-js-jquery/js-functions/readme.md
+[11]:  unit-1/02-js-jquery/js-dom-events/readme.md
+[12]:  unit-1/02-js-jquery/js-callbacks-iterators/readme.md
+[13]:  unit-1/02-js-jquery/jquery-intro/readme.md
+[14]:  unit-1/02-js-jquery/jquery-plugins/readme.md
+[15]:  unit-1/02-js-jquery/jquery-ajax/readme.md
+[16]:  unit-1/03-html-css/css-responsive-design/readme.md
+[17]:  unit-1/03-html-css/css-bootstrap/readme.md
+[18]:  09-other-topics/user-stories-wireframing/readme.md
+[19]:  unit-1/02-js-jquery/js-prototypes/01readme.md
+[20]:  unit-1/02-js-jquery/js-tdd-intro/readme.md
+[21]:  unit-1/02-js-jquery/js-scopes/readme.md
+[22]:  unit-1/02-js-jquery/js-inheritance/01readme.md
+[23]:  00-schedule/cheat-sheet.md
+[24]:  unit-1/02-js-jquery/js-primitives/objects-arrays.md
 
 [900]: https://github.com/WDI-SEA/html_top_ten_movies_table
 [901]: https://github.com/WDI-SEA/html_user_inputs
 [902]: https://github.com/ga-students/functions-thriller-lyrics
-[1000]: 03-internet/internet-lab.md
+[1000]:  unit-1/03-internet/internet-lab.md
 [1001]: https://github.com/WDI-SEA/command-line-murder-mystery
 [1002]: https://github.com/WDI-SEA/google-shopping-conditionals-loops
 [1003]: https://www.freecodecamp.com/challenges/comment-your-javascript-code
@@ -96,3 +94,16 @@ See Week 1 cheat-sheet [here][23]
 [1025]: https://github.com/WDI-SEA/code-review
 [1026]: https://github.com/ga-students/git-github-lab
 [1027]: https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops
+[1028]: https://github.com/lewagon/html-css-challenges/tree/master/01-profile-content
+[1029]: https://flukeout.github.io/
+[1030]: https://github.com/lewagon/html-css-challenges/tree/master/02-fonts-colors
+[1031]: https://github.com/lewagon/html-css-challenges/tree/master/03-box-model
+[1032]: https://www.freecodecamp.com/challenges/word-blanks 
+[1033]: https://www.freecodecamp.com/challenges/shopping-list
+[1034]: unit-1/labs/primitives.md
+[1035]: https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops
+[1036]: https://www.freecodecamp.com/challenges/nesting-for-loops 
+[1037]: https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
+[1038]: https://www.freecodecamp.com/challenges/make-object-properties-private
+[1039]: unit-1/labs/functions.md
+[1040]: unit-1/labs/fellowship.md

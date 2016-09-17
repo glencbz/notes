@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Unit 1](unit-1/readme.md)
-    * [Labs](unit-1/labs/readme.md)
     * [Internet Fundamentals](unit-1/03-internet/how-the-internet-works.md)
     * [Development Workflow](unit-1/01-workflow/readme.md)
         * [Command Line](unit-1/01-workflow/command-line/01readme.md)
