@@ -1,5 +1,8 @@
 #Unit 1: Front End Development
 
+##Week 1
+##Week 2
+
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
 | [Internet Fundamentals][1] Day 1         | [Internet Lab (optional)][1000]          |
@@ -12,8 +15,8 @@
 | [CSS Box Model and Positioning][9] Day 2 | [Recreate Instagram][1023] <br><br> [Recreate Airbnb][1024] |
 | [CSS Box Model and Positioning][9] Day 2 | [HTML CSS Challenge: Box Model](https://github.com/lewagon/html-css-challenges/tree/master/03-box-model) (HW) |
 | [JavaScript Primitives][4] Day 2         | Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks](https://www.freecodecamp.com/challenges/word-blanks) (HW) |
-| [JavaScript Primitives][4] Day 3         | Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List](https://www.freecodecamp.com/challenges/shopping-list)  [Javascript Primitives][13-labs/unit-1/primitives.md] (HW) |
-| [JavaScript Control Flow][7]             | [Control Flow Problems][1004] <br><br> [Google Shopping][1002] |
+| [JavaScript Primitives][4] and [JavaScript Control Flow][7]  Day 3         | Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List](https://www.freecodecamp.com/challenges/shopping-list) (Plan A), [Javascript Primitives][13-labs/unit-1/primitives.md] (HW) + Javascript FreeCodeCamp from https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops to https://www.freecodecamp.com/challenges/nesting-for-loops Plan B| 
+|[Javascript Objects][10???]|FreeCodeCamp from [Objects as variables](https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables) to [Make Object Properties Private](https://www.freecodecamp.com/challenges/make-object-properties-private)|
 | [JavaScript Functions][10]               | [Thriller Lyrics][902] <br><br> [Functions Problem Set][1007] <br><br> [Google Shopping Functions][1006] |
 | [DOM and Events][11]                     | [Fellowship of the Ring](13-labs/unit-1/fellowship.md) |
 | [Callbacks and Iterators][12]            | [Iterators Lab][1011] <br><br> [Iterators with Reddit][1012] |
@@ -88,3 +91,4 @@ See Week 1 cheat-sheet [here][23]
 [1024]: https://github.com/ga-students/css-airbnb
 [1025]: https://github.com/WDI-SEA/code-review
 [1026]: https://github.com/ga-students/git-github-lab
+[1027]: https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops
