@@ -16,7 +16,7 @@
 | [JavaScript Primitives][4] and [JavaScript Control Flow][7]  Day 3         | Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List](https://www.freecodecamp.com/challenges/shopping-list) (Plan A), [Javascript Primitives][13-labs/unit-1/primitives.md] (HW) + Javascript FreeCodeCamp from https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops to https://www.freecodecamp.com/challenges/nesting-for-loops Plan B| 
 |[Javascript Objects][10???]|FreeCodeCamp from [Objects as variables](https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables) to [Make Object Properties Private](https://www.freecodecamp.com/challenges/make-object-properties-private)|
 | [JavaScript Functions][10]               | [Thriller Lyrics][902] <br><br> [Functions Problem Set][1007] <br><br> [Google Shopping Functions][1006] |
-| [DOM and Events][11]                     | [Reddit DOM][1008] <br><br> [Temperature Converter][1009] |
+| [DOM and Events][11]                     | Fellowship of the Ring(13-labs/unit-1/fellowship.md) |
 
 See Week 1 cheat-sheet [here][23]
 
