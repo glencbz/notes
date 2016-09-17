@@ -84,4 +84,4 @@ See Week 1 cheat-sheet [here][23]
 [1023]: https://github.com/ga-students/css-positioning
 [1024]: https://github.com/ga-students/css-airbnb
 [1025]: https://github.com/WDI-SEA/code-review
-[1026]: https://github.com/ga-students/learn-git-newsroom-style
+[1026]: 13-labs/git-github-lab/readme.md
