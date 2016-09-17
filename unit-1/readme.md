@@ -9,11 +9,11 @@
 | [HTML][5] Day 1                          | Lab:[HTML User Input Lab][901]<br><br>HW:[HTML CSS Challenge: Profile Content][1028] |
 | [CSS Selectors][6] Day 2                 | Lab:[Flukeout][1029]<br><br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
 | [CSS Box Model and Positioning][9] Day 2 | Lab:[Recreate Instagram][1023] <br> [Recreate Airbnb][1024] <br><br> HW:[HTML CSS Challenge: Box Model][1031]|
-| [JavaScript Primitives][4] Day 2         | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032](HW) |
-| [JavaScript Primitives][4] and [JavaScript Control Flow][7]  Day 3 | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!--(Plan A)—><!— <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B—> |
+| [JavaScript Primitives][4] Day 2         | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032]|
+| [JavaScript Primitives][4] and [JavaScript Control Flow][7]  Day 3 | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!-- <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B --> |
 | [Javascript Objects][24]              | Lab: FreeCodeCamp from [Objects as variables][1037] to [Make Object Properties Private][1038]|
 | [JavaScript Functions][10]               | Lab: [Functions practice][1039] |
-| [DOM and Events][11]                     | Lab:[Fellowship of the Ring][1040|
+| [DOM and Events][11]                     | Lab:[Fellowship of the Ring][1040]|
 
 See Week 1 cheat-sheet [here][23]
 
