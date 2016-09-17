@@ -1,8 +1,6 @@
 #Unit 1: Front End Development
 
 ##Week 1
-##Week 2
-
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
 | [Internet Fundamentals][1] Day 1         | [Internet Lab (optional)][1000]          |
@@ -19,6 +17,11 @@
 |[Javascript Objects][10???]|FreeCodeCamp from [Objects as variables](https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables) to [Make Object Properties Private](https://www.freecodecamp.com/challenges/make-object-properties-private)|
 | [JavaScript Functions][10]               | [Thriller Lyrics][902] <br><br> [Functions Problem Set][1007] <br><br> [Google Shopping Functions][1006] |
 | [DOM and Events][11]                     | [Fellowship of the Ring](13-labs/unit-1/fellowship.md) |
+
+See Week 1 cheat-sheet [here][23]
+
+<!--
+##Week 2
 | [Callbacks and Iterators][12]            | [Iterators Lab][1011] <br><br> [Iterators with Reddit][1012] |
 | [Intro to jQuery][13]                    | [Random Quote Generator][1013] <br><br> [Todo List][1014] |
 | [jQuery Plugins][14]                     | [jQuery UI Lab][1015]                    |
@@ -35,8 +38,7 @@
 | [Tic Tac Toe][1010]            |
 | [Project 1][1022]              |
 | [Code Review][1025]            |
-
-See Week 1 cheat-sheet [here][23]
+-->
 
 [1]: 03-internet/how-the-internet-works.md
 [2]: 01-workflow/command-line/01readme.md
