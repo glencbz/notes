@@ -4,11 +4,11 @@
 | ---------------------------------------- | ---------------------------------------- |
 |Day 1 | |
 | [Internet Fundamentals][1]         | Lab: [Internet Lab (optional)][1000]     |
-| [Command Line][2]                  | Lab: [Command Line Murder Mystery][1001] |
+| [Command Line][2]                  | HW: [Command Line Murder Mystery][1001] |
 | [Intro to Git][3] | Lab: [Git and GitHub Intro Lab][1026]    |
-| [HTML][5] | Lab:[HTML User Input Lab][901]<br><br>HW:[HTML CSS Challenge: Profile Content][1028] |
+| [HTML][5] | Lab:[HTML User Input Lab][901]<br>HW:[HTML CSS Challenge: Profile Content][1028] |
 |Day 2| |
-| [CSS Selectors][6]                 | Lab:[Flukeout][1029]<br><br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
+| [CSS Selectors][6]                 | Lab:[Flukeout][1029]<br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
 | [CSS Box Model and Positioning][9] | Lab:[Recreate Instagram][1023] <br> [Recreate Airbnb][1024] <br><br> HW:[HTML CSS Challenge: Box Model][1031]|
 | [JavaScript Primitives][4]       | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032]|
 |Day 3||
