@@ -1,5 +1,8 @@
 #Unit 1: Front End Development
 
+##Week 1
+##Week 2
+
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
 | [Internet Fundamentals][1] Day 1         | [Internet Lab (optional)][1000]          |
