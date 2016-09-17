@@ -199,4 +199,3 @@ Student.prototype.isPrototypeOf(p); // returns false
 ```
 
 You can read more about the difference between isPrototypeOf and isInstanceOf [here](http://stackoverflow.com/questions/2464426/whats-the-difference-between-isprototypeof-and-instanceof-in-javascript)
-
