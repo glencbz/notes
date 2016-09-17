@@ -1,4 +1,4 @@
-# Javascript Primitives
+# Data Types, Variables and Arrays
 
 ## History
 
