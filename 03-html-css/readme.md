@@ -1,10 +1,10 @@
-# HTML\/CSS
+# HTML CSS
 
-\# HTML Recap
+# HTML Recap
 
 Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS and Javascript. You will use these all the time. HTML is about defining the structure or a document. CSS is about the design and presentation of it, and Javascript is about control the behaviours of it. We'll cover all three but first let's focus on HTML.
 
-\#\#\#\# What is HTML?
+#### What is HTML?
 
 * Stands for Hyper Text Markup Language
 
@@ -13,7 +13,7 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 * Made up of tags \(opening and closing usually\), which in turn create elements
 
 
-\`\`\`html
+```html
 
 &lt;!-- This whole thing is an element --&gt;
 
@@ -23,11 +23,11 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 
 &lt;p class="default-paragraph another-class"&gt;Some content in here&lt;\/p&gt;
 
-\`\`\`
+```
 
-\#\#\#\# What does an HTML document need?
+#### What does an HTML document need?
 
-\`\`\`html
+```html
 
 &lt;!doctype html&gt; &lt;!-- Always have this - it describes which version of HTML you are using --&gt;
 
@@ -51,11 +51,11 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 
 &lt;\/html&gt;
 
-\`\`\`
+```
 
-\#\#\#\# Common Elements
+#### Common Elements
 
-\`\`\`html
+```html
 
 &lt;!-- Heading Tags - getting less important the higher the number --&gt;
 
@@ -125,9 +125,9 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 
 &lt;!-- etc. --&gt;
 
-\`\`\`\`
+````
 
-\#\#\#\# DOM \(Document Object Model\)
+#### DOM (Document Object Model)
 
 One last point we shall mention briefly is the DOM or Document Object Model. The DOM is technically an API for representing and interacting with elements in HTML. The easiest way to think about this is that HTML is the language we used to describe what we want, the DOM is the object created to then represents that in memory, in a tree like structure. Later we'll talk about manipulating the DOM and what we mean is changing the structure of the pages we defined in out HTML.
 
@@ -137,5 +137,5 @@ For more information, see \[here\]\(https:\/\/developer.mozilla.org\/en\/docs\/W
 
 #### Resources:
 
-* [http:\/\/www.w3schools.com\/html\/](http://www.w3schools.com/html/)
+* [http://www.w3schools.com/html/](http://www.w3schools.com/html/)
 
