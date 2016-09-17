@@ -1,4 +1,4 @@
-#Loops
+# Loops
 
 #### `while`
 
@@ -26,7 +26,9 @@ while (CONDITION) {
   //CODE
 }
 ```
+
 ---
+
 #### `for`
 
 A **for loop** is a fancy **while loop**.
@@ -89,21 +91,21 @@ for (var thing in car) {
 // > my car has 5 seats
 ```
 
-A note to those who come from other languages, although you *could* use `for...in` for arrays, it actually operates on keys. This means that if your array has some extra keys, it won't work the way you intended.
+A note to those who come from other languages, although you _could_ use `for...in` for arrays, it actually operates on keys. This means that if your array has some extra keys, it won't work the way you intended.
 
 ---
 
 ### Exercises
 
-1. Implement [Fizz Buzz](http://en.wikipedia.org/wiki/Fizz_buzz). Loop
-   from 1 to 100.  If the number is divible by both 3 and 5, print
-   "fizzbuzz". Otherwise, if the number if divisible by 3, print
-   "fizz", or, if the number is divisible by 5, print "buzz". If none
-   of the above are true, print the number. This is a very common
-   interview question!
+1. Implement [Fizz Buzz](http://en.wikipedia.org/wiki/Fizz_buzz). Loop from 1 to 100.  If the number is divible by both 3 and 5, print
+  "fizzbuzz". Otherwise, if the number if divisible by 3, print
+  "fizz", or, if the number is divisible by 5, print "buzz". If none
+  of the above are true, print the number. This is a very common
+  interview question!
 
 2. Use a `for...in` loop to examine the `phoneBook` Object below and print
-   out the names of all the people who share the phone number "333-333-3333".
+  out the names of all the people who share the phone number "333-333-3333".
+
 
 ```js
 var phoneBook = {
@@ -135,3 +137,4 @@ var phoneBook = {
   "Zed": "111-111-1111"
 };
 ```
+
