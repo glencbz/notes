@@ -12,7 +12,7 @@
 | [CSS Box Model and Positioning][9] | Lab:[Recreate Instagram][1023] or [Recreate Airbnb][1024] <br> HW:[HTML CSS Challenge: Box Model][1031]|
 | [JavaScript Primitives][4]       | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032]|
 |Day 3||
-| [JavaScript Primitives][4] and [JavaScript Control Flow][7] | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!-- <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B --> |
+| [JavaScript Primitives][4] and [JavaScript Control Flow][7] | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!-- <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B --><br>HW: FreeCodeCamp all [jQuery][1041] challenges|
 |Day 4||
 | [Javascript Objects][24]              | Lab: FreeCodeCamp from [Objects as variables][1037] to [Make Object Properties Private][1038]|
 | [JavaScript Functions][10]               | Lab: [Functions practice][1039] |
@@ -110,3 +110,4 @@ See Week 1 cheat-sheet [here][23]
 [1038]: https://www.freecodecamp.com/challenges/make-object-properties-private
 [1039]: unit-1/labs/functions.md
 [1040]: unit-1/labs/fellowship.md
+[1041]: https://www.freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work
