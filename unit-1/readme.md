@@ -9,7 +9,7 @@
 | [HTML][5] | Lab:[HTML User Input Lab][901]<br>HW:[HTML CSS Challenge: Profile Content][1028] |
 |Day 2| |
 | [CSS Selectors][6]                 | Lab:[Flukeout][1029]<br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
-| [CSS Box Model and Positioning][9] | Lab:[Recreate Instagram][1023] <br> [Recreate Airbnb][1024] <br><br> HW:[HTML CSS Challenge: Box Model][1031]|
+| [CSS Box Model and Positioning][9] | Lab:[Recreate Instagram][1023] or [Recreate Airbnb][1024] <br> HW:[HTML CSS Challenge: Box Model][1031]|
 | [JavaScript Primitives][4]       | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032]|
 |Day 3||
 | [JavaScript Primitives][4] and [JavaScript Control Flow][7] | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!-- <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B --> |
