@@ -20,11 +20,9 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 
 ### Attendance
 
-Our attendance policy for graduation is no more than 4 absences during the
-course. 15 minutes late = 1 tardy. 3 tardies = 1 absence.
+Our attendance policy for graduation is no more than 4 absences during the course. 15 minutes late = 1 tardy. 3 tardies = 1 absence.
 
-If you know you'll be late or absent, please let us know and we'll arrange
-to have your tardy or absence excused.
+If you know you'll be late or absent, please let us know and we'll arrange to have your tardy or absence excused.
 
 ### Homework and Project Policies
 
