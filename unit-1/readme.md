@@ -13,7 +13,7 @@
 | [JavaScript Primitives][4]       | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032]|
 |Day 3||
 | [JavaScript Primitives][4] and [JavaScript Control Flow][7] | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!-- <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B --> |
-|||
+|Day 4||
 | [Javascript Objects][24]              | Lab: FreeCodeCamp from [Objects as variables][1037] to [Make Object Properties Private][1038]|
 | [JavaScript Functions][10]               | Lab: [Functions practice][1039] |
 | [DOM and Events][11]                     | Lab:[Fellowship of the Ring][1040]|
