@@ -19,7 +19,7 @@
 | [DOM and Events][11]                     | Lab:[Fellowship of the Ring][1040]|
 |Day 5||
 |Debugging in Javascript||
-||Lab: Tic-Tac-Toe[1041]|
+||Lab: Tic-Tac-Toe[1042]|
 
 See Week 1 cheat-sheet [here][23]
 
@@ -105,13 +105,14 @@ See Week 1 cheat-sheet [here][23]
 [1029]: https://flukeout.github.io/
 [1030]: https://github.com/lewagon/html-css-challenges/tree/master/02-fonts-colors
 [1031]: https://github.com/lewagon/html-css-challenges/tree/master/03-box-model
-[1032]: https://www.freecodecamp.com/challenges/word-blanks 
+[1032]: https://www.freecodecamp.com/challenges/word-blanks
 [1033]: https://www.freecodecamp.com/challenges/shopping-list
 [1034]: unit-1/labs/primitives.md
 [1035]: https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops
-[1036]: https://www.freecodecamp.com/challenges/nesting-for-loops 
+[1036]: https://www.freecodecamp.com/challenges/nesting-for-loops
 [1037]: https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
 [1038]: https://www.freecodecamp.com/challenges/make-object-properties-private
 [1039]: unit-1/labs/functions.md
 [1040]: unit-1/labs/fellowship.md
 [1041]: https://www.freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work
+[1042]: unit-1/labs/TTT.md
