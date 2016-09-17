@@ -17,6 +17,8 @@
 | [Javascript Objects][24]              | Lab: FreeCodeCamp from [Objects as variables][1037] to [Make Object Properties Private][1038]|
 | [JavaScript Functions][10]               | Lab: [Functions practice][1039] |
 | [DOM and Events][11]                     | Lab:[Fellowship of the Ring][1040]|
+|Day 5||
+|Debugging in Javascript[1041]||
 
 See Week 1 cheat-sheet [here][23]
 
