@@ -19,13 +19,13 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 
 ```html
 
-&lt;!-- This whole thing is an element --&gt;
+<!-- This whole thing is an element -->
 
-&lt;tagname attribute="attribute_value"&gt;&lt;/tagname&gt;
+<tagname attribute="attribute_value"></tagname>
 
-&lt;!-- A paragraph tag with two classes, could be selected in CSS using p.default-paragraph.another-class {} --&gt;
+<!-- A paragraph tag with two classes, could be selected in CSS using p.default-paragraph.another-class {} -->
 
-&lt;p class="default-paragraph another-class"&gt;Some content in here&lt;/p&gt;
+<p class="default-paragraph another-class">Some content in here</p>
 
 ```
 
@@ -33,27 +33,27 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 
 ```html
 
-&lt;!doctype html&gt; &lt;!-- Always have this - it describes which version of HTML you are using --&gt;
+<!doctype html> <!-- Always have this - it describes which version of HTML you are using -->
 
-&lt;html lang="en"&gt;
+<html lang="en">
 
-&lt;head&gt;
+<head>
 
-&lt;!-- This is the meta data of the page, often invisible --&gt;
+<!-- This is the meta data of the page, often invisible -->
 
-&lt;meta charset="utf-8"&gt;
+<meta charset="utf-8">
 
-&lt;title&gt;This is a Web Page&lt;/title&gt;
+<title>This is a Web Page</title>
 
-&lt;/head&gt;
+</head>
 
-&lt;body&gt;
+<body>
 
-&lt;!-- This is where the actual content is --&gt;
+<!-- This is where the actual content is -->
 
-&lt;/body&gt;
+</body>
 
-&lt;/html&gt;
+</html>
 
 ```
 
@@ -61,73 +61,73 @@ Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS
 
 ```html
 
-&lt;!-- Heading Tags - getting less important the higher the number --&gt;
+<!-- Heading Tags - getting less important the higher the number -->
 
-&lt;h1&gt;&lt;/h1&gt;
+<h1></h1>
 
-&lt;h2&gt;&lt;/h2&gt;
+<h2></h2>
 
-&lt;h3&gt;&lt;/h3&gt;
+<h3></h3>
 
-&lt;h4&gt;&lt;/h4&gt;
+<h4></h4>
 
-&lt;h5&gt;&lt;/h5&gt;
+<h5></h5>
 
-&lt;h6&gt;&lt;/h6&gt;
+<h6></h6>
 
-&lt;p&gt;&lt;/p&gt; &lt;!-- A paragraph tag --&gt;
+<p></p> <!-- A paragraph tag -->
 
-&lt;!-- An HTML element can have attributes. Attributes are key value pairs (just like javascript objects) that provide additional information. They look like this. --&gt;
+<!-- An HTML element can have attributes. Attributes are key value pairs (just like javascript objects) that provide additional information. They look like this. -->
 
-&lt;a href="generalassemb.ly"&gt;General Assembly&lt;/a&gt;
+<a href="generalassemb.ly">General Assembly</a>
 
-&lt;img src="" /&gt;
+<img src="" />
 
-&lt;video src=""&gt;&lt;/video&gt;
+<video src=""></video>
 
-&lt;br /&gt; &lt;!-- a new line --&gt;
+<br /> <!-- a new line -->
 
-&lt;hr /&gt; &lt;!-- a horizontal line --&gt;
+<hr /> <!-- a horizontal line -->
 
-&lt;button&gt;&lt;/button&gt;
+<button></button>
 
-&lt;input /&gt;
+<input />
 
-&lt;pre&gt;&lt;/pre&gt; &lt;!-- Preformatted text --&gt;
+<pre></pre> <!-- Preformatted text -->
 
-&lt;code&gt;&lt;/code&gt;
+<code></code>
 
-&lt;textarea&gt;&lt;/textarea&gt;
+<textarea></textarea>
 
-&lt;ul&gt; &lt;!-- Unordered list --&gt;
+<ul> <!-- Unordered list -->
 
-&lt;li&gt;&lt;/li&gt; &lt;!-- List item --&gt;
+<li></li> <!-- List item -->
 
-&lt;/ul&gt;
+</ul>
 
-&lt;ol&gt; &lt;!-- Ordered list --&gt;
+<ol> <!-- Ordered list -->
 
-&lt;li&gt;&lt;/li&gt;
+<li></li>
 
-&lt;/ol&gt;
+</ol>
 
-&lt;div&gt;&lt;/div&gt; &lt;!-- A division, this is just a way to group content --&gt;
+<div></div> <!-- A division, this is just a way to group content -->
 
-&lt;section&gt;&lt;/section&gt;
+<section></section>
 
-&lt;article&gt;&lt;/article&gt;
+<article></article>
 
-&lt;aside&gt;&lt;/aside&gt;
+<aside></aside>
 
-&lt;header&gt;&lt;/header&gt;
+<header></header>
 
-&lt;footer&gt;&lt;/footer&gt;
+<footer></footer>
 
-&lt;main&gt;&lt;/main&gt;
+<main></main>
 
-&lt;nav&gt;&lt;/nav&gt;
+<nav></nav>
 
-&lt;!-- etc. --&gt;
+<!-- etc. -->
 
 ````
 
