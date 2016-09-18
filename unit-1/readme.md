@@ -19,7 +19,7 @@
 | [DOM and Events][11]                     | Lab:[Fellowship of the Ring][1040]|
 |Day 5||
 |Debugging in Javascript||
-||Lab: Tic-Tac-Toe[1042]|
+||Lab: [Tic-Tac-Toe][1042]|
 
 See Week 1 cheat-sheet [here][23]
 
