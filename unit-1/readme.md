@@ -5,7 +5,7 @@
 |Day 1 | |
 | [Internet Fundamentals][1]         | HW: [Internet Lab (optional)][1000]     |
 | [Command Line][2]                  | HW: [Command Line Murder Mystery][1001] |
-| [Intro to Git][3] | Lab: [Git and GitHub Intro Lab][1026]    |
+| [Intro to Git][3] | Lab: Codeschool [Try Git][1043]<br> HW: [Git and GitHub Intro Lab][1026]    |
 | [HTML][5] | Lab:[HTML User Input Lab][901]<br>HW:[HTML CSS Challenge: Profile Content][1028] |
 |Day 2| |
 | [CSS Selectors][6]                 | Lab:[Flukeout][1029]<br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
@@ -61,7 +61,7 @@ See Week 1 cheat-sheet [here][23]
 [15]:  02-js-jquery/jquery-ajax/readme.md
 [16]:  03-html-css/css-responsive-design/readme.md
 [17]:  03-html-css/css-bootstrap/readme.md
-[18]:  /09-other-topics/user-stories-wireframing/readme.md
+[18]:  09-other-topics/user-stories-wireframing/readme.md
 [19]:  02-js-jquery/js-prototypes/01readme.md
 [20]:  02-js-jquery/js-tdd-intro/readme.md
 [21]:  02-js-jquery/js-scopes/readme.md
@@ -71,7 +71,7 @@ See Week 1 cheat-sheet [here][23]
 [900]: https://github.com/WDI-SEA/html_top_ten_movies_table
 [901]: https://github.com/WDI-SEA/html_user_inputs
 [902]: https://github.com/ga-students/functions-thriller-lyrics
-[1000]: 03-internet/internet-lab.md
+[1000]:  03-internet/internet-lab.md
 [1001]: https://github.com/WDI-SEA/command-line-murder-mystery
 [1002]: https://github.com/WDI-SEA/google-shopping-conditionals-loops
 [1003]: https://www.freecodecamp.com/challenges/comment-your-javascript-code
@@ -90,7 +90,7 @@ See Week 1 cheat-sheet [here][23]
 [1016]: https://github.com/WDI-SEA/jquery-ajax
 [1017]: https://github.com/WDI-SEA/ajax-reddit-slideshow
 [1018]: https://github.com/WDI-SEA/bootstrap-mockups
-[1019]: /09-other-topics/user-stories-wireframing/exercise.md
+[1019]: 09-other-topics/user-stories-wireframing/exercise.md
 [1020]: https://github.com/WDI-SEA/oop-prototype-car
 [1021]: https://github.com/WDI-SEA/oop-inheritance-car
 [1022]: 11-projects/project-1/readme.md
@@ -114,3 +114,4 @@ See Week 1 cheat-sheet [here][23]
 [1040]: labs/fellowship.md
 [1041]: https://www.freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work
 [1042]: labs/TTT.md
+[1043]: https://try.github.io/levels/1/challenges/1
