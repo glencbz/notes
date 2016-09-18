@@ -45,5 +45,10 @@ That the code still works may seem unintuitive. Normally, the local variables wi
 
 The solution to this puzzle is that **myFunc has become a closure. A closure is a special kind of object that combines two things: a function, and the environment in which that function was created.** The environment consists of any local variables that were in-scope at the time that the closure was created. In this case, myFunc is a closure that incorporates both the displayName function and the "Mozilla" string that existed when the closure was created.
 
+## More Readings
 
-If you enjoyed reading the above, go to https://developer.mozilla.org/en/docs/Web/JavaScript/Closures for more indepth explanation of closures. It gets more interesting :)
+For more in-depth explanation of closures, check out these resources:
+
+[Understanding Closures with Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
+
+[MDN closure documentation](https://developer.mozilla.org/en/docs/Web/JavaScript/Closures)
