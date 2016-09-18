@@ -45,7 +45,7 @@
        * [DOM and Events](unit-1/02-js-jquery/js-dom-events/readme.md)
        * [DOM Manipulation](unit-1/02-js-jquery/js-dom-manipulation/README.md)
        * [Functional Programming](unit-1/02-js-jquery/js-callbacks-iterators/readme.md)
-           * Callbacks
+           * [Callbacks](unit-1/02-js-jquery/js-callbacks-iterators/callbacks.md)
        * [OOP with Prototypes](unit-1/02-js-jquery/js-prototypes/01readme.md)
            * [Constructors](unit-1/02-js-jquery/js-prototypes/02constructors.md)
            * [Prototypes](unit-1/02-js-jquery/js-prototypes/03prototypes.md)
