@@ -22,7 +22,11 @@ Note: There are many packages with **very** similar names \(e.g. color-picker vs
 * pigments
 * linter-js-standard
 * standard-formatter
-* pigments* atom-beautify* atom-live-server* color-picker* linter
+* pigments
+* atom-beautify
+* atom-live-server
+* color-picker
+* linter
 
 5 . Key commands for these packages
 
