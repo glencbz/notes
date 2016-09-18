@@ -3,7 +3,7 @@
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
 |Day 1 | |
-| [Internet Fundamentals][1]         | Lab: [Internet Lab (optional)][1000]     |
+| [Internet Fundamentals][1]         | HW: [Internet Lab (optional)][1000]     |
 | [Command Line][2]                  | HW: [Command Line Murder Mystery][1001] |
 | [Intro to Git][3] | Lab: [Git and GitHub Intro Lab][1026]    |
 | [HTML][5] | Lab:[HTML User Input Lab][901]<br>HW:[HTML CSS Challenge: Profile Content][1028] |
