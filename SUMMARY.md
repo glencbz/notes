@@ -62,6 +62,5 @@
        * [OOP with Prototypes](unit-1/02-js-jquery/js-prototypes/01readme.md)
            * [Constructors](unit-1/02-js-jquery/js-prototypes/02constructors.md)
            * [Prototypes](unit-1/02-js-jquery/js-prototypes/03prototypes.md)
-       * [Intro to TDD](unit-1/02-js-jquery/js-tdd-intro/readme.md)
    * [Intro to TDD](unit-1/intro_to_tdd.md)
 
