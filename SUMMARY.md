@@ -47,6 +47,7 @@
        * [Functional Programming](unit-1/02-js-jquery/js-callbacks-iterators/readme.md)
            * [Callbacks](unit-1/02-js-jquery/js-callbacks-iterators/callbacks.md)
            * [Iterators](unit-1/02-js-jquery/js-callbacks-iterators/iterators.md)
+       * Closures
        * [OOP with Prototypes](unit-1/02-js-jquery/js-prototypes/01readme.md)
            * [Constructors](unit-1/02-js-jquery/js-prototypes/02constructors.md)
            * [Prototypes](unit-1/02-js-jquery/js-prototypes/03prototypes.md)
@@ -63,5 +64,4 @@
                    * [Local Storage](unit-1/02-js-jquery/additional-topics/ajax-localstorage/03localstorage.md)
                * [Async module](unit-1/02-js-jquery/js-async/readme.md)
                * [Data Scraping](unit-1/02-js-jquery/js-data-scraping/readme.md)
-       * Closures
 
