@@ -63,4 +63,5 @@
                    * [Local Storage](unit-1/02-js-jquery/additional-topics/ajax-localstorage/03localstorage.md)
                * [Async module](unit-1/02-js-jquery/js-async/readme.md)
                * [Data Scraping](unit-1/02-js-jquery/js-data-scraping/readme.md)
+       * Closures
 
