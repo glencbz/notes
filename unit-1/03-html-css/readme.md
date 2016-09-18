@@ -1,6 +1,10 @@
 # HTML CSS
 
-# HTML Recap
+## Objectives
+
+- Construct a HTML page with common elements and attributes
+
+## HTML Recap
 
 Front-end or Client-side web development is dominated by 3 'languages' HTML, CSS and Javascript. You will use these all the time. HTML is about defining the structure or a document. CSS is about the design and presentation of it, and Javascript is about control the behaviours of it. We'll cover all three but first let's focus on HTML.
 
