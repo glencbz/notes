@@ -47,7 +47,7 @@
        * [Functional Programming](unit-1/02-js-jquery/js-callbacks-iterators/readme.md)
            * [Callbacks](unit-1/02-js-jquery/js-callbacks-iterators/callbacks.md)
            * [Iterators](unit-1/02-js-jquery/js-callbacks-iterators/iterators.md)
-       * Closures
+       * [Closures](unit-1/02-js-jquery/closures.md)
        * [OOP with Prototypes](unit-1/02-js-jquery/js-prototypes/01readme.md)
            * [Constructors](unit-1/02-js-jquery/js-prototypes/02constructors.md)
            * [Prototypes](unit-1/02-js-jquery/js-prototypes/03prototypes.md)
