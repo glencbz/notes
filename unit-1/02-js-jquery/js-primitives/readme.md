@@ -1,5 +1,11 @@
 # Data Types, Variables and Arrays
 
+## Objectives
+
+* understand the history of JavaScript and its purpose as a language
+* conceptualize JavaScript variables and data structures
+* utilize primitives and operators in order to solve problems using JavaScript
+
 ## History
 
 **Then**
