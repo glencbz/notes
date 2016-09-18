@@ -45,9 +45,9 @@ See Week 1 cheat-sheet [here][23]
 | [Code Review][1025]            |
 -->
 
-[1]:  unit-1/03-internet/how-the-internet-works.md
-[2]:  unit-1/01-workflow/command-line/01readme.md
-[3]:  unit-1/01-workflow/intro-git/readme.md
+[1]:  03-internet/how-the-internet-works.md
+[2]:  01-workflow/command-line/01readme.md
+[3]:  01-workflow/intro-git/readme.md
 [4]:  unit-1/02-js-jquery/js-primitives/readme.md
 [5]:  unit-1/03-html-css/html-review/readme.md
 [6]:  unit-1/03-html-css/css-selectors/readme.md
