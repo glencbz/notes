@@ -17,7 +17,7 @@ Functions are **first-class citizens** in JavaScript. This means that we can cre
 
 ###Exercise
 
-Try running the following in Node. What is printed to the screen?
+Try running the following. What is printed to the screen?
 
 ```js
 var bag = function() {
