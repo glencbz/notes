@@ -5,7 +5,7 @@
 |Day 1 | |
 | [Internet Fundamentals][1]         | HW: [Internet Lab (optional)][1000]     |
 | [Command Line][2]                  | HW: [Command Line Murder Mystery][1001] |
-| [Intro to Git][3] | Lab: [Git and GitHub Intro Lab][1026]    |
+| [Intro to Git][3] | Lab: Codeschool [Try Git][1043]<br> HW: [Git and GitHub Intro Lab][1026]    |
 | [HTML][5] | Lab:[HTML User Input Lab][901]<br>HW:[HTML CSS Challenge: Profile Content][1028] |
 |Day 2| |
 | [CSS Selectors][6]                 | Lab:[Flukeout][1029]<br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
@@ -116,3 +116,4 @@ See Week 1 cheat-sheet [here][23]
 [1040]: unit-1/labs/fellowship.md
 [1041]: https://www.freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work
 [1042]: unit-1/labs/TTT.md
+[1043]: https://try.github.io/levels/1/challenges/1
