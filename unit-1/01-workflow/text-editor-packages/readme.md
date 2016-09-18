@@ -29,14 +29,18 @@ Note: There are many packages with **very** similar names \(e.g. color-picker vs
 
 5 . Key commands for these packages
 
-* emmet
-  * [http:\/\/docs.emmet.io\/cheat-sheet\/](http://docs.emmet.io/cheat-sheet/)
+<!-- * emmet
+  * [http:\/\/docs.emmet.io\/cheat-sheet\/](http://docs.emmet.io/cheat-sheet/)-->
 
 * color-picker
   * Hit `⌘` + `shift` + `C` to show colour. Repeat to scroll through different colours, and press any other key to exit.
 
 * standard-formatter
   * Hit `Ctrl` + `Alt` + `F` to fix minor linter errors in your javascript file
+
+* atom-live-server
+ * Hit `⌘` + `Shift` + `P`, type `atom live` and choose one of the available server
+
 
 
 ---
