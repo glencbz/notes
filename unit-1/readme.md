@@ -68,8 +68,6 @@ See Week 1 cheat-sheet [here][23]
 [22]:  02-js-jquery/js-inheritance/01readme.md
 [23]:  00-schedule/cheat-sheet.md
 [24]:  02-js-jquery/js-primitives/objects-arrays.md
-[25]: unit-1/
-
 [900]: https://github.com/WDI-SEA/html_top_ten_movies_table
 [901]: https://github.com/WDI-SEA/html_user_inputs
 [902]: https://github.com/ga-students/functions-thriller-lyrics
