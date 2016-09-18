@@ -1,5 +1,15 @@
 # How the Internet works
 
+### Objectives
+
+- Explain the differences between a client and server
+- Explain the difference between the Internet and the World Wide Web
+- Explain the significance of an Internet Protocol (IP) address
+- Explain how data travels through the internet
+- Breakdown the components of a URL: protocol, subdomain, domain, extension, resources
+- Identify and describe the most common HTTP request/response headers and the information associated with each
+- Create a basic HTML webpage using the most common tags
+
 ### Server, Client, Request, HTTP
 
 The internet as you know comes down to requests and responses - you send information out, and based on the info you send, you get information back.
@@ -90,7 +100,7 @@ The response is passed back along the chain and cached at each step to speed up 
 
 #### Ports (Transport Layer)
 
-Whilst we're using our telephone analogy, it's worth mentioning ports. These are the channels that a server agrees to listen to and hence where a client must send their messages and wait for their responses. In the old days, when telephone calls used to go through an operator, they would connect callers across ports, this is a good way to think about it. On the web this is generally hidden from you as ports defaults to port 80 for http and 443 for https but when we're turning our own machines into servers later down the line, we'll be setting the ports. 
+Whilst we're using our telephone analogy, it's worth mentioning ports. These are the channels that a server agrees to listen to and hence where a client must send their messages and wait for their responses. In the old days, when telephone calls used to go through an operator, they would connect callers across ports, this is a good way to think about it. On the web this is generally hidden from you as ports defaults to port 80 for http and 443 for https but when we're turning our own machines into servers later down the line, we'll be setting the ports.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/5/50/Telephone_operators%2C_1952.jpg)
 
@@ -217,6 +227,3 @@ As web developers we'll be spending a lot of time in web browsers. Web Browsers 
 ## Conclusion
 
 The foundational concepts taught in this lesson will be important for the duration of the course because we will use the internet everyday, and if you are struggling with how the data is received on the server, please come back to this lesson and ask questions to your instructional team.
-
-
-
