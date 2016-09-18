@@ -48,9 +48,9 @@ See Week 1 cheat-sheet [here][23]
 [1]:  03-internet/how-the-internet-works.md
 [2]:  01-workflow/command-line/01readme.md
 [3]:  01-workflow/intro-git/readme.md
-[4]:  unit-1/02-js-jquery/js-primitives/readme.md
-[5]:  unit-1/03-html-css/html-review/readme.md
-[6]:  unit-1/03-html-css/css-selectors/readme.md
+[4]:  02-js-jquery/js-primitives/readme.md
+[5]:  03-html-css/html-review/readme.md
+[6]:  03-html-css/css-selectors/readme.md
 [7]:  unit-1/02-js-jquery/js-control-flow/readme.md
 [9]:  unit-1/03-html-css/css-box-model/readme.md
 [10]:  unit-1/02-js-jquery/js-functions/readme.md
