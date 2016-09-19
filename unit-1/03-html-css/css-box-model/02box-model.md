@@ -4,7 +4,7 @@ All HTML elements can be considered boxes. Even if you see a circle, it's living
 
 The image below illustrates the four parts of the box model (you can see this in your dev tools):
 
-![box-model](http://s6.postimg.org/gi8r6c341/css_box_model.png)
+![box-model](https://camo.githubusercontent.com/0eba9b73e12f6ac8a29211e8388ae678a2971d56/687474703a2f2f73362e706f7374696d672e6f72672f6769387236633334312f6373735f626f785f6d6f64656c2e706e67)
 
 _From [www.theslate.org](http://www.theslate.org)_
 
