@@ -68,6 +68,6 @@
        * [DOM Manipulation](unit-1/dom_manipulation.md)
        * [Independent Practice](unit-1/independent_practice.md)
        * [Intermediate jQuery](unit-1/intermediate_jquery.md)
-   * [Intro to TDD](unit-1/intro_to_tdd.md)
    * Responsive Design
+   * [Intro to TDD](unit-1/intro_to_tdd.md)
 
