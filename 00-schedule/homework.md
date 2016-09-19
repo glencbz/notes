@@ -4,6 +4,11 @@ Please submit the link(s) to the repo (github repository) with your homework (e.
 
 To keep your assignments neat, each piece of homework should have its own repo.
 
+### Week 1
+| Day       | Topic      | Homework                                                             |
+| ------    | -----      | --------                                                             |
+| Monday    | HTML       | [HTML User Input Lab][901] 
+
 <!--
 ## Homework schedule
 
