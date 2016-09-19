@@ -64,11 +64,11 @@
                    * [Local Storage](unit-1/02-js-jquery/additional-topics/ajax-localstorage/03localstorage.md)
                * [Async module](unit-1/02-js-jquery/js-async/readme.md)
                * [Data Scraping](unit-1/02-js-jquery/js-data-scraping/readme.md)
-   * [Labs](unit-1/labs)
+   * [Labs](unit-1/labs/readme.md)
        * [Primitives](unit-1/primitives.md)
        * [Functions](unit-1/functions.md)
        * [Fizz buzz](unit-1/fizzbuzz.md)
-       * [Fellowship of the Ring] unit-1/(fellowship.md)
+       * [Fellowship of the Ring](unit-1/fellowship.md)
        * [Tic Tac Toe](unit-1/TTT.md)
    * [Week 1 Homework](unit-1/week_1_homework.md)
 
