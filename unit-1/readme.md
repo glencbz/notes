@@ -7,7 +7,7 @@
 | [Internet Fundamentals][1]         | HW: [Internet Lab (optional)][1000]     |
 | [Command Line][2]                  | HW: [Command Line Murder Mystery][1001] |
 | [Intro to Git][3] | Lab: Codeschool [Try Git][1043]<br> HW: [Git and GitHub Intro Lab][1026]    |
-| [HTML][5] | Lab:[HTML User Input Lab][901]<br>HW:[HTML CSS Challenge: Profile Content][1028] |
+| [HTML][5] | HW:<br>[HTML User Input Lab][901]<br>[HTML CSS Challenge: Profile Content][1028] |
 
 <!---
 
