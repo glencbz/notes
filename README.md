@@ -13,9 +13,9 @@ Welcome to GA Singapore! Here are the notes for our Web Development Immersive. D
 ### Essentials
 
 * [Calendar](00-schedule/calendar.md)
+* [Homework](00-schedule/homework.md)
 
 <!---
-* [Homework](00-schedule/homework.md)
 * [In-Class Labs](00-schedule/labs.md)
 * [Classroom Culture](00-schedule/classroom_culture.md)
 --->
