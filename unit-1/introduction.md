@@ -8,14 +8,7 @@
 - Practice using jQuery selectors
 
 
-### Preparation
-*Before this lesson, students should already be able to:*
-
-- Use vanilla JavaScript to manipulate the DOM
-- Use a text editor
-- Explain CSS selectors
-
-## jQuery - Intro (5 mins)
+## jQuery - Intro 
 
 #### What is jQuery?
 jQuery is a 3rd-party library that is intended to make front-end development tasks — particularly those involving DOM selection and manipulation — easier, faster, and more fun.
@@ -30,7 +23,7 @@ We've already seen that we can make our jobs easier and faster by using Node mod
 
 jQuery helps us manipulate the DOM, allowing us to perform complex manipulations using less code with less hassle.  jQuery's syntax was developed to mimic CSS selector syntax, making code easier to develop, read, and manage; also, the syntax is more concise, and jQuery solves many cross-browser compatibility issues for us.
 
-## Using jQuery - Demo (5 mins)
+## Using jQuery - Demo
 
 #### Installation
 jQuery is a client side library, which means we need to include it in our HTML. To do this, we have two options:
