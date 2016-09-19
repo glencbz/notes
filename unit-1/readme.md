@@ -4,9 +4,9 @@
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
 |Day 1 | |
-| [Internet Fundamentals][1]         | HW: [Internet Lab (optional)][1000]     |
+| [Internet Fundamentals][1]         | Optional: [Internet Lab (optional)][1000]     |
 | [Command Line][2]                  | HW: [Command Line Murder Mystery][1001] |
-| [Intro to Git][3] | Lab: Codeschool [Try Git][1043]<br> HW: [Git and GitHub Intro Lab][1026]    |
+| [Intro to Git][3] | Lab: [Codeschool's Try Git][1043]<br> Optional: [Git and GitHub Intro Lab][1026]    |
 | [HTML][5] | HW:<br>[HTML User Input Lab][901]<br>[HTML CSS Challenge: Profile Content][1028] |
 
 <!---
