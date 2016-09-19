@@ -65,6 +65,6 @@
    * [jQuery](unit-1/jquery.md)
        * [Introduction](unit-1/introduction.md)
        * [DOM Manipulation](unit-1/dom_manipulation.md)
-       * Styling
+       * [Styling](unit-1/styling.md)
    * [Intro to TDD](unit-1/intro_to_tdd.md)
 
