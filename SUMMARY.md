@@ -66,7 +66,7 @@
     	* [Primitives](primitives.md)
 	* [Functions](functions.md)
 	* [Fizz buzz](fizzbuzz.md)
-	* [Fellowship of the Ring] (fellowship.md)
+	* [Fellowship of the Ring](fellowship.md)
 	* [Tic Tac Toe](TTT.md)
 
 <!--
