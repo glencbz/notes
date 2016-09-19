@@ -63,11 +63,11 @@
               * [Async module](unit-1/02-js-jquery/js-async/readme.md)
               * [Data Scraping](unit-1/02-js-jquery/js-data-scraping/readme.md)
     * [Labs](unit-1/labs)
-    	* [Primitives](primitives.md)
-	* [Functions](functions.md)
-	* [Fizz buzz](fizzbuzz.md)
-	* [Fellowship of the Ring](fellowship.md)
-	* [Tic Tac Toe](TTT.md)
+      * [Primitives](primitives.md)
+    	* [Functions](functions.md)
+    	* [Fizz buzz](fizzbuzz.md)
+    	* [Fellowship of the Ring](fellowship.md)
+    	* [Tic Tac Toe](TTT.md)
 
 <!--
 * [Unit 2](unit-2.md)
