@@ -70,5 +70,5 @@
        * [Fizz buzz](fizzbuzz.md)
        * [Fellowship of the Ring] (fellowship.md)
        * [Tic Tac Toe](TTT.md)
-   * Week 1 Homework
+   * [Week 1 Homework](unit-1/week_1_homework.md)
 
