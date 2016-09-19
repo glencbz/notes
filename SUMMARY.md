@@ -64,6 +64,6 @@
            * [Prototypes](unit-1/02-js-jquery/js-prototypes/03prototypes.md)
    * [jQuery](unit-1/jquery.md)
        * [Introduction](unit-1/introduction.md)
-       * DOM Manipulation
+       * [DOM Manipulation](unit-1/dom_manipulation.md)
    * [Intro to TDD](unit-1/intro_to_tdd.md)
 
