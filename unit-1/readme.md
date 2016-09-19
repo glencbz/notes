@@ -1,3 +1,4 @@
+# Unit 1 - Front End Fundamentals
 
 ### Week 1
 | Topic                                    | Assignments                              |
@@ -7,12 +8,15 @@
 | [Command Line][2]                  | HW: [Command Line Murder Mystery][1001] |
 | [Intro to Git][3] | Lab: Codeschool [Try Git][1043]<br> HW: [Git and GitHub Intro Lab][1026]    |
 | [HTML][5] | Lab:[HTML User Input Lab][901]<br>HW:[HTML CSS Challenge: Profile Content][1028] |
+
+<!---
+
 |Day 2| |
 | [CSS Selectors][6]                 | Lab:[Flukeout][1029]<br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
 | [CSS Box Model and Positioning][9] | Lab:[Recreate Instagram][1023] or [Recreate Airbnb][1024] <br> HW:[HTML CSS Challenge: Box Model][1031]|
 | [JavaScript Primitives][4]       | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032]|
 |Day 3||
-| [JavaScript Primitives][4] and [JavaScript Control Flow][7] | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!-- <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B --><br>HW: FreeCodeCamp all [jQuery][1041] challenges|
+| [JavaScript Primitives][4] and [JavaScript Control Flow][7] | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!-- <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B --><br><!---HW: FreeCodeCamp all [jQuery][1041] challenges|
 |Day 4||
 | [Javascript Objects][24]              | Lab: FreeCodeCamp from [Objects as variables][1037] to [Make Object Properties Private][1038]|
 | [JavaScript Functions][10]               | Lab: [Functions practice][1039] |
@@ -20,6 +24,8 @@
 |Day 5||
 |Debugging in Javascript||
 ||Lab: [Tic-Tac-Toe][1042]|
+
+--->
 
 See Week 1 cheat-sheet [here][23]
 

@@ -34,7 +34,7 @@ Projects:  We would like everyone to complete their project as it will significa
 
 ###Administrative Matters
 * At the end of each day's lesson, kindly fill up the [Exit Tickets](https://docs.google.com/forms/d/1dzuKdzh7BuebvPKcoBLnuS5roRcUzdHeNBj__zNNS_Q/viewform?edit_requested=true) to provide feedback for the day's lessons
-* Please fill in your personal particulars [here](https://docs.google.com/spreadsheets/d/1fLXGb59byhXN5Q3GN7p9fUMUUBCxNO6dsGb6qz-dTYc/pubhtml?gid=169502355&single=true)
+* Please fill in your personal particulars [here](https://docs.google.com/spreadsheets/d/1PIqhWx5rXHk-i4BBUnQF251C5LohzKpIggfwILBZnKw/edit?usp=sharing)
 
 <!--
 ###Unit 2: NodeJS/Express
