@@ -9,13 +9,6 @@
 - Describe the difference between asynchronous and synchronous program execution, and why callbacks are important to asynchronous program flow (Bonus)
 
 
-### Preparation
-*Before this lesson, students should already be able to:*
-
-- Write and call functions in javascript
-- Explain what an anonymous function is in javascript
-
-
 ## Callbacks - Intro
 
 Callback functions are derived from a programming paradigm known as **functional programming**. At a fundamental level, functional programming specifies the use of functions as arguments. Functional programming was — and still is, though to a much lesser extent, today — seen as an esoteric technique of specially trained master programmers.
