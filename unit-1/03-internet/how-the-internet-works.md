@@ -227,3 +227,10 @@ As web developers we'll be spending a lot of time in web browsers. Web Browsers 
 ## Conclusion
 
 The foundational concepts taught in this lesson will be important for the duration of the course because we will use the internet everyday, and if you are struggling with how the data is received on the server, please come back to this lesson and ask questions to your instructional team.
+
+
+#### Reading material:
+
+* [
+https://www.khanacademy.org/partner-content/code-org/internet-works](
+https://www.khanacademy.org/partner-content/code-org/internet-works)
