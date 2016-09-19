@@ -1,3 +1,4 @@
+# Unit 1 - Front End Fundamentals
 
 ### Week 1
 | Topic                                    | Assignments                              |
