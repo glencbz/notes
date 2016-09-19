@@ -65,8 +65,8 @@
                * [Data Scraping](02-js-jquery/js-data-scraping/readme.md)
    * [Labs](labs)
        * [Primitives](primitives.md)
-   * [Functions](functions.md)
-   * [Fizz buzz](fizzbuzz.md)
-   * [Fellowship of the Ring] (fellowship.md)
-   * [Tic Tac Toe](TTT.md)
+       * [Functions](functions.md)
+       * [Fizz buzz](fizzbuzz.md)
+       * [Fellowship of the Ring] (fellowship.md)
+       * [Tic Tac Toe](TTT.md)
 
