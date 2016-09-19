@@ -122,3 +122,90 @@ In the jQuery code example above, we first select the DIV with `id="container"`,
 
 You can [see this in action on JSBin](http://jsbin.com/rocabu/1/edit?)
 
+
+#### Modifying Styles (CSS) Using jQuery
+
+You can do more than select elements and modify content. You can also create or update CSS style attributes in jQuery using the .css() method
+
+```js
+$("#myDiv").css("color", "red");
+```
+
+The code above will change the color of all text inside the DIV with id="myDiv" to red.
+
+[Check this out here](http://jsbin.com/cupumu/1/edit?html,js,output)
+
+Or, if we have a bunch of elements that all have the same class (in this example, it's class="myClass"), we can use the class selector to modify the color of all of them at once:
+
+```js
+$(".myClass").css("color", "blue");
+```
+
+[You'll find this example here](http://jsbin.com/yutoyi/1/edit?html,js,output)
+
+But that seems kind of boring. I mean, what if we want to do something with less hard-coding using jQuery.
+
+[Here's a repeat of the last example](http://jsbin.com/wevoti/1/edit?html,js,output) that sets the text in all elements of class="myClass" to a random color. Try to understand how it works before moving on:
+
+```javascript
+var randColorValue = function() {
+  return Math.floor( Math.random() * 255 );
+}
+
+var randColor = function() {
+  var red = randColorValue();
+  var green = randColorValue();
+  var blue = randColorValue();
+
+  return "rgb(" + red + "," + green + "," + blue + ")";
+
+}
+
+$(".myClass").css("color", randColor() );
+```
+
+#### Adding and Removing Elements Using jQuery
+
+Sometimes in a dynamic web application, user-input is meant to trigger the addition or removal of content or functionality. Using jQuery, we can easily create new DOM elements and insert them into the DOM, or remove existing elements (and any content they contain) from the DOM.
+
+So, let's imagine we have a web page with the following content on it:
+
+```html
+<body>
+  <div id="outerContainer">
+    <div class="innerItem innerItemHeader">Enjoy some hipster ipsum:</div>
+    <div class="innerItem">
+      Aesthetic migas paleo McSweeney's, pork belly Kickstarter Echo Park sriracha keytar disrupt viral drinking vinegar fanny pack typewriter.
+    </div>
+  </div>
+</body>
+```
+
+Let's say we want to add some more hipster ipsum to the page. Something like:
+
+```html
+<div class="innerItem">
+	Farm-to-table Godard roof party bespoke, fashion axe mustache vinyl.
+</div>
+```
+
+To add this DIV, and our hipster ipsum content using jQuery, we'd do the following:
+
+Define a new DIV and assign jQuery object to $newDiv
+
+```javascript
+$newDiv = $('<div>');
+
+// Add hipster ipsum content
+$newDiv.html("Farm-to-table Godard roof party bespoke, fashion axe mustache vinyl.");
+
+// Set it's class to innerItem
+$newDiv.addClass("innerItem");
+
+// Append our new element  
+$('#outerContainer').append($newDiv);
+```
+
+
+See this in action (and play around with it) [on JSBin](http://jsbin.com/gupade/3/edit?html,js,output)
+
