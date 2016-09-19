@@ -62,6 +62,7 @@
        * [OOP with Prototypes](unit-1/02-js-jquery/js-prototypes/01readme.md)
            * [Constructors](unit-1/02-js-jquery/js-prototypes/02constructors.md)
            * [Prototypes](unit-1/02-js-jquery/js-prototypes/03prototypes.md)
+       * Javascript Revision
    * [jQuery](unit-1/jquery.md)
        * [Introduction](unit-1/introduction.md)
        * [DOM Manipulation](unit-1/dom_manipulation.md)
