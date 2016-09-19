@@ -12,6 +12,10 @@ want.
 ###`a = add`
 `git config --global alias.a add`
 
+### `co = checkout`
+`git config --global alias.co checkout`
+
+## Fancy things
 ###`lg`: pretty log
 
 ![Example](http://i.imgur.com/tSgaU.jpg)
