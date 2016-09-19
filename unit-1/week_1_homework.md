@@ -8,7 +8,8 @@
 
 *  [HTML Profile User Content](https://github.com/lewagon/html-css-challenges/tree/master/01-profile-content) 
 	* Create a git repository for this homework
-	* Fulfill all of the content requirements (don't worry about CSS just yet)
+	* Add all of the content required (don't worry about CSS just yet)
+	* It should contain whatever original stuff you like!
 
 * **[User Inputs!](https://github.com/WDI-SEA/html_user_inputs)**
 	* Take note, you'll have to submit this one!
