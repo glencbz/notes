@@ -231,6 +231,5 @@ The foundational concepts taught in this lesson will be important for the durati
 
 #### Reading material:
 
-* [
-https://www.khanacademy.org/partner-content/code-org/internet-works](
+* [https://www.khanacademy.org/partner-content/code-org/internet-works](
 https://www.khanacademy.org/partner-content/code-org/internet-works)
