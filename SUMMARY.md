@@ -64,5 +64,4 @@
        * [Intermediate jQuery](unit-1/intermediate_jquery.md)
    * [Responsive Design](unit-1/responsive_design.md)
    * [Intro to TDD](unit-1/intro_to_tdd.md)
-   * [week2labs](unit-1/week2labs.md)
 
