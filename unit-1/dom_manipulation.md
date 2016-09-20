@@ -110,7 +110,12 @@ And in jQuery, it looks like this:
   $('#container').append("<p>").append("Hello simple insertion using jQuery chaining");
 ```
 
-In the jQuery code example above, we first select the DIV with `id="container"`, then we append a new paragraph element (automatically created using core jQuery selector function), and then we append the text we want to insert to the new paragraph element we just created. In effect, the new HTML looks like this after the jQuery is run:
+In the jQuery code example above, we:
+1. select the `<div>` with `id="container"`
+2. append a new paragraph element (automatically created using core jQuery selector function)
+3. append the text we want to insert to the new paragraph element we just created
+
+In effect, the new HTML looks like this after the jQuery is run:
 
 ```html
   <div id="container">
@@ -131,11 +136,11 @@ You can do more than select elements and modify content. You can also create or 
 $("#myDiv").css("color", "red");
 ```
 
-The code above will change the color of all text inside the DIV with id="myDiv" to red.
+The code above will change the color of all text inside the `<div>` with `id="myDiv"` to red.
 
 [Check this out here](http://jsbin.com/cupumu/1/edit?html,js,output)
 
-Or, if we have a bunch of elements that all have the same class (in this example, it's class="myClass"), we can use the class selector to modify the color of all of them at once:
+Or, if we have a bunch of elements that all have the same class (in this example, it's `class="myClass"`), we can use the class selector to modify the color of all of them at once:
 
 ```js
 $(".myClass").css("color", "blue");
@@ -145,7 +150,7 @@ $(".myClass").css("color", "blue");
 
 But that seems kind of boring. I mean, what if we want to do something with less hard-coding using jQuery.
 
-[Here's a repeat of the last example](http://jsbin.com/wevoti/1/edit?html,js,output) that sets the text in all elements of class="myClass" to a random color. Try to understand how it works before moving on:
+[Here's a repeat of the last example](http://jsbin.com/wevoti/1/edit?html,js,output) that sets the text in all elements of `class="myClass"` to a random color. Try to understand how it works before moving on:
 
 ```javascript
 var randColorValue = function() {
@@ -181,7 +186,7 @@ So, let's imagine we have a web page with the following content on it:
 </body>
 ```
 
-Let's say we want to add some more hipster ipsum to the page. Something like:
+Let's say we want to add some more hipster lipsum to the page. Something like:
 
 ```html
 <div class="innerItem">
@@ -189,9 +194,9 @@ Let's say we want to add some more hipster ipsum to the page. Something like:
 </div>
 ```
 
-To add this DIV, and our hipster ipsum content using jQuery, we'd do the following:
+To add this `<div>`, and our hipster lipsum content using jQuery, we'd do the following:
 
-Define a new DIV and assign jQuery object to $newDiv
+Define a new `<div>` and assign jQuery object to `$newDiv`
 
 ```javascript
 $newDiv = $('<div>');
