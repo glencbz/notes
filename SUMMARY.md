@@ -52,7 +52,6 @@
            * [Prototypal Inheritance](unit-1/02-js-jquery/js-inheritance/02prototypalinheritance.md)
            * [Call, Apply, and other Functions](unit-1/02-js-jquery/js-inheritance/03callapplyfunctions.md)
            * [Resources](unit-1/02-js-jquery/js-inheritance/05resources.md)
-               * [Data Scraping](unit-1/02-js-jquery/js-data-scraping/readme.md)
                * [Async module](unit-1/02-js-jquery/js-async/readme.md)
        * [OOP with Prototypes](unit-1/02-js-jquery/js-prototypes/01readme.md)
            * [Constructors](unit-1/02-js-jquery/js-prototypes/02constructors.md)
