@@ -35,7 +35,7 @@
            * [Additional Topics](unit-1/03-html-css/css-box-model/05additional.md)
        * [Advanced CSS](unit-1/03-html-css/css-responsive-design/readme.md)
            * [Responsive Design](unit-1/03-html-css/css-responsive-design/02responsivedesign.md)
-           * [Pseudo-Classes\/Elements](unit-1/03-html-css/css-responsive-design/03pseudo.md)
+           * [Pseudo-Classes/Elements](unit-1/03-html-css/css-responsive-design/03pseudo.md)
            * [Vendor Prefixes](unit-1/03-html-css/css-responsive-design/04vendorprefixes.md)
            * [Additional Topics](unit-1/03-html-css/css-responsive-design/05additional.md)
            * [Flexbox \(Game\)](unit-1/03-html-css/css-responsive-design/flexbox.md)
