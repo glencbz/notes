@@ -20,7 +20,7 @@ Though there are solutions, none of them are good. You can either 1. format your
 <p data-height="265" data-theme-id="0" data-slug-hash="ZppPjo" data-default-tab="html,result" data-user="glencbz" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/glencbz/pen/ZppPjo/">Inline-block fixes</a> by Glen Choo (<a href="http://codepen.io/glencbz">@glencbz</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-If not for that extra space, this method would be simple and intuitive. Unfortunately, we can't remove it without making our code ugly so we will avoid this.
+If not for that extra space, this method would be simple and intuitive. Unfortunately, we can't remove that space without making our code ugly so we will avoid using `inline-block`.
 
 ### 2. Floats
 
