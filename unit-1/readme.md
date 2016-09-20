@@ -27,7 +27,7 @@ See Week 1 cheat-sheet [here][23]
 ### Week 2
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
-| [Callbacks and Iterators][12]            | [Iterators Lab][1011] <br><br> [Iterators with Reddit][1012] |
+| [Callbacks and Iterators][12]            | Lab: [Iterators Lab][1011] <br><br>HW: [Practicing Callbacks][] |
 | [Intro to jQuery][13]                    | [Random Quote Generator][1013] <br><br> [Todo List][1014] |
 | [jQuery Plugins][14]                     | [jQuery UI Lab][1015]                    |
 | [AJAX][15]                               | [AJAX Doughnuts][1016] <br><br> [Reddit AJAX Slideshow][1017] |
