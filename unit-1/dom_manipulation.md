@@ -95,7 +95,7 @@ If we had the following HTML page...
 </html>
 ```
 
-If we want to add a new DIV that provides a nice greeting, our vanilla JavaScript would have to be:
+If we want to add a new `<div>` that provides a nice greeting, our vanilla JavaScript would have to be:
 
 ```javascript
   var myDiv = document.getElementById('container');
