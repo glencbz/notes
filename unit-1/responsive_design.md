@@ -1,7 +1,6 @@
 # Responsive Design
 
 ### Objectives
-*After this lesson, students will be able to:*
 
 - Describe media queries and how to write them
 - Create rules that adjust styles for phones, tablets, and computers
@@ -13,7 +12,7 @@
 
 Or, the dryer Wikipedia definition:
 
-"Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors).""
+"Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors)."
 
 #### More devices
 
@@ -30,30 +29,32 @@ Fast forward to today, and the desktop computer is dying, more than 71% of the U
 
 ## How to do Responsive Design wrong - Demo
 
-If you're not planning before you begin to create a responsive design, you'r doing it wrong. Changing a web platform to a mobile platform is much more difficult than going from mobile to web.
+If you're not planning before you begin to create a responsive design, you're doing it wrong. Changing a web platform to a mobile platform is much more difficult than going from mobile to web.
 
 #### Examples of non-responsive sites:
 
-It is becoming harder and harder to find non-responsive websites.
+It is becoming harder and harder to find non-responsive websites. Some websites 'fake' responsiveness by directing you to a mobile site instead.
 
-> Note: Find examples of non-responsive sites to show to students.
+> [Facebook](http://www.facebook.com/) vs [Mobile Facebook](m.facebook.com)
+> 
+> [Reddit](https://www.reddit.com/) vs [Mobile Reddit](m.reddit.com)
 
 #### Examples of responsive sites:
 
 - [Boston Globe](http://www.bostonglobe.com/)  
 - [GA](https://generalassemb.ly/)
+- [FiveThirtyEight](http://fivethirtyeight.com/)
 
 
 What's the difference between these? Let's resize again.
+
 Interestingly, **Boston Globe was the first example of a responsive website.**
 
 Instead of manually resizing the page, which can be a pain we, can use tools like this:
 
 - [Brad Frost](http://bradfrostweb.com/demo/ish/)
 
-Add a url into the input box (top left).
-
-You can easily resize the screen and see how the different sites look using the buttons on the top right.
+Add a url into the input box (top left). You can easily resize the screen and see how the different sites look using the buttons on the top right.
 
 If you are really bold, choose disco!
 
@@ -72,11 +73,6 @@ Also, there is a really awesome tool in the development tools:
 - Click on the device icon next to the magnifying glass
 - You can change the pixel width (displayed at the top) using the drag tool
 - You can select any device using the dropdown menu at the top
-
-#### Xcode
-
-Another great tool is the Xcode simulator.
-
 
 ## Make a responsive website - Codealong
 
@@ -245,9 +241,7 @@ header, main {
 }
 ```
 
-Let's test!
-
-It works, but the text gets squished. This will not look good when there is lots to read.
+Let's test! It works, but the text gets squished. This will not look good when there is lots to read.
 
 #### Setting a min-width
 
@@ -261,11 +255,7 @@ main .column {
 }
 ```
 
-When there is not enough space for the 320px element to fit, it will now flow underneath the element to it's left, starting from the right to the left.
-
-#### Why 320px?  
-
-That's the width of an iPhone 3G.
+When there is not enough space for the 320px element to fit, it will now flow underneath the element to it's left, starting from the right to the left. Why 320px? That's the width of an iPhone 3G.
 
 Okay, so that looks good when the screen is small and large but what about in the middle?
 
