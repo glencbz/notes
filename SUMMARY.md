@@ -76,7 +76,7 @@
   * [Responsive Design](unit-1/responsive_design.md)
   * [Intro to TDD](unit-1/intro_to_tdd.md)
   * [Labs](unit-1/labs)
-       * [Chrome Dev Tools](unit-1/chrome_dev_tools.md)
+       * [Chrome Dev Tools](unit-1/labs/chrome_dev_tools.md)
        * [Primitives](unit-1/labs/primitives.md)
        * [Functions](unit-1/labs/functions.md)
        * [Fizz buzz](unit-1/labs/fizzbuzz.md)
