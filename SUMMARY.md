@@ -51,7 +51,6 @@
        * [Inheritance](unit-1/02-js-jquery/js-inheritance/01readme.md)
            * [Prototypal Inheritance](unit-1/02-js-jquery/js-inheritance/02prototypalinheritance.md)
            * [Call, Apply, and other Functions](unit-1/02-js-jquery/js-inheritance/03callapplyfunctions.md)
-           * [ES6 Inheritance](unit-1/02-js-jquery/js-inheritance/04es6classes.md)
            * [Resources](unit-1/02-js-jquery/js-inheritance/05resources.md)
                * [Additional Topics](unit-1/02-js-jquery/additional-topics/readme.md)
                * [AJAX w\/JSON and Localstorage](unit-1/02-js-jquery/additional-topics/ajax-localstorage/readme.md)
