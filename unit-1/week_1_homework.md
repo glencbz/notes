@@ -1,6 +1,6 @@
 # Week 1 Homework
 
-### Day 2
+### Day 2 (Tuesday)
 
 * We're going to recreate a site! Choose either [Airbnb](https://github.com/ga-students/css-airbnb) or [Instagram](https://github.com/ga-students/css-positioning)
 	* You'll submit this one too! Same procedure as yesterday's *User Inputs*
@@ -18,7 +18,7 @@
 
 * [Code School Dev tools](http://discover-devtools.codeschool.com/) (until chapter 4)
 	* Do this after the Javascript tutorial so that the later chapters make more sense
-### Day 1
+### Day 1 (Monday)
 
 * (CodeCademy's Learn the Command Line)[https://codecademy.com/learn/learn-the-command-line]: Do the first part of units 1-3 (don't worry about the pro/paid parts).
 * Finish learning [How The Internet Works!](https://www.khanacademy.org/partner-content/code-org/internet-works)
