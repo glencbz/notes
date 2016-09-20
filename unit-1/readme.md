@@ -23,7 +23,7 @@
 
 See Week 1 cheat-sheet [here][23]
 
-<!--
+
 ### Week 2
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
@@ -43,6 +43,7 @@ See Week 1 cheat-sheet [here][23]
 | [Tic Tac Toe][1010]            |
 | [Project 1][1022]              |
 | [Code Review][1025]            |
+<!--
 -->
 
 [1]:  03-internet/how-the-internet-works.md
