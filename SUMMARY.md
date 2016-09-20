@@ -21,6 +21,8 @@
            * [Git Workflows](unit-1/01-workflow/group-collab/02gitworkflows.md)
            * [Project Roles and Tools](unit-1/01-workflow/group-collab/03rolestools.md)
        * [Code Editor Packages](unit-1/01-workflow/text-editor-packages/readme.md)
+       * [Chrome Dev Tools](unit-1/01-workflow/chrome-dev-tools.md)
+
    * [HTML CSS](unit-1/03-html-css/readme.md)
        * [HTML](unit-1/03-html-css/html-review/readme.md)
        * [CSS Selectors](unit-1/03-html-css/css-selectors/readme.md)
@@ -71,4 +73,3 @@
        * [Fellowship of the Ring](unit-1/labs/fellowship.md)
        * [Tic Tac Toe](unit-1/labs/TTT.md)
    * [Week 1 Homework](unit-1/week_1_homework.md)
-
