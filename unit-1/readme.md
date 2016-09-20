@@ -33,16 +33,14 @@ See Week 1 cheat-sheet [here][23]
 ### Week 2
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
-| [Callbacks and Iterators][12]            | Lab: [Iterators Lab][1011] <br><br>HW: [Practicing Callbacks][] |
-| [Intro to jQuery][13]                    | [Random Quote Generator][1013] <br><br> [Todo List][1014] |
-| [jQuery Plugins][14]                     | [jQuery UI Lab][1015]                    |
-| [AJAX][15]                               | [AJAX Doughnuts][1016] <br><br> [Reddit AJAX Slideshow][1017] |
-| [Responsive CSS][16]                     |                                          |
-| [Bootstrap][17]                          | [Bootstrap Mockups][1018]                |
-| [User Stories and Wireframing][18]       | [Wireframing: Build an Idea][1019]       |
-| [OOP with Constructors/Prototypes][19] <br><br> [Intro to TDD][20] | [Prototype Body Shop][1020]              |
-| [Scopes][21]                             |                                          |
-| [JavaScript Inheritance][22]             | [Body Shop 2][1021]                      |
+|Day 1 | |
+| [Callbacks and Iterators][12]            | Lab: [Iterators Lab][1011] <br>HW: [Practicing Callbacks][1045] |
+| [Branching and github][13]               | Lab: [Intro to Git][3] <br><br>            |
+|Day 2| |
+| [Intro to jQuery][13]                    | Lab: [DOM Manipulation Lab][1014] <br> Lab: [New Homes][1049] <br> HW: [Make me blue][1047]|
+|Day 3| |
+| [Javascript and jQuery][13]                    | Lab: [Javascript calculator][1050]|
+
 
 | Projects and Additional Topics |
 | ------------------------------ |
@@ -62,7 +60,7 @@ See Week 1 cheat-sheet [here][23]
 [9]:  03-html-css/css-box-model/readme.md
 [10]:  02-js-jquery/js-functions/readme.md
 [11]:  02-js-jquery/js-dom-events/readme.md
-[12]:  02-js-jquery/js-callbacks-iterators/readme.md
+[12]:  04-jquery/readme.md
 [13]:  02-js-jquery/jquery-intro/readme.md
 [14]:  02-js-jquery/jquery-plugins/readme.md
 [15]:  02-js-jquery/jquery-ajax/readme.md
@@ -124,3 +122,10 @@ See Week 1 cheat-sheet [here][23]
 [1042]: labs/TTT.md
 [1043]: https://try.github.io/levels/1/challenges/1
 [1044]: http://discover-devtools.codeschool.com/
+[1045]: https://github.com/klt4n/starter-code
+[1046]: 01-workflow/git-recipes/readme.md
+[1047]: http://tutorialzine.com/2014/05/javascript-challenge-make-me-blue/
+[1048]: 04-jquery/dom_manipulation.md
+[1049]: 04-jquery/intermediate_jquery.md
+[1050]: https://github.com/klt4n/starter-code/tree/master/js-calculator-lab
+[1051]: http://exercism.io/languages/javascript
