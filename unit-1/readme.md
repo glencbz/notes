@@ -12,6 +12,7 @@
 | [CSS Selectors][6]                 | Lab:[Flukeout][1029]<br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
 | [CSS Box Model and Positioning][9] | Lab:[Recreate Instagram][1023] or [Recreate Airbnb][1024] <br> HW:[HTML CSS Challenge: Box Model][1031]|
 | [JavaScript Primitives][4]       | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032]|
+|[Chrome Dev Tools][25]| HW: [CodeSchool's Discover DevTools][1044]|
 
 <!---
 |Day 3||
@@ -73,6 +74,7 @@ See Week 1 cheat-sheet [here][23]
 [22]:  02-js-jquery/js-inheritance/01readme.md
 [23]:  00-schedule/cheat-sheet.md
 [24]:  02-js-jquery/js-primitives/objects-arrays.md
+[25]:  01-workflow/chrome_dev_tools.md
 [900]: https://github.com/WDI-SEA/html_top_ten_movies_table
 [901]: https://github.com/WDI-SEA/html_user_inputs
 [902]: https://github.com/ga-students/functions-thriller-lyrics
@@ -120,3 +122,4 @@ See Week 1 cheat-sheet [here][23]
 [1041]: https://www.freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work
 [1042]: labs/TTT.md
 [1043]: https://try.github.io/levels/1/challenges/1
+[1044]: http://discover-devtools.codeschool.com/
