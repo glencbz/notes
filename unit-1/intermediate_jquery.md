@@ -1,13 +1,13 @@
 # Intermediate jQuery
 
 ### Objectives
-*After this lesson, students will be able to:*
 - Describe event bubbling, delegation and how to bind events with jQuery
 - Apply jQuery to manipulate, add, and remove DOM elements
 - Add event listeners for standard events - click, mouse, keydown - and custom events and respond with an action
 - Capture data from specific events and iterate on or manipulate the data
 - Work with timer events within the context of the browser
 
+<!---
 ### Preparation
 *Before this lesson, students should already be able to:*
 
@@ -15,6 +15,7 @@
 - Describe jQuery and it's use in manipulating the DOM
 - Write simple jQuery to manipulate the DOM
 - Read this: [Manipulating Elements - jQuery Learning Center](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
+--->
 
 ## Page Setup
 
