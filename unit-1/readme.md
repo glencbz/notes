@@ -8,13 +8,12 @@
 | [Command Line][2]                  | HW: [Command Line Murder Mystery][1001] |
 | [Intro to Git][3] | Lab: [Codeschool's Try Git][1043]<br> Optional: [Git and GitHub Intro Lab][1026]    |
 | [HTML][5] | HW:<br>[HTML User Input Lab][901]<br>[HTML CSS Challenge: Profile Content][1028] |
-
-<!---
-
 |Day 2| |
 | [CSS Selectors][6]                 | Lab:[Flukeout][1029]<br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
 | [CSS Box Model and Positioning][9] | Lab:[Recreate Instagram][1023] or [Recreate Airbnb][1024] <br> HW:[HTML CSS Challenge: Box Model][1031]|
 | [JavaScript Primitives][4]       | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032]|
+
+<!---
 |Day 3||
 | [JavaScript Primitives][4] and [JavaScript Control Flow][7] | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!-- <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B --><br><!---HW: FreeCodeCamp all [jQuery][1041] challenges|
 |Day 4||

@@ -192,7 +192,9 @@ CSS has a mind-boggling number of selectors (see the full list at http://www.w3s
 - *class*
 - *id*
 
-and one useful concept: **nesting**.
+and some useful concepts: -
+- nesting
+- child selector
 
 ### Element
 
@@ -352,8 +354,10 @@ With nesting, we can simplify some things.
   </head>
   <body>
     <div class="special-box">
-	    <h1>Heading</h1>
-      	<p>Text</p>
+      <div>
+        <h1>Heading</h1>
+        <p>Text</p>
+      </div>
     </div>
   </body>
 </html>
@@ -363,7 +367,51 @@ Note that nested selectors work no matter how deep the nesting is. Use this fact
 
 The caveat here is that as you nest more and more selectors, the browser will take more and more time to find the element you actually want to select. One level of nesting is generally ok, avoid anything more.
 
+### Child Selectors
 
+Child selectors work similarly to nested selectors, except that they only select the **direct child** like so.
+
+Child selector use this format:
+
+```css
+parent > child{
+  property: value;
+}```
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Intro to CSS</title>
+    <style>
+      .special-box {
+        background: red;
+      }
+      .special-box > h1 {
+        color: white;
+      }
+      .special-box > p {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- this works -->
+    <div class="special-box">
+	    <h1>Heading</h1>
+      	<p>Text</p>
+    </div>
+    <!-- this doesn't -->
+    <div class="special-box">
+      <div>
+        <h1>Heading</h1>
+        <p>Text</p>
+      </div>  
+    </div>
+  </body>
+</html>
+```
 
 ## Multiple Selectors (and Specificity)
 
