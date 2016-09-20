@@ -45,7 +45,7 @@ From a CDN (content delivery network) like [CDNJS](https://cdnjs.com/) or [Googl
 
 If you look carefully at the filenames of the jQuery versions you download, or just look at the URL in the "src" attribute for each script tag above, you'll notice something at the end of each file name — namely, that they end in 'min.js'. This means the JavaScript code has been minified.
 
-## Minified? Did I read that right? Discussion (10 mins)
+## Minified? Did I read that right? Discussion
 
 Yep. You did. Minification is the process of making a JavaScript file smaller by, among other things, removing all line breaks and whitespace, reducing the length of variable and function names, and stripping out all comments. Minification can significantly reduce the size of a JavaScript file, and in turn, significantly decrease the time it takes our browsers to load the file into memory.
 
