@@ -10,8 +10,8 @@
 | [HTML][5] | HW:<br>[HTML User Input Lab][901]<br>[HTML CSS Challenge: Profile Content][1028] |
 |Day 2| |
 | [CSS Selectors][6]                 | Lab:[Flukeout][1029]<br> HW:[HTML CSS Challenge: Fonts Colors][1030]|
-| [CSS Box Model and Positioning][9] | Lab:[Recreate Instagram][1023] or [Recreate Airbnb][1024] <br> HW:[HTML CSS Challenge: Box Model][1031]|
-| [JavaScript Primitives][4]       | HW: Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Word Blanks][1032]|
+| [CSS Box Model and Positioning][9] | HW:<br>[Recreate Instagram][1023] or [Recreate Airbnb][1024] <br>[HTML CSS Challenge: Box Model][1031]|
+| [JavaScript Primitives][4]       | HW: <br>Javascript FreeCodeCamp from <br>[Comment your Javascript code][1003] to <br>[Word Blanks][1032]|
 |[Chrome Dev Tools][25]| HW: [CodeSchool's Discover DevTools][1044]|
 
 <!---
