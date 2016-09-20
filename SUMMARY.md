@@ -66,11 +66,11 @@
                * [Async module](unit-1/02-js-jquery/js-async/readme.md)
                * [Data Scraping](unit-1/02-js-jquery/js-data-scraping/readme.md)
    * [Labs](unit-1/labs)
+       * [Chrome Dev Tools](unit-1/chrome_dev_tools.md)
        * [Primitives](unit-1/labs/primitives.md)
        * [Functions](unit-1/labs/functions.md)
        * [Fizz buzz](unit-1/labs/fizzbuzz.md)
        * [Fellowship of the Ring](unit-1/labs/fellowship.md)
        * [Tic Tac Toe](unit-1/labs/TTT.md)
-       * [Chrome Dev Tools](unit-1/chrome_dev_tools.md)
    * [Week 1 Homework](unit-1/week_1_homework.md)
 
