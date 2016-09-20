@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Week2labs
 * [Unit 1](unit-1/readme.md)
    * [Internet Fundamentals](unit-1/03-internet/how-the-internet-works.md)
    * [Development Workflow](unit-1/01-workflow/readme.md)
