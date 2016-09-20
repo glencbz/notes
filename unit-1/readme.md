@@ -40,6 +40,11 @@ See Week 1 cheat-sheet [here][23]
 | [Intro to jQuery][13]                    | Lab: [DOM Manipulation Lab][1014] <br> Lab: [New Homes][1049] <br> HW: [Make me blue][1047]|
 |Day 3| |
 | [Javascript and jQuery][13]                    | Lab: [Javascript calculator][1050]|
+|Intro to testing                    | HW: [Exercism Exercises][1051]|
+|Day 4| |
+| SASS and CSS                    | Lab: [Learn SASS][1052]|
+| [Javascript and jQuery][13]                    | Lab: Tic-Tac-Toe in jQuery|
+
 
 
 | Projects and Additional Topics |
@@ -129,3 +134,4 @@ See Week 1 cheat-sheet [here][23]
 [1049]: 04-jquery/intermediate_jquery.md
 [1050]: https://github.com/klt4n/starter-code/tree/master/js-calculator-lab
 [1051]: http://exercism.io/languages/javascript
+[1052]: https://www.codecademy.com/learn/learn-sass

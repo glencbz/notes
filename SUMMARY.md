@@ -75,6 +75,7 @@
       * [Intermediate jQuery](unit-1/04-jquery/intermediate_jquery.md)      
   * [Responsive Design](unit-1/responsive_design.md)
   * [Intro to TDD](unit-1/intro_to_tdd.md)
+  * [Agile Development](unit-1/agile-development.md)
   * [Labs](unit-1/labs)
        * [Chrome Dev Tools](unit-1/labs/chrome_dev_tools.md)
        * [Primitives](unit-1/labs/primitives.md)
