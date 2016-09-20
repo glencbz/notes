@@ -108,3 +108,7 @@ An element with fixed position is positioned relative to the browser window. It 
   left: 0;
 }
 ```
+
+### Further Readings
+
+[Learn Layout (guide)](http://learnlayout.com/position.html)
