@@ -8,7 +8,7 @@ You can also check out this visual explanation: http://johnpolacek.github.io/scr
 
 ### More devices
 
-Not that long ago building a successful online presence meant just ensuring that your website worked correctly in all the major desktop browsers. 
+Not that long ago building a successful online presence meant just ensuring that your website worked correctly in all the major desktop browsers.
 
 Fast forward to today (2015) and the desktop computer is dying, more than 71% of the US population owns a smartphone.
 
@@ -34,6 +34,7 @@ If we go to this simple example, we see that floats reflow, depending on screen 
 
 <p data-height="400" data-theme-id="0" data-slug-hash="ZOYWQJ" data-default-tab="html,result" data-user="bhague1281" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/bhague1281/pen/ZOYWQJ/">Float demo</a> by Brian Hague (<a href="http://codepen.io/bhague1281">@bhague1281</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 Likewise, the paragraphs remain at 50% of screen width, no matter what this screen width is.
 
 This works to an extent, but we'd really like a few more tools for changing layout based on screen size.
