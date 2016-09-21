@@ -8,7 +8,7 @@ To keep your assignments neat, each piece of homework should have its own repo.
 | Day       | Topic      | Homework                                                             |
 | ------    | -----      | --------                                                             |
 | Monday    | HTML       | [HTML User Input Lab][901]                                           |
-| Tuesday   | CSS        | HW:<br>[Recreate Instagram][1023] or [Recreate Airbnb][1024]         |
+| Tuesday   | CSS        | [Recreate Instagram][1023] or [Recreate Airbnb][1024]         |
 <!--
 ## Homework schedule
 
