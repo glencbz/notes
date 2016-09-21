@@ -137,4 +137,6 @@ var phoneBook = {
   "Zed": "111-111-1111"
 };
 ```
+### Extra readings
 
+In class `for` loop example: https://gist.github.com/anonymous/466eb73ceee80184c6fb5a840329e91f

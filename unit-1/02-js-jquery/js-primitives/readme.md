@@ -187,7 +187,9 @@ var myString = "Greetings y'all!";
 
 The main note to make here is that these variables should always have the `var` keyword and use `camelCase`
 
+## Extra Readings
 
+In-class example on variables: https://gist.github.com/anonymous/374b65facd27b296829cf7634fc9f65e
 
 ### Reference
 

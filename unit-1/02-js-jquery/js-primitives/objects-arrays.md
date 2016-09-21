@@ -129,3 +129,8 @@ Grey, Doe, 34, 1214 Park st.
 Lydia, Doe, 30, 1294 Park st.
 Harriet, Doe, 32, 1324 Park st.
 ```
+
+### Extra Readings
+
+Exercise answers: https://gist.github.com/anonymous/6c311c5cf7d21b5829f7b26db2246a0b
+In class example on objects: https://gist.github.com/anonymous/43d3d5bb1e0855c59345296dc25c3879
