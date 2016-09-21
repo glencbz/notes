@@ -34,10 +34,10 @@ See Week 1 cheat-sheet [here][23]
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
 |Day 1 | |
-| [Callbacks and Iterators][12]            | Lab: [Iterators Lab][1011] <br>HW: [Practicing Callbacks][1045] |
-| [Branching and github][13]               | Lab: [Git and GitHub Intro Lab][1026]   <br><br>|
+| [Callbacks and Iterators][1053]            | Lab: [Iterators Lab][1011] <br>HW: [Practicing Callbacks][1045] |
+| [Branching and github][1046]               | Lab: [Git and GitHub Intro Lab][1026]   <br><br>|
 |Day 2| |
-| [Intro to jQuery][13]                    | Lab: [DOM Manipulation Lab][1014] <br> Lab: [New Homes][1049] <br> HW: [Make me blue][1047]|
+| [Intro to jQuery][13]                    | Lab: [DOM Manipulation Lab][1048] <br> Lab: [New Homes][1049] <br> HW: [Make me blue][1047]|
 |Day 3| |
 | [Javascript and jQuery][13]                    | Lab: [Javascript calculator][1050]|
 |Intro to testing                    | HW: [Exercism Exercises][1051]|
@@ -127,7 +127,7 @@ See Week 1 cheat-sheet [here][23]
 [1042]: labs/TTT.md
 [1043]: https://try.github.io/levels/1/challenges/1
 [1044]: http://discover-devtools.codeschool.com/
-[1045]: https://github.com/klt4n/starter-code
+[1045]: https://github.com/klt4n/starter-code/tree/master/js-callbacks-lab
 [1046]: 01-workflow/git-recipes/readme.md
 [1047]: http://tutorialzine.com/2014/05/javascript-challenge-make-me-blue/
 [1048]: 04-jquery/dom_manipulation.md
@@ -135,3 +135,4 @@ See Week 1 cheat-sheet [here][23]
 [1050]: https://github.com/klt4n/starter-code/tree/master/js-calculator-lab
 [1051]: http://exercism.io/languages/javascript
 [1052]: https://www.codecademy.com/learn/learn-sass
+[1053]: 02-js-jquery/js-callbacks-iterators/readme.md
