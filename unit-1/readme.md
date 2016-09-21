@@ -13,10 +13,11 @@
 | [CSS Box Model and Positioning][9] | HW:<br>[Recreate Instagram][1023] or [Recreate Airbnb][1024] <br>[HTML CSS Challenge: Box Model][1031]|
 | [JavaScript Primitives][4]       | HW: <br>Javascript FreeCodeCamp from <br>[Comment your Javascript code][1003] to <br>[Word Blanks][1032]|
 |[Chrome Dev Tools][25]| HW: [CodeSchool's Discover DevTools][1044]|
+|Day 3||
+| [JavaScript Primitives][4] and [JavaScript Control Flow][7] | Lab: [Javascript Primitives][1034] <br>HW:Javascript FreeCodeCamp from [Comment your Javascript code][1003] to [Shopping List][1033] **AND** [For Loops][1035] to [Nesting For Loops] [1036]<br>Optional: [Hackerrank 30 Days of Code][1045]|
+
 
 <!---
-|Day 3||
-| [JavaScript Primitives][4] and [JavaScript Control Flow][7] | Lab: Javascript FreeCodeCamp from [Store Multiple Values ](1003) to [Shopping List][1033]<!-- <br><br>HW:[Javascript Primitives][1034]Javascript FreeCodeCamp from [For Loops][1035] to [Nesting For Loops] [1036]Plan B --><br><!---HW: FreeCodeCamp all [jQuery][1041] challenges|
 |Day 4||
 | [Javascript Objects][24]              | Lab: FreeCodeCamp from [Objects as variables][1037] to [Make Object Properties Private][1038]|
 | [JavaScript Functions][10]               | Lab: [Functions practice][1039] |
@@ -123,3 +124,4 @@ See Week 1 cheat-sheet [here][23]
 [1042]: labs/TTT.md
 [1043]: https://try.github.io/levels/1/challenges/1
 [1044]: http://discover-devtools.codeschool.com/
+[1045]: https://www.hackerrank.com/domains/tutorials/30-days-of-code
