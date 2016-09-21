@@ -7,8 +7,8 @@ To keep your assignments neat, each piece of homework should have its own repo.
 ### Week 1
 | Day       | Topic      | Homework                                                             |
 | ------    | -----      | --------                                                             |
-| Monday    | HTML       | [HTML User Input Lab][901] 
-
+| Monday    | HTML       | [HTML User Input Lab][901]                                           |
+| Tuesday   | CSS        | HW:<br>[Recreate Instagram][1023] or [Recreate Airbnb][1024]         |
 <!--
 ## Homework schedule
 
@@ -53,3 +53,5 @@ To keep your assignments neat, each piece of homework should have its own repo.
 [902]: https://github.com/ga-students/css-positioning
 [903]: https://github.com/ga-students/css-airbnb
 [1009]: https://github.com/WDI-SEA/temperature-converter-dom
+[1023]: https://github.com/ga-students/css-positioning
+[1024]: https://github.com/ga-students/css-airbnb
