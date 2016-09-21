@@ -4,9 +4,9 @@
 
 We're going full-on Javascript today!
 
-* We'll be looking at FreeCodeCamp again, this time from primitives to arrays! [Comment your Javascript code][https://www.freecodecamp.com/challenges/comment-your-javascript-code] to [Shopping List][https://www.freecodecamp.com/challenges/shopping-list]
-* We'll also practice `for` loops: FreeCodeCamp [For Loops][https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops] to [Nesting For Loops][https://www.freecodecamp.com/challenges/nesting-for-loops]
-* Optional: HackerRank has a cool [30 Days of Code][https://www.hackerrank.com/domains/tutorials/30-days-of-code]challenge. Try it from Day 1 and see how far you can get!
+* We'll be looking at FreeCodeCamp again, this time from primitives to arrays! [Comment your Javascript code](https://www.freecodecamp.com/challenges/comment-your-javascript-code) to [Shopping List](https://www.freecodecamp.com/challenges/shopping-list)
+* We'll also practice `for` loops: FreeCodeCamp [For Loops](https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops) to [Nesting For Loops](https://www.freecodecamp.com/challenges/nesting-for-loops)
+* Optional: HackerRank has a cool [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) challenge. Try it from Day 1 and see how far you can get!
   * It might be a bit confusing because it's meant for all kinds of languages. Just stick with it and Google anything you're not sure of! (remember to change the editor language to Javascript)
   * If you'd like other, cooler exercises, HackerRank has plenty of programming tasks for you to try out.
 
