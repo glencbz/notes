@@ -35,7 +35,7 @@ See Week 1 cheat-sheet [here][23]
 | ---------------------------------------- | ---------------------------------------- |
 |Day 1 | |
 | [Callbacks and Iterators][12]            | Lab: [Iterators Lab][1011] <br>HW: [Practicing Callbacks][1045] |
-| [Branching and github][13]               | Lab: [Intro to Git][3] <br><br>            |
+| [Branching and github][13]               | Lab: [Git and GitHub Intro Lab][1026]   <br><br>|
 |Day 2| |
 | [Intro to jQuery][13]                    | Lab: [DOM Manipulation Lab][1014] <br> Lab: [New Homes][1049] <br> HW: [Make me blue][1047]|
 |Day 3| |
