@@ -167,11 +167,11 @@ Since `getUserInput` is a global function, `this` points to the window object.
 
 We can fix the preceding problem by using the `call` or `apply` function.
 
-Every function in JavaScript has two methods: `call` and `apply`. These methods are used to set the this object inside the function and to pass arguments to the functions.
+Every function in JavaScript has two methods: `call` and `apply`. These methods are used to set the this object inside the function and to pass arguments to the functions. You can read more about `call` and `apply` in the chapter on **Inheritance**.
 
-- [`call`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) takes the value to be used as the `this` object inside the function as the **first parameter**, and the remaining arguments to be passed to the function are passed individually (separated by commas of course).
-- 
-- [`apply`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) function’s first parameter is also the value to be used as the `this` object inside the function, while the last parameter is an array of values (or the arguments object) to pass to the function.
+- [`call`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) takes the value to be used as the `this` object inside the function as the **first parameter**. The remaining arguments (separated by commas) are passed to the function.
+
+- [`apply`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) takes only two parameters. The first parameter is also the value to be used as the `this` object inside the function. The second parameter is an array of values (or the arguments object) to pass to the function.
 
 Let's walk through an example by defining another object with properties and a method and pass the method as a callback later:
 
