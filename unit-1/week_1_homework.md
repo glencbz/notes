@@ -1,12 +1,14 @@
 # Week 1 Homework
 
-<!---
 ### Day 4 (Thursday)
 
+<!---
 There were a lot of new and difficult JavaScript topics introduced today. Don't get discouraged if you didn't internalise them all - it's nearly impossible! Understanding and memory comes with practice, practice and more practice! (so that's what we're going to do) 
 
-
-
+* We're going to write a lot of functions to do all kinds of different things. Read the [handout](labs/functions.md) carefully and Google anything you don't understand
+  * **Submit** a GitHub repository that contains a JavaScript file: `functions.js`. Name all of your functions like so: `long1`, `long2`, `short1` etc.
+  * Remember to make your functions **`return` values**. Returning values makes your functions useful to other parts of your code and will simplify your job further down the road
+* 
 --->
 
 ### Day 3 (Wednesday)
