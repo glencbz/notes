@@ -12,6 +12,7 @@ There were a lot of new and difficult JavaScript topics introduced today. Don't 
 * Read the Gitbook chapters on DOM and Events and DOM Manipulation. It's a confusing concept, so do familiarise yourself before class
   * **Bonus** If you want some practice, try adding some manipulations to your tic-tac-toe. For example: causing an X or O to appear when you click the box, or creating a button that resets the board
 
+
 * We're training you to think algorithmically too: FreeCodeCamp from [Reverse a string](https://www.freecodecamp.com/challenges/reverse-a-string) to [Largest number in array](https://www.freecodecamp.com/challenges/return-largest-numbers-in-arrays)
 
 
