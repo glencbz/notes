@@ -58,7 +58,8 @@ Motorboat.prototype = Object.create(Boat.prototype);
 Motorboat.prototype.constructor = Motorboat;
 ```
 
-By using the inheritance method, not only do we group shared properties into another object, but we can attach functions to the superclass's object's prototype, and now all boats have that function!
+By using inheritance, we can group shared properties into the prototype and now all boats have that those properties! We can also extend this functionality to functions!
+
 ```js
 Boat.prototype.getDimensions = function() {
   console.log('This boat has a width of ' + this.width + ' and a length of ' + this.length);
