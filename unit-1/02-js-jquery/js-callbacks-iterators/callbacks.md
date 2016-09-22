@@ -40,28 +40,7 @@ The use of callback functions is essentially a pattern, an established solution 
 
 Let's walk through a couple of examples of code that utilize callbacks:
 
-```javascript
-var element = document.getElementsByTagName("body")[0];
-
-element.addEventListener("click", function(){
-  console.log("Executed in the callback function.");
-})
-```
-
-Another example within a `forEach` loop:
-
-```javascript
-var friends = ["Mike", "Stacy", "Andy", "Rick"];
-​
-friends.forEach(function(eachName, index){
-  console.log(index + 1 + ". " + eachName);
-});
-```
-
-We have passed an anonymous function (a function without a name) to the forEach method as a parameter.
-
-By the way, we could have re-written this using a named function.
-
+Callbacks can be named functions:
 ```javascript
 function loopyName(eachName, index){
   console.log(index + 1 + ". " + eachName);
@@ -71,22 +50,37 @@ var friends = ["Mike", "Stacy", "Andy", "Rick"];
 friends.forEach(loopyName);
 ```
 
+Callbacks are commonly anonymous functions:
+```javascript
+var friends = ["Mike", "Stacy", "Andy", "Rick"];
+​
+friends.forEach(function(eachName, index){
+  console.log(index + 1 + ". " + eachName);
+});
+```
+
+In both of these cases, we passed a function to the `forEach` method as a parameter. The only difference is that in the first case, we gave the function a name *before* passing it to `forEach`.
+
+Callbacks are also extremely common when creating interactions on a web page.
+```javascript
+var element = document.getElementsByTagName("body")[0];
+
+element.addEventListener("click", function(){
+  console.log("Executed in the callback function.");
+})
+```
 
 ## How Callback Functions Work? Discussion
 
-We can pass functions around like variables and return them in functions and use them in other functions.  When we pass a callback function as an argument to another function, we are only **passing the function definition**.
+Functions are variables, we can pass them around, use them as return values and make use of them in other functions.  When we pass a callback function as an argument to another function, we are only **passing the function definition**.
 
-We are **not executing the function** in the parameter. In other words, we aren’t passing the function with the trailing pair of executing parenthesis `()` like we do when we are executing a function.
-
-Note that the callback function is not executed immediately. It is “called back” (hence the name) at some specified point inside the containing function’s body.
+In other words, when we pass the callback as a parameter, we are **not executing the function**. That is why we don't include parentheses `()` like we do when we are executing a function. The callback is “called back” (hence the name) at some specified point inside the outer function’s body.
 
 #### Callback Functions Are Closures!
 
-When we pass a callback function as an argument to another function, the callback is executed at some point inside the containing function’s body just as if the callback were defined in the containing function.
+When a callback is executed inside the containing function’s body, it executes just as if the callback were defined in the containing function. This means the callback is a closure.
 
-This means the callback is a closure.
-
-Closures have access to the containing function’s scope, so the callback function can access the containing functions’ variables, and even the variables from the global scope.
+Closures have access to the containing function’s scope. Since the callback function is a closure, it can access the containing function’s variables, and even the variables from the global scope.
 
 
 ## Named Functions as Callbacks
@@ -169,14 +163,15 @@ console.log (window.fullName);
 
 Since `getUserInput` is a global function, `this` points to the window object.
 
-#### Use the `Call` or `Apply` Function To Preserve `this`
+#### Use the `call` or `apply` Function To Preserve `this`
 
-We can fix the preceding problem by using the `Call` or `Apply` function.
+We can fix the preceding problem by using the `call` or `apply` function.
 
-Every function in JavaScript has two methods: `Call` and `Apply`. And these methods are used to set the this object inside the function and to pass arguments to the functions.
+Every function in JavaScript has two methods: `call` and `apply`. These methods are used to set the this object inside the function and to pass arguments to the functions.
 
-- [`Call`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) takes the value to be used as the `this` object inside the function as the **first parameter**, and the remaining arguments to be passed to the function are passed individually (separated by commas of course).
-- [`Apply`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) function’s first parameter is also the value to be used as the `this` object inside the function, while the last parameter is an array of values (or the arguments object) to pass to the function.
+- [`call`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) takes the value to be used as the `this` object inside the function as the **first parameter**, and the remaining arguments to be passed to the function are passed individually (separated by commas of course).
+- 
+- [`apply`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) function’s first parameter is also the value to be used as the `this` object inside the function, while the last parameter is an array of values (or the arguments object) to pass to the function.
 
 Let's walk through an example by defining another object with properties and a method and pass the method as a callback later:
 
