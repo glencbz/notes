@@ -26,7 +26,7 @@ We could accomplish all of this using `for` loops, but writing `for` loops is er
 
 ##`forEach`
 
-`forEach` is the _functional programming_ replacement for your standard `for` loop.  You can take the body from your `for` loop, wrap it in a function, and pass that argument to `forEach`. Let's look at an example:
+`forEach` is the _functional programming_ replacement for your standard `for` loop.  You can take the body from your `for` loop, wrap it in a function, and pass that function to `forEach`. Let's look at an example:
 
 ```js
 var friends = ["Markus", "Tim", "Ilias", "Elie"];
@@ -50,8 +50,7 @@ friends.forEach(function (buddy) {
 
 **Try it**
 
-Use the `.forEach` iterator to loop over the following
-array of foods and say you like them.
+Use the `.forEach` iterator to loop over the following array of foods and say you like them.
 
 ```js
 var foods = ["pizza", "tacos", "ice cream"];
@@ -66,8 +65,7 @@ var foods = ["pizza", "tacos", "ice cream"];
 
 **Try it again**
 
-Use the `.forEach` iterator to loop over the following
-array of objects and say how delicious each one is.
+Use the `.forEach` iterator to loop over the following array of objects and say how delicious each one is.
 
 ```js
 var foods = [
@@ -87,8 +85,7 @@ var foods = [
 
 ## `map`
 
-Sometimes we want to loop over an array and build a new array in the
-process. This is what `map` helps us solve. It is like `forEach`, but
+Sometimes we want to loop over an array and build a new array in the process. This is what `map` helps us solve. It is like `forEach`, but
 it returns a new array based on the return value of the function.
 
 ```js
@@ -114,10 +111,7 @@ console.log(cased);
 
 ##`filter`
 
-Filter is an iterator that loops through your array and filters it
-down to a subset of the original array. A callback is called on each
-element of the original array: if it returns true, then the element is
-included in the new array, otherwise it is excluded.
+Filter is an iterator that loops through your array and filters it down to a subset of the original array. A callback is called on each element of the original array: if the callback returns true, then the element is included in the new array, otherwise it is excluded.
 
 ```js
 var names = ["tim", "ilias", "elie", "markus"];
@@ -142,8 +136,7 @@ console.log(oddLengthNames);
 
 ##`reduce`
 
-Reduce iterates over an array and turns it into one, accumulated
-value. In some other languages it is called `fold`. Note that the `reduce` function takes two parameters.
+Reduce iterates over an array and turns it into one, accumulated value. In some other languages it is called `fold`. Note that the `reduce` function takes two parameters.
 
 ```js
 var nums = [1,2,3,4];
@@ -159,9 +152,7 @@ console.log(sum);
 // which is, 1 + 2 + 3 + 4
 ```
 
-Reduce also usually accepts an option third parameter that will be the
-initial accumulated value. If it is omitted, then the reduction starts
-with the first two values in the array.
+Reduce also usually accepts an option third parameter that will be the initial accumulated value. If it is omitted, then the reduction starts with the first two values in the array.
 
 ```js
 var nums = [1,2,3,4];
