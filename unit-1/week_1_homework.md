@@ -1,8 +1,17 @@
 # Week 1 Homework
 
+<!---
+### Day 4 (Thursday)
+
+There were a lot of new and difficult JavaScript topics introduced today. Don't get discouraged if you didn't internalise them all - it's nearly impossible! Understanding and memory comes with practice, practice and more practice! (so that's what we're going to do) 
+
+
+
+--->
+
 ### Day 3 (Wednesday)
 
-We're going full-on Javascript today!
+We're going full-on JavaScript today!
 
 * We'll be looking at FreeCodeCamp again, this time from primitives to arrays! [Comment your Javascript code](https://www.freecodecamp.com/challenges/comment-your-javascript-code) to [Shopping List](https://www.freecodecamp.com/challenges/shopping-list)
 * We'll also practice `for` loops: FreeCodeCamp [For Loops](https://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops) to [Nesting For Loops](https://www.freecodecamp.com/challenges/nesting-for-loops)
