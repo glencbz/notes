@@ -2,14 +2,18 @@
 
 ### Day 4 (Thursday)
 
-<!---
 There were a lot of new and difficult JavaScript topics introduced today. Don't get discouraged if you didn't internalise them all - it's nearly impossible! Understanding and memory comes with practice, practice and more practice! (so that's what we're going to do) 
 
 * We're going to write a lot of functions to do all kinds of different things. Read the [handout](labs/functions.md) carefully and Google anything you don't understand
   * **Submit** a GitHub repository that contains a JavaScript file: `functions.js`. Name all of your functions like so: `long1`, `long2`, `short1` etc.
   * Remember to make your functions **`return` values**. Returning values makes your functions useful to other parts of your code and will simplify your job further down the road
-* 
---->
+
+
+* Read the Gitbook chapters on DOM and Events and DOM Manipulation. It's a confusing concept, so do familiarise yourself before class
+  * **Bonus** If you want some practice, try adding some manipulations to your tic-tac-toe. For example: causing an X or O to appear when you click the box, or creating a button that resets the board
+
+* We're training you to think algorithmically too: FreeCodeCamp from [Reverse a string](https://www.freecodecamp.com/challenges/reverse-a-string) to [Largest number in array](https://www.freecodecamp.com/challenges/return-largest-numbers-in-arrays)
+
 
 ### Day 3 (Wednesday)
 
