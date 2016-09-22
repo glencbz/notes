@@ -11,11 +11,30 @@
 
 ## Callbacks - Intro
 
-Callback functions are derived from a programming paradigm known as **functional programming**. At a fundamental level, functional programming specifies the use of functions as arguments. Functional programming was — and still is, though to a much lesser extent, today — seen as an esoteric technique of specially trained master programmers.
+Callback functions are derived from a programming paradigm known as **functional programming**. At a fundamental level, functional programming specifies the use of functions as arguments. 
+
+Functional programming is often seen as an esoteric technique of specially trained master programmers. That said, many of functional programming's core concepts are useful and accessible!
 
 #### What is a Callback/Higher-order Function?
 
-A callback function, also known as a higher-order function, is a function that is passed to another function (let’s call this other function “otherFunction”) as a parameter, and the callback function is called (or executed) inside the otherFunction. A callback function is essentially a pattern (an established solution to a common problem), and therefore, the use of a callback function is also known as a callback pattern.
+A callback function, also known as a higher-order function, is a function that is passed to another function as a parameter. The callback function is then called (or executed) inside the other function. It's basically something that looks like this:
+
+```js
+function callbackFn(){
+  // do some fancy work here
+  //
+}
+
+function callingFn(cb){
+  //do other fancy work here
+  //
+  
+  // call the callback
+  cb();
+}
+```
+
+The use of callback functions is essentially a pattern, an established solution to a common problem. This is why coding with callback functions is also known as a callback pattern.
 
 ## Examples of Callbacks
 
