@@ -7,6 +7,7 @@ There were a lot of new and difficult JavaScript topics introduced today. Don't 
 * We're going to write a lot of functions to do all kinds of different things. Read the [handout](labs/functions.md) carefully and Google anything you don't understand
   * **Submit** a GitHub repository that contains a JavaScript file: `functions.js`. Name all of your functions like so: `long1`, `long2`, `short1` etc.
   * Remember to make your functions **`return` values**. Returning values makes your functions useful to other parts of your code and will simplify your job further down the road
+  * Indent your code! We haven't talked about it a lot in class, but indentation is really important for keeping track of stuff. Rule of thumb: everything inside braces `{}` is another indentation level. This means objects, loops and functions.
 
 
 * Read the Gitbook chapters on DOM and Events and DOM Manipulation. It's a confusing concept, so do familiarise yourself before class
