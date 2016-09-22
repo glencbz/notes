@@ -77,5 +77,5 @@
        * [Fizz buzz](unit-1/labs/fizzbuzz.md)
        * [Fellowship of the Ring](unit-1/labs/fellowship.md)
        * [Tic Tac Toe](unit-1/labs/TTT.md)
-       * Monkey Constructors
+       * [Monkey Constructors](unit-1/labs/monkey_constructors.md)
 
