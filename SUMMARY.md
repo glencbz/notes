@@ -58,7 +58,7 @@
     * [Closures](unit-1/02-js-jquery/closures.md)
     * [Inheritance](unit-1/02-js-jquery/js-inheritance/01readme.md)
           * [Prototypal Inheritance](unit-1/02-js-jquery/js-inheritance/02prototypalinheritance.md)
-          * [Call, Apply, and other Functions](unit-1/02-js-jquery/js-inheritance/03callapplyfunctions.md)
+          * [call, apply, and other Functions](unit-1/02-js-jquery/js-inheritance/03callapplyfunctions.md)
           * [Resources](unit-1/02-js-jquery/js-inheritance/05resources.md)
 
     * [OOP with Prototypes](unit-1/02-js-jquery/js-prototypes/01readme.md)
