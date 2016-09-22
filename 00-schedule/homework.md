@@ -9,6 +9,7 @@ To keep your assignments neat, each piece of homework should have its own repo.
 | ------    | -----      | --------                                                             |
 | Monday    | HTML       | [HTML User Input Lab][901]                                           |
 | Tuesday   | CSS        | [Recreate Instagram][1023] or [Recreate Airbnb][1024]         |
+| Thursday  | JavaScript Functions | [Write some functions](/unit-1labs/functions.md) |
 <!--
 ## Homework schedule
 
