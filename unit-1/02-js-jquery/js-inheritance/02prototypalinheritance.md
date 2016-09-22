@@ -58,7 +58,8 @@ Motorboat.prototype = Object.create(Boat.prototype);
 Motorboat.prototype.constructor = Motorboat;
 ```
 
-By using the inheritance method, not only do we group shared properties into another object, but we can attach functions to the superclass's object's prototype, and now all boats have that function!
+By using inheritance, we can group shared properties into the prototype and now all boats have that those properties! We can also extend this functionality to functions!
+
 ```js
 Boat.prototype.getDimensions = function() {
   console.log('This boat has a width of ' + this.width + ' and a length of ' + this.length);
@@ -73,12 +74,11 @@ Now the Sailboat, Steamboat, and Motorboat can all use the `getDimensions` funct
 
 Whenever an object doesn't directly have a function or property, it traverses up the prototype chain to see if any parents have it. In this case, SailBoat, Steamboat, and Motorboat go up to their parent (Boat) and see that Boat has a `getDimensions` function.
 
-
 ### Inheriting Via Prototypes: A Closer look
 
-We have previously mentioned that objects can inherit properties and methods from other objects. In JavaScript we use prototypes to do this and it is called inheritance. The formal term for this inheritance via prototypes is called prototypal inheritance.
+We have previously mentioned that objects can inherit properties and methods from other objects in a process known as inheritance. In JavaScript we use prototypes to do this and the formal term for this inheritance via prototypes is prototypal inheritance. 
 
-Inheritance is done in a few steps
+Inheritance is done in a few steps. We recommending reading up on [constructors](../js-prototypes/02constructors) before diving deep into the discussion below.
 
 1. In the subclass (the child class that will get methods and properties from its parent), call the superclass (also known as parent class) using `call`. We'll pass along `this`, which is initially an empty object, and let the superclass take care of attaching properties.
 

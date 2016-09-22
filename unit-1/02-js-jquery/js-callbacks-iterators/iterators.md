@@ -1,106 +1,4 @@
-#Functional Programming
-
-Programming with functions! Weren't we already doing that? Well yes, but we can use functions more heavily, especially in place of loops.
-
-Previously, we saw that functions can be assigned to variables. For example:
-
-```js
-var add = function(a, b) {
-  return a + b
-}
-
-add(1, 2);
-> 3
-```
-
-Functions are **first-class citizens** in JavaScript. This means that we can create functions, store them into variables, and pass functions into other functions. Functions are only executed when called. Try this to illustrate:
-
-###Exercise
-
-Try running the following in Node. What is printed to the screen?
-
-```js
-var bag = function() {
-  console.log('Hello, I am a bag');
-}
-
-console.log(bag);
-```
-
-We can take advantage of this behavior by defining **callback functions**. Callback functions are passed in and *called* at a specific time.
-
-## Callbacks in `setTimeout` and `setInterval`
-
-The `setTimeout()` function takes a function and a delay in
-milliseconds, and executes the function as soon as possible after that
-delay has passed.
-
-```js
-var announce = function() {
-  console.log('Ding!');
-}
-
-var threeSecondTimeout = setTimeout(announce, 3000);
-```
-
-What if we didn't need to reuse the `announce` function? We can use an **anonymous function** instead:
-```js
-var fiveSecondTimeout = setTimeout(function() {
-  console.log('Ding!');
-}, 5000);
-```
-
-The `setInterval()` function takes a function and a delay in
-milliseconds, and executes that function as closely as possible each
-time that interval of milliseconds has passed.
-
-```js
-function annoy() {
-  console.log('Are we there yet?');
-}
-
-var oneSecondInterval = setInterval(annoy, 1000);
-```
-
-`setInterval` and `setTimeout` accept callbacks without parameters. However, there are many more cases where callbacks should have parameters. Make sure your callbacks handle the parameters properly!
-
-If you want to disable the timers, you can use the `clearTimeout(timeoutHandle)` or `clearInterval(intervalHandle)` functions. Remember to assign the timeout or interval to a variable first!:
-
-```js
-var fourSecondTimeout = setTimeout(announce, 4000);
-clearTimeout(fourSecondTimeout);
-
-clearInterval(threeSecondInterval);
-clearInterval(fiveSecondInterval);
-```
-
-## Returning functions from functions
-
-You can probably guess by now how to return a function from a
-function:
-
-```js
-var drinkMaker = function(drinkType) {
-  return function(drinkVolume) {
-    return {
-      drink: drinkType,
-      volume: drinkVolume
-    };
-  };
-};
-
-var cocktailMaker = drinkMaker('cocktail');
-var smoothieMaker = drinkMaker('smoothie');
-
-cocktailMaker('4oz');
-smoothieMaker('16oz');
-```
-
-We'll see that if we print the contents of `cocktailMaker` and `smoothieMaker`, we get functions that were returned from the function `drinkMaker`. Now, we can call these functions and pass in additional arguments. Neat!
-
-Functional programming is a popular topic in the context of Node, so we'll be seeing more examples like these in the future. Like with iterators!
-
-## Iterators
+# Iterators
 
 Iterators are examples of _functional programming_ replacements for `for` loops. We can use these functions to perform common Array operations for us.
 
@@ -128,7 +26,7 @@ We could accomplish all of this using `for` loops, but writing `for` loops is er
 
 ##`forEach`
 
-`forEach` is the _functional programming_ replacement for your standard `for` loop.  You can take the body from your `for` loop, wrap it in a function, and pass that argument to `forEach`. Let's look at an example:
+`forEach` is the _functional programming_ replacement for your standard `for` loop.  You can take the body from your `for` loop, wrap it in a function, and pass that function to `forEach`. Let's look at an example:
 
 ```js
 var friends = ["Markus", "Tim", "Ilias", "Elie"];
@@ -152,8 +50,7 @@ friends.forEach(function (buddy) {
 
 **Try it**
 
-Use the `.forEach` iterator to loop over the following
-array of foods and say you like them.
+Use the `.forEach` iterator to loop over the following array of foods and say you like them.
 
 ```js
 var foods = ["pizza", "tacos", "ice cream"];
@@ -168,8 +65,7 @@ var foods = ["pizza", "tacos", "ice cream"];
 
 **Try it again**
 
-Use the `.forEach` iterator to loop over the following
-array of objects and say how delicious each one is.
+Use the `.forEach` iterator to loop over the following array of objects and say how delicious each one is.
 
 ```js
 var foods = [
@@ -189,7 +85,8 @@ var foods = [
 
 ## `map`
 
-Sometimes we want to loop over an array and build a new array in the process. This is what `map` helps us solve. It is like `forEach`, but it returns a new array based on the return value of the function.
+Sometimes we want to loop over an array and build a new array in the process. This is what `map` helps us solve. It is like `forEach`, but
+it returns a new array based on the return value of the function.
 
 ```js
 var names = ["tim", "ilias", "elie", "markus"];
@@ -214,7 +111,7 @@ console.log(cased);
 
 ##`filter`
 
-Filter is an iterator that loops through your array and filters it down to a subset of the original array. A callback is called on each element of the original array: if it returns true, then the element is included in the new array, otherwise it is excluded.
+Filter is an iterator that loops through your array and filters it down to a subset of the original array. A callback is called on each element of the original array: if the callback returns true, then the element is included in the new array, otherwise it is excluded.
 
 ```js
 var names = ["tim", "ilias", "elie", "markus"];
@@ -278,3 +175,4 @@ Here are some good blog posts that break down `map`, `filter`, and `reduce`.
 * [Transforming Arrays with Array#map](http://adripofjavascript.com/blog/drips/transforming-arrays-with-array-map.html)
 * [Transforming Arrays with Array#filter](http://adripofjavascript.com/blog/drips/filtering-arrays-with-array-filter.html)
 * [Transforming Arrays with Array#reduce](http://adripofjavascript.com/blog/drips/boiling-down-arrays-with-array-reduce.html)
+
