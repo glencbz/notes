@@ -1,8 +1,9 @@
 # Homework: Write some functions!
 
+
 ### Long questions
 
-2. 1. Write a function `lengths` that accepts a single parameter as an argument, namely an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+1. Write a function `lengths` that accepts a single parameter as an argument, namely an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
 
   ```javascript
   var words = ["hello", "what", "is", "up", "dude"]
@@ -50,6 +51,9 @@ Follow the requirements in the list below:
 
 8. Write a function `filterLongWords` that takes an array of words and a number `x` and returns a new array of words that are longer than `x` characters long.
 
+### Submission
+
+Submit everything in one JavaScript file `functions.js`. Rename all your .functions like so: `long1`, `long2`, `short1` etc
 
 ### Bonus questions
 
