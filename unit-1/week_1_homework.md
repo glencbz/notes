@@ -1,5 +1,19 @@
 # Week 1 Homework
 
+### Day 5 (Friday)
+
+It's been an exciting day, learning about DOM and how to manipulate it. Don't worry if you didn't get everything, practice makes perfect. Here are some exercises to help you reinforce the concepts! 
+
+**Submit** the link to your tic-tac-toe repository with your `index.js`, `style.css` and `script.js` files.
+ 
+  * Back to [tic-tac-toe](https://glencbz.gitbooks.io/wdi-6-reference/content/unit-1/labs/TTT.html)! Now that you have the basic HTML and CSS layouts in place, use DOM manipulation to add these features
+    *  Allow players to place "X" & "O" pieces on the game board
+    *  Switch between player turns
+    *  Restart the game
+  * More DOM manipulation practice 
+    * Work on the [Fellowship of the Ring](https://glencbz.gitbooks.io/wdi-6-reference/content/unit-1/labs/fellowship.html) lab
+    * **Bonus** For some additional practice try out the [DOM Times Table](https://github.com/ga-students/dom-times-table) exercise as well!
+
 ### Day 4 (Thursday)
 
 There were a lot of new and difficult JavaScript topics introduced today. Don't get discouraged if you didn't internalise them all - it's nearly impossible! Understanding and memory comes with practice, practice and more practice! (so that's what we're going to do) 
