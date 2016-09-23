@@ -4,7 +4,7 @@
 
 It's been an exciting day, learning about DOM and how to manipulate it. Don't worry if you didn't get everything, practice makes perfect. Here are some exercises to help you reinforce the concepts! 
 
-**Submit** the link to your tic-tac-toe repository with your `index.js`, `style.css` and `script.js` files.
+**Submit** the link to your tic-tac-toe repository with your `index.html`, `style.css` and `script.js` files.
  
   * Back to [tic-tac-toe](https://glencbz.gitbooks.io/wdi-6-reference/content/unit-1/labs/TTT.html)! Now that you have the basic HTML and CSS layouts in place, use DOM manipulation to add these features
     *  Allow players to place "X" & "O" pieces on the game board
