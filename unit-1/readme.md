@@ -34,16 +34,17 @@ See Week 1 cheat-sheet [here][23]
 ### Week 2
 | Topic                                    | Assignments                              |
 | ---------------------------------------- | ---------------------------------------- |
-| [Callbacks and Iterators][12]            | [Iterators Lab][1011] <br><br> [Iterators with Reddit][1012] |
-| [Intro to jQuery][13]                    | [Random Quote Generator][1013] <br><br> [Todo List][1014] |
-| [jQuery Plugins][14]                     | [jQuery UI Lab][1015]                    |
-| [AJAX][15]                               | [AJAX Doughnuts][1016] <br><br> [Reddit AJAX Slideshow][1017] |
-| [Responsive CSS][16]                     |                                          |
-| [Bootstrap][17]                          | [Bootstrap Mockups][1018]                |
-| [User Stories and Wireframing][18]       | [Wireframing: Build an Idea][1019]       |
-| [OOP with Constructors/Prototypes][19] <br><br> [Intro to TDD][20] | [Prototype Body Shop][1020]              |
-| [Scopes][21]                             |                                          |
-| [JavaScript Inheritance][22]             | [Body Shop 2][1021]                      |
+|Day 1 | |
+| [Callbacks and Iterators][1053]            | Lab: [Iterators Lab][1011] <br>HW: [Practicing Callbacks][1054] |
+| [Branching and github][1046]               | Lab: [Git and GitHub Intro Lab][1026]   <br><br>|
+|Day 2| |
+| [Intro to jQuery][13]                    | Lab: [DOM Manipulation Lab][1048] <br> Lab: [New Homes][1049] <br> HW: [Make me blue][1047]|
+|Day 3| |
+| [Javascript and jQuery][13]                    | Lab: [Javascript calculator][1050]|
+|Intro to testing                    | HW: [Exercism Exercises][1051]|
+|Day 4| |
+| SASS and CSS                    | Lab: [Learn SASS][1052]|
+| [Javascript and jQuery][13]                    | Lab: Tic-Tac-Toe in jQuery|
 
 | Projects and Additional Topics |
 | ------------------------------ |
@@ -125,3 +126,14 @@ See Week 1 cheat-sheet [here][23]
 [1043]: https://try.github.io/levels/1/challenges/1
 [1044]: http://discover-devtools.codeschool.com/
 [1045]: https://www.hackerrank.com/domains/tutorials/30-days-of-code
+[1046]: 01-workflow/git-recipes/readme.md
+[1047]: http://tutorialzine.com/2014/05/javascript-challenge-make-me-blue/
+[1048]: 04-jquery/dom_manipulation.md
+[1049]: 04-jquery/intermediate_jquery.md
+[1050]: https://github.com/flamingAvos/js-calculator-lab
+[1051]: http://exercism.io/languages/javascript
+[1052]: https://www.codecademy.com/learn/learn-sass
+[1053]: 02-js-jquery/js-callbacks-iterators/readme.md
+[1054]: https://github.com/flamingAvos/js-callbacks-lab
+
+
