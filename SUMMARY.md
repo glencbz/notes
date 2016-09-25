@@ -79,5 +79,5 @@
        * [Tic Tac Toe](unit-1/labs/TTT.md)
        * [Monkey Constructors](unit-1/labs/monkey_constructors.md)
 * [Projects](projects.md)
-   * Unit 1
+   * [Unit 1](projects/unit_1.md)
 
