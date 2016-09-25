@@ -1,8 +1,9 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 
 
 ##Project Submission
-1. Submit your Project 1 repository details at the Project 1 submission page before 8AM on Friday 7th October 2016. 
-2.  Ensure that the master and gh-pages branches contain your latest project codes.
+1. Ensure that a soft launch of your project is up on github pages by Wednesday 5th October 2016.
+2. Submit your Project 1 repository details at the Project 1 submission page before 8AM on Friday 7th October 2016. 
+3.  Ensure that the master and gh-pages branches contain your latest project codes.
 
 ## Presentation format
 * Presentations are 8 mins: 5 mins presentation and 3 mins feedback/Q&A
@@ -19,32 +20,8 @@
 * Share interesting code solutions
 * Talk about any issues encountered during the project and how you overcame them.
 
-### Project Feedback + Evaluation
-
-* __Project Workflow__: Did you complete the user stories, wireframes, task tracking, and/or ERDs, as specified above? Did you use source control as expected for the phase of the program you’re in (detailed above)?
-
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
-
-* __Creativity__: Did you add a personal spin or creative elements to your project? Did you deliver something of value to the end user (not just a login button and an index page)?
-
-* __Code Quality__: Did you follow code style guidelines and best practices covered in class (i.e spacing, modularity and semantic naming)? Did you comment your code as your instructor has in class?
-
-* __Deployment__: Did you deploy your application to a public url using GitHub Pages?
-
-* __Total__: Your instructor will give you a total score for your project between:
-    
-| Score| Expectations |
-| :----:| :---------: |
-| **0** | _Incomplete._ |
-| **1** | _Does not meet expectations._ |
-| **2** | _Meets expectations, good job!_ |
-| **3** | _Exceeds expectations, you wonderful creature, you!_ |
-
-This will serve as a helpful overall gauge of whether you've met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
-
 ---
 #1a: Quiz Game 
-Instructions: In order to pass Unit 1, you have to first develop a trivia quiz game. After you have completed the quiz game (project 1a), you may begin with project 1b.
 
 ## Trivia Quiz
 Create A simple trivia quiz  using Javascript, HTML and CSS.
@@ -97,9 +74,6 @@ Everyone will get a chance to **be creative**, and work through some really **to
 
 **You will be working individually for this project**, but we'll be guiding you along the process and helping as you go along. Show us what you've got!
 
-
----
-
 ### Technical Requirements
 
 Your app must:
@@ -122,6 +96,32 @@ Your app must:
 * **A ``readme.md`` file** with explanations of the technologies used, the approach taken, usage instructions, unsolved problems, etc.
 
 ---
+
+### Project Feedback + Evaluation
+
+* __Project Workflow__: Did you complete the user stories, wireframes, task tracking, and/or ERDs, as specified above? Did you use source control as expected for the phase of the program you’re in (detailed above)?
+
+* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
+
+* __Creativity__: Did you add a personal spin or creative elements to your project? Did you deliver something of value to the end user (not just a login button and an index page)?
+
+* __Code Quality__: Did you follow code style guidelines and best practices covered in class (i.e spacing, modularity and semantic naming)? Did you comment your code as your instructor has in class?
+
+* __Deployment__: Did you deploy your application to a public url using GitHub Pages?
+
+* __Total__: Your instructor will give you a total score for your project between:
+    
+| Score| Expectations |
+| :----:| :---------: |
+| **0** | _Incomplete._ |
+| **1** | _Does not meet expectations._ |
+| **2** | _Meets expectations, good job!_ |
+| **3** | _Exceeds expectations, you wonderful creature, you!_ |
+
+This will serve as a helpful overall gauge of whether you've met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
+
+---
+
 
 ### Suggested Ways to Get Started
 
