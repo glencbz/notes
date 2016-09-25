@@ -90,10 +90,10 @@ It is a common pattern to use an anonymous function as a callback. However, you 
 Take this code, and past it into your text editor:
 
 ```javascript
-// global variable​
+// global variable
 var allUserData = [];
 
-// generic logStuff function that prints to console​
+// generic logStuff function that prints to console
 function logStuff(userData) {
   if (typeof userData === "string") {
     console.log(userData);
@@ -112,7 +112,7 @@ function getInput(options, callback) {
 ```
 
 
-When we call the `getInput` function, we pass `logStuff` as a parameter - `​logStuff` will called back (or executed) inside the getInput function​
+When we call the `getInput` function, we pass `logStuff` as a parameter - `logStuff` will called back (or executed) inside the getInput function
 
 ```javascript
 getInput({name:"Alex", speciality:"JavaScript"}, logStuff);

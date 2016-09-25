@@ -1,8 +1,10 @@
-#`call`, `apply`, and Other Inheritance functions
+#`call`, `apply`, `bind` and Other functions
+
+There are several functions that we can use to change what `this` represents.
 
 ### `call`
 
-Call and apply are two functions that allow us to change what `this` represents. This is why `this` can be difficult to deal with in JavaScript.
+`call` is useful when you want to use a function once. It calls the function on the object supplied and sets `this` to the object.
 
 **Example 1:**
 
@@ -62,6 +64,24 @@ var setAge = function(newAge) {
 var john = { name: 'John', age: 21 };
 setAge.apply(john, [35]);
 ```
+
+
+
+### `bind`
+
+`bind` is different, because instead of performing just one function call, you create a new function. `bind` returns a new function with `this` bound to whatever object was supplied:
+
+```js
+var setAge = function(newAge) {
+  this.age = newAge;
+};
+
+var john = { name: 'John', age: 21 };
+var johnsAge = setAge.bind(john);
+johnsAge(35);
+```
+
+
 
 ### Calling on a solution
 
@@ -154,10 +174,34 @@ getUserInput("Barack", "Obama", clientData.setUserName, clientData);
 console.log(clientData.fullName);
 //=> Barack Obama
 ```
+Now, we have the function as well as the object we want to access. We can then `apply` or `call` our function on our object, making it behave the way we want. 
 
+Note that we achieve a similar result with `bind`, but we have to make some modifications. First we have to finish creating our object and then `bind` the method to the object we want.
 
-Now, we have the function as well as the object we want to access. We can then `apply` or `call` our function on our object, making it behave the way we want.
+```js
+var clientData = {
+  id: 094545,
+  fullName: "Not Set",
+  // setUserName is a method on the clientData object
+  setUserName: function (firstName, lastName)  {
+  // this refers to the fullName property in this object
+    this.fullName = firstName + " " + lastName;
+  }
+}
 
+// bind the setUserName method to clientData and assign it back to clientData
+clientData.setUserName = clientData.setUserName.bind(clientData);
+
+function getUserInput(firstName, lastName, callback)  {
+  // because the callback is already bound, we don't need to worry about supplying an object
+  callback(firstName, lastName);
+}
+
+getUserInput("Barack", "Obama", clientData.setUserName);
+
+console.log(clientData.fullName);
+//=> Barack Obama
+```
 
 
 ## Useful methods when working with inheritance
