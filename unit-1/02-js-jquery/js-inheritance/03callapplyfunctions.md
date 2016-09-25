@@ -1,4 +1,4 @@
-#Call, Apply, and Other Inheritance Functions
+#`call`, `apply`, and Other Inheritance functions
 
 ### `call`
 
@@ -93,6 +93,72 @@ Student.prototype.constructor = Student;
 The code above is why we forgo talking about `this` until now. In the context of event listener callbacks, `this` refers to the DOM element that trigged the event. But here, `this` can *really be anything you want it to be*.
 
 Still confused? [Understanding `this` once and for all](https://journeyintojavascript.quora.com/understanding-this-once-and-for-all)
+
+
+
+## `this` and Callbacks Problems
+
+Inheritance isn't the only situation where we have to deal with `this`. When the callback function is a method that uses the `this` object, we have to modify how we execute the callback function to preserve the `this` object context.
+
+Let's define an object with some properties and a method. We will later pass the method as a callback function to another function:
+
+```javascript
+var clientData = {
+  id: 094545,
+  fullName: "Not Set",
+  // setUserName is a method on the clientData object​
+  setUserName: function(firstName, lastName)  {
+    // this refers to the fullName property in this object​
+    this.fullName = firstName + " " + lastName;
+  }
+}
+
+function getUserInput(firstName, lastName, callback) {
+  callback(firstName, lastName);
+}
+
+getUserInput("Barack", "Obama", clientData.setUserName);
+
+console.log (clientData.fullName);
+//=> Not Set
+
+console.log (window.fullName);
+//=> Barack Obama
+```
+
+Since `getUserInput` is a global function, `this` defaults to the window object.
+
+#### Use the `call` or `apply` Function To Preserve `this`
+
+We can fix the preceding problem by using either the `call` or `apply` functions.
+
+Let's walk through an example by defining another object with properties and a method and pass the method as a callback later:
+
+```javascript
+var clientData = {
+  id: 094545,
+  fullName: "Not Set",
+  // setUserName is a method on the clientData object
+  setUserName: function (firstName, lastName)  {
+    // this refers to the fullName property in this object
+    this.fullName = firstName + " " + lastName;
+  }
+}
+
+function getUserInput(firstName, lastName, callback, callbackObj)  {
+  // The use of the Apply function below will set the this object to be callbackObj
+  callback.apply(callbackObj, [firstName, lastName]);
+}
+getUserInput("Barack", "Obama", clientData.setUserName, clientData);
+
+console.log(clientData.fullName);
+//=> Barack Obama
+```
+
+
+Now, we have the function as well as the object we want to access. We can then `apply` or `call` our function on our object, making it behave the way we want.
+
+
 
 ## Useful methods when working with inheritance
 

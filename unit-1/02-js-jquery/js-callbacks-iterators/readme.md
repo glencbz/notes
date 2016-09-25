@@ -24,7 +24,10 @@ var bag = function() {
   console.log('Hello, I am a bag');
 }
 
-console.log(bag);
+var caller = function(callee) {
+  callee();
+}
+caller(bag);
 ```
 
 We can take advantage of this behavior by defining **callback functions**. Callback functions are passed in and *called* at a specific time.
