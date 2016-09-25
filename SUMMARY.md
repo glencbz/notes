@@ -78,5 +78,5 @@
        * [Fellowship of the Ring](unit-1/labs/fellowship.md)
        * [Tic Tac Toe](unit-1/labs/TTT.md)
        * [Monkey Constructors](unit-1/labs/monkey_constructors.md)
-* Projects
+* [Projects](projects.md)
 
