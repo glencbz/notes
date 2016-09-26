@@ -5,6 +5,7 @@
 * [Homework](00-schedule/homework.md)
 * [Class Culture](00-schedule/classroom_culture.md)
 * [Unit 1](unit-1/readme.md)
+   * Week 2 Homework
    * [Week 1 Homework](unit-1/week_1_homework.md)
    * [Internet Fundamentals](unit-1/03-internet/how-the-internet-works.md)
    * [Development Workflow](unit-1/01-workflow/readme.md)
@@ -81,7 +82,6 @@
        * [Tic Tac Toe](unit-1/labs/TTT.md)
        * [Monkey Constructors](unit-1/labs/monkey_constructors.md)
        * [Git and Github Intro Lab](unit-1/labs/git_and_github_intro_lab.md)
-   * Week 2 Homework
 * [Projects](projects.md)
    * [Unit 1](projects/unit_1.md)
 
