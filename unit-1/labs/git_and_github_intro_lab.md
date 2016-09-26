@@ -20,7 +20,7 @@ Partners will be referred to as partner1 and partner2.
 
 - within that folder create the following files `index.html`, `style.css`, and `scripts.js`
   - 'cd git-and-github-practice'
-- copy and paste the code from the [starter-code](https://github.com/flamingAvos/git-github-lab/blob/master/readme.md) from the `index.html` and `style.css` into the files you just created
+- copy and paste the code from the [starter-code](https://github.com/flamingAvos/git-github-lab) from the `index.html` and `style.css` into the files you just created
 - add `// JavaScript to be added` to your `script.js` file and link to your JavaScript file in your html file
 - initiate a git repository, commit your changes, create a GitHub repository, and push to GitHub
 
@@ -72,7 +72,7 @@ Partners will be referred to as partner1 and partner2.
 
 #### Starter code
 
-We've given you the HTML/CSS needed to get going in the [starter-code](https://github.com/flamingAvos/git-github-lab/blob/master/readme.md).
+We've given you the HTML/CSS needed to get going in the [starter-code](https://github.com/flamingAvos/git-github-lab).
 
 #### Deliverable
 
