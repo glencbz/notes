@@ -5,7 +5,7 @@
 * [Homework](00-schedule/homework.md)
 * [Class Culture](00-schedule/classroom_culture.md)
 * [Unit 1](unit-1/readme.md)
-   * Week 2 Homework
+   * [Week 2 Homework](unit-1/week_2_homework.md)
    * [Week 1 Homework](unit-1/week_1_homework.md)
    * [Internet Fundamentals](unit-1/03-internet/how-the-internet-works.md)
    * [Development Workflow](unit-1/01-workflow/readme.md)
