@@ -14,3 +14,4 @@ We'll brush up on a lot of fundamentals today. Take this time to really focus on
 * FreeCodeCamp from [Reverse a string](https://www.freecodecamp.com/challenges/reverse-a-string) to [Largest number in array](https://www.freecodecamp.com/challenges/return-largest-numbers-in-arrays). If you've already done this, feel free to finish the section.
 * Read up on [Closures](02-js-jquery/closures.md), [Callbacks](02-js-jquery/js-callbacks-iterators/callbacks.md) and [Iterators](02-js-jquery/js-callbacks-iterators/iterators.md)
   * Pay the most attention to closures! Understanding them is key to debugging a lot of problems with functions
+* And of course, think about Project 1 :D
