@@ -182,7 +182,7 @@ new and complex DOM elements on-the-fly within JavaScript is awesome!
 It's true that instead of doing any of those fancy DOM manipulation we could
 just use set `.innerHTML` equal to strings.
 
-- Using `innerHTML` may be a security concern. Someone can sneak malicious
+- Using `.innerHTML` may be a security concern. Someone can sneak malicious
   content on your page. Using `.textContent` guarantees strings will only
   appear as text.
 
@@ -234,7 +234,7 @@ just use set `.innerHTML` equal to strings.
 
 - A final reason to prefer manual DOM manipulation over `.innerHTML` is
   that it's much faster. The browser is optimized to make changes to
-  the DOM via the `.appendChild`, `insertBefore` methods described here.
+  the DOM via the `.appendChild()`, `.insertBefore()` methods described here.
 
   The browser spends more time manually computing how to interpret string
   content added via `.innerHTML`.
