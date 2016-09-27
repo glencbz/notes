@@ -195,6 +195,14 @@ just use set `.innerHTML` equal to strings.
   window.location = "http://evil.com";
   </script>
   ```
+- HTML5 specifies that a `script` tag inserted via innerHTML should not execute, however, there are still ways to execute JavaScript without `script` elements as such:
+
+  ```html
+    var el = document.querySelector('some-element');
+    var maliciousFunction = "<img src='placeHolder'onerror='alert(100)'>"  
+    el.innerHTML = maliciousFunction;
+   ```
+
 - Using `innerHTML` requires of string manipulation when it's mixed with
   functions and parameters. These lines get long, and it's easy to confuse
   when to use necessary single-quotes or double-quotes to make attributes
