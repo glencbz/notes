@@ -49,6 +49,7 @@
        * [Iterating Over Arrays](unit-1/02-js-jquery/js-control-flow/06-iterating-over-arrays.md)
        * [Additional Topics](unit-1/02-js-jquery/js-control-flow/05additional.md)
        * [Functions](unit-1/02-js-jquery/js-functions/readme.md)
+       * [Variable Scope and Hoisting](unit-1/02-js-jquery/var-hoisting.md)
        * [DOM and Events](unit-1/02-js-jquery/js-dom-events/readme.md)
        * [DOM Manipulation](unit-1/02-js-jquery/js-dom-manipulation/README.md)
        * [The `this` keyword](unit-1/02-js-jquery/js-functions/this.md)
