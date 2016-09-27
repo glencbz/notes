@@ -1,5 +1,16 @@
 # Week 2 Homework
 
+### Day 2 (Tuesday)
+
+Today was really conceptual and content-heavy, so don't be discouraged if you didn't catch everything. Some devs work for years without understanding all of it. It will make more sense as you work on more and more problems and do more of your own reading 🙂. 
+
+* [Functions](labs/functions.md) revisited. This time, we'll replace our `for` loops with iterators. You only need to do the questions that have `for` loops in them 
+  * This means, just submit these questions: long 1, short 4, short 7, short 8
+  * Submit a **new** GitHub repository for this homework (not the old one)
+* [Iterators practice](labs/iterators_practice.md)
+* [Callbacks practice](labs/callbacks_practice.md)
+* Read up on [jQuery](04-jquery/readme.md), the first library we'll learn in WDI 🎉🎉. jQuery will be your good friend very soon.
+
 ### Day 1 (Monday)
 
 We'll brush up on a lot of fundamentals today. Take this time to really focus on understanding rather than trying to deliver a finished assignment
