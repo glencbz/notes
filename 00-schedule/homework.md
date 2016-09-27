@@ -4,6 +4,12 @@ Please submit the link(s) to the repo (github repository) with your homework (e.
 
 To keep your assignments neat, each piece of homework should have its own repo.
 
+### Week 2
+
+| Day       | Topic      | Homework                                                             |
+| ------    | -----      | --------                     
+| Thursday  | JavaScript Functions | [Write some functions](/unit-1labs/functions.md)
+
 ### Week 1
 | Day       | Topic      | Homework                                                             |
 | ------    | -----      | --------                                                             |
