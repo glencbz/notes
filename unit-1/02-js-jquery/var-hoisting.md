@@ -45,6 +45,7 @@ secondFunction();
 
 // => I'm not inside?
 ```
+
 Local scope also has precedence over global scope. This protects us from using the same name twice if one of the names is in a local scope. 
 
 ```js
