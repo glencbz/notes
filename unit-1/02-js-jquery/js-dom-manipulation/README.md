@@ -282,7 +282,3 @@ if there's nothing left in the breakfast list.
   <li>Sandwich</li>
 </ul>
 ```
-
-### Extra Readings
-
-[Prima's gist on hacking with `innerHTML`](https://gist.github.com/primaulia/2b23f3b88a3a7d35d4ce459f64981e27)
