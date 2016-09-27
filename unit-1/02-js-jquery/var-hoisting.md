@@ -140,6 +140,16 @@ console.log(myVar);
 // => 3
 ```
 
+and if there wasn't hoisting at all:
+```js
+// IF THERE WASN'T HOISTING
+console.log(myVar);
+// => ReferenceError: myVar is not defined
+var myVar = 3;
+console.log(myVar);
+```
+
+
 Because of this, the way you declare a function actually affects how your code runs. Remember that we can declare a function using a statement like `var myFunction = function(){}`? Variable assignments are not hoisted, which means this code (modified from before) will fail:
 
 ```js
