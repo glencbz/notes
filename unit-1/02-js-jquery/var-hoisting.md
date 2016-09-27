@@ -156,3 +156,7 @@ var laterFunction = function (){
 ```
 
 That is why it is best not to rely on hoisting to make our code work, but to structure everything in a clean, readable manner.
+
+### Extra Reading
+
+[JavaScript is Sexy](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/) on hoisting
