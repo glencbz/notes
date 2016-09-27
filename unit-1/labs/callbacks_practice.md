@@ -2,9 +2,10 @@
 
 ### Exercise: callback me maybe
 
-1. create a function called `telephone` that logs "867-5309" when called.
-2. write a separate function called `blondie` that takes a callback function as a parameter and executes it.
-3. `blondie` should log "call me on the line at " when called, and then execute `telephone`.
+1. Create a function called `telephone` that logs "867-5309" when called.
+2. Write a separate function called `blondie` that takes a callback function as an argument.
+3. When called, `blondie` should log "Call me on the line at ", then execute the callback function it received as an argument. 
+4. Run `blondie` with `telephone` passed in as an argument.
 
 ### Exercise: repeater
 
