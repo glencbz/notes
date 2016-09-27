@@ -182,7 +182,7 @@ new and complex DOM elements on-the-fly within JavaScript is awesome!
 It's true that instead of doing any of those fancy DOM manipulation we could
 just use set `.innerHTML` equal to strings.
 
-- Using `innerHTML` may be a security concern. Someone can sneak malicious
+- Using `.innerHTML` may be a security concern. Someone can sneak malicious
   content on your page. Using `.textContent` guarantees strings will only
   appear as text.
 
@@ -195,6 +195,14 @@ just use set `.innerHTML` equal to strings.
   window.location = "http://evil.com";
   </script>
   ```
+- HTML5 specifies that a `script` tag inserted via innerHTML should not execute, however, there are still ways to execute JavaScript without `script` elements as such:
+
+  ```html
+    var el = document.querySelector('some-element');
+    var maliciousFunction = "<img src='placeHolder'onerror='alert(100)'>"  
+    el.innerHTML = maliciousFunction;
+   ```
+
 - Using `innerHTML` requires of string manipulation when it's mixed with
   functions and parameters. These lines get long, and it's easy to confuse
   when to use necessary single-quotes or double-quotes to make attributes
@@ -226,7 +234,7 @@ just use set `.innerHTML` equal to strings.
 
 - A final reason to prefer manual DOM manipulation over `.innerHTML` is
   that it's much faster. The browser is optimized to make changes to
-  the DOM via the `.appendChild`, `insertBefore` methods described here.
+  the DOM via the `.appendChild()`, `.insertBefore()` methods described here.
 
   The browser spends more time manually computing how to interpret string
   content added via `.innerHTML`.
@@ -274,7 +282,3 @@ if there's nothing left in the breakfast list.
   <li>Sandwich</li>
 </ul>
 ```
-
-### Extra Readings
-
-[Prima's gist on hacking with `innerHTML`](https://gist.github.com/primaulia/2b23f3b88a3a7d35d4ce459f64981e27)
