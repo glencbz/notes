@@ -85,6 +85,7 @@
        * [Git and Github Intro Lab](unit-1/labs/git_and_github_intro_lab.md)
        * [Callbacks Practice](unit-1/labs/callbacks_practice.md)
        * [Iterators Practice](unit-1/labs/iterators_practice.md)
+       * setTimeout and setInterval
 * [Projects](projects.md)
    * [Unit 1](projects/unit_1.md)
 
