@@ -1,5 +1,16 @@
 # Week 2 Homework
 
+### Day 3 (Wednesday)
+
+Exercise, exercise, exercise!
+
+* [Stopwatch!](labs/settimeout_and_setinterval.md)
+  * Submit this to us as per normal. No jQuery allowed!
+* [FCC: All of Object Oriented and Functional Programming!](https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables)
+* [FCC: All of jQuery!](https://www.freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work)
+* [Code School: All of jQuery, again!](https://www.codeschool.com/courses/try-jquery)
+
+
 ### Day 2 (Tuesday)
 
 Today was really conceptual and content-heavy, so don't be discouraged if you didn't catch everything. Some devs work for years without understanding all of it. It will make more sense as you work on more and more problems and do more of your own reading 🙂. 
