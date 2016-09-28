@@ -7,16 +7,18 @@ To keep your assignments neat, each piece of homework should have its own repo.
 ### Week 2
 
 | Day       | Topic      | Homework                                                             |
-| ------    | -----      | --------                     
-| Thursday  | JavaScript Functions | [Write some functions](/unit-1labs/functions.md)
+| ------    | -----      | -------- |                    
+| Tuesday  | JavaScript Functions | [Write some functions](/unit-1labs/functions.md)|
+| Monday  | DOM | [Fellowship of the Ring](unit-1/labs/fellowship.md)|
+
 
 ### Week 1
 | Day       | Topic      | Homework                                                             |
 | ------    | -----      | --------                                                             |
-| Monday    | HTML       | [HTML User Input Lab][901]                                           |
-| Tuesday   | CSS        | [Recreate Instagram][1023] or [Recreate Airbnb][1024]         |
-| Thursday  | JavaScript Functions | [Write some functions](/unit-1labs/functions.md) |
 | Friday  | DOM | [Tic-tac-toe](/unit-1labs/TTT.md) |
+| Thursday  | JavaScript Functions | [Write some functions](/unit-1labs/functions.md) |
+| Tuesday   | CSS        | [Recreate Instagram][1023] or [Recreate Airbnb][1024]         |
+| Monday    | HTML       | [HTML User Input Lab][901]|
 <!--
 ## Homework schedule
 
