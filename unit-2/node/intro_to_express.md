@@ -230,8 +230,6 @@ app.get('/', function(req, res) {
 app.listen(port);
 ```
 
-
-
 This doesn't only apply to primitive variables. We can even include variable declarations and iterators using ejs.
 
 ```ejs
@@ -254,285 +252,36 @@ This doesn't only apply to primitive variables. We can even include variable dec
 </html>
 ```
 
+### Partials
 
+Partials can be used to modularize views and reduce repetition. A common pattern is to move the header and footer of a page into separate views, or partials, then render them on each page.
 
-#### Logging in Express with Middleware - Codealong (10 mins)
+#### Example
 
-You may have seen this word floating around or seen it when you did Sinatra (Rack Middleware). Middleware is simply code that can be executed anywhere between a request and a response.
-
-In our Hello World app we are logging out the server port once it has started - that is it. We get no other information about requests or errors like we have in Rails. We can use _Middleware_ to achieve this.
-
-Add the following to your app.js file:
-
-```javascript
-// app.js
-.
-.
-.
-app.set('view engine', 'ejs');
-
-
-// Middleware
-app.use(function(req, res, next) {
-  console.log('%s request to %s from %s', req.method, req.path, req.ip);
-
-  next();
-});
-
-app.get('/', function(req, res) {
-.
-.
-.
-```
-
-Let's go through this: After setting up the `view engine` for our app, we use a new method of app called `use`. As an argument to `use` we pass in a function that performs some executables, log some data and fire a callback named `next`. This function, this block of code, is our middleware and `use` is a method given to us by Express whose purpose is to simply implement any middleware we pass to it.
-
-In this example, we are simply logging out the request method ('GET'), the request path ('/') and the request IP ('127.0.0.1' - localhost). `next()` is just a callback function used for the purpose of allowing the app to continue on to other processes once this middleware is done executing. You can think of the `next()` function as telling the app to "move on."
-
-The order of these arguments is crucial: request is always first, response is always second and the callback is always third.
-
-## Adding Routes to our app - Codealong (15 mins)
-
-Let's add some routes. This should all be familiar but let's go through it.
-
-[ExpressJS 4.0](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4) comes with the new Router. Router is like a mini Express application. It doesn’t bring in views or settings but provides us with the routing APIs like `.use`, `.get`, `.param`, and `route`.
-
-First we define our _router_. This is what handles our routing. It's normally better to use this way of doing routes (and extracting them into their own files) as it makes applications more modular, and you won't have a 500 line app.js.
-
-```javascript
-var express = require('express');
-var app     = express();
-var port    = process.env.PORT || 3000;
-var router  = express.Router();
-```
-
-This needs to be under the definition of `var app`!  Then we add our routes.
-
-```javascript
-router.get('/', function(req, res) {
-  res.render('index', { header: 'index!'});
-});
-
-router.get('/contact', function(req, res) {
-  res.render('index', { header: 'contact!'});
-});
-
-router.get('/about', function(req, res) {
-  res.render('index', { header: 'about!'});
-});
-```
-
-At the bottom of the page add:
-
-```javascript
-app.use('/', router);
-```
-
-As we saw before we are rendering our template and then passing in a local variable (_header_) to use in our template, just like instance variables defined in our controller or layouts that we passed to our views in Rails. We can our variable in our `index.ejs` file like this:
-
-```ejs
-<h1><%= header %></h1>
-```
-
-
-#### Creating a router module
-
-
-Let's move this router into another file to separate it from our `app.js`
-
-```bash
-$ mkdir config
-$ touch config/routes.js
-```
-
-Inside this file we need to move all of our route handlers and at the end of the file, we need to export our router:
-
-```javascript
-var router  = express.Router();
-
-router.get('/', function(req, res) {
-  res.render('index', { header: 'index!'});
-});
-
-router.get('/contact', function(req, res) {
-  res.render('index', { header: 'contact!'});
-});
-
-router.get('/about', function(req, res) {
-  res.render('index', { header: 'about!'});
-});
-
-module.exports = router;
-```
-
-Now inside our app.js, let's require this router at the top:
-
-```javascript
-var router = require("./config/routes");
-```
-
-## Restful Routing - Intro (10 mins)
-
-As we've already seen with Sinatra, we will use the RESTful standard to build our web apps. At the moment, we've just covered how to handle GET requests, but we can create callbacks for all types of requests. For example, if we want to create a restful controller for the resource posts, we can add this into our `config/routes.js` file:
-
-```javascript
-router.get('/posts', function(req, res) {
-  console.log("index");
-  res.send("INDEX");
-});
-
-router.get('/posts/:id', function(req, res) {
-  console.log("show");
-  res.send("SHOW");
-});
-
-router.get('/posts/new', function(req, res) {
-  console.log("new");
-  res.send("NEW");
-});
-
-router.post('/posts', function(req, res) {
-  console.log("create");
-  res.send("CREATE");
-});
-
-router.get('/posts/:id/edit', function(req, res) {
-  console.log("edit");
-  res.send("EDIT");
-});
-
-router.put('/posts/:id', function(req, res) {
-  console.log("update");
-  res.send("UPDATE");
-});
-
-router.delete('/posts/:id', function(req, res) {
-  console.log("delete");
-  res.send("DELETE");
-});
-```
-
-We can namespace our endpoints by adding a first argument to `.use()`, in this case "/posts". Likewise, we could've further namespaced our api with "/api/posts". Dev teams namespace their APIs with "/api" to help clearly define if an endpoint is meant for clients or other devs.
-
-Anyway, the code above will create these 7 routes:
-
-
-```javascript
-GET    /posts
-GET    /posts/:id
-GET    /posts/new
-POST   /posts
-GET    /posts/:id/edit
-PUT    /posts/:id
-DELETE /posts/:id
-```
-
-If we want, we might create a dedicated router for this resource and namespace the routes like this:
-
-```javascript
-app.use("/posts", postRouter)
-```
-
-On a side note, just like how we use `.use()` to integrate middleware into our app, express has a middleware method specifically for routes, `.param()`.
-
-## BodyParser and handling params/JSON - Intro (5 mins)
-
-When data is sent to the server via a POST request, the content of the request is passed as a string, but we want to access it as if it was a JSON object:
-
-Let's create a new view file, `views/posts/new.ejs`, and inside add a form like this:
-
-```html
-<h1>New Post</h1>
-
-<form method="post" action="/posts">
-  <label for="post_title">Title</label><br>
-  <input type="text" name="post[title]" id="post_title"><br>
-
-  <label for="post_author">Author</label><br>
-  <input type="text" name="post[author]" id="post_author"><br>
-
-  <label for="post_content">Content</label><br>
-  <textarea name="post[content]"></textarea><br>
-
-  <button>Go go gadget Postmaker</button><br>
-</form>
-```
-
-Inside our new action, we then need to render this page:
-
-```javascript
-router.get('/posts/new', function(req, res) {
-  res.render("posts/new");
-});
-```
-
-Inside our create action, we need to logout the body of the HTTP request:
-
-```js
-router.post('/posts', function(req, res) {
-  console.log(req.body)
-})
-```
-
-Once this form is submitted, by default we this body will show was `undefined`. In order for it to be used, we need to use a package called `body-parser`.
-
-## Configure your app to use body-parser - Codealong (10 mins)
-
-First add the package to your `package.json` dependencies:
-
-```bash
-$ npm install body-parser --save
-```
-
-Now in `app.js`, add:
-
-```javascript
-var bodyParser = require("body-parser");
-```
-
-and also:
-
-```javascript
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
-```
-
-The params passed with a request will be "decoded" automatically, allowing you to use dot notation when working with JavaScript objects.
+**partials/header.ejs**
 
 ```
-{ post: { title: 'asdad', author: 'asdasd', content: 'asdadas' } }
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Site</title>
+</head>
+<body>
 ```
 
-If you are writing an api, meant to receive and send JSON, you would change the line above to:
-
-```javascript
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
-```
-
-Now the app will decode all JSON received in the body of a client request.
-
-
-## Independent Practice (15 minutes)
-
-> ***Note:*** _This can be a pair programming activity or done independently._
-
-In the same file, try to create the 7 Restful Routes for the resource "author". Every method should return some text saying the HTTP Verb, which URI has been used to do the request and which REST action it corresponds to.
-
-Example, for a POST request to `/authors` the text sent back should be:
+**partials/footer.ejs**
 
 ```
-POST request to /authors, this is the CREATE action
+</body>
+</html>
 ```
 
-Also, test your application with `cURL` requests to each of the RESTful endpoints.
+**index.ejs**
 
-## Conclusion (5 mins)
-A framework can be overwhelming at the start, after a couple of days you will see how it makes your life easier.  We will work more on how to make RESTful controllers, this is just an introduction.
+```
+<% include ../partials/header.ejs %>
 
-- What is Middleware and why is it helpful in Express?
-- Explain how body-parser helps decode information in your application.
-- Identify some similarities and differences between Express and Sinatra.
+<h1>Welcome to my site!</h1>
+
+<% include ../partials/footer.ejs %>
+```
