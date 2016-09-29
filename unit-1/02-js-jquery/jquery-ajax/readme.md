@@ -1,6 +1,6 @@
-#Intro to AJAX
+# Intro to AJAX
 
-##Objectives
+### Objectives
 
 * Define AJAX
 * Describe the purpose of AJAX
@@ -10,23 +10,25 @@
 
 Ajax (Asynchronous JavaScript and XML) is used to create asynchronous web applications. This simply means a web page that can make calls back to the server in the background.
 
-##Understanding HTTP
+### Understanding HTTP
 
 Before we can understand AJAX we need to a little background on HTTP. HTTP is one of many internet protocols and is the protocol used for web communcation. HTTP can only send TEXT and is a request-response protocol. This means that a server can only respond to a request from a client (usually a web browser). [Read more on wiki](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
 
 
 ![http diagram](./http_diagram.png)
 
-##AJAX
+## AJAX
 
 Originally the only way an HTTP request could be initiated was if the user clicked a link on a webpage, or submitted a form. AJAX allows JavaScript to send requests to the server with or without user interaction. This enables page content to be updated dynamically without a full page refresh.
 
 
-##AJAX in jQuery
+### AJAX in jQuery
 
 For information about AJAX in jQuery, the best place to go is the [jQuery AJAX Documentation](http://api.jquery.com/category/ajax/).
 
 The most common methods are `$.get()` and `$.post()`. There's also a method called `$.ajax()`, which allows additional options to be passsed to the request.
+
+To make our AJAX request, we have to tell the server what we want in our HTTP request. This is done by passing in an object.
 
 **Basic `$.get()` example**
 
@@ -73,13 +75,11 @@ console.log('Just fired AJAX request!');
 What order will the `console.log` statements appear?
 
 
-##Using Data
+##AJAX Data and Scope
 
-What if we want to use data from an AJAX request? We'll need to keep **scope** in mind, which is the concept of **where** variables exist.
+What if we want to use data from an AJAX request? We'll need to keep **variable scope** in mind, i.e. where do the variables exist?
 
-**Global variables** are variables that are visible throughout the program, and thus have **global scope**
-
-**Local variables** are variables that are visible only inside an immediate code block, and thus have **local scope**. Therefore, any variables we declare inside a function **stop existing** once we leave the function.
+Many AJAX requests produce local variables. This means that it can be challenging to use these variables outside of our callback functions
 
 Some examples:
 
@@ -97,7 +97,6 @@ console.log(posts);
 
 // Output
 // > Uncaught ReferenceError: posts is not defined(…)
-
 ```
 
 **This code runs because `posts` is declared in the same scope as data.**
@@ -117,7 +116,7 @@ $.get('https://www.reddit.com/search.json', {
 ```
 
 
-##Promises
+## Promises
 
 Note that at the end of the AJAX request, there is a function called `.done()` that is called once the response has been received. This is an example of a **promise**. Promises are common concepts in JavaScript, and you can think of promises as a "contract" between two functions. When the `.done()` promise is attached to the AJAX function, it "promises" to run once the response comes back successful. This is due to the request-response cycle taking time, and requiring asynchronous behavior.
 
@@ -126,11 +125,10 @@ We can chain additional promises to the AJAX request, and this is a common pract
 ```js
 
 $.get('https://www.reddit.com/thispagedoesntexist').done(function(data) {
-  console.log('This should not fun, because a 404 error occurs');
+  console.log('This should not run, because a 404 error occurs');
 }).fail(function(error) {
   console.log('An error occurred');
 });
-
 ```
 
 Here, we added a second promise called `.fail()`. Try running the code above by pasting it into the Chrome console on https://www.reddit.com, and see what happens. Only the `.fail()` function runs, and that's because the `.fail()` function makes a promise to the AJAX function that it will only run when there's an error.
@@ -141,18 +139,15 @@ Since the `.done()` function made a promise to the AJAX function to only run whe
 
 It's no fun simply logging search results to the page. Let's put content on the page!
 
-Fork this repo and pull it down to your own computer. The page has a basic search box set
-up and already includes AJAX code that will search for kittens on reddit. We need to process
+Fork this repo ([AJAX Reddit Search](https://github.com/WDI-SEA/ajax-reddit-search)) and pull it down to your own computer. The page has a basic search box set up and already includes AJAX code that will search for kittens on reddit. We need to process
 the AJAX response and create elements to add to the DOM to display the results on the page.
-
-[AJAX Reddit Search](https://github.com/WDI-SEA/ajax-reddit-search)
 
 AJAX responses are usually deeply nested objects carry lots of information. We can look at
 an API to see what the response is supposed to look like. Orrr, we can set a breakpoint
 at the point when data arrives and use our debugger to play around with the object and see
 what data comes back.
 
-The console.log() statement printing the response allows us to use our mouse to click on
+The `console.log()` statement printing the response allows us to use our mouse to click on
 properties of the object and investigate them. Pausing the debugger at the point when
 the response arrives allows us to interact with the console when the response variable
 is in scope. We can write commands on the console to see if they work and copy and paste
@@ -162,7 +157,7 @@ Remember, we have two ways to set breakpoints. We can write the ```debugger``` k
 in our program when we want the program to stop. Or, we can look at the source in Chrome's
 Developer Tools and click on a line to tell the browser to stop there.
 
-Adding a console.log() will print the response every time, and gives us a line number to
+Adding a `console.log()` will print the response every time, and gives us a line number to
 click on. We can follow the link to the line number and click on that line to set a
 temporary breakpoint manually.
 
