@@ -8,8 +8,8 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 | Day       | Topic      | Homework                                                             |
 | ------    | -----      | -------- |                    
-| Wednesday  | DOM Callbacks | [Stopwatch](/unit-1/labs/settimeout_and_setinterval.md)|
-| Tuesday  | JavaScript Functions | [Write some functions](/unit-1/labs/functions.md)|
+| Wednesday  | DOM Callbacks | [Stopwatch](/unit-1/labs/settimeout_and_setinterval.md) |
+| Tuesday  | JavaScript Functions | [Write some functions](/unit-1/labs/functions.md) |
 | Monday  | DOM | [Fellowship of the Ring](unit-1/labs/fellowship.md)|
 
 
