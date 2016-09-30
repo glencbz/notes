@@ -45,7 +45,7 @@ Make some boilerplate html. Include the jQuery library from the CDN and your `ap
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
-    <script src="https//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
