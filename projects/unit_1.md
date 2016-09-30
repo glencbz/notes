@@ -149,11 +149,12 @@ Test your wits & knowledge with whatever-the-heck you know about (so you can act
 
 ### Useful Resources
 
+* **[Github Pages](https://pages.github.com)** _(for hosting your game)_
 * **[MDN Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** _(a great reference for all things Vanilla Javascript)_
 * **[jQuery Docs](http://api.jquery.com)** _(if you're using jQuery)_
-* **[Github Pages](https://pages.github.com)** _(for hosting your game)_
-* **[Coolors](https://coolors.co/)** *(Easy color palettes)*
 * **[Skeleton](https://webdesign.tutsplus.com/tutorials/building-html-page-structure-with-skeleton--cms-23253)** *(Good tutorial on how to build pages with Skeleton)*
+* **[Coolors](https://coolors.co/)** *(Easy palette generator)*
+* **[Flat Colors](http://flatcolors.net/palettes.php)** *(Flat color palettes)*
 
 ---
 
