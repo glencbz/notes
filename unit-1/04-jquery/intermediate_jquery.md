@@ -34,7 +34,7 @@ subl .
 
 #### Boilerplate
 
-Make some boilerplat html. Include the jQuery library from the CDN and your `app.js` after it.  We'll also include the CDN of something called Bootstrap, a CSS framework that we will learn more about later, but for now, think of it as a whole bunch of CSS prewritten for us that we can use by calling it.  It's helpful now because it will make our simple demo easier on the eyes:
+Make some boilerplate html. Include the jQuery library from the CDN and your `app.js` after it.  We'll also include the CDN of something called Bootstrap, a CSS framework that we will learn more about later, but for now, think of it as a whole bunch of CSS prewritten for us that we can use by calling it.  It's helpful now because it will make our simple demo easier on the eyes:
 
 ```html
 <!DOCTYPE html>
@@ -43,11 +43,10 @@ Make some boilerplat html. Include the jQuery library from the CDN and your `app
     <meta charset="UTF-8">
     <title>Welcome Back to jQuery</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script src="https//code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="js/app.js"></script>
 </head>
 <body>
-
+    <script src="https//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
 ```
