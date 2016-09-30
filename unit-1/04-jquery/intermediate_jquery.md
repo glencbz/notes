@@ -53,7 +53,7 @@ Make some boilerplate html. Include the jQuery library from the CDN and your `ap
 
 #### Starting HTML
 
-We are going to display a list homes for sell in Lake Arrowhead. Here's some HTML to get us started - replace the existing `<body>` tags with the following:
+We are going to display a list homes for sell in Lake Arrowhead. Here's some HTML to get us started - replace the existing `<body>` tags with the following and put the scripts at the bottom of the `<body>` again:
 ```html
 <body class="container">
 
@@ -105,7 +105,7 @@ We are going to display a list homes for sell in Lake Arrowhead. Here's some HTM
 
 #### Ensuring that the DOM is Ready
 
-Since our script is in the `<head>`, it will be parsed before the DOM. If our code references any DOM elements, and since this is a jQuery lesson it most certainly will, we need to delay our code's execution until the DOM is built by the browser:
+In general, we should make sure that our DOM is ready before we reference any DOM elements in our scripts. We can delay our script like so:
 
 ```js
 $(document).ready(function() {
@@ -117,10 +117,6 @@ $(function(){
 	alert("Everything is ready, let's do this");
 });
 ```
-
-We're all set to get started. In Sublime, right-click anywhere on `index.html` in the editor and select `Open in Browser`.
-
-Your page should load and the alert appear.
 
 ## Adding & Removing Classes
 
