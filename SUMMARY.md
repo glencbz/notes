@@ -86,7 +86,7 @@
        * [Callbacks Practice](unit-1/labs/callbacks_practice.md)
        * [Iterators Practice](unit-1/labs/iterators_practice.md)
        * [setTimeout and setInterval](unit-1/labs/settimeout_and_setinterval.md)
-       * Bootstrap
+       * [Bootstrap](unit-1/labs/bootstrap.md)
 * [Projects](projects.md)
    * [Unit 1](projects/unit_1.md)
 
