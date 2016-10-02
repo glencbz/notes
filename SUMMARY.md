@@ -80,7 +80,6 @@
        * [Functions](unit-1/labs/functions.md)
        * [Fizz buzz](unit-1/labs/fizzbuzz.md)
        * [Fellowship of the Ring](unit-1/labs/fellowship.md)
-           * Bootstrap lab
        * [Tic Tac Toe](unit-1/labs/TTT.md)
        * [Monkey Constructors](unit-1/labs/monkey_constructors.md)
        * [Git and Github Intro Lab](unit-1/labs/git_and_github_intro_lab.md)
