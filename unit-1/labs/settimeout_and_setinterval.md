@@ -65,3 +65,6 @@ When clicking pause, it should stop the timer at whatever number it's currently 
 ## Additional Resources
 
 - [JavaScript Timers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Timers)
+
+### Solution
+[Prima's solution](https://gist.github.com/primaulia/13f61bd9c5aca409d49c3c3b5dc04282)
