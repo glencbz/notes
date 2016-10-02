@@ -80,3 +80,6 @@ Submit everything in one JavaScript file `functions.js`. Rename all your .functi
     y: 1
   }
   ```
+
+###Solutions
+[Prima's Solutions](https://gist.github.com/primaulia/926639eaf1d67f12d82dc06b9c47ff14)
