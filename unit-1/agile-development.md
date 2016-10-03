@@ -10,7 +10,7 @@
 # Agile Development, Wireframes, and User Stories
 
 
-## Agile vs. Waterfall - Intro (15 mins)
+## Agile vs. Waterfall - Intro
 
 #### Waterfall
 
@@ -59,9 +59,8 @@ The core principles of agile development remain the same:
 _Agile development is supported by a bundle of concrete practices suggested by the agile methods, covering areas like requirements, design, modeling, coding, testing, project management, process, quality, etc. Some notable agile practices include_ - Wiki
 
 
-## Important agile practices as they relate to WDI - Discussion (25 mins)
+## Important agile practices as they relate to WDI - Discussion
 
-> Note: Introduce and discuss each of these concepts with the class.  Continue to ask students why this concept would be important in software development after revealing the definition of the concept.
 
 * **Test-driven development** (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards.
 
@@ -169,7 +168,6 @@ Individually, create four user stories that apply to the functionality for your 
 
 ## Conclusion
 
-> Note: It will be helpful to set up a Trello board or Pivitol Tracker for students and show them how to organize and write user stories using these tools.
 
 - Describe agile development.
 - Compare agile development to waterfall development.
