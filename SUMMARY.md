@@ -84,6 +84,11 @@
        * [Tic Tac Toe](unit-1/labs/TTT.md)
        * [Monkey Constructors](unit-1/labs/monkey_constructors.md)
        * [Git and Github Intro Lab](unit-1/labs/git_and_github_intro_lab.md)
+
+* [Unit 2]()
+	* [Express](unit-2/express/intro_to_express.md)
+		* [Views](unit-2/express/express_views.md)
+		* [Routing](unit-2/express/express_routing.md)
 <!---
 *[Node/Express](05-express/readme.md)
 * [Intro to Express](05-express/express-intro/01readme.md)

@@ -2,9 +2,9 @@
 
 #### Logging in Express with Middleware
 
-You may see the word 'middleware' on the web, particularly with regards to express. Middleware is simply code that can be executed anywhere between a request and a response.
+You may see the word 'middleware' on the web, particularly with regards to express. Middleware is simply **code that is executed anywhere between a request and a response**.
 
-In our Hello World app we are logging out the server port once it has started - that is it. We get no other information about requests or errors like we have in Rails. We can use _Middleware_ to achieve this.
+In our Hello World app we are logging out the server port once it has started - that is it. We get no other information about requests or errors. We can use _Middleware_ to achieve this.
 
 Add the following to your app.js file:
 
@@ -31,11 +31,9 @@ app.get('/', function(req, res) {
 
 Let's go through this: After setting up the view engine for our app, we use a method of `app` called `use`. The argument of `use`  is a callback, also known as our middleware. `use` tells Express to use our middleware.  
 
-In this example, we are simply logging out the request method ('GET'), the request path ('/') and the request IP ('127.0.0.1' - localhost). `next()` is a callback function used for the purpose of allowing the app to continue on to other processes once this middleware is done executing. You can think of the `next()` function as telling the app to "move on" to the next middleware.
+In this example, we are simply logging out the request method ('GET'), the request path ('/') and the request IP ('127.0.0.1' - localhost). `next()` is a callback function used for the purpose of allowing the app to continue on to other processes once this middleware is done executing. You can think of the `next()` function as telling the app to "move on" to the next middleware. This is handy because every middleware function can specify when it is complete.
 
 The order of these arguments is crucial: request is always first, response is always second and the callback is always third.
-
-
 
 ## Routes with Patterns
 
@@ -180,3 +178,7 @@ Your directory should look something like this
 └── views
     └── index.ejs
 ```
+
+## Extra Readings
+
+[Express.js Middleware Demystified](https://www.safaribooksonline.com/blog/2014/03/10/express-js-middleware-demystified/)

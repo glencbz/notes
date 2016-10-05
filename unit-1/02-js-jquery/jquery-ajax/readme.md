@@ -213,7 +213,7 @@ For security reasons, browsers often restrict requests to other websites other t
 
 In the terminal:
 
-```bash
+```http
 curl -I http://api.doughnuts.ga/doughnuts
 
 HTTP/1.1 200 OK
@@ -229,3 +229,28 @@ Access-Control-Allow-Credentials: true
 ```
 
 The header names sometimes vary, but because the **Access-Control-Allow-Credentials** was sent back by the server, the browser will let us receive data from this cross-origin request.
+
+
+
+## AJAX  in Vanilla JavaScript
+
+Plain old JavaScript has its own way of performing AJAX calls. It might not be as elegant as jQuery, but they're still relatively simple. This is done by
+
+- creating an `XMLHttpRequest` object (XHR) 
+- attaching the appropriate event listeners to it
+- specifying the method and target
+- performing whatever other configurations you need
+- sending the request
+
+```js
+var oReq = new XMLHttpRequest();
+oReq.addEventListener("load", reqListener);
+oReq.open("GET", "http://www.example.org/example.txt");
+oReq.send();
+```
+
+
+
+## Extra Readings
+
+[MDN on XHR](https://developer.mozilla.org/en/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)

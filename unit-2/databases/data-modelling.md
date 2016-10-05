@@ -97,3 +97,8 @@ For more details regarding data modeling in MongoDB, start with [this section of
 - What are some of the differences between Mongo & Postgres databases?
 - How do you add a document to a collection in the Mongo shell?
 - Describe the difference between embedding & referencing documents. Give an example of when you might use each.
+
+## Extra Reference
+[MongoDB University on One-to-One relationships](https://www.youtube.com/watch?v=cCsfon0vUlQ)
+[MongoDB University on One-to-Many relationships](https://www.youtube.com/watch?v=EIaP1KbVkUc)
+[MongoDB University on Many-to-Many relationships](https://www.youtube.com/watch?v=fEYYjZ7zEHc)

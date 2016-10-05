@@ -26,7 +26,7 @@ The `name` property value should be in file-type syntax.
 
 ### Node Modules
 
-Like most other modern languages, Node is modular. This means that we can write JS files (i.e. modules) that are meant to be reused in other files. 
+Like most other modern languages, Node is modular. This means that we can write JS files (i.e. modules) that are meant to be reused in other files. Remember that on the front end, we used multiple JS files by naming the files in our HTML file. In Node, we don't have HTML, we `require` the files in our JS.
 
 This is done in Node in two steps:
 
@@ -93,11 +93,11 @@ Before we practice using npm, you should know a more: Node uses a package manage
 
 `npm`  uses a file called `package.json`. This file provides a bunch of handy configurations that help make our life easier.
 
-| Task                    | Node.js                                  |
-| ----------------------- | ---------------------------------------- |
-| Install a new module    | `npm install ...`                        |
-| Update modules          | `npm update`                             |
-| Run the `start` command | `npm start` (provided start is defined in `package.json`) |
+| Task                                     | Node.js           |
+| ---------------------------------------- | ----------------- |
+| Install a new module                     | `npm install ...` |
+| Update modules                           | `npm update`      |
+| Run the `start` command | `npm start` (provided start is defined in `package.json`) |                   |
 
 You'll use this in a handful of lessons in the coming week. For now, let's focus on you making a quick module of your own!
 

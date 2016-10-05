@@ -89,3 +89,9 @@ node main.js
 ```
 
 This is kind of like writing JS files before, but instead of putting them in an HTML document, we can run them straight from the command line!
+
+
+
+### Extra Readings
+
+[What asynchronous programming in Node is about](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
