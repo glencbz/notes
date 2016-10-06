@@ -5,7 +5,7 @@
 * [Homework](00-schedule/homework.md)
 * [Class Culture](00-schedule/classroom_culture.md)
 * [Unit 2]()
-  * [Node](unit-2/node/node-intro.md)
+  * [Node](unit-2/node/node_intro.md)
     * [npm](unit-2/node/npm.md)
   * [Express](unit-2/express/intro_to_express.md)
     * [Views](unit-2/express/express_views.md)
