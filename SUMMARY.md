@@ -5,6 +5,7 @@
 * [Homework](00-schedule/homework.md)
 * [Class Culture](00-schedule/classroom_culture.md)
 * [Unit 2]()
+  * [In-depth Git](unit-2/in-depth-git/readme.md)
   * [Node](unit-2/node/node_intro.md)
     * [npm](unit-2/node/npm.md)
   * [Express](unit-2/express/intro_to_express.md)
@@ -94,7 +95,8 @@
        * [Iterators Practice](unit-1/labs/iterators_practice.md)
        * [setTimeout and setInterval](unit-1/labs/settimeout_and_setinterval.md)
        * [Bootstrap](unit-1/labs/bootstrap.md)
-
+  * [Projects](projects.md)
+    * [Unit 1](projects/unit_1.md)
 <!---
 *[Node/Express](05-express/readme.md)
 * [Intro to Express](05-express/express-intro/01readme.md)
@@ -138,6 +140,3 @@
 * [Cloudinary](05-express/additional-topics/express-cloudinary/readme.md)
 * [Websockets with Socket.io](05-express/express-socket-io/readme.md)
 --->
-* [Projects](projects.md)
-   * [Unit 1](projects/unit_1.md)
-
