@@ -83,7 +83,7 @@
    * [Intro to TDD](unit-1/intro_to_tdd.md)
    * [Agile Development](unit-1/agile-development.md)
    * [Chrome Dev Tools](unit-1/labs/chrome_dev_tools.md)
-   * [Labs](unit-1/labs)
+   * [Labs]()
        * [Primitives](unit-1/labs/primitives.md)
        * [Functions](unit-1/labs/functions.md)
        * [Fizz buzz](unit-1/labs/fizzbuzz.md)
