@@ -146,4 +146,4 @@ Now, we have only the code we need. We need to `git add` the amended files and t
 * [Using branches](https://www.atlassian.com/git/tutorials/using-branches)
 * [Git workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
 * [Merging vs Rebasing  ('Conceptual Overview' section)](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
-   [A Git branching model in the wild](http://nvie.com/posts/a-successful-git-branching-model/)
+* [A Git branching model in the wild](http://nvie.com/posts/a-successful-git-branching-model/)
