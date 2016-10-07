@@ -138,7 +138,7 @@ Now, we have only the code we need. We need to `git add` the amended files and t
 
 ### Lab
 
-[Git Merging Exercise](https://github.com/glencbz/git-merging)
+[Git Merging Exercise](https://github.com/flamingAvos/git-merging)
 
 
 ## Extra Readings
