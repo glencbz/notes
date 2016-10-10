@@ -37,7 +37,7 @@ The order of these arguments is crucial: request is always first, response is al
 
 ## Routes with Patterns
 
-We've already seen some basic routes in the introduction, but often, we want routes that are more general; instead of writing the exact url, we can define patterns that our url follows. 
+We've already seen some basic routes in the introduction, but often, we want routes that are more general. Instead of writing the exact url, we can define url patterns. 
 
 By putting a colon before a string in our route, we can create routes with different variables, or **parameters**. These parameters are automatically pulled out for us by Express and can be accessed via the `req.params` object.
 
