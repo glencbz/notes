@@ -5,13 +5,13 @@
 * [Homework](00-schedule/homework.md)
 * [Class Culture](00-schedule/classroom_culture.md)
 * [Unit 2](unit-2/readme.md)
+   * Week 4 Homework
    * [In-depth Git](unit-2/in-depth-git/readme.md)
    * [Node](unit-2/node/node_intro.md)
        * [npm](unit-2/node/npm.md)
    * [Express](unit-2/express/intro_to_express.md)
        * [Views](unit-2/express/express_views.md)
        * [Routing](unit-2/express/express_routing.md)
-   * Week 4 Homework
 * [Unit 1](unit-1/readme.md)
    * [Week 2 Homework](unit-1/week_2_homework.md)
    * [Week 1 Homework](unit-1/week_1_homework.md)
