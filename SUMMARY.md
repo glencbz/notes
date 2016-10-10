@@ -5,7 +5,7 @@
 * [Homework](00-schedule/homework.md)
 * [Class Culture](00-schedule/classroom_culture.md)
 * [Unit 2](unit-2/readme.md)
-   * Week 4 Homework
+   * [Week 4 Homework](unit-2/week_4_homework.md)
    * [In-depth Git](unit-2/in-depth-git/readme.md)
    * [Node](unit-2/node/node_intro.md)
        * [npm](unit-2/node/npm.md)
