@@ -181,4 +181,5 @@ Your directory should look something like this
 
 ## Extra Readings
 
-[Express.js Middleware Demystified](https://www.safaribooksonline.com/blog/2014/03/10/express-js-middleware-demystified/)
+* [Express.js Middleware Demystified](https://www.safaribooksonline.com/blog/2014/03/10/express-js-middleware-demystified/)
+* [In class exercise on Connect middleware](https://github.com/primaulia/http101)
