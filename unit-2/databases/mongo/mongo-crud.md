@@ -12,6 +12,15 @@ MongoDB installs with a client app, a JavaScript-based shell, that allows us to 
 
 * Switch to a different database: `> use [name of database to switch to]`.
 
+### What is CRUD?
+
+* **C**reate
+* **R**ead
+* **U**pdate
+* **D**estroy
+
+This is the lifecycle of data in an applicatoin
+
 ### Creating a Database and Inserting Documents
 
 1. Start the app in terminal by typing `mongo`. The app will load and change the prompt will change to `>`.
@@ -86,7 +95,7 @@ To list all documents in a collection, we use the _find_ method on the collectio
 > db.people.find()
 ```
 
-Again, unlike the rows in a relational database, our documents don't have to have the same fields!
+Unlike the tables in a relational database, our documents don't have to have the same fields!
 
 ### More Specific Queries
 

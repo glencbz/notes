@@ -11,7 +11,7 @@ Both approaches can be used simultaneously in the same document.
 
 In MongoDB, by design, it is common to __embed__ data in a parent document.
 
-Modeling data with the __embedded__ approach is different than what we've seen in a relational DB where we spread our data across multiple tables. However, this is the way MongoDB is designed to work and is the reason MongoDB can read and return large amounts of data far more quickly than a SQL DB that requires join operations.
+Modeling data with the __embedded__ approach is different than what we've seen in a relational DB where we spread our data across multiple tables. However, this is the way MongoDB is designed to work and is the reason MongoDB can read and return large amounts of data far more quickly than a SQL DB that uses tables.
 
 To demonstrate __embedding__, we will add another person to our _people_ collection, but this time we want to include contact info. A person may have several ways to contact them, so we will be modeling a typical one-to-many relationship.
 
@@ -53,7 +53,7 @@ It may help to think of this approach as _linking_ documents together by includi
 
 Let's create a  _bankAccounts_ collection to demonstrate the __references__ approach.
 
-```
+```js
 db.bankAccounts.insert({
   amount: 4403
 })
@@ -93,12 +93,12 @@ Here are a few things to keep in mind:
 For more details regarding data modeling in MongoDB, start with [this section of mongoDB's documentation ](http://docs.mongodb.org/manual/core/data-modeling-introduction/) or this [hour long YouTube video](https://www.youtube.com/watch?v=PIWVFUtBV1Q)
 
 
-## Conclusion
+## Check Your Learning
 - What are some of the differences between Mongo & Postgres databases?
 - How do you add a document to a collection in the Mongo shell?
 - Describe the difference between embedding & referencing documents. Give an example of when you might use each.
 
 ## Extra Reference
-[MongoDB University on One-to-One relationships](https://www.youtube.com/watch?v=cCsfon0vUlQ)
-[MongoDB University on One-to-Many relationships](https://www.youtube.com/watch?v=EIaP1KbVkUc)
-[MongoDB University on Many-to-Many relationships](https://www.youtube.com/watch?v=fEYYjZ7zEHc)
+* [MongoDB University on One-to-One relationships](https://www.youtube.com/watch?v=cCsfon0vUlQ)
+* [MongoDB University on One-to-Many relationships](https://www.youtube.com/watch?v=EIaP1KbVkUc)
+* [MongoDB University on Many-to-Many relationships](https://www.youtube.com/watch?v=fEYYjZ7zEHc)
