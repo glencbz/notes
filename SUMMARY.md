@@ -17,7 +17,7 @@
    * [Intro to NoSQL](unit-2/databases/mongo/intro-nosql.md)
    * [CRUD](unit-2/databases/mongo/mongo-crud.md)
    * [Data Modeling](unit-2/databases/mongo/data-modeling.md)
-   * [Mongoose](unit-2/databases/mongo/mongoose.md)
+   * [MongoDB with Mongoose](unit-2/databases/mongo/mongoose.md)
 * [Unit 1](unit-1/readme.md)
    * [Week 2 Homework](unit-1/week_2_homework.md)
    * [Week 1 Homework](unit-1/week_1_homework.md)
