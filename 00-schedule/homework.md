@@ -8,7 +8,7 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 | Day        | Topic      | Homework |
 | ------     | -----      | -------- |
-| Tuesday    | Serving with Express | [Serve up your Project 1 with Express!](unit-2/week_4_homework.md) |                    
+| Tuesday    | Serving with Express | [Serve up your Project 1 with Express!](/unit-2/week_4_homework.md) |                    
 
 
 ### Week 2
