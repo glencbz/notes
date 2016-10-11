@@ -4,9 +4,16 @@ Please submit the link(s) to the repo (github repository) with your homework (e.
 
 To keep your assignments neat, each piece of homework should have its own repo.
 
+### Week 4
+
+| Day        | Topic      | Homework |
+| ------     | -----      | -------- |
+| Tuesday    | Serving with Express | [Serve up your Project 1 with Express!](unit-2/week_4_homework.md) |                    
+
+
 ### Week 2
 
-| Day       | Topic      | Homework                                                             |
+| Day       | Topic      | Homework|
 | ------    | -----      | -------- |                    
 | Wednesday  | DOM Callbacks | [Stopwatch](/unit-1/labs/settimeout_and_setinterval.md) |
 | Tuesday  | JavaScript Functions | [Write some functions](/unit-1/labs/functions.md) |
@@ -14,8 +21,8 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 
 ### Week 1
-| Day       | Topic      | Homework                                                             |
-| ------    | -----      | --------                                                             |
+| Day       | Topic      | Homework|
+| ------    | -----      | --------|
 | Friday  | DOM | [Tic-tac-toe](/unit-1labs/TTT.md) |
 | Thursday  | JavaScript Functions | [Write some functions](/unit-1labs/functions.md) |
 | Tuesday   | CSS        | [Recreate Instagram][1023] or [Recreate Airbnb][1024]         |
