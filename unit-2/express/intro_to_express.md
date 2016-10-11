@@ -109,3 +109,6 @@ app.get('/other', function(req, res) {
 
 
 Now this is pretty awesome but it doesn't really do anything. Plus, what if we want to start creating pages instead of just using sending text? In the next article, we'll go through how to create more complicated responses.
+
+## Reference
+* [In class exercise on Express](https://github.com/primaulia/express-ref)
