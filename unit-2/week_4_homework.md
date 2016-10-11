@@ -8,6 +8,7 @@ We're at Express! Hooray. Learn this well, and Express will be your good friend
   * Turn your HTML page into an EJS template
   * Create at least one route for your game
   * No need for partials!
+* [Exercism](http://exercism.io/languages/javascript/installing) if you're done!
 
 ### Day 1 (Monday)
 
