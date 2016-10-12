@@ -3,6 +3,7 @@
 ### Day 3 (Wednesday)
 
 * [ER Diagrams!](labs/erd-lab.md) Pair up and submit one repo. Commit your diagram to the repo and submit it!
+* The next two Exercisms! (for a total of 4)
 
 ### Day 2 (Tuesday)
 
