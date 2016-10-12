@@ -1,15 +1,4 @@
----
-title: Practice Database Design
-type: lab
-duration: "1:25"
-creator:
-    name: Micah Rich
-    city: LA
-competencies: Databases
----
-
 # Practice Database Design
-
 ## Introduction
 
 To practice modeling databases, you'll be tasked with drawing ERDs for a handful of hypothetical applications. Think about what models you would need and what tables you'd create, including the associated attributes and how they would related to other tables.
