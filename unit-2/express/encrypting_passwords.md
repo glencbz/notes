@@ -160,7 +160,7 @@ Great, we can now create a user by posting to this route.
 
 #### Test using cURL
 
-Let's test this by starting up the app with `nodemon app.js` and cURLing this route with some data.
+Let's test this by starting up the app with `npm start` and cURLing this route with some data.
 
 ```bash
 curl -i -H "Content-Type: application/json" -d '{
