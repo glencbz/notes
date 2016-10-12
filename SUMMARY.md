@@ -12,6 +12,7 @@
   * [Express](unit-2/express/intro_to_express.md)
     * [Views](unit-2/express/express_views.md)
     * [Routing](unit-2/express/express_routing.md)
+    * [RESTful Routing](unit-2/express/express_restful_routing.md)
   * [Databases](unit-2/databases/readme.md)
     * [MongoDB](unit-2/databases/mongo/readme.md)
       * [Intro to NoSQL](unit-2/databases/mongo/intro-nosql.md)
