@@ -14,9 +14,9 @@
 
 When building APIs, authentication is crucial. When building an API, you're often giving access to private, sometimes sensitive information, and we do not want to be responsible for secrets falling into the wrong hands. It's hard to be too careful, so today, we're going to learn a way to control access to an API that is both simple and secure.
 
-The technique we're going to use today revolves around **tokens**. Tokens are, at their simplest, a unique string that is usually auto-generated. It needs to be long & complex enough that a human would never guess it, and unique enough that only one user in the database can have any particular one.
+The technique we're going to use today revolves around **tokens**. Tokens are, at their simplest, a unique string that is usually auto-generated. It needs to be long & complex enough that a human would never guess it, but unique enough that only one user in the database can have any the token.
 
-If we trust that we've designed it that way, then we only have to use a single string of characters to determine both who a user is claiming to be in our database, and that they are who they say they are.
+If we've designed it that way, then our token can be used to determine who a user is claiming to be, and that they are who they say they are.
 
 ### Kicking it up a notch
 
@@ -36,6 +36,8 @@ Applications can save a JWT somewhere on a user's computer, just like a cookie. 
 
 ## Starter Express App - Independent
 
+We'll be referring to [the project at this link](https://github.com/flamingAvos/jwt-lesson).
+
 Now, before we talk specifically about JWTs, we've built a really basic starter Express app to hack on for a few minutes. Take 5 minutes to look through it and see what you notice. There are one or two things you might see that are different, but get familiar with what we're working with.
 
 ## What's different? - Demo
@@ -46,7 +48,7 @@ You might notice some interesting things in the `AgentSchema`.
 
 Unless we modify the code, our JSON objects will get returned in our API with every piece of information in the database. But the fact is, you may sometimes want to omit certain things (like password hashes), or you might also just want to have your JSON look a certain way.
 
-One way to do this is to _transform_ your model's schema.
+One way to do this is to _transform_ your model's schema. We can choose what data we wish to show:
 
 ```js
 AgentSchema.set('toJSON', {
@@ -61,12 +63,12 @@ AgentSchema.set('toJSON', {
 });
 ```
 
-This is an example of whitelisting, but you could also blacklist if that's easier, by deleting key/value pairs instead:
+This is an example of whitelisting. We can do the reverse, i.e. choosing what **not** to show. This is blacklisting:
 
 ```js
 AgentSchema.set('toJSON', {
   transform: function(doc, ret, options) {
-    delete ret.password;
+    delete ret.unencryptedName;
     return ret;
   }
 });
@@ -74,7 +76,7 @@ AgentSchema.set('toJSON', {
 
 #### 2. Encrypting Passwords in the Model, without Passport
 
-Now, if we're not using password, and we still need to do some encryption, we can. We can actually use one of mongoose's built-in hooks – `AgentSchema.pre` – to run a function before we save a document.
+Now, if we're not using Passport, and we still need to do some encryption, we can. We can actually use one of mongoose's built-in hooks – `AgentSchema.pre` – to run a function before we save a document.
 
 ```js
 // Let's encrypt our passwords using only the model!
@@ -121,7 +123,7 @@ See that `.select('-unencryptedName')`? That's one way you can specify the outpu
 
 For more info on `.select`, check out the [documentation](http://mongoosejs.com/docs/queries.html).
 
-So if you start up the app and make an agent:
+We'll start the app and make an agent:
 
 ```
 curl -X POST 127.0.0.1:3000/api/agents -d 'name=James+Bond&codename=007'
@@ -141,7 +143,7 @@ We can see that `http://localhost:3000/api/agents` returns data like this:
 }
 ```
 
-While `https://localhost:3000/api/agents/55c65c300bb7305be9517c4d` returns this:
+While `http://localhost:3000/api/agents/<id of agent>` returns this:
 
 ```json
 {
@@ -261,13 +263,13 @@ app.use('/api/agents/:id', expressJWT({secret: secret}));
 
 Hello, middleware. It sits between the request & your code, and because it's above any routes you have set up, it'll run first.
 
-It uses the library and checks for a token. That's it. If there is a token, it keeps going & runs your app like normal. It throws your `myInfo` (the payload you embedded in the JWT), into `request.user` _for_ you.
+It uses the library and checks for a token. That's it. If there is a token, it keeps going & runs your app like normal. It throws your `myInfo` (the payload you embedded in the JWT), into `request.user` _for_ you. 
 
 So on any particular route or controller action, you should be able to say, `request.user.name` and get back `James Bond`. You could use that for looking them up in the database, storing their information in an embedded document, whatever you need.
 
 And hopefully it's apparent, but you can customize the URLs you need to restrict. We happened to have chosen this one in particular, but you could easily do the same for all of the agents resource, all of your API, or whatever you like.
 
-That's it. Now the last step.
+If you're impatient and want to try authenticating right now, you can skip ahead to the last step and come back later! If not, we'll spruce things up a little first.
 
 ## An error handler for when there isn't a token - Codealong
 
@@ -342,7 +344,7 @@ You've got it all built, and this final piece will complete the puzzle.
 **You send along your token via an Authorization header**, with a value of `"Bearer mylongtokengoesrighthere"`
 
 ```
-curl http://localhost:3000/api/agents/55c65c300bb7305be9517c4d --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmaXJzdF9uYW1lIjoiSm9obiIsImxhc3RfbmFtZSI6IkRvZSIsImVtYWlsIjoiam9obkBkb2UuY29tIiwiaWQiOjEyMywiaWF0IjoxNDM5MDY1NjY1LCJleHAiOjE0MzkwODM2NjV9.DUWF4vAInGeVenMm3thkvIWnC5EvWb0jF3-sYmW949M"
+curl http://localhost:3000/api/agents/<agent id> --header "Authorization: Bearer <very long token>"
 ```
 
 If you're using a tool other than CURL, look for where you can add in custom headers:
