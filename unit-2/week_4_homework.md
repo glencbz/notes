@@ -2,7 +2,7 @@
 
 ### Day 3 (Wednesday)
 
-* [ER Diagrams!](labs/erd-lab.md) Pair up and submit one repo
+* [ER Diagrams!](labs/erd-lab.md) Pair up and submit one repo. Commit your diagram to the repo and submit it!
 
 ### Day 2 (Tuesday)
 
