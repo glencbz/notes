@@ -1,5 +1,9 @@
 # Week 4 Homework
 
+### Day 3 (Wednesday)
+
+* [ER Diagrams!](labs/erd-lab.md) Pair up and submit one repo
+
 ### Day 2 (Tuesday)
 
 We're at Express! Hooray. Learn this well, and Express will be your good friend
