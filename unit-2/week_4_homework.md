@@ -1,5 +1,10 @@
 # Week 4 Homework
 
+### Day 3 (Wednesday)
+
+* [ER Diagrams!](labs/erd-lab.md) Pair up and submit one repo. Commit your diagram to the repo and submit it!
+* The next two Exercisms! (for a total of 4). That's `hamming`, `rna`, `bob`, `gigasecond`
+
 ### Day 2 (Tuesday)
 
 We're at Express! Hooray. Learn this well, and Express will be your good friend
