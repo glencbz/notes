@@ -1,5 +1,17 @@
 # Week 4 Homework
 
+### Day 4 (Thursday)
+
+* Exercism yet again! Do `Gigasecond`.
+* Normalisation Exercise (in Slack)
+* Read MongoDB University unit 1 & 2 (log in details in Slack)
+
+
+
+Some tips/reminders if MongoDB doesn't work right: 
+* You need to have a `mongod` running, then run `mongo`
+* `mongo` shell is not the same as your normal bash shell
+
 ### Day 3 (Wednesday)
 
 * [ER Diagrams!](labs/erd-lab.md) Pair up and submit one repo. Commit your diagram to the repo and submit it!
