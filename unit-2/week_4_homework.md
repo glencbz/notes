@@ -5,6 +5,7 @@
 * Exercism yet again! Do `Gigasecond`.
 * Normalisation Exercise (in Slack)
 * Read MongoDB University unit 1 & 2 (log in details in Slack)
+  * Focus on Week 2: CRUD
 
 
 
