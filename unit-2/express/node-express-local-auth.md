@@ -102,15 +102,15 @@ module.exports = function(passport) {
 }
 ```
 
-Here, we are declaring the strategy for the sign up. The first thing to note is that we are using a dependency, passport-local, to help configure the "strategy" middleware of passport. This module lets you authenticate using a username and password, however, it could easily be swapped out with another passport middleware strategy such as passport-google-oauth which lets your app authenticate using Google.
+Here, we are declaring the strategy for the sign up. The first thing to note is that we are using a dependency, `passport-local`, to help configure the "strategy" middleware of Passport. This module lets you authenticate using a username and password, however, it could easily be swapped out with another passport middleware strategy such as `passport-google-oauth` which lets your app authenticate using Google.
 
 #### Configure Strategy
 
-Just like how express has `.use()` available for mounting middleware, so does passport. At the first argument to `use`, we declare the name of the strategy we configure in the second argument. By declaring the name of the strategy, passport can refer to it later. The second argument argument given to `LocalStrategy` is an object giving info about the fields we will use for the authentication. Simply, this is where we configure the strategy middleware.
+Just like how Express has `.use()` available for mounting middleware, so does Passport. `passport.use()` takes two arguments: a name and a strategy. By declaring the name of the strategy, passport can refer to it later. 
 
-By default, passport-local expects to find the fields `username` and `password` in the request. If you use different field names, as we do, you rename them in `LocalStrategy`'s configuration.
+To use a `LocalStrategy`, we first have to configure it. By default, `passport-local` expects to find the fields `username` and `password` in the request. If you use different field names, as we do, you rename them in `LocalStrategy`'s configuration. The first argument given to `LocalStrategy` is an object giving info about the fields we will use for the authentication.
 
-Then, we pass the function that we want to be executed as a callback when this strategy is called: this callback method will receive the request object; the values corresponding to the fields name given in the object (usernameField and passwordField); and the callback method (`done`) to execute when this 'strategy' is done. You can think of `done` as the `next` callback we executed within our express middleware when we were ready to move on to the next functionality.
+Our `LocalStrategy` also take a callback argument that is executed when this strategy is called. This callback method will receive the request object. The request object will have values corresponding to the fields name given in the configuration object (`usernameField` and `passwordField`). This callback also takes a callback parameter (`done`) to execute when this 'strategy' is done. You can think of `done` as the `next` callback we executed within our express middleware when we were ready to move on to the next functionality.
 
 Now, inside this callback method, we will implement our custom logic to signup a user.
 
