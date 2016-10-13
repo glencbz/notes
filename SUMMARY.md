@@ -20,7 +20,7 @@
        * [CRUD](unit-2/databases/mongo/mongo-crud.md)
        * [Data Modeling](unit-2/databases/mongo/data-modeling.md)
        * [MongoDB with Mongoose](unit-2/databases/mongo/mongoose.md)
-   * Labs
+   * [Labs]()
        * [ER Diagram](unit-2/labs/erd-lab.md)
 * [Unit 1](unit-1/readme.md)
    * [Week 2 Homework](unit-1/week_2_homework.md)
