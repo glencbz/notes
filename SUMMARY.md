@@ -14,6 +14,7 @@
        * [Routing](unit-2/express/express_routing.md)
        * [RESTful Routing](unit-2/express/express_restful_routing.md)
    * [Databases](unit-2/databases/readme.md)
+       * [Data Modeling](unit-2/databases/data_modeling.md)
    * [MongoDB](unit-2/databases/mongo/readme.md)
        * [Intro to NoSQL](unit-2/databases/mongo/intro-nosql.md)
        * [CRUD](unit-2/databases/mongo/mongo-crud.md)
