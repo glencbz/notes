@@ -90,14 +90,19 @@ Open the file `config/passport.js` and add:
 var LocalStrategy   = require('passport-local').Strategy;
 var User            = require('../models/user');
 
-module.exports = function(passport) {
-  passport.use('local-signup', new LocalStrategy({
+var lsConfig = {
     usernameField : 'email',
     passwordField : 'password',
     passReqToCallback : true
-  }, function(req, email, password, done) {
+};
 
-  }));
+var ls = new LocalStrategy(
+    lsconfig,
+    function(req, email, password, done) {
+    });
+
+module.exports = function(passport) {
+  passport.use('local-signup', ls);
 }
 ```
 
@@ -114,30 +119,31 @@ Our `LocalStrategy` also takes a callback argument that is executed when this st
 Now, inside this callback method, we will implement our custom logic to signup a user.
 
 ```javascript
-...
-}, function(req, email, password, done) {
-
-// Find a user with this email
+// in the local strategy callback
+  function(req, email, password, done) {
+    // Find a user with this email
     User.findOne({ 'local.email' : email }, function(err, user) {
+      // Handle errors
       if (err) return done(err);
-
+      
       // If there is a user with this email
-      if (user) {
+      if (user) 
         return done(null, false, req.flash('errorMessage', 'This email is already used!'));
-      } else {
 
+      // Otherwise
+      else {
         var newUser            = new User();
         newUser.local.email    = email;
         newUser.local.password = User.encrypt(password);
-
+        
+        // Create and save the new user
         newUser.save(function(err, user) {
           if (err) return done(err);
-          return done(null, user);
+            return done(null, user);
         });
       }
     });
-}));
-...
+  });
 
 ```
 
@@ -145,16 +151,16 @@ First we will try to find a user with the same email, to make sure this email is
 
   In this case, we will call the `callback` method with the two arguments `null` and `false` - the first argument is for when a server error happens; the second one corresponds to the user object, which in this case hasn't been created, so we return false.
 
-If no user is returned, it means that the email received in the request can be used to create a new user object. We will, therefore create a new user object, hash the password and save the new created object to our mongo collection. When all this logic is created, we will call the `callback` method with the two arguments: `null` and the new user object created.
+If no user is returned, it means that the email received in the request can be used to create a new user object. We will, therefore create a new user object, hash the password and save the new created object to our Mongo collection. When all this logic is created, we will call the `callback` method with the two arguments: `null` and the new user object created.
 
 In the first situation we pass `false` as the second argument, in the second case, we pass a user object to the callback, corresponding to true, based on this argument, passport will know if the strategy has been successfully executed and if the request should redirect to the `success` or `failure` path. (see below).
 
-#### User.js
+#### `user.js`
 
 The last thing is to add the method `encrypt` to the user model to hash the password received and save it as encrypted:
 
 ```javascript
-User.statics.encrypt = function(password) {
+userSchema.statics.encrypt = function(password) {
   return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
 };
 ```
@@ -194,7 +200,7 @@ The second argument tells passport what to do in case of a success or failure.
 
 We've seen in previous lessons that authentication is based on a value stored in a cookie, and then, this cookie is sent to the server for every request until the session expires or is destroyed.
 
-To use the session with passport, we need to create two new methods in `config/passport.js` :
+To use the session with passport, we need to use two new methods in `config/passport.js` :
 
 ```javascript
 module.exports = function(passport) {
@@ -214,7 +220,7 @@ module.exports = function(passport) {
 
 The method `serializeUser` will be used when a user signs in or signs up, passport will call this method, our code then call the `done` callback, the second argument is what we want to be serialized.
 
-The second method will then be called every time there is a value for passport in the session cookie. In this method, we will receive the value stored in the cookie, in our case the `user.id`, then search for a user using this ID and then call the callback. The user object will then be stored in the request object passed to all controller methods calls.
+The second method will then be called every time there is a value for assport in the session cookie. In this method, we will receive the value stored in the cookie, in our case the `user.id`, then search for a user using this ID and then call the callback. The user object will then be stored in the request object passed to all controller methods calls.
 
 ## Flash Messages - Intro
 
@@ -233,7 +239,7 @@ This will store the message 'This email is already used.' into the response obje
 
 In the view `signup.ejs`, above the form, add:
 
-```ejs
+```
 <% if (message.length > 0) { %>
   <div class="alert alert-danger"><%= message %></div>
 <% } %>
