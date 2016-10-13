@@ -1,7 +1,6 @@
 # Local Authentication with Express and Passport
 
 ### Objectives
-*After this lesson, students will be able to:*
 
 - Create a login form with email & password
 - Use `passport-local` to find a user and verify their password
@@ -72,7 +71,7 @@ Let's have a quick look at the `usersController.js` controller. As you can see, 
 
 The statics controller, just has the home action.
 
-#### Routes.js
+#### `routes.js`
 
 We have separated the routes into a separate file, to remove them from the `app.js` file.
 
@@ -110,13 +109,13 @@ Just like how Express has `.use()` available for mounting middleware, so does Pa
 
 To use a `LocalStrategy`, we first have to configure it. By default, `passport-local` expects to find the fields `username` and `password` in the request. If you use different field names, as we do, you rename them in `LocalStrategy`'s configuration. The first argument given to `LocalStrategy` is an object giving info about the fields we will use for the authentication.
 
-Our `LocalStrategy` also take a callback argument that is executed when this strategy is called. This callback method will receive the request object. The request object will have values corresponding to the fields name given in the configuration object (`usernameField` and `passwordField`). This callback also takes a callback parameter (`done`) to execute when this 'strategy' is done. You can think of `done` as the `next` callback we executed within our express middleware when we were ready to move on to the next functionality.
+Our `LocalStrategy` also takes a callback argument that is executed when this strategy is called. This callback method will receive the request object, which has keys corresponding to the fields name given in the configuration object (`usernameField` and `passwordField`). This callback also takes a callback parameter (`done`) to execute when this 'strategy' is done. You can think of `done` as the `next` callback we executed within our express middleware when we were ready to move on to the next functionality.
 
 Now, inside this callback method, we will implement our custom logic to signup a user.
 
 ```javascript
 ...
-}, function(req, email, password, callback) {
+}, function(req, email, password, done) {
 
 // Find a user with this email
     User.findOne({ 'local.email' : email }, function(err, user) {
@@ -142,9 +141,9 @@ Now, inside this callback method, we will implement our custom logic to signup a
 
 ```
 
-First we will try to find a user with the same email, to make sure this email is not already use.
+First we will try to find a user with the same email, to make sure this email is not already used. We do this by performing a Mongo request on the email. If a user document is returned a user with this email already exists.
 
-Once we have the result of this mongo request, we will check if a user document is returned - meaning that a user with this email already exists.  In this case, we will call the `callback` method with the two arguments `null` and `false` - the first argument is for when a server error happens; the second one corresponds to the user object, which in this case hasn't been created, so we return false.
+  In this case, we will call the `callback` method with the two arguments `null` and `false` - the first argument is for when a server error happens; the second one corresponds to the user object, which in this case hasn't been created, so we return false.
 
 If no user is returned, it means that the email received in the request can be used to create a new user object. We will, therefore create a new user object, hash the password and save the new created object to our mongo collection. When all this logic is created, we will call the `callback` method with the two arguments: `null` and the new user object created.
 
