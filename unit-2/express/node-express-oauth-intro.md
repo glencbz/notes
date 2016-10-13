@@ -21,11 +21,13 @@ At a high level, the standard lays out the overall protocol of login: you have t
 ![facebook-login](https://cloud.githubusercontent.com/assets/40461/9360397/e49b15be-468d-11e5-8b88-3757ca6cbcac.png)
 
 
-You probably know this as "Login with Facebook": you click on "Login with Facebook", you're redirected to Facebook's application, and then you get back to your site.  As a developer, one benefit is that you don't have to worry about developing your own authentication system.  The other benefit is your application gets a whole bunch of information it can use - or persist - later on, from Facebook.  A downside for the users is that in order to login, they're giving a lot of of their data to the requesting application. Developers and companies love this, though, because they can use all this data from the OAuth provider (Facebook/Twitter etc).
+You probably know this as "Login with Facebook": you click on "Login with Facebook", you're redirected to Facebook's application, and then you get back to your site.  As a developer, one benefit is that you don't have to worry about developing your own authentication system.  
+
+The other benefit is your application gets a whole bunch of information it can use - or persist - later on, from Facebook.  A downside for the users is that in order to login, they're giving a lot of of their data to the requesting application. Developers and companies love this, though, because they can use all this data from the OAuth provider (Facebook/Twitter etc).
 
 #### How it works
 
-To make any of our apps work, we need to first declare our app as a Facebook application using Facebook's [developer interface](https://developers.facebook.com/).  Ultimately, we'll be defining the set of permissions / information we are requesting from the user.
+To make any of our apps work, we need to first declare our app as a Facebook application using Facebook's [developer interface](https://developers.facebook.com/).  Ultimately, we'll be defining the set of permissions/information we are requesting from the user.
 
 A visitor of our website clicks **Login with Facebook**, and leaves our original application and are brought to Facebook - as a developer, you lose everything you had (params from a form, for example).  
 
@@ -40,7 +42,7 @@ To demonstrate OAuth, we are going to create a really simple app that shows the 
 
 #### First, signup to use Facebook's API
 
-> Note: Students may have to authenticate Facebook with mobile number.
+> Note: You may have to authenticate Facebook with mobile number.
 
 To set up our application to use Facebook's authentication, first, navigate to [Facebook Developers](https://developers.facebook.com/) and follow these steps:
 
@@ -55,7 +57,7 @@ To set up our application to use Facebook's authentication, first, navigate to [
 
 #### Set the platform
 
-Since we'll be working locally, we have to specify our local host address for this application.  Navigate to 'Settings' and click on Add Platform. Add to Site URL:
+Since we'll be working locally, we have to specify our local host address for this application.  Navigate to 'Settings' and click on Add Platform. Select Website and Add to Site URL:
 
 ```
 http://localhost:3000/
@@ -65,25 +67,13 @@ Save your changes.
 
 #### Save environment variables
 
-Returning to terminal, as you will need to add your Environment Variables to your `.zshrc` file
+Returning to terminal, as you will need to save your app ID and app secret as Environment Variables. This will make them visible to your app without putting them in your source code!
 
-```
-nano ~/.zshrc
-```
+Run the following:
 
-At the bottom of the file, add:
-
-```
-export FACEBOOK_API_KEY=
-export FACEBOOK_API_SECRET=
-```
-
-Of course, you'll need to fill in the details from Facebook Developer API; you will also need to add your password in order to get your API secret key.
-
-Then save and source the `.zshrc`:
-
-```
-source ~/.zshrc
+```bash
+export FACEBOOK_ID=facebookappidgoeshere
+export FACEBOOK_SECRET=facebookappsecretgoeshere
 ```
 
 #### Create the model
