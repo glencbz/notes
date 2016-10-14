@@ -1,5 +1,15 @@
 # Week 4 Homework
 
+### Day 5 (Friday)
+
+It's time to use what we learned! Woohoo
+* We'll create an Express app! This is **individual work** but feel free to ask for advice/help.
+  * Must have a one-to-many relationship between two collections
+  * Must have at least 3 RESTful routes:
+    * `create`, `findAll`, `findOne/:id`
+  * Submit this!
+* Exercism! `Pangram` and `Beer Pong`
+
 ### Day 4 (Thursday)
 
 * Exercism yet again! Do `Gigasecond`.
