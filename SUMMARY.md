@@ -11,7 +11,7 @@
   * [Express](unit-2/express/intro_to_express.md)
     * [Views](unit-2/express/express_views.md)
     * [Routing](unit-2/express/express_routing.md)
-    * [Authentication]()
+    * [Authentication](unit-2/express/encrypting_passwords.md)
       * [JWT](unit-2/express/node-express-jwt-tokens.md)
       * [OAuth](unit-2/express/node-express-oauth-intro.md)
 * [Unit 1](unit-1/readme.md)
@@ -100,7 +100,7 @@
        * [Bootstrap](unit-1/labs/bootstrap.md)
   * [Projects](projects.md)
     * [Unit 1](projects/unit_1.md)
-    
+
 <!---
 *[Node/Express](05-express/readme.md)
 * [Intro to Express](05-express/express-intro/01readme.md)
