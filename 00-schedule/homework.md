@@ -8,6 +8,8 @@ To keep your assignments neat, each piece of homework should have its own repo.
 
 | Day        | Topic      | Homework |
 | ------     | -----      | -------- |
+| Friday    | Express and Mongoose | Basic Express and Mongoose|                    
+| Wednesday    | Database Design | ER Diagram |                    
 | Tuesday    | Serving with Express | [Serve up your Project 1 with Express!](/unit-2/week_4_homework.md) |                    
 
 
