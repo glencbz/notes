@@ -17,8 +17,6 @@ It's time to use what we learned! Woohoo
 * Read MongoDB University unit 1 & 2 (log in details in Slack)
   * Focus on Week 2: CRUD
 
-
-
 Some tips/reminders if MongoDB doesn't work right: 
 * You need to have a `mongod` running, then run `mongo`
 * `mongo` shell is not the same as your normal bash shell
