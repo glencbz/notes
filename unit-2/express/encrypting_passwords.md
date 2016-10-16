@@ -1,8 +1,6 @@
 # Encrypting Passwords with Express and Mongoose
 
 ### Objectives
-*After this lesson, students will be able to:*
-
 - Create a mongoose-backed User model with email & password
 - Recall what encryption is and why it's important
 - Generate a salt & encrypt a password
