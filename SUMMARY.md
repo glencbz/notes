@@ -14,6 +14,7 @@
     * [Authentication](unit-2/express/encrypting_passwords.md)
       * [JWT](unit-2/express/node-express-jwt-tokens.md)
       * [OAuth](unit-2/express/node-express-oauth-intro.md)
+  * [Intro to Ajax](unit-2/ajax/readme.md)
 * [Unit 1](unit-1/readme.md)
    * [Week 2 Homework](unit-1/week_2_homework.md)
    * [Week 1 Homework](unit-1/week_1_homework.md)
