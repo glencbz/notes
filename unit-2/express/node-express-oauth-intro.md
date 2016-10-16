@@ -1,10 +1,13 @@
 # Into to OAuth and 3rd Party APIs with Express
 
 ### Objectives
-*After this lesson, students will be able to:*
 
 - Describe OAuth is & why it's commonly used
 - Use a Passport strategy to authenticate with a 3rd party login
+
+### Repo
+
+[OAuth Lesson](https://github.com/flamingAvos/oauth_lesson)
 
 ## What is OAuth? Intro
 
@@ -21,11 +24,13 @@ At a high level, the standard lays out the overall protocol of login: you have t
 ![facebook-login](https://cloud.githubusercontent.com/assets/40461/9360397/e49b15be-468d-11e5-8b88-3757ca6cbcac.png)
 
 
-You probably know this as "Login with Facebook": you click on "Login with Facebook", you're redirected to Facebook's application, and then you get back to your site.  As a developer, one benefit is that you don't have to worry about developing your own authentication system.  The other benefit is your application gets a whole bunch of information it can use - or persist - later on, from Facebook.  A downside for the users is that in order to login, they're giving a lot of of their data to the requesting application. Developers and companies love this, though, because they can use all this data from the OAuth provider (Facebook/Twitter etc).
+You probably know this as "Login with Facebook": you click on "Login with Facebook", you're redirected to Facebook's application, and then you get back to your site.  As a developer, one benefit is that you don't have to worry about developing your own authentication system.  
+
+The other benefit is your application gets a whole bunch of information it can use - or persist - later on, from Facebook.  A downside for the users is that in order to login, they're giving a lot of of their data to the requesting application. Developers and companies love this, though, because they can use all this data from the OAuth provider (Facebook/Twitter etc).
 
 #### How it works
 
-To make any of our apps work, we need to first declare our app as a Facebook application using Facebook's [developer interface](https://developers.facebook.com/).  Ultimately, we'll be defining the set of permissions / information we are requesting from the user.
+To make any of our apps work, we need to first declare our app as a Facebook application using Facebook's [developer interface](https://developers.facebook.com/).  Ultimately, we'll be defining the set of permissions/information we are requesting from the user.
 
 A visitor of our website clicks **Login with Facebook**, and leaves our original application and are brought to Facebook - as a developer, you lose everything you had (params from a form, for example).  
 
@@ -40,7 +45,7 @@ To demonstrate OAuth, we are going to create a really simple app that shows the 
 
 #### First, signup to use Facebook's API
 
-> Note: Students may have to authenticate Facebook with mobile number.
+> Note: You may have to authenticate Facebook with mobile number.
 
 To set up our application to use Facebook's authentication, first, navigate to [Facebook Developers](https://developers.facebook.com/) and follow these steps:
 
@@ -55,7 +60,7 @@ To set up our application to use Facebook's authentication, first, navigate to [
 
 #### Set the platform
 
-Since we'll be working locally, we have to specify our local host address for this application.  Navigate to 'Settings' and click on Add Platform. Add to Site URL:
+Since we'll be working locally, we have to specify our local host address for this application.  Navigate to 'Settings' and click on Add Platform. Select Website and Add to Site URL:
 
 ```
 http://localhost:3000/
@@ -65,25 +70,13 @@ Save your changes.
 
 #### Save environment variables
 
-Returning to terminal, as you will need to add your Environment Variables to your `.zshrc` file
+Returning to terminal, as you will need to save your app ID and app secret as Environment Variables. This will make them visible to your app without putting them in your source code!
 
-```
-nano ~/.zshrc
-```
+Run the following:
 
-At the bottom of the file, add:
-
-```
-export FACEBOOK_API_KEY=
-export FACEBOOK_API_SECRET=
-```
-
-Of course, you'll need to fill in the details from Facebook Developer API; you will also need to add your password in order to get your API secret key.
-
-Then save and source the `.zshrc`:
-
-```
-source ~/.zshrc
+```bash
+export FACEBOOK_ID=facebookappidgoeshere
+export FACEBOOK_SECRET=facebookappsecretgoeshere
 ```
 
 #### Create the model
@@ -127,8 +120,8 @@ module.exports = function(passport){
   });
 
   passport.use('facebook', new FacebookStrategy({
-    clientID        : process.env.FACEBOOK_API_KEY,
-    clientSecret    : process.env.FACEBOOK_API_SECRET,
+    clientID        : process.env.FACEBOOK_ID,
+    clientSecret    : process.env.FACEBOOK_SECRET,
     callbackURL     : 'http://localhost:3000/auth/facebook/callback',
     enableProof     : true,
     profileFields   : ['name', 'emails']
@@ -172,7 +165,7 @@ There's a lot going on here so let's break it down. This code is really similar 
 - First, we give the credentials for the current app to the Facebook strategy;
 - Then, with the array given to `profileFields`, we describe which fields we want to get back from Facebook;
 - The function that follows will be executed when Facebook sends back the data to the website using `/auth/facebook/callback` endpoint;
-- Finally, if the user already exists, the code directly executes the callback and gives the user object found by mongo to the callback, otherwise, we create a new user object and execute the callback.
+- Finally, if the user already exists, the code directly executes the callback and gives the user object found by Mongo to the callback. Otherwise, we create a new user object and execute the callback.
 
 #### Add the routes and the views
 
@@ -182,9 +175,9 @@ To authenticate via OAuth with Facebook, an app needs three routes:
 - A route for the Facebook callback
 - A route for the logout
 
-For simplicity sake, we will set up just one view that shows different data depending on whether or not the user is logged in or not. In layout.ejs, add:
+For simplicity sake, we will set up just one view that shows different data depending on whether or not the user is logged in or not. In `layout.ejs`, add:
 
-```html
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -211,13 +204,13 @@ Look, again, in your `user.js` file, to the block of code that provides us with 
 
 Now, we need to create a route to render this view:
 
-```javascript
+```js
 app.get('/', function(req, res){
   res.render('layout', {user: req.user});
 });
 ```
 
-When using passport, the user object will always be attached to the request object. In this method, the user object will be sent to the view using `{user: req.user}`.
+When using Passport, the user object will always be attached to the request object. In this method, the user object will be sent to the view using the object `{user: req.user}`.
 
 Now, let's add the route that will be used to create the request to Facebook:
 
@@ -227,9 +220,9 @@ app.get('/auth/facebook', passport.authenticate('facebook', { scope: 'email'} ))
 
 This one's easy and will redirect the user to the Facebook website.  If the user already authorized the app, then Facebook will send back the request to the url passed as a param with the field `callbackURL`.
 
-> #### Scope?!
+#### Scope?!
 
-> The "scope" argument we are passing to the `facebook` Strategy, is to change the permissions that we want to request from Facebook. By default, the [Facebook Graph](https://developers.facebook.com/docs/facebook-login/permissions/v2.4) doesn't give you access to the users's email. It will also not provide you an email if you haven't verified it.
+The "scope" argument we are passing to the `facebook` strategy, is to change the permissions that we want to request from Facebook. By default, the [Facebook Graph](https://developers.facebook.com/docs/facebook-login/permissions/v2.4) doesn't give you access to the users's email. It will also not provide you an email if you haven't verified it.
 
 For this app, if you take a look at the strategy, we've used `http://localhost:3000/auth/facebook/callback`. We will now create the route handler for this route:
 

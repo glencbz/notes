@@ -43,13 +43,13 @@ A salt is random data that can be added as additional input to a one-way functio
 
 Take the [starter-code]() and unzip it. Next, make sure that you run `npm install` to install all of the dependencies.
 
-Once you have done this, run `nodemon app.js` to check for any errors. You shouldn't have any!
+Once you have done this, run `npm start` to check for any errors. You shouldn't have any!
 
 **Note:** Make sure that you have Mongo running!
 
 #### Creating a User Model
 
-Now, we are going to declare and export a user model, so in `models/user.js`:
+Now, we are going to declare and export a user model, so in `models/users.js`:
 
 ```javascript
   var mongoose = require('mongoose');
@@ -67,6 +67,12 @@ Now, we are going to declare and export a user model, so in `models/user.js`:
 Nothing new here - we declare the fields and their respective types, but we need to make sure that the email is unique, hence the `{unique: true}`.
 
 We have required mongoose and bcrypt here, although we are not using bcrypt yet.
+
+Now that we've created the user schema, we need to require it in `app.js`.
+
+```javascript
+  var User = require('./models/User');
+```
 
 To check that this has been correctly set up, let's go into our Mongo terminal and quickly check the schema in this database:
 
@@ -132,11 +138,10 @@ Now we will create the `signup` route. In app.js let's add that signup route:
     var userObject = new User(req.body.user);
 
     userObject.save(function(err, user) {
-      if(err){
+      if(err)
         return res.status(401).send({message: err.errmsg});
-      } else {
+      else
         return res.status(200).send({message: "user created"});
-      }
     });
   })
 ```
@@ -155,7 +160,7 @@ Great, we can now create a user by posting to this route.
 
 #### Test using cURL
 
-Let's test this by starting up the app with `nodemon app.js` and cURLing this route with some data.
+Let's test this by starting up the app with `npm start` and cURLing this route with some data.
 
 ```bash
 curl -i -H "Content-Type: application/json" -d '{
@@ -231,10 +236,37 @@ Here we are calling two methods to encrypt the password:
 We do not need the original password anymore, so we can replace it by the hashed one:
 
 ```
-this.password = hash;
+user.password = hash;
 ```  
 
 The call to `next()` will now go to the next middleware or execute the save action.  
+
+## Test your signup using cURL
+
+```bash
+curl -i -H "Content-Type: application/json" -d '{
+  "user" :{
+  "name"       : "Dave",
+  "email"       : "dave@dave.com",
+  "password"    : "password"
+  }
+
+}' http://localhost:3000/signup
+```
+
+You should see something like this:
+
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 26
+ETag: W/"1a-T12+w8BGtrChZALrlerTPQ"
+Date: Sat, 15 Aug 2015 03:56:35 GMT
+Connection: keep-alive
+
+{"message":"user created"}%
+```
 
 #### Create, save and update?!
 
@@ -286,11 +318,11 @@ In app.js, let's add:
       user.authenticate(userParams.password, function(err, isMatch) {
         if (err) throw err;
 
-        if (isMatch) {
+        if (isMatch)
           return res.status(200).send({message: "Valid Credentials !"});
-        } else {
+        else
           return res.status(401).send({message: "The credentials provided do not correspond to a registered user"});
-        };
+
       });
     });
   });

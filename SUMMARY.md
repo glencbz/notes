@@ -13,6 +13,10 @@
        * [Views](unit-2/express/express_views.md)
        * [Routing](unit-2/express/express_routing.md)
        * [RESTful Routing](unit-2/express/express_restful_routing.md)
+       * [Authentication](unit-2/express/encrypting_passwords.md)
+         * [Local Authentication](unit-2/express/node-express-local-auth.md)
+         * [JWT](unit-2/express/node-express-jwt-tokens.md)
+         * [OAuth](unit-2/express/node-express-oauth-intro.md)
    * [Databases](unit-2/databases/readme.md)
        * [Data Modeling](unit-2/databases/data_modeling.md)
    * [MongoDB](unit-2/databases/mongo/readme.md)
@@ -20,6 +24,7 @@
        * [CRUD](unit-2/databases/mongo/mongo-crud.md)
        * [Data Modeling](unit-2/databases/mongo/data-modeling.md)
        * [MongoDB with Mongoose](unit-2/databases/mongo/mongoose.md)
+   * [Intro to Ajax](unit-2/ajax/readme.md)
    * [Labs]()
        * [ER Diagram](unit-2/labs/erd-lab.md)
 * [Unit 1](unit-1/readme.md)
@@ -94,7 +99,7 @@
    * [Intro to TDD](unit-1/intro_to_tdd.md)
    * [Agile Development](unit-1/agile-development.md)
    * [Chrome Dev Tools](unit-1/labs/chrome_dev_tools.md)
-   * Labs
+   * [Labs]()
        * [Primitives](unit-1/labs/primitives.md)
        * [Functions](unit-1/labs/functions.md)
        * [Fizz buzz](unit-1/labs/fizzbuzz.md)
@@ -108,4 +113,3 @@
        * [Bootstrap](unit-1/labs/bootstrap.md)
    * [Projects](projects.md)
        * [Unit 1](projects/unit_1.md)
-
