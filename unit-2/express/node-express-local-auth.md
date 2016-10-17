@@ -16,9 +16,11 @@ _In modern web applications, authentication can take a variety of forms. Traditi
 
 #### Strategies
 
-The main concept when using Passport is to register _Strategies_.  A strategy is a Passport middleware that will create some action in the background and execute a callback; the callback should be called with different arguments depending on whether the action that has been performed in the strategy was successful or not. Based on this and on some config params, Passport will redirect the request to different paths.
+The main concept when using Passport is to register _Strategies_.  A strategy is a Passport middleware that will create some action in the background and execute a callback. This callback should handle successful and unsuccessful attempts
 
-Because strategies are packaged as individual modules, we can pick and choose what modules we need for our application. This logic allows the developer to keep the code simple - without unnecessary dependencies - in the controller and delegate the proper authentication job to some specific passport code. On a high-level, you can think of the passport module as authentication middleware the app uses and any passport strategy module (`passpor-*`) as detailed authentication middleware that passport itself uses.
+Because strategies are packaged as individual modules, we can pick and choose what modules we need for our application. This logic allows us to keep the controller logic simple because we can delegate the authentication to Passport.
+
+On a high-level, Passport is the authentication middleware and the strategy is middleware used by Passport.
 
 
 ## Implementing Passport.js - Codealong
@@ -75,14 +77,17 @@ The statics controller, just has the home action.
 
 We have separated the routes into a separate file, to remove them from the `app.js` file.
 
-#### Signup
+### Signup
 
 First we will implement the signup logic. For this, we will have:
 
 1. a route action to display the signup form
 2. a route action to receive the params sent by the form
 
-When the server receives the signup params, the job of saving the user data into the database, hashing the password and validating the data will be delegated to the strategy allocated for this part of the authentication, this logic will be written in `config/passport.js`
+As for the signup logic itself, we will delegate the work to a strategy. This strategy handles:
+1. saving the user data into the database
+2. hashing the password
+3. validating the data
 
 Open the file `config/passport.js` and add:
 
@@ -106,17 +111,19 @@ module.exports = function(passport) {
 }
 ```
 
-Here, we are declaring the strategy for the sign up. The first thing to note is that we are using a dependency, `passport-local`, to help configure the "strategy" middleware of Passport. This module lets you authenticate using a username and password, however, it could easily be swapped out with another passport middleware strategy such as `passport-google-oauth` which lets your app authenticate using Google.
+The first thing to note here is that we are using a dependency, `passport-local`, to help configure the strategy middleware of Passport. This module lets you authenticate using a username and password. 
 
-#### Configure Strategy
+Because our strategies are modular, we could swap them out for others. One useful one is `passport-google-oauth` which lets your app authenticate using Google.
 
-Just like how Express has `.use()` available for mounting middleware, so does Passport. `passport.use()` takes two arguments: a name and a strategy. By declaring the name of the strategy, passport can refer to it later. 
+#### `lsconfig`
 
-To use a `LocalStrategy`, we first have to configure it. By default, `passport-local` expects to find the fields `username` and `password` in the request. If you use different field names, as we do, you rename them in `LocalStrategy`'s configuration. The first argument given to `LocalStrategy` is an object giving info about the fields we will use for the authentication.
+ By default, `passport-local` expects to find the fields `username` and `password` in the request. If you use different field names, as we do, you rename them in `LocalStrategy`'s configuration. We do this configuration by passing our `lsconfig` object to our new `LocalStrategy`.
 
-Our `LocalStrategy` also takes a callback argument that is executed when this strategy is called. This callback method will receive the request object, which has keys corresponding to the fields name given in the configuration object (`usernameField` and `passwordField`). This callback also takes a callback parameter (`done`) to execute when this 'strategy' is done. You can think of `done` as the `next` callback we executed within our express middleware when we were ready to move on to the next functionality.
+### Configure Strategy
 
-Now, inside this callback method, we will implement our custom logic to signup a user.
+Just like how Express has `.use()` available for mounting middleware, so does Passport. `passport.use()` takes two arguments: a name and a strategy. By declaring the name of the strategy, Passport can refer to it later. 
+
+To use a `LocalStrategy`, we first have to configure it. Inside our empty callback, we will implement our custom logic to signup a user.
 
 ```javascript
 // in the local strategy callback
@@ -147,15 +154,15 @@ Now, inside this callback method, we will implement our custom logic to signup a
 
 ```
 
-First we will try to find a user with the same email, to make sure this email is not already used. We do this by performing a Mongo request on the email. If a user document is returned a user with this email already exists.
+Our `LocalStrategy` takes a callback argument that is executed when this strategy is called. This callback method will receive the request object and the values that match the configuration object fields (`usernameField` and `passwordField`). This callback also takes a callback parameter (`done`) to execute when this strategy is done, just like the `next` callback in Express middleware.
 
-  In this case, we will call the `callback` method with the two arguments `null` and `false` - the first argument is for when a server error happens; the second one corresponds to the user object, which in this case hasn't been created, so we return false.
+First we will try to find a user with the same email, to make sure this email is not already used. In this case, we will call `done` with `null` (meaning no error) and `false` (meaning there is no user object).
 
-If no user is returned, it means that the email received in the request can be used to create a new user object. We will, therefore create a new user object, hash the password and save the new created object to our Mongo collection. When all this logic is created, we will call the `callback` method with the two arguments: `null` and the new user object created.
+**If no user is returned**, it means that the email received in the request can be used to create a new user object. We will, therefore create a new user object, hash the password and save the new created object to our Mongo collection. When all this logic is created, we will call the `callback` method with the two arguments: `null` and the new user object created.
 
-In the first situation we pass `false` as the second argument, in the second case, we pass a user object to the callback, corresponding to true, based on this argument, passport will know if the strategy has been successfully executed and if the request should redirect to the `success` or `failure` path. (see below).
+**If a user is returned**, we pass a user object to `done`. Based on this argument, Passport will know if the strategy has been successfully executed and whether the request should redirect to the `success` or `failure` path. (see below).
 
-#### `user.js`
+### `user.js`
 
 The last thing is to add the method `encrypt` to the user model to hash the password received and save it as encrypted:
 
@@ -175,7 +182,6 @@ Now we need to use this strategy in the route handler.
 
 
 In the `usersController.js` controller, for the method `postSignup`, we will add the call to the strategy we've declared earlier, `local-signup`:
-
 
 ```javascript
 function postSignup(req, res) {
