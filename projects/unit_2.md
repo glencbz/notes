@@ -26,19 +26,24 @@ Develop your own personal project with the below minimum technical requirements.
 ### Technical Requirements
 
 Deliverables include:
-* **a) Use Mongo & Express to build an API ** and **b) a front-end application** that consumes it
-  * You will have to separate both front-end application and back-end server.
-* **Create an API using at least 3 related models ( more if they make sense )**
-  * Project 2A, your models should be:
-    * User - someone using your application
-    * Post - blog posts
-    * Comment - comments on the posts.
-  * Project 2B - one model representing the user of your application and the remaining models depending on the functional idea for your app
-* Include **all major CRUD functions** in a **RESTful API** for at least one of those models
-* **Consume your own API** with AJAX calls by making your front-end with HTML, Javascript, & jQuery
-* **Craft thoughtful user stories**
-* Layout and style your front-end with **clean & well-formatted CSS**
-* **Deploy your application online** so it's publicly accessible
+* **Node back-end server**
+  * Preferably with **Mongoose and Express**
+  * API should be created using **at least 3 related models ( more if they make sense )**
+    * Project 2A, your models should be:
+      * User - someone using your application
+      * Post - blog posts
+      * Comment - comments on the posts.
+    * Project 2B:
+      * one user model
+      * remaining models - depending on functional idea
+    * Include **all major CRUD functions** in a **RESTful API** for at least one of those models
+    * **Include sign up/log in functionality**, with encrypted passwords & an authorization flow   
+* **Front-end application**
+  * **Consume your own API** with AJAX calls to the back-end server. Make your front-end with HTML, Javascript, & jQuery
+* **Overall**
+  * **Craft thoughtful user stories**
+  * Layout and style your front-end with **clean & well-formatted CSS**
+  * **Deploy your application online** so it's publicly accessible
 
 **Optional**
 
@@ -91,12 +96,16 @@ Deliverables include:
 
 ### Necessary Deliverables
 
-* A **working full-stack application, built by you**, hosted somewhere on the internet
-* A **link to your hosted working app** in the URL section of your GitHub repo
-* A **git repository hosted on GitHub**, with a link to your hosted project,  and frequent commits dating back to the **very beginning** of the project. Commit early, commit often.
-* **A ``readme.md`` file** with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
-* **Wireframes of your app**, hosted somewhere & linked in your readme
-* A link in your ``readme.md`` to the publically-accessible **user stories you created**
+* Github Repo 1: A **working API**, hosted on heroku
+* Github Repo 2: A front-end **that consumes your own API**, hosted on heroku or gh-pages.
+* A **link to your hosted working app** in the URL section of your GitHub repos
+* **A ``readme.md`` file** with:
+    * Explanations of the **technologies** used
+    * A couple paragraphs about the **general approach you took**
+    * **Installation instructions** for any dependencies
+    * Link to your **user stories** – who are your users, what do they want, and why?
+    * Link to your **wireframes** – sketches of major views / interfaces in your application
+    * Descriptions of any **unsolved problems** or **major hurdles** your team had to overcome
 
 ---
 
