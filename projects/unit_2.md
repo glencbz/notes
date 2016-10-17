@@ -1,8 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Building Your First Full-stack Application
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Building & consuming your own API
 
 ## Project Submission
-1. Please create your Project 2A or 2B github repos / and push to heroku
-2. Ensure that a soft launch of your project is up on heroku by Wednesday 26th October 2016.
+1. Push your frontend repo to gh-pages and backend repo to heroku.
+2. Ensure that a soft launch of your project is up on gh-pages and heroku by Wednesday 26th October 2016.
 3. Submit the links at the **Project 2 submission page**
 4. The early submission of links is to enable the instructional staff to monitor the progress of the projects.
 4. The deadline for this project is on Friday 28th October 2016, 8am
@@ -11,19 +11,43 @@
 
 ### Overview
 
-This second project is your first foray into **building a full-stack application.** You'll be **building a Node app,** which means you'll learn about what it takes to build a functional application from the ground up yourself.
+This second project is your first foray into **building a full-stack application.** You'll be **building a Node app** which serves an API and a **front-end application** which consumes the API.
 
-**This is exciting!** It's a lot, but we'll give you the tools over the next few weeks to be able build what you need, and you get to decide what you do with it. And you get to be creative in choosing what sort of application you want to build!
+**This is exciting!** It sounds like a lot, but you already have all the tools to build them! Get creative in choosing what sort of application you want to build!
 
 **You will be working individually for this project**, and you'll be designing the app yourself. We hope you'll exercise creativity on this project, sketch some wireframes before you start, and write user stories to define what your users will want to do with the app. Make sure you have time to run these ideas by your instructors to get their feedback before you dive too deep into code! Remember to keep things small and focus on mastering the fundamentals – scope creep/feature creep is the biggest pitfall for any project!
-
----
 
 ### Project 2A: Blog
 Develop a blog with the below minimum technical requirements.
 
 ### Project 2B: Freestyle App
 Develop your own personal project with the below minimum technical requirements.
+
+### Technical Requirements
+
+Deliverables include:
+* **a) Use Mongo & Express to build an API ** and **b) a front-end application** that consumes it
+  * You will have to separate both front-end application and back-end server.
+* **Create an API using at least 3 related models ( more if they make sense )**
+  * Project 2A, your models should be:
+    * User - someone using your application
+    * Post - blog posts
+    * Comment - comments on the posts.
+  * Project 2B - one model representing the user of your application and the remaining models depending on the functional idea for your app
+* Include **all major CRUD functions** in a **RESTful API** for at least one of those models
+* **Consume your own API** with AJAX calls by making your front-end with HTML, Javascript, & jQuery
+* **Craft thoughtful user stories**
+* Layout and style your front-end with **clean & well-formatted CSS**
+* **Deploy your application online** so it's publicly accessible
+
+**Optional**
+
+* Incorporate external APIs
+  * Consumed by your front-end application
+  * Consumed by your back-end application in the models
+  * Feel free to utilize and combine a few external APIs to create a more useful API
+
+---
 
 ## Presentation format
 * Presentations are 8 mins: 5 mins presentation and 3 mins feedback/Q&A
@@ -62,25 +86,6 @@ Develop your own personal project with the below minimum technical requirements.
 | **3** | _Exceeds expectations, you wonderful creature, you!_ |
 
  This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
-
-### Technical Requirements
-
-Your app must:
-
-* **Project 2A - should have at _least_ 3 models: User, Post and Comment. ** (more if they make sense) – User to represent someone using your application, Post to represent blog posts, and Comment to represent comments on posts.
-
-* **Project 2B - Have at _least_ 2 models** (more if they make sense) – one representing someone using your application, and one that represents the main functional idea for your app
-
-* The models are to be linked up by relationships
-* The relationship is to be shown on the view
-    * eg: A user can list the reviews he made previously.
-    * eg: A category can be selected and the products under that category can be listed.
-* **Include sign up/log in functionality**, with encrypted passwords & an authorization flow
-* **Have complete RESTful routes** for at least one of your resources with GET, POST, PUT, PATCH, and DELETE
-* **Utilize an ORM to create a database table structure** and interact with your relationally-stored data
-* **Include wireframes** that you designed during the planning process
-* Have **semantically clean HTML and CSS**
-* **Be deployed online** and accessible to the public
 
 ---
 
