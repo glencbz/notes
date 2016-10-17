@@ -3,7 +3,7 @@
 ## Project Submission
 1. Please create your Project 2A or 2B github repos / and push to heroku
 2. Ensure that a soft launch of your project is up on heroku by Wednesday 26th October 2016.
-3. Submit the links at the **[Project 2 submission page](https://docs.google.com/a/generalassemb.ly/forms/d/e/1FAIpQLScmeIIOFOADGlQY9na650d0jrvg9lAjGhry-pV-fZqtRuSmbw/viewform)**
+3. Submit the links at the **Project 2 submission page**
 4. The early submission of links is to enable the instructional staff to monitor the progress of the projects.
 4. The deadline for this project is on Friday 28th October 2016, 8am
 5. Before the deadline ensure that the master branch contains your latest project codes. (There is no need to have a gh-pages branch)
@@ -19,8 +19,8 @@ This second project is your first foray into **building a full-stack application
 
 ---
 
-### Project 2A: Redmart E-shop
-Develop a Redmart clone with the below minimum technical requirements.
+### Project 2A: Blog
+Develop a blog with the below minimum technical requirements.
 
 ### Project 2B: Freestyle App
 Develop your own personal project with the below minimum technical requirements.
@@ -67,7 +67,7 @@ Develop your own personal project with the below minimum technical requirements.
 
 Your app must:
 
-* **Project 2A - should have at _least_ 3 models: User, Product and Reviews or Purchases. ** (more if they make sense) – User to represent someone using your application, Product to represent items for sale, and other to represent the main functional idea for your app
+* **Project 2A - should have at _least_ 3 models: User, Post and Comment. ** (more if they make sense) – User to represent someone using your application, Post to represent blog posts, and Comment to represent comments on posts.
 
 * **Project 2B - Have at _least_ 2 models** (more if they make sense) – one representing someone using your application, and one that represents the main functional idea for your app
 
