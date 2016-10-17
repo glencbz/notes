@@ -36,8 +36,8 @@ Deliverables include:
     * Project 2B:
       * one user model
       * remaining models - depending on functional idea
-    * Include **all major CRUD functions** in a **RESTful API** for at least one of those models
-    * **Include sign up/log in functionality**, with encrypted passwords & an authorization flow   
+  * Include **all major CRUD functions** in a **RESTful API** for at least one of those models
+  * **Include sign up/log in functionality**, with encrypted passwords & an authorization flow   
 * **Front-end application**
   * **Consume your own API** with AJAX calls to the back-end server. Make your front-end with HTML, Javascript, & jQuery
 * **Overall**
@@ -45,8 +45,7 @@ Deliverables include:
   * Layout and style your front-end with **clean & well-formatted CSS**
   * **Deploy your application online** so it's publicly accessible
 
-**Optional**
-
+Optional
 * Incorporate external APIs
   * Consumed by your front-end application
   * Consumed by your back-end application in the models
