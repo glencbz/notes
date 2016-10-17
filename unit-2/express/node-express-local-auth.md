@@ -8,7 +8,7 @@
 
 ## Passport and the logic - Intro
 
-From the [passport website](http://passportjs.org/docs):
+From the [Passport website](http://passportjs.org/docs):
 
 "_Passport is authentication Middleware for Node. It is designed to serve a singular purpose: authenticate requests. When writing modules, encapsulation is a virtue, so Passport delegates all other functionality to the application. This separation of concerns keeps code clean and maintainable, and makes Passport extremely easy to integrate into an application._
 
@@ -204,7 +204,7 @@ The second argument tells passport what to do in case of a success or failure.
 
 #### Session
 
-We've seen in previous lessons that authentication is based on a value stored in a cookie, and then, this cookie is sent to the server for every request until the session expires or is destroyed.
+We've seen in previous lessons that authentication is based on a value stored in a cookie. This cookie is sent to the server for every request until the session expires or is destroyed.
 
 To use the session with passport, we need to use two new methods in `config/passport.js` :
 
@@ -224,13 +224,13 @@ module.exports = function(passport) {
 
 ```
 
-The method `serializeUser` will be used when a user signs in or signs up, passport will call this method, our code then call the `done` callback, the second argument is what we want to be serialized.
+The method `serializeUser` is used when a user signs in or signs up. Passport will call this method to save (i.e. serialize) some information about the user session (`user.id` in this case).
 
-The second method will then be called every time there is a value for assport in the session cookie. In this method, we will receive the value stored in the cookie, in our case the `user.id`, then search for a user using this ID and then call the callback. The user object will then be stored in the request object passed to all controller methods calls.
+The method `deserializeUser` is called every time there is a value for Passport in the session cookie. In this method, we will receive the value stored in the cookie (we stored `user.id`) then search for a user and call `done`. The user object will then be stored in the request object.
 
-## Flash Messages - Intro
+## User Feedback: Flash Messages
 
-Flash messages are one-time messages that are rendered in the views and when the page was reloaded, the flash was destroyed.
+Flash messages are one-time messages that are rendered in the views. When the page is reloaded, the flash is destroyed.
 
 In our current Node app, back when we have created the signup strategy, in the callback we had this code:
 
@@ -251,7 +251,7 @@ In the view `signup.ejs`, above the form, add:
 <% } %>
 ```
 
-Let's add some code into `getSignup` in the users Controller to render the template:
+Let's add some code into `getSignup` in the users controller to render the template:
 
 ```javascript
 function getSignup(req, res) {
@@ -259,39 +259,27 @@ function getSignup(req, res) {
 }
 ```
 
-Now, start up the app using `nodemon app.js` and visit `http://localhost:3000/signup` and try to signup two times with the same email, you should see the message "This email is already used." appearing when the form is reloaded.
-
-
-## Test it out - Independent Practice
-
-All the logic for the signup is now set - you should be able to go to `/signup` in a web browser and the signup form should be displayed, this is because by default, like in Rails, Node. will look for a template that have the same name than the route, in this case `signup.ejs`. When you submit the form, it should create a user document.
-
+Now, start up the app using `nodemon app.js` and visit `http://localhost:3000/signup`. Try to signup two times with the same email, you should see the message "This email is already used." appearing when the form is reloaded.
 
 ## Sign-in - Codealong
 
-Now we need to write the `signin` logic.
+Now we need to write the sign in logic.
 
-We also need to implement a custom strategy for the login, In passport.js, after the signup strategy, add add a new LocalStrategy:
+We also need to implement a custom strategy for the login, In `config/passport.js`, after the signup strategy, add add a new `LocalStrategy`:
 
 ```javascript
-passport.use('local-login', new LocalStrategy({
-  usernameField: 'email',
-  passwordField: 'password',
-  passReqToCallback: true
-}, function(req, email, password, callback) {
+passport.use('local-login', new LocalStrategy(lsConfig , function(req, email, password, callback) {
 
 }));
 ```
 
-The first argument is the same as for the signup strategy - we ask passport to recognize the fields `email` and `password` and to pass the request to the callback function.
-
-For this strategy, we will search for a user document using the email received in the request, then if a user is found, we will try to compare the hashed password stored in the database to the one received in the request params. If they are equal, the the user is authenticated; if not, then the password is wrong.
+The first argument is the same as for the signup strategy - we ask Passport to recognize the fields `email` and `password` and to pass the request to the callback function.
 
 Inside `config/passport.js` let's add this code:
 
 ```javascript
 ...
-}, function(req, email, password, callback) {
+}, function(req, email, password, done) {
 
   // Search for a use with this email
   User.findOne({ 'local.email': email }, function(err, user) {
@@ -310,6 +298,7 @@ Inside `config/passport.js` let's add this code:
 ...
 
 ```
+For this strategy, we will search for a user document using the email received in the request. If a user is found, we will try to compare the hashed password stored in the database to the one received in the request params. If password matches, the user is authenticated; if not, then the password is wrong.
 
 #### User validate method
 
@@ -327,10 +316,10 @@ As we are again using flash messages, we will to add some code to display them i
 
 In `login.ejs`, add the same code that we added in `signup.ejs` to display the flash messages:
 
-```javascript
-  <% if (message.length > 0) { %>
-    <div class="alert alert-danger"><%= message %></div>
-  <% } %>
+```
+<% if (message.length > 0) { %>
+  <div class="alert alert-danger"><%= message %></div>
+<% } %>
 ```
 
 #### Login GET Route handler
@@ -348,7 +337,7 @@ function getLogin(req, res) {
 We also need to have a route handler that deals with the login form after we have submit it. So in `users.js` let’s also add:
 
 ```javascript
-function postLogin(request, response) {
+function postLogin(req, res) {
   var loginStrategy = passport.authenticate('local-login', {
     successRedirect: "/",
     failureRedirect: "/login",
@@ -361,7 +350,7 @@ function postLogin(request, response) {
 
 You should be able to login now!
 
-To reiterate, passport alone is not enough for authentication; it is middleware used directly by the application, but the passport module itself needs middleware with authentication logic, a strategy module, that serves to perform a specific type of authentication. Essentially, when creating authentication using passport, you will always need these two middlewares, at a minimum.
+At this point, you should realise Passport alone is not enough for authentication; the Passport module itself needs a strategy module, that serves to perform a specific type of authentication. When creating authentication using Passport, you will always need Passport and a strategy, at a minimum.
 
 
 ## Test it out - Independent Practice
@@ -400,9 +389,9 @@ app.use(function (req, res, next) {
 });
 ```
 
-Now in the layout, we can add:
+Now in `layout.ejs`, we can add this to our nav bar:
 
-```javascript
+```
 <% if (currentUser) { %>
   <li><a href="/logout">Logout</a></li>
 <% } else { %>
@@ -412,7 +401,7 @@ Now in the layout, we can add:
 <li><a href="/secret">Secret page (only if authenticated)</a></li>
 ```
 
-Inside the `usersController.js`, we need to add the corresponding logout logic to the `getLogout` route handler:
+Inside `usersController.js`, we need to add the corresponding logout logic to the `getLogout` route handler:
 
 ```javascript
 function getLogout(req, res) {
@@ -423,12 +412,10 @@ function getLogout(req, res) {
 
 Passport exposes a `logout()` function on req (also aliased as `logOut()`) that can be called from any route handler that needs to terminate a login session. Invoking `logout()` will remove the `req.user` property and clear the login session if one exists.
 
-## Test it out - Independent Practice
-
 You should now be able to login and logout! Test this out.
 
 
-## Sign Out, Restricting access - Demo
+## Sign Out, Restricting access
 
 As you know, an authentication system is used to allow/deny access to some resources to authenticated users.
 
@@ -463,14 +450,14 @@ Finally, we need to add the corresponding function to the `usersController.js`:
 ```javascript
 function getSecret(req, res){
   res.render('secret.ejs');
-}
+  }
 ```
 
 Now test it out by clicking on the secret page link. You should see: "This page can only be accessed by authenticated users"
 
 Now, let's move that in the navbar:
 
-```ejs
+```
 <% if (currentUser) { %>
   <li><a href="/logout">Logout</a></li>
   <li><a href="/secret">Secret page (only if authenticated)</a></li>
