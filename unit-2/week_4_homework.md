@@ -8,7 +8,7 @@ It's time to use what we learned! Woohoo
   * Must have at least 3 RESTful routes:
     * `create`, `findAll`, `findOne/:id`
   * Submit this!
-* Exercism! `Pangram` and `Beer Pong`
+* Exercism! `Pangram` and `Beer Song`
 
 ### Day 4 (Thursday)
 
