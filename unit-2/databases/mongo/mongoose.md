@@ -350,3 +350,6 @@ Book.findOne({ title: 'Fahrenheit 451' })
   // access book with author data here
 });
 ```
+
+## Reference
+[In Class Example](https://github.com/primaulia/mongoose-ref)
