@@ -1,7 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Building & consuming your own API
 
 ## Project Submission
-1. Push your frontend repo to gh-pages and backend repo to heroku.
+1. Push your front-end repo to gh-pages and back-end repo to heroku.
 2. Ensure that a soft launch of your project is up on gh-pages and heroku by Wednesday 26th October 2016.
 3. Submit the links at the **Project 2 submission page**
 4. The early submission of links is to enable the instructional staff to monitor the progress of the projects.
@@ -37,15 +37,16 @@ Deliverables include:
       * one user model
       * remaining models - depending on functional idea
   * Include **all major CRUD functions** in a **RESTful API** for at least one of those models
-  * **Include sign up/log in functionality**, with encrypted passwords & an authorization flow   
 * **Front-end application**
-  * **Consume your own API** with AJAX calls to the back-end server. Make your front-end with HTML, Javascript, & jQuery
+  * **Consume your own API** with AJAX calls to the back-end server. Create your front-end with HTML, Javascript, & jQuery
 * **Overall**
   * **Craft thoughtful user stories**
+  * **ER** and **user flow diagrams**
   * Layout and style your front-end with **clean & well-formatted CSS**
   * **Deploy your application online** so it's publicly accessible
 
 Optional
+* **Include sign up/log in functionality**, with encrypted passwords and an authorization flow  
 * Incorporate external APIs
   * Consumed by your front-end application
   * Consumed by your back-end application in the models
@@ -104,6 +105,7 @@ Optional
     * **Installation instructions** for any dependencies
     * Link to your **user stories** – who are your users, what do they want, and why?
     * Link to your **wireframes** – sketches of major views / interfaces in your application
+    * Link to your **diagrams** – ER and user flow diagram
     * Descriptions of any **unsolved problems** or **major hurdles** your team had to overcome
 
 ---
