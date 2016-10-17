@@ -53,7 +53,7 @@ Imagine you work for a pet shelter, and you've been asked to create an MVP for a
 
 #### Starter code
 
-In the [starter code](starter-code) folder, you'll find a Node app containing all the packages you need to get started - run `npm install` to set the packages and create a Mongo database named `animalshelter`. 
+In the starter code folder, you'll find a Node app containing all the packages you need to get started - run `npm install` to set the packages and create a Mongo database named `animalshelter`. 
 
 #### Deliverable
 
