@@ -27,7 +27,7 @@
    * [Intro to Ajax](unit-2/ajax/readme.md)
    * Labs
        * [ER Diagram](unit-2/labs/erd-lab.md)
-       * Mongoose CRUD
+       * [Mongoose CRUD](mongoose_crud.md)
 * [Unit 1](unit-1/readme.md)
    * [Week 2 Homework](unit-1/week_2_homework.md)
    * [Week 1 Homework](unit-1/week_1_homework.md)
