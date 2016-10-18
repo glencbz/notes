@@ -38,7 +38,6 @@ Deliverables include:
       * one user model
       * remaining models - depending on functional idea
   * Include **all major CRUD functions** in a **RESTful API** for at least one of those models
-  * 
 * **Front-end application**
   * Layout and style your front-end with **clean & well-formatted CSS**
 * **Overall**
