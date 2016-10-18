@@ -102,7 +102,7 @@
    * [Intro to TDD](unit-1/intro_to_tdd.md)
    * [Agile Development](unit-1/agile-development.md)
    * [Chrome Dev Tools](unit-1/labs/chrome_dev_tools.md)
-   * Labs
+   * [Labs]()
        * [Primitives](unit-1/labs/primitives.md)
        * [Functions](unit-1/labs/functions.md)
        * [Fizz buzz](unit-1/labs/fizzbuzz.md)
@@ -114,6 +114,8 @@
        * [Iterators Practice](unit-1/labs/iterators_practice.md)
        * [setTimeout and setInterval](unit-1/labs/settimeout_and_setinterval.md)
        * [Bootstrap](unit-1/labs/bootstrap.md)
-   * [Projects](projects.md)
-       * [Unit 1](projects/unit_1.md)
+  * [Projects](projects.md)
+    * [Unit 1](projects/unit_1.md)
+    * [Unit 2](projects/unit_2.md)
+
 
