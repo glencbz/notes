@@ -5,6 +5,7 @@
 * [Homework](00-schedule/homework.md)
 * [Class Culture](00-schedule/classroom_culture.md)
 * [Unit 2](unit-2/readme.md)
+   * [Week 5 Homework](unit-2/week_5_homework.md)
    * [Week 4 Homework](unit-2/week_4_homework.md)
    * [In-depth Git](unit-2/in-depth-git/readme.md)
    * [Node](unit-2/node/node_intro.md)
@@ -29,7 +30,6 @@
    * [Labs](unit-2/labs.md)
        * [ER Diagram](unit-2/labs/erd-lab.md)
        * [Mongoose CRUD](mongoose_crud.md)
-
 * [Unit 1](unit-1/readme.md)
    * [Week 2 Homework](unit-1/week_2_homework.md)
    * [Week 1 Homework](unit-1/week_1_homework.md)
