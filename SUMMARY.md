@@ -114,8 +114,8 @@
        * [Iterators Practice](unit-1/labs/iterators_practice.md)
        * [setTimeout and setInterval](unit-1/labs/settimeout_and_setinterval.md)
        * [Bootstrap](unit-1/labs/bootstrap.md)
-  * [Projects](projects.md)
-    * [Unit 1](projects/unit_1.md)
-    * [Unit 2](projects/unit_2.md)
+* [Projects](projects.md)
+  * [Unit 1](projects/unit_1.md)
+  * [Unit 2](projects/unit_2.md)
 
 
