@@ -1,11 +1,11 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Building & consuming your own API
 
 ## Project Submission
-1. Push your front-end repo to Github Pages and back-end repo to Heroku.
+1. Host your entire application on Heroku
 2. Ensure that a soft launch of your project is up on Github Pages and Heroku by Wednesday 26th October 2016.
 3. Submit the links at the **Project 2 submission page**
 4. The deadline for this project is on Friday 28th October 2016, 8am
-5. Before the deadline ensure that the master branch contains your latest project code. (There is no need to have a gh-pages branch)
+5. Before the deadline ensure that the master branch contains your latest project code.
 6. Before the deadline ensure that your apps are successfully deployed to Heroku
 
 ### Overview
@@ -26,7 +26,8 @@ Develop your own personal project with the below minimum technical requirements.
 
 Deliverables include:
 * **Node back-end server**
-  * Preferably with **Mongoose** and **Express**
+  * **Include sign up/log in functionality**, with encrypted passwords and an authorization flow  
+  * Made with **Mongoose** and **Express** (validate otherwise)
   * API should be created using **at least 3 related models** ( more if they make sense )
   * Generate views using **templates**
     * Project 2A, your models should be:
@@ -37,8 +38,8 @@ Deliverables include:
       * one user model
       * remaining models - depending on functional idea
   * Include **all major CRUD functions** in a **RESTful API** for at least one of those models
+  * 
 * **Front-end application**
-  * Consume **your own API** with **AJAX** calls to the back-end server
   * Layout and style your front-end with **clean & well-formatted CSS**
 * **Overall**
   * Craft thoughtful user stories
@@ -46,7 +47,7 @@ Deliverables include:
   * **Deploy your application online** so it's publicly accessible
 
 Optional
-* **Include sign up/log in functionality**, with encrypted passwords and an authorization flow  
+* Consume **your own API** with **AJAX** calls to the back-end server
 * Incorporate external APIs
   * Consumed by your front-end application
   * Consumed by your back-end application in the models
@@ -96,9 +97,8 @@ Optional
 
 ### Necessary Deliverables
 
-* Github Repo 1: A **working API**, hosted on Heroku
-* Github Repo 2: A front-end that **consumes your own API**, hosted on Heroku or Github Pages.
-* A **link to your hosted working app** in the URL section of your GitHub repos
+* Github Repo: A full stack project consisting of: a **working API** (on your backend) and a front-end that **uses your own API**, all hosted on Heroku
+* A **link to your hosted working app** in the URL section of your GitHub repo
 * **A ``readme.md`` file** with:
     * Explanations of the **technologies** used
     * A couple paragraphs about the **general approach you took**
