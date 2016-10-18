@@ -1,5 +1,9 @@
 # Week 5 Homework
 
+### Day 2 (Tuesday)
+
+* [Local Authentication with Passport](https://scotch.io/tutorials/easy-node-authentication-setup-and-local). Go through this! Don't worry about all of the particulars, just make sure it works.
+
 ### Day 1 (Monday)
 
 * If you're not sure about today's content, read up on it on the Gitbook. Go through the codealongs and see if you understand.
