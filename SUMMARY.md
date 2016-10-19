@@ -26,6 +26,7 @@
        * [CRUD](unit-2/databases/mongo/mongo-crud.md)
        * [Data Modeling](unit-2/databases/mongo/data-modeling.md)
        * [MongoDB with Mongoose](unit-2/databases/mongo/mongoose.md)
+   * [Deployment to Heroku](unit-2/deploying_to_heroku.md)
    * [Intro to Ajax](unit-2/ajax/readme.md)
    * [Labs](unit-2/labs.md)
        * [ER Diagram](unit-2/labs/erd-lab.md)
