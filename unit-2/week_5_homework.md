@@ -2,6 +2,7 @@
 
 ### Day 3 (Wednesday)
 
+* Exercism `Raindrops`
 * Work on your Project!
   * Create a `User` model with Sign Up and Sign In i.e. authentication!
 
