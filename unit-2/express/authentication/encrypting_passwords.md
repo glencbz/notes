@@ -199,8 +199,6 @@ In `user.js`, we are going to add some middleware that will be executed every ti
   module.exports = mongoose.model('User', User);
 ```
 
-*Note:* Similar to a Rails `before_save` callback.
-
 The code in this function will now be executed for every call to create, save and update.
 
 Inside this method let's add the logic to hash the password:
