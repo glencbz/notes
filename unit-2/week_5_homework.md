@@ -2,7 +2,7 @@
 
 ### Day 3 (Wednesday)
 
-* Exercism `Raindrops`
+* Exercism `Prime Factors`
 * Work on your Project!
   * Create a `User` model with Sign Up and Sign In i.e. authentication!
 
