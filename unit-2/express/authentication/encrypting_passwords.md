@@ -368,7 +368,7 @@ ETag: W/"21-0aBsDSDpbTcsYOjT+i4low"
 Date: Sat, 15 Aug 2015 02:00:35 GMT
 Connection: keep-alive
 
-{"message":"Valid Credentials !"}%     
+{"message":"Valid Credentials !"} 
 ```
 
 If they are not, you should see:
