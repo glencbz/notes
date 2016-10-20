@@ -27,7 +27,7 @@ On a high-level, Passport is the authentication middleware and the strategy is m
 
 #### Setup/Review Starter Code
 
-First, unzip the starter code and setup with `npm install` to ensure that we have all of the correct dependencies.
+First, unzip the [starter code](https://github.com/flamingAvos/passport_lesson) and setup with `npm install` to ensure that we have all of the correct dependencies.
 
 The starter-code is structured like this:
 
