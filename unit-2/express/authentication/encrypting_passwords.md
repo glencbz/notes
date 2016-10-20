@@ -39,7 +39,7 @@ A salt is random data that can be added as additional input to a one-way functio
 
 ## Using bcrypt with Express - Codealong
 
-Take the [starter-code]() and unzip it. Next, make sure that you run `npm install` to install all of the dependencies.
+Take the [starter-code](https://github.com/flamingAvos/bcrypt-lab) and unzip it. Next, make sure that you run `npm install` to install all of the dependencies.
 
 Once you have done this, run `npm start` to check for any errors. You shouldn't have any!
 
