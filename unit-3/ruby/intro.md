@@ -57,6 +57,8 @@ puts my_variable
 
 Mostly, we're able to change what a variable's holding if we so choose – constants are designed for the opposite. Constants are meant to be placeholders that never change.
 
+Constants look like variables, but start with uppercase letters. By convention, we write most constants in ALL UPPERCASE.
+
 ```ruby
 SOME_CONSTANT = 'donuts'
 #=> "donuts"
@@ -65,7 +67,7 @@ SOME_CONSTANT = 'awesome'
 #=> warning: already initialized constant SOME_CONSTANT
 ```
 
-Note that if we try to reassign a constant, the reassignment still succeeds! All the constant syntax does is throw an error on reassignment.
+Note that if we try to reassign a constant, the reassignment still succeeds! All the constant syntax does is give a warning on reassignment.
 
 ## Data Types
 
@@ -161,7 +163,7 @@ person.length
 &&
 ```
 
-Note that Ruby has a `===` operator, but no `!==` operator. In fact, the operator means something different in Ruby. We'll touch on this when we get to ranges. You can use the `.equal?` function as an identity operator.
+Note that Ruby has a `===` operator, but no `!==` operator. In fact, the operator means something different in Ruby. We'll touch on this when we get to ranges.
 
 ### Arrays
 An indexed arrangement of objects
@@ -230,8 +232,10 @@ numbers
 numbers.unshift(4)
 # => [4, 2, 3, 1, 5, 6, 7, 8, 9]
 
-numbers.slice(0, 2)
+numbers.slice(0, 2) #identical to []
 # => [4, 2]
+numbers.slice(2..5)
+# => [3, 1, 5, 6]
 numbers
 # => [4, 2, 3, 1, 5, 6, 7, 8, 9]
 
@@ -258,7 +262,7 @@ numbers.delete_at(0)
 numbers
 # => [1, 5, 6, 7, 8, 9]
 ```
-  
+
 ### Ranges
 A set of values with a beginning and an end
 
@@ -282,7 +286,9 @@ another_range === 3
 ```
 
 ###Symbols
-An immutable sequence of characters that represents data stored in a specific memory location. Symbols optimize memory and can help programs run faster when performing comparisons or lookups.
+An immutable sequence of characters that represents data stored in a specific memory location. Symbols optimize memory and can help programs run faster when performing comparisons or lookups. 
+
+Symbols differ from strings in an important way: every string is unique i.e. they have different ids, even if their values are the same. This is not the case for symbols; symbols that have the same value are not unique.
 
 ```ruby
 country = :turkey
@@ -319,7 +325,7 @@ cat[:fav_food]
 ```
 
 ###Mutator methods !
-Mutator methods will not just return a value, but change the object they are called on to that value. Adding ! to certain ruby methods will turn them into their mutator method counterparts.
+Mutator methods will not just return a value, but change the object they are called on to that value. Adding `!` to certain ruby methods will turn them into their mutator method counterparts.
 
 *How to mutate an array*
 
@@ -362,7 +368,7 @@ end
 ```
 
 ##String Interpolation
-Allows one to inlcude a dynamic variable in a string. String interpolation can only be done on double-quoted strings.
+Allows one to inlcude a dynamic variable in a string. String interpolation can only be done on double-quoted `""` strings.
 
 ```ruby
 team = 'Mariners'
@@ -507,7 +513,7 @@ end
 
 # reduce (similar to JS reduce)
 numbers = [1, 2, 3, 4]
-numbers.inject do |a, b|
+numbers.reduce do |a, b|
   a + b
 end
 # => 10
@@ -544,6 +550,7 @@ end
 * used as values (functional programming)
 * require explicit return
 * all `params` are optional
+* called using parentheses `()`
 
 ### In Ruby
 
@@ -552,6 +559,7 @@ end
 * not used as values
 * implicitly returns last evaluation
 * optional parameters must be specified
+* do not require parentheses 
 
 #### Examples
 ```ruby
@@ -580,25 +588,27 @@ def say_hello(friend)
 end
 
 say_hello("Tim")
-
 # is the same as
-def say_hello(friend)
-  puts "Hello, #{friend}!"
-end
-
-# note the lack of parentheses
 say_hello "Tim"
+
+# this is an error
+say_hello
 
 # is the same as
 def say_hello(friend='Tim')
   puts "Hello, #{friend}!"
 end
 
-# note that there are no arguments
+# calling with an argument
+say_hello('Jimmy')
+# this is not an error any more
 say_hello
 ```
 
+Ruby functions are quite strict about how the number of arguments that can be passed. If a function expects 1 argument but we call it with 0 arguments, we will get an error. But sometimes we want to call functions without giving them all the arguments. We can do this by specifying optional arguments. If an optional argument is omitted, it simply takes a default value.
+
 #### Return Values
+
 ```ruby
 def add(num1, num2)
   return num1 + num2
