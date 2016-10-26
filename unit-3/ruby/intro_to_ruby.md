@@ -2,17 +2,8 @@
 # Intro to Ruby - Data Types & Variables
 
 ### Objectives
-*After this lesson, students will be able to:*
-
 - Identify and describe use cases for Ruby's data types
 - Describe the different types of variables (locals, instance, constants) in Ruby & when to use them
-- Run a Ruby file in the command line
-
-### Preparation
-*Before this lesson, students should already be able to:*
-
-- Describe JavaScript data types
-- Declare and use variables in JavaScript
 
 ## Intro
 
@@ -26,11 +17,13 @@ We're not going to jump right into Rails immediately, we're going to build up to
 
 But even before _that_, let's get our hands dirty with some straight **Ruby**. It's super readable and easy to get started with, you're gonna like it a lot.
 
-### "Matz is Nice And So We Are Nice"
-Ruby was created by Yukihiro Matsumoto a.k.a. "Matz" in the mid-1990s. It is an object-oriented scripting language built on-top of C which Matz created to help programmers enjoy coding!
+###Humble Origins
+Ruby is an object-oriented language suitable for writing day to day scripts as well as full-scale applications. Yukihiro Matsumoto, or "Matz", began work on Ruby back in 1993, because he wanted a language that made him productive while being fun to use. Initially popular in Japan, Ruby has been finding its way into the hearts of programmers all over the world.
 
-> <cite>"I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming, and to be happy. That is the primary purpose of Ruby language."</cite>
+* Ruby stylistically conforms to the **snake_case** convention
+* The [documentation](http://ruby-doc.org/) is fantastic
 
+Further reading: [The Philosophy of Ruby](http://www.artima.com/intv/ruby.html)
 ### Follow along!
 
 As we experiment with Ruby syntax, you should follow along and try things yourself. Do what we do, but feel free to mess around and try your own little experiments too.
@@ -41,7 +34,7 @@ Open up your terminal, and from anywhere, type `irb`
 ![IRB in Terminal](https://cloud.githubusercontent.com/assets/25366/8418624/52d220f6-1e69-11e5-8e3f-bcc902944475.png)
 
 
-## The Beauty of Ruby - Intro (5 mins)
+## The Beauty of Ruby
 
 There are a few general points to know about Ruby, and then we're going to be comparing the details of writing Ruby to what you already know in JavaScript.
 
@@ -62,11 +55,7 @@ make_a_sentence(['You', 'are', 'already', 'experts'])
 
 Without knowing anything about Ruby you can probably sort of understand how all this works. Nice, right?
 
-> **Awesome Detail:** You might notice something interesting – where are the semicolons? You don't need them!
-
-> Ruby is a lot more forgiving than JavaScript to newbies when it comes to details like that. In the end you'll find you have an appreciation for both, but for now let's relish forgetting the ';'
-
-## Data Types - Demo
+## Data Types
 
 **Question:** What data types have you guys been using in JavaScript? Let's write them on the board.
 
@@ -88,7 +77,7 @@ Now, let's see which of those are similar in Ruby, and which are different.
 
 Most importantly, **in Ruby, _everything_ is an object**. We'll talk about that in more detail later, but that means that each of the above data types have methods & properties just like our JS objects did.
 
-#### Let's recap our data types in Ruby:
+To recap:
 
 - **Booleans** are written as `true` and `false`
 - **Integers** are written as `12`
@@ -97,29 +86,19 @@ Most importantly, **in Ruby, _everything_ is an object**. We'll talk about that 
 - **Arrays** are written as `['x','y','z']`
 - **Hashes** are written as `{key: 'value', thing: true, stuff: [1,2,3]}`
 
-#### Duck-typing
+#### Comments.
 
-Unlike JavaScript, Ruby has both an Integer and Float class. This creates some interesting results! Let's take a look in IRB:
+Comments in JS look like this:
 
-What happens if we do:
-
-```ruby
-5 / 2
-#=> 2
+```js
+// I'm a comment
 ```
 
-Have we broken Ruby? No, we have given ruby two Integers (numbers with no decimal places) so ruby gives us an Integer back.
-
-However, if we divide an Integer by a Float:
+Ruby's are like this:
 
 ```ruby
-5 / 2.0
-#=> 2.5
+# No, I'm a comment
 ```
-
-This is called "Type Coercion" also known as "Duck Typing"; Ruby now knows that we want a Float back.
-
-If an object quacks like a duck (or acts like a string), just go ahead and treat it as a duck (or a string).
 
 #### Converting between data-types
 
@@ -137,27 +116,33 @@ If we want to convert one data type to another in Ruby, there are some built-in 
 
 These type-conversion methods usually start with `.to_`.
 
-#### Oh look, comments.
+#### Duck-typing
 
-It's worth noting that will comments in JS look like this:
+Unlike JavaScript, Ruby has both an Integer and Float class. This creates some interesting results! Let's take a look in IRB:
 
-```js
-// I'm a comment
-```
-
-Ruby's are like this:
+What happens if we do:
 
 ```ruby
-# No, I'm a comment
+5 / 2
+#=> 2
 ```
 
-Since you guys will be making a habit of commenting your code (so that other developers can read it and understand why you wrote it how you did), that'll be useful.
+Have we broken Ruby? No, we have given ruby two Integers (numbers with no decimal places) so Ruby gives us an Integer back.
 
-#### Fun Tip: Our strings have a superpower!
+However, if we divide an Integer by a Float:
 
-One super awesome trick that you will undoubtedly use all the time comes from our friend, the **String** object.
+```ruby
+5 / 2.0
+#=> 2.5
+```
 
-It's called **string interpolation** – and it lets us build complicated strings without having to add them together the old fashioned way.
+This is called "Type Coercion" also known as "Duck Typing"; Ruby now knows that we want a Float back.
+
+If an object quacks like a duck (or acts like a string), just go ahead and treat it as a duck (or a string).
+
+#### String interpolation
+
+One super awesome trick that you will undoubtedly use all the time comes from our friend, the **String** object. It's called **string interpolation** – and it lets us build complicated strings without having to add them together the old fashioned way.
 
 We used to have to do this:
 
@@ -179,7 +164,100 @@ last = "Franklin"
 
 So so useful. It works with anything – any code can run in those brackets, and it'll evaluate and turn into a string. Right??
 
-## Variables - Codealong
+## Functions
+
+Let's compare functions in JS and Ruby!
+
+#### In Javascript
+
+* anonymous: `function (param1, [..param2, [...]]){...}`,
+* named: `function Name(param1, [..param2, [...]]){...}`
+* uses lexical scope
+* used as values (functional programming)
+* require explicit return
+* all `params` are optional
+* called using parentheses `()`
+
+### In Ruby
+
+* uses `def`
+* does not capture scope
+* not used as values
+* implicitly returns last evaluation
+* optional parameters must be specified
+* do not require parentheses 
+
+#### Examples
+```ruby
+def say_hello
+  puts "Hello, World!"
+end
+
+say_hello()
+
+# is the same as
+
+def say_hello
+  puts "Hello, World!"
+end
+
+# note missing parentheses
+say_hello
+```
+
+In Ruby, leaving the `()` off of a function call is acceptable. Since functions can't be passed as values (i.e., aren't first-class), Ruby knows that we mean to call the function, so it calls it.
+
+#### Parameters (Arguments)
+```ruby
+def say_hello(friend)
+  puts "Hello, #{friend}!"
+end
+
+say_hello("Tim")
+# is the same as
+say_hello "Tim"
+
+# this is an error
+say_hello
+
+# is the same as
+def say_hello(friend='Tim')
+  puts "Hello, #{friend}!"
+end
+
+# calling with an argument
+say_hello('Jimmy')
+# this is not an error any more
+say_hello
+```
+
+Ruby functions are quite strict about how the number of arguments that can be passed. If a function expects 1 argument but we call it with 0 arguments, we will get an error. But sometimes we want to call functions without giving them all the arguments. We can do this by specifying optional arguments. If an optional argument is omitted, it simply takes a default value.
+
+#### Return Values
+
+```ruby
+def add(num1, num2)
+  return num1 + num2
+end
+
+sum = add(2, 3)
+puts "2 + 3 = #{sum}"
+
+# is the same as
+def add(num1, num2)
+  # note the lack of explicit return
+  num1 + num2
+end
+
+sum = add(2, 3)
+puts "2 + 3 = #{sum}"
+```
+
+Ruby will automatically return the value of the last evaluated expression. This is called having "implicit returns". You are free to have an explicit return statement, but you don't have to.
+
+
+
+## Variables
 
 Just like JavaScript (and literally every programming language), **we're gonna need some variables to hold stuff.**
 
@@ -267,7 +345,9 @@ SOME_CONSTANT = "awesome"
 #=> warning: already initialized constant SOME_CONSTANT
 ```
 
-We can use a constant anywhere in a Ruby application – inside a method, outside a method, across objects & a whole app. But keep in mind, it's meant to be defined _only once_, so we'll use it for things like storing application settings, or other stuff we don't intend to change.
+We can use a constant anywhere in a Ruby application – inside a method, outside a method, across objects & a whole app. But keep in mind, it's meant to be defined _only once_, so we'll use it for things like storing application settings, or other stuff we don't intend to change. 
+
+Note that if we try to reassign a constant, the reassignment still succeeds! All the constant syntax does is give a warning on reassignment.
 
 ## Ruby & ruby - Codealong
 
