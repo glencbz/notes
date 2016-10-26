@@ -24,20 +24,16 @@ Just as a refresher – what are arrays for? What do they do? **They're for hold
 So, let's start simple – we make arrays in Ruby the same as we did in JS. Nothing unexpected here.
 
 ```ruby
-numbers = [1,2,3,4] # I'm obviously an array
+numbers = [1,2,3,4]
 ```
 
 Then, once you've created an array, how do you imagine you add to an array?
 
 ```ruby
-numbers.push 5 # dun, dah nun dun dun dun, push it
+numbers.push 5
 # => [1,2,3,4,5]
-```
 
-Similarly, we've got another old favorite – the shovel.
-
-```ruby
-numbers << "six" # there no shovel puns to see here
+numbers << "six"
 # => [1,2,3,4,5,"six"]
 ```
 
@@ -71,9 +67,33 @@ numbers.last
 numbers = [3,2,4,1,5]
 numbers.sort # [1,2,3,4,5]
 numbers.sort.reverse # => [5, 4, 3, 2, 1]
+
+# other ways to create an array
+arr1 = Array.new([4,5,6])
+arr2 = Array.new(3, true)
+# => [true, true, true]
 ```
 
-#### You'll be trying this soon, but first – iterating!
+#### Mutator methods `!`
+Mutator methods will not just return a value, but change the object they are called on to that value. Adding `!` to certain ruby methods will turn them into their mutator method counterparts.
+
+*How to mutate an array*
+
+```ruby
+arr = [7,4,5]
+arr.sort #not a mutator method
+# => [4,5,7]
+arr
+# => [7,4,5]
+
+arr = [7,4,5]
+arr.sort! #the '!', aka a 'bang' will mutate the object
+# => [4,5,7]
+arr
+# => [4,5,7]
+```
+
+#### Iterating
 
 Now the good stuff – looping through our array and doing something with each value.
 
@@ -97,12 +117,45 @@ end
 # i am number 3
 # i am number 4
 # i am number 5
-
 ```
 
-Isn't that just so incredibly readable?
+We can use iterators to do the same tricks we did in JS.
 
-#### Extra Detail: Dem Blocks Tho!
+```ruby
+foods = ['carrots', 'kale', 'beets']
+
+# map (similar to JS map)
+foods.map do |food|
+  food * 2
+end
+# => ["carrotscarrots", "kalekale", "beetsbeets"]
+
+
+# select (similar to JS filter)
+foods.select do |food|
+  ['carrots', 'kale'].include?(food)
+end
+# => ["carrots", "kale"]
+
+# reduce (similar to JS reduce)
+numbers = [1, 2, 3, 4]
+numbers.reduce do |a, b|
+  a + b
+end
+# => 10
+
+# reduce with a starting value
+numbers.reduce(10) do |a, b|
+  a + b
+end
+
+# reduce applying an operation/function via a symbol
+numbers.reduce(:+)
+```
+
+## 
+
+## Blocks
 
 That `do`/`end` thing you're messing with is called a _block_, and it just runs the code in between, almost like a little function without a name - like anonymous functions in JavaScript or lambdas in Python.
 
@@ -135,7 +188,7 @@ Oh, and for best practice, always try to name`|a_variable_of_my_choosing|` the s
 
 Of course, the beauty of loops is that we don't have to write all that out.
 
-And a bonus tip: `do`/`end` functionally is the same as `{`/`}`, so you'll see both. The curly braces are for when you want to keep it on one line, but it does not matter.
+And a bonus tip: `do`/`end` functionally is the same as `{`/`}`, so you'll see both. Use curly braces, `{ }` for single line blocks and `do ... end` for multiline blocks.
 ```ruby
 # totally the same
 numbers.each do |number|
@@ -168,8 +221,6 @@ The key to hashes is that they always house key/value pairs. **The key describes
 #### Creating a Hash
 
 To see it in action, let's pick something random in the room and try to describe it.
-
-> **Note:** just to prove hashes can hold all kinds of great data, let's see how many different data types we can describe our object with!
 
 For example, let's describe a fan in the room.
 ```ruby
@@ -204,16 +255,22 @@ Symbols are basically just like strings, except they save computer memory.  Ever
 Let's watch:
 
 ```ruby
-"Your Name".object_id
+country = 'turkey'
+food = 'turkey'
+
+country.object_id
 #=> a number
 
-"Your Name".object_id
+food.object_id
 #=> a different number
 
-:your_name.object_id
+country = :turkey
+food = :turkey
+
+country.object_id
 #=> a number
 
-:your_name.object_id
+food.object_id
 #=> the same number!
 ```
 
@@ -261,7 +318,24 @@ fan.delete :color
 # remember, parentheses are optional!
 ```
 
+#### Iterating through Hashes
+
+Iterating a hash is really easy too, we can access both the key and the value.
+
+```ruby
+car = {wheels: 4, doors: 2, seats: 5}
+car.each do |key, num|
+  puts "my car has #{num} #{key}"
+end
+
+# Will print out:
+# my car has 4 wheels
+# my car has 2 doors
+# my car has 5 seats
+```
+
 ## Hashes - Independent Practice
+
 Now you try it!
 
 - Partner up! Together and **by hand with markers on the desk**, describe your computer as a hash. Use any data types you can think of, cuz hash values can be anything!
