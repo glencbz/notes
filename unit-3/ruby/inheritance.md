@@ -7,12 +7,17 @@
 * Compare and contrast inheritance in Ruby with Prototypical inheritance in Javascript
 * Utilize inheritance to reduce repetition
 * Utilize inheritance to model the world
-* Install `pry` using `gem`. Pry is an improved REPL for Ruby that allows for better debugging and lets you work interactively with pre-written scripts through the use of `binding.pry`
 
 ####Quick Review
 1. What is a method? What is a class?
 2. What is an instance method?
 3. Why do we use a class?
+
+
+
+## Before Going On
+
+Install `pry` using `gem`. Pry is an improved REPL for Ruby that allows for better debugging and lets you work interactively with pre-written scripts through the use of `binding.pry`
 
 ##Inheritance
 
