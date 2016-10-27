@@ -1,18 +1,28 @@
-#Intro to Rails
+# Intro to Rails
 
-##Objectives
+## Objectives
 
 * Identify and describe the principles of Rails
 * Use Rails generators to create an app with models and controllers.
 * Use embedded Ruby in Rails templates
 * Utilize the Active Record ORM to manipulate data
 
-##Principles of Rails
+## Intro: What is Rails
+
+Ruby on Rails (aka Rails) was created in 2003 by David Heinemeier Hansson, while working on the code base for Basecamp, a project management tool by 37signals. David extracted Ruby on Rails and officially released it as open source code in July of 2004. Despite rapid iteration of the Rails code base throughout the years, it has stuck to three basic principles:
+
+* Ruby Programming Language
+* Model-View-Controller Architecture
+* Programmer Happiness
+
+Rails was created with the goal of increasing programmers' happiness and productivity levels. In short, with Rails you can get started with a full-stack web application by quickly creating pages, templates and even query functions. Rails heavily emphasizes "Convention over Configuration." This means that a programmer only needs to specify and code out the non-standard parts of a program. Even though Rails comes with its own set of tools and settings, you're certainly not limited to library of rails commands and configurations. Developers are free to configure their applications however they wish, though adopting conventions is certainly recommended.
+
+## Principles of Working with Rails
 
 1. **DRY** - keep your code DRY and use concise, consistent code.
 2. **Convention over configuration** - Rails is built using sensible defaults, which speeds development and means that there is less code to maintain.
 
-Rails uses (and for the most part, forces you to adhere to) an **MVC** architecture. We used MVC when creating Express applications.
+Rails uses (and for the most part, forces you to adhere to) an **MVC** architecture. We used MVC when creating Express applications. To recap what MVC is:
 
 **Model** - The model refers to the data objects that we use. It's the object oriented approach to design. The data in our database will be the most common type of object that we'll put there.
 
@@ -32,7 +42,7 @@ Basic creation of an app is very simple:
 rails new name_of_the_app
 ```
 
-If we want to use a different database (such as PostgreSQL) we need to specify the database using the `-d` flag followed by the database. By default, Rails uses SQLite, which is unideal for web applications deployed to ephemeral file systems. We'll specify `postgresql` for our Rails apps.
+If we want to use a different database (such as PostgreSQL) we need to specify the database using the `-d` flag followed by the database. By default, Rails uses SQLite, which is not ideal for most web applications. We'll specify `postgresql` for our Rails apps.
 
 ```bash
 rails new name_of_the_app -d postgresql
@@ -54,7 +64,7 @@ You might need to install libpq-dev and build-essential:
 sudo apt-get install libpq-dev build-essential
 ```
 
-##Rails File Structure
+### Rails File Structure
 
 The main directory that we'll be working in is the `app` directory which contains our `models`, `views`, and `controllers`.
 
@@ -63,11 +73,11 @@ The main directory that we'll be working in is the `app` directory which contain
 More info: [rails guides - getting started](http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application)
 
 
-##Bundler / GemFile
+### Bundler / GemFile
 
 Bundler is a separate gem from Rails, and can be used outside of
-Rails, but Rails is going to depend on it to manage the RubyGems that
-our application needs.
+Rails. However, Rails is going to depend on it to manage the RubyGems that
+our application needs. It's a lot like npm for Node.
 
 The first thing that you need to know is that there are two files that matter to bundler:
 
@@ -78,9 +88,20 @@ To set up an app we can run `bundle install` which will download and install any
 
 **Note:** After the server is running you'll need to restart it if you add any additionally gems before they will be loaded.
 
-##Database config
+### Database configuration
 
-The configuration for the database can be found in `(Your project name)/config/database.yml` This is where you can find the name of your database, and change database options.
+We're using PostgreSQL and we'll need a database for our application. By default, the development database Rails looks for is called `name_of_the_app_development`. You can verify the name by looking in **(your project name)/config/database.yml**. Include the username and password as well, if your local database has a username and password.
+
+Here are some other `rails` commands you'll want to know about for database management.
+
+```bash
+rails db:drop # drop database
+rails db:migrate # run migrations
+rails db:rollback # rollback one migration
+rails db:rollback STEP=n # rollback 'n' migrations
+```
+
+---
 
 ***NOTE FOR UBUNTU/DEBIAN USERS***
 
@@ -91,14 +112,15 @@ host: localhost
 user: YOUR USERNAME HERE
 password: YOUR DATABASE PASSWORD HERE
 ```
+---
 
 After all this, type the following to create your database.
 
 ```bash
-rake db:create
+rails db:create
 ```
 
-##Start a server
+### Start a server
 
 To start the server we just type
 
@@ -114,20 +136,7 @@ rails s
 
 This will start a server on port 3000.
 
-Since we're using PostgreSQL, we'll need a database for our application. By default, the development database Rails looks for is called `name_of_the_app_development`. You can verify the name by looking in **(your project name)/config/database.yml**. Include the username and password as well, if your local database has a username and password.
-
-You'll want to create this database using the command `rake db:create` so that Rails can find the database. This automatically creates your databases.
-
-Here are some other `rake` commands you'll want to know about for database management.
-
-```bash
-rake db:drop # drop database
-rake db:migrate # run migrations
-rake db:rollback # rollback one migration
-rake db:rollback STEP=n # rollback 'n' migrations
-```
-
-##Generators
+### Generators
 
 Rails includes a few generators which are command line tools used to create files for us. This automates the repetitive task of creating some of the more common files we'll need to make when building a rails app. To run a generator we type `rails generate` or...
 
@@ -147,7 +156,7 @@ We will touch on actual usage of both of these.
 More info: [Rails guides - command-line tools](http://guides.rubyonrails.org/command_line.html#rails-generate)
 
 
-##Create a controller
+### Create a controller
 
 `controllers` and the `actions` contained within are the starting point for the back-end code that will be executed when a user visits a particular page/URL.
 
@@ -161,7 +170,7 @@ This will create a controller called "MainController" in the file `app/controlle
 
 ```ruby
 class MainController < ApplicationController
-
+  #these methods are new
   def index
   end
 
@@ -179,7 +188,7 @@ rails g controller main index about
 
 The controller generator also creates views, a helpers file, and coffee/scss files. We won't go too deep into these (with the exception of SASS), but you're welcome to use helpers and CoffeeScript if you wish.
 
-##Routing
+### Routing
 
 Routing is used to route URLs to specific controllers/actions. So when a user types in `/about` we want it to go to the about action of the main controller. To specify this we use the `#` symbol so for our about action it'd be `main#about`.
 
@@ -190,7 +199,7 @@ Routes are contained in the `config/routes.rb` file.
 To list all routes you can run the following command:
 
 ```bash
-rake routes
+rails routes
 ```
 
 **config/routes.rb**
@@ -208,6 +217,8 @@ While these routes are fine, we're going to change them around a bit.
 
 * **root** - A special route known as the "root route". Every app only has one root route which is used for the home page of the site, AKA what will display when we go to: `http://localhost:3000`
 * **get** - get defines a new `GET` route. Any time you go to a url by typing it into the URL bar it is accessing a `GET` route. Defining routes is simply the url they will type followed by a hash-rocket (`=>`) that points at the controller#action you want it to execute (`main#about`).
+
+The difference is explained somewhat over here http://stackoverflow.com/questions/21372675/rails-routes-slash-character-vs-hash-character
 
 ###More Routing Examples
 
@@ -265,7 +276,7 @@ For rendering text, JSON, other templates, etc., you can take a look at the [Rai
 
 Rails uses a templating engine called ERb (Embedded Ruby). It allows us to mix HTML and ruby code to create dynamic templates. It supports the majority of the major components of the ruby language.
 
-To designate ruby code we use "magic tags" `<% #ruby code goes here %>`. Any code between those tags will be executed on the server before the HTML content is served to the user. If you want the result of the code to output you add a `=` inside the tag like this: `<%= 5+5 %>` would insert the number "10" into the HTML.
+To designate Ruby code we use "magic tags" `<% #ruby code goes here %>`. Any code between those tags will be executed on the server before the HTML content is served to the user. If you want the result of the code to output you add a `=` inside the tag like this: `<%= 5+5 %>` would insert the number "10" into the HTML.
 
 **Example**
 
@@ -341,30 +352,30 @@ We simply run:
 rails g model tweet username:string content:text
 ```
 
-This will create a migration file in the `db/migrations` directory and a model in the `app/models` directory.
+This will create a migration file in the `db/migrate` directory and a model in the `app/models` directory.
 
 
 more info: [Rails Guide - Active Record](http://guides.rubyonrails.org/active_record_basics.html)
 
-##Migrations
+### Migrations
 
-Migrations are used to create the schema of our database. When we generate a model it creates a migration file that will automatically create the correct database table.
+Migrations are a log of database operations, whether it's creating a schema, adding, removing, renaming columns etc. This is important because we want every copy of our app to have the same database information. 
 
-To run all pending migrations just type `rake db:migrate` and the new table will be created.
-
-Migrations can also be used to make other database modifications. (eg adding, removing, renaming columns)
+With migrations, even if we work across different machines, we can ensure they all have the same database structure. All we need to do is execute `rails db:migrate`, this runs all pending migrations and updates our database accordingly
 
 More info: [Rails guides - migrations](http://guides.rubyonrails.org/active_record_migrations.html)
 
 
 ##Interacting with data
 
-We can directly interact with the data in our database using our model. This is typically done in the controller action.
+We can directly interact with the data in our database using our model. This is typically done in the controller action. This is like using Mongoose in our Express routes.
 
 [Rails Guides - Active Record CRUD](http://guides.rubyonrails.org/active_record_basics.html#crud-reading-and-writing-data)
 
+Of course, there are easier ways for us to work with data.
 
-##Interactive Console
+
+### Interactive Console
 
 The rails interactive console can be loaded to test code and interact with our rails app directly. To start it you simply run `rails console` or `rails c` from the command line and it loads an interactive terminal `irb` with the rails app initialized. This is generally a good idea because you can test your modules using Active Record.
 
@@ -402,13 +413,16 @@ Tweet.all
 
 A reminder from above: Rails conventions allow us to create applications quickly. As an example, we're going to create a RESTful app using the Tweet model. A very useful way to create these routes is by using `resources`.
 
+
+
 **config/routes.rb**
 
 ```ruby
+# add this line
 resources :tweets
 ```
 
-Using `resources :tweets` will make a set of RESTful routes with a base URL of `tweets`. Run `rake routes` to see these routes.
+Using `resources :tweets` will make a set of RESTful routes with a base URL of `tweets`. Run `rails routes` to see these routes.
 
 Note that the routes will also include default controller actions. While we can override these, we'll be fighting against the Rails opinions if we do. So let's make a controller to reflect these actions.
 
