@@ -106,7 +106,6 @@ Having created an *instance variable* in our object, we might want to *read* tha
 
 ```ruby
 class Person
-
   def initialize(name)
     @name = name
   end
@@ -114,7 +113,6 @@ class Person
   def name
     @name
   end
-
 end
 ```
 
@@ -131,7 +129,6 @@ Similarly, we may need to *change* or *set* an instance variable from outside th
 
 ```ruby
 class Person
-
   def initialize(name)
     @name = name
   end
@@ -167,7 +164,7 @@ class Person
 
   attr_reader :name
 
-  def initailize(name)
+  def initialize(name)
     @name = name
   end
 
