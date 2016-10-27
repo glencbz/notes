@@ -48,50 +48,27 @@ end
 if(heroic == true)
   do_something_heroic
 end
-```
-
-Well that seems easy. Just for clarity, these two things are exactly the same when we've got something returning `true`/`false`
-
-```ruby
-
-# totally true and obvious
-if heroic == true
-  do_something_heroic
-end
 
 # exactly the same, but nice shortcut
 # leaving it off assumes we mean `heroic == true`
 if heroic
   do_something_heroic
-end
-```
-
-Of course, if we need to do something when it isn't true, we've got good ol' `else`.
-
-```ruby
-if heroic
-  do_something_heroic
+# Of course we've got good ol' else.
 else
   do_something_evil
 end
 ```
 
-But there's a neat shortcut in Ruby for when we only need to use a conditional for one line, or for when we don't need an else. It's called an _inline_ conditional.
+There's a neat shortcut in Ruby for when we only need to use a conditional for one line, or for when we don't need an `else`. It's called an _inline_ conditional.
 
 ```ruby
-# totally the same
 if heroic
   do_something_heroic
 end
 
-# totally the same
-do_something_heroic if heroic == true
-
 # totally the same, just shorter!
 do_something_heroic if heroic
 ```
-
-Nice, right? Still easy.
 
 Now what if you're looking to see if something something _isn't_ true? **In english, how do you tell someone to do something if a condition is not true?**
 
@@ -99,23 +76,19 @@ Now what if you're looking to see if something something _isn't_ true? **In engl
 heroic = true
 
 # we'll always have opposite-speak, of course
-# if heroic tendencies are not noble & true, do something evil
 if heroic != true
   do_something_evil
 end
 
 # same thing, using bang (!whatever) to inverse what we mean
-# do something evil if you're not heroic
 do_something_evil if !heroic
 
 # but we've also got 'unless'
-# unless you're some heroic weirdo, do something evil, it's more fun
 unless heroic
   do_something_evil
 end
 
 # oh look, it works inline, too
-# do something evil unless you're a heroic weirdo
 do_something_evil unless heroic
 ```
 
@@ -135,10 +108,6 @@ In `irb`, take 5 minutes to try conditionals _other_ than `true` and `false`. Wh
 - What happens when you're asking if two strings are the same?
 - What happens when a variable even exists? One you haven't defined?
 - What happens when something's nil?
-
-## Truthy & Falsey - Discussion
-
-Let's talk about what you found out. What did you learn about truthy & falsey & conditionals in Ruby?
 
 ## And/or - Codealong
 
@@ -161,7 +130,7 @@ if (delicious == true) && (healthy == false)
 end
 
 # oh look, optional parentheses!
-if delicious == true && healthy == false
+if delicious && !healthy
   "no really, who cares if it's healthy? eat it"
 end
 ```
@@ -193,7 +162,60 @@ awesome ||= 'this donut'
 awesome = 'this donut' unless awesome
 ```
 
+
+
+## Loops
+
+Ruby has *nearly* all of the loops we know and love from JS, plus a few extras.
+
+#### `while`/`until`
+
+`while` loops work the same as JavaScript does. Ruby also introduces an `until` loop, which is essentially the same as a `while`, but is sometimes more readable.
+
+```ruby
+i = 0
+while i < 5 do
+  puts "i is " + i.to_s
+  i += 1
+end
+
+# is the same as
+i = 0
+until i == 5 do
+  puts "i is " + i.to_s
+  i += 1
+end
+```
+
+#### `times`/`for..in`
+
+Ruby doesn't have the same `for` loops as JavaScript, but you won't miss them! Here are the replacements:
+
+* `times` allows us to do something a fixed number of times
+* `for..in`  lets us operate over enumerables like ranges and arrays
+
+```ruby
+# is the same as
+5.times do |i|
+  puts "i is #{i}"
+end
+
+# is the same as
+for i in (0...5) do
+  puts "i is " + i.to_s
+end
+
+
+# Will print out:
+# >i is 0
+# >i is 1
+# >i is 2
+# >i is 3
+# >i is 4
+```
+
 ## Conclusion
+
 - Describe the difference between truthy & true.
 - What are two ways you could write an if statement? What about an unless statement?
 - How do you combine conditionals?
