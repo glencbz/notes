@@ -1,4 +1,3 @@
-
 # Intro to Ruby - Data Types & Variables
 
 ### Objectives
@@ -185,7 +184,7 @@ Let's compare functions in JS and Ruby!
 * not used as values
 * implicitly returns last evaluation
 * optional parameters must be specified
-* do not require parentheses 
+* do not require parentheses
 
 #### Examples
 ```ruby
@@ -345,7 +344,7 @@ SOME_CONSTANT = "awesome"
 #=> warning: already initialized constant SOME_CONSTANT
 ```
 
-We can use a constant anywhere in a Ruby application – inside a method, outside a method, across objects & a whole app. But keep in mind, it's meant to be defined _only once_, so we'll use it for things like storing application settings, or other stuff we don't intend to change. 
+We can use a constant anywhere in a Ruby application – inside a method, outside a method, across objects & a whole app. But keep in mind, it's meant to be defined _only once_, so we'll use it for things like storing application settings, or other stuff we don't intend to change.
 
 Note that if we try to reassign a constant, the reassignment still succeeds! All the constant syntax does is give a warning on reassignment.
 
@@ -402,3 +401,6 @@ We'll get to see a lot more of Ruby over the next couple days, and the next coup
 - What data types does Ruby have, and what are some differences from JavaScript's types?
 - What 3 types of variables did we talk about? What do you use each one for?
 - What do you like more about Ruby so far? What do you like more about JS?
+
+## Extra Reading
+* [LaunchSchool's guide to Ruby](https://launchschool.com/books/ruby/read/introduction)
