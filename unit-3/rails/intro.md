@@ -22,13 +22,17 @@ Rails was created with the goal of increasing programmers' happiness and product
 1. **DRY** - keep your code DRY and use concise, consistent code.
 2. **Convention over configuration** - Rails is built using sensible defaults, which speeds development and means that there is less code to maintain.
 
-Rails uses (and for the most part, forces you to adhere to) an **MVC** architecture. We used MVC when creating Express applications. To recap what MVC is:
+Rails uses (and for the most part, forces you to adhere to) an **MVC** architecture. The standard Rails application actually creates an `app/`  directory with subdirectories for the components: `models`, `views`, and `controllers`. 
+
+To recap what MVC is:
 
 **Model** - The model refers to the data objects that we use. It's the object oriented approach to design. The data in our database will be the most common type of object that we'll put there.
 
 **View** - The view is the Presentation layer. It's what the user sees and interacts with, essentially the web pages. The HTML, CSS, and front-end JavaScript.
 
 **Controller** - The controller will make decisions based on the request and then control what happens in response. It controls the interaction with our models and with our views.
+
+When the browser sends a request to our Rails app, the request is handled by a **controller**, which is in charge of what to do next. The browser interacts with the **view**, which is sent by the controller. For apps with databases, the controller must usually get data from the **model**, which is then used to render the view and return the complete web page to the browser as HTML.
 
 ![MVC Diagram](http://elibildner.files.wordpress.com/2012/06/screen-shot-2012-06-05-at-2-12-18-am.png)
 
