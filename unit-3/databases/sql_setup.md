@@ -6,22 +6,13 @@
 - Create a database table
 - Insert, retrieve, update, and delete a row or rows into a database table
 
-### Preparation
-*Before this lesson, students should already be able to:*
-
-- Install **[PostgreSQL](http://www.postgresql.org/)**
-- Describe the relationship between tables, rows, and columns
-- Draw an ERD diagram
-- Explain the difference between table relationships
-
-
 ## We know about Databases, but what is SQL? Intro
 
 Let's review: at it's simplest, a relational database is a mechanism to store and retrieve data in a tabular form.  Spreadsheets are a good analogy!  But how do we interact with our database: inserting data, updating data, retrieving data, and deleting data? That's where SQL comes in!
 
 #### What is SQL?
 
-SQL stands for Structured Query Language, and it is a language universally used and adapted to interact with relational databases.  When you use a SQL client and connect to a relational database that contains tables with data, the scope of what you can do with SQL commands includes:
+SQL stands for Structured Query Language, and it is a language universally used and adapted to interact with relational databases.  When you use an SQL client and connect to a relational database that contains tables with data, the scope of what you can do with SQL commands includes:
 
 - Inserting data
 - Querying or retrieving data
@@ -41,6 +32,24 @@ Well, a database is just a repository to store the data and you need to use syst
 
 ...and all of these management systems use SQL (or some adaptation of it) as a language to manage data in the system.
 
+### SQL vs NoSQL
+
+In unit 2, you used MongoDB, a NoSQL database. You might be wondering what the differences are and why and when to choose one over the other.
+
+|             |      SQL      |     NoSQL    |
+|-------------|:-------------:|:--------------:|
+| **Data Storage**|  Relational model with rows and columns| Non-relational model with JSON-like field-value pair documents
+| **Schemas & flexibility**    |    Fixed schema  | Dynamic Schema |
+| **Scalability**    | Vertical scalability | Horizontal scalability
+| **ACID Compliancy**   | Majority ACID compliant | Sacrifice ACID compliancy for performance and scalability
+
+NoSQL's schema-less nature and use of simpler data models makes it more flexible and ideal in cases which:
+ - Require storage of large volumes of data with little structure
+ - Have constantly evolving data requirements
+
+SQL may seem more rigid, however the data integrity rules it allows you to enforce, minimizes the risk of having invalid data or records in the database. It is preferable when:
+ - ACID compliancy is crucial
+ - Querying and data keeping needs are complex
 
 ## Connect, Create a Database - Codealong
 
@@ -111,14 +120,14 @@ wdi(#  ID        INT   PRIMARY KEY   NOT NULL,
 wdi(#  NAME      TEXT                NOT NULL,
 ```
 
-...then, each line after denotes a new column we're going to create for this table, what the column will be called, the data type, whether it's a primary key, and whether the database - when data is added - can allow data without missing values.  In this case, we're not allowing NAME, AGE, or ID to be blank; but we're ok with website being blank.
+...then, each line after denotes a new column we're going to create for this table, what the column will be called, the data type, whether it's a primary key, and whether the database - when data is added - can allow data without missing values.  In this case, we're not allowing NAME, EXPERIENCE, or ID to be blank, but we're ok with website being blank.
 
 ## Create a student table and insert data - Codealong
 
 Now that we've created a table to keep track of our instructors, let's create a table of students that collects information about:
 
 - an id that cannot be left blank
-- the students name that cannot be left blank
+- the student's name that cannot be left blank
 - their age
 - and their address that cannot be left blank.
 
@@ -243,7 +252,7 @@ wdi=# SELECT name, age FROM students;
 
 Just like Ruby or JavaScript, all of our comparison and boolean operators can do work for us to select more specific data.
 
-- I want the names of all the students who aren't dinosaurs - done:
+- I want the names of all the students who aren't dinosaurs
 
 ```psql
 wdi=# SELECT name FROM students WHERE age < 100;
@@ -256,7 +265,7 @@ wdi=# SELECT name FROM students WHERE age < 100;
 (4 rows)
 ```
 
-- How about the names of students ordered by age? Done:
+- How about the names of students ordered by age?
 
 ```psql
 wdi=# SELECT name, age FROM students ORDER BY age;
@@ -270,7 +279,7 @@ wdi=# SELECT name, age FROM students ORDER BY age;
 (5 rows)
 ```
 
-- How about reversed? Ok:
+- How about reversed?
 
 ```psql
 wdi=# SELECT name, age FROM students ORDER BY age DESC;
@@ -344,7 +353,7 @@ wdi=# SELECT * FROM students;
 
 ## Independent Practice
 
-There's _no way_ you're going to remember the exact syntax of everything we just did, but let's practice a habit you should have been doing since week 1: finding and reading documentation. Checkout [this PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/) and using the same database and datatable of users, get through a many of these SQL challenges as possible in the next 10 minutes:
+There's _no way_ you're going to remember the exact syntax of everything we just did, but let's practice a habit you should have been doing since week 1: finding and reading documentation. Checkout [this PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/) and using the same database and table of users, get through as many of these SQL challenges as possible in the next 10 minutes:
 
 - Insert five more students:
   - Nancy Gong is 40 and lives at 200 Horton Ave., Lynbrook, NY
@@ -381,10 +390,10 @@ The Ruby/Rails scripts get converted to raw SQL before querying the database.  Y
 Here are a list of some common Postgresql commands that you might need:
 
 - `\c` - connect to database
-- `\l`
-- `\d`
-- `\d+`
-- `\q`
+- `\l` - list all databases
+- `\d` - list tables in a database
+- `\d+`- list tables in database with size and description
+- `\q` - to quit psql
 - `\h` - help
 
 
@@ -392,3 +401,7 @@ Answer these questions:
 
 - How does SQL relate to relational databases?
 - What kinds of boolean and conditional operators can we use in SQL?
+
+#### Additional Readings
+- [SQL vs NoSQL Differences](https://www.sitepoint.com/sql-vs-nosql-differences/)
+- [Understanding SQL and NoSQL databases](https://www.digitalocean.com/community/tutorials/understanding-sql-and-nosql-databases-and-different-database-models)
