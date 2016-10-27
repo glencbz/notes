@@ -1,5 +1,5 @@
 
-# Arrays, Hashes, & Blocks
+# Arrays, Hashes, Ranges & Blocks
 
 ### Objectives
 
@@ -153,40 +153,61 @@ end
 numbers.reduce(:+)
 ```
 
-## 
+## Ranges
+
+Ranges are a really powerful feature in Ruby. Used correctly, they can drastically change the way you code.
+
+Ranges are essentially a set of values with a beginning and an end. They are enumerable, meaning you can go through their values one by one.
+
+```ruby
+a_range = (1..10) # includes 10
+another_range = (1...10) # not including 10
+letters_range = ('a'..'z')
+
+# enumerables can be iterated over!
+for i in (1..10) do
+  puts i
+end
+```
+
+You can't access individual elements with `[]` like you would with an array. However you can turn ranges into arrays.  
+
+```ruby
+another_range.to_a
+=> [1,2,3,4,5,6,7,8,9]
+```
+
+We can also use the  `===`  operator to determine if an element is within a range or set
+
+```ruby
+another_range = (1...10)
+another_range === 3
+#=> true
+another_range === 11
+#=> false 
+```
 
 ## Blocks
 
 That `do`/`end` thing you're messing with is called a _block_, and it just runs the code in between, almost like a little function without a name - like anonymous functions in JavaScript or lambdas in Python.
 
-You'll see blocks all the time, and you'll use `.each` like it's your job. It just loops through each value in your array and assigns a local variable (that you decide) to each object. You come up with what you want it called in the "pipes", aka those tall neighbors surrounding the variable: `|a_variable_of_my_choosing|`.
-
-To make it super clear: if `numbers` is a variable holding `[1,2,3,4,5]`, then `numbers.each` will go through each number and do _something_ to each variable. It's sort of as if the code is doing this:
+You'll see blocks all the time, and you'll use `.each` like it's your job. It just loops through each value in your array and assigns a local variable (that you decide) to each object. You come up with what you want it called in the "pipes", aka those tall neighbors surrounding the variable: `|a_variable_of_my_choosing|`.`.each` will go through each variable and do _something_ to each variable. It's just like our `forEach` iterator in JavaScript:
 
 ```ruby
-# numbers.each do |number|
-#   puts "i am number #{number}"
-# end
+numbers = [1,2,3,4,5]
 
-number = 1
-puts "i am number #{number}"
+numbers.each do |number|
+  puts "i am number #{number}"
+end
 
-number = 2
-puts "i am number #{number}"
-
-number = 3
-puts "i am number #{number}"
-
-number = 4
-puts "i am number #{number}"
-
-number = 5
-puts "i am number #{number}"
+# i am number 1
+# i am number 2
+# i am number 3
+# i am number 4
+# i am number 5
 ```
 
 Oh, and for best practice, always try to name`|a_variable_of_my_choosing|` the singular tense of the array you're iterating over: ```numbers.each do |number|``` or ```articles.each do |article|```
-
-Of course, the beauty of loops is that we don't have to write all that out.
 
 And a bonus tip: `do`/`end` functionally is the same as `{`/`}`, so you'll see both. Use curly braces, `{ }` for single line blocks and `do ... end` for multiline blocks.
 ```ruby
