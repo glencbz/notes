@@ -401,6 +401,3 @@ We'll get to see a lot more of Ruby over the next couple days, and the next coup
 - What data types does Ruby have, and what are some differences from JavaScript's types?
 - What 3 types of variables did we talk about? What do you use each one for?
 - What do you like more about Ruby so far? What do you like more about JS?
-
-## Extra Reading
-* [LaunchSchool's guide to Ruby](https://launchschool.com/books/ruby/read/introduction)
