@@ -20,3 +20,6 @@ end
 ```
 
 Let's get started with Ruby!
+
+## Extra Reading
+* [LaunchSchool's guide to Ruby](https://launchschool.com/books/ruby/read/introduction)
