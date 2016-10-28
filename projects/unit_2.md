@@ -2,7 +2,7 @@
 
 ## Project Submission
 1. Host your entire application on Heroku
-2. Ensure that a soft launch of your project is up on Github Pages and Heroku by Wednesday 26th October 2016.
+2. Soft launch of your project is on Heroku by **Wednesday 26th October 2016**.
 3. Submit the links at the **Project 2 submission page**
 4. The deadline for this project is on Friday 28th October 2016, 8am
 5. Before the deadline ensure that the master branch contains your latest project code.
@@ -38,7 +38,6 @@ Deliverables include:
       * one user model
       * remaining models - depending on functional idea
   * Include **all major CRUD functions** in a **RESTful API** for at least one of those models
-  * 
 * **Front-end application**
   * Layout and style your front-end with **clean & well-formatted CSS**
 * **Overall**

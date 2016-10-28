@@ -39,7 +39,7 @@ A salt is random data that can be added as additional input to a one-way functio
 
 ## Using bcrypt with Express - Codealong
 
-Take the [starter-code]() and unzip it. Next, make sure that you run `npm install` to install all of the dependencies.
+Take the [starter-code](https://github.com/flamingAvos/bcrypt-lab) and unzip it. Next, make sure that you run `npm install` to install all of the dependencies.
 
 Once you have done this, run `npm start` to check for any errors. You shouldn't have any!
 
@@ -198,8 +198,6 @@ In `user.js`, we are going to add some middleware that will be executed every ti
 
   module.exports = mongoose.model('User', User);
 ```
-
-*Note:* Similar to a Rails `before_save` callback.
 
 The code in this function will now be executed for every call to create, save and update.
 
@@ -370,7 +368,7 @@ ETag: W/"21-0aBsDSDpbTcsYOjT+i4low"
 Date: Sat, 15 Aug 2015 02:00:35 GMT
 Connection: keep-alive
 
-{"message":"Valid Credentials !"}%     
+{"message":"Valid Credentials !"} 
 ```
 
 If they are not, you should see:
