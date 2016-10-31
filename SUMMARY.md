@@ -12,6 +12,7 @@
       * [Classes](unit-3/ruby/classes.md)
    * [Rails](unit-3/rails/readme.md)
       * [Intro to Rails](unit-3/rails/intro.md)
+   * [Extra reading](unit-3/extra_reading.md)
 * [Unit 2](unit-2/readme.md)
    * [Week 5 Homework](unit-2/week_5_homework.md)
    * [Week 4 Homework](unit-2/week_4_homework.md)
