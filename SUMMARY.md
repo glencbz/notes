@@ -5,6 +5,7 @@
 * [Homework](00-schedule/homework.md)
 * [Class Culture](00-schedule/classroom_culture.md)
 * [Unit 3](unit-3/readme.md)
+   * Week 7 Homework
    * [Ruby](unit-3/ruby/readme.md)
        * [Intro to Ruby](unit-3/ruby/intro_to_ruby.md)
        * [Arrays, Hashes, Ranges & Blocks](unit-3/ruby/arr_hashes_ranges_blocks.md)
@@ -13,7 +14,6 @@
    * [Rails](unit-3/rails/readme.md)
        * [Intro to Rails](unit-3/rails/intro.md)
    * [Extra reading](unit-3/extra_reading.md)
-   * Week 7 Homework
 * [Unit 2](unit-2/readme.md)
    * [Week 5 Homework](unit-2/week_5_homework.md)
    * [Week 4 Homework](unit-2/week_4_homework.md)
