@@ -13,6 +13,7 @@
        * [Classes](unit-3/ruby/classes.md)
    * [Rails](unit-3/rails/readme.md)
        * [Intro to Rails](unit-3/rails/intro.md)
+       * [Layouts and Views](unit-3/rails_layouts_views.md)
    * [Extra reading](unit-3/extra_reading.md)
 * [Unit 2](unit-2/readme.md)
    * [Week 5 Homework](unit-2/week_5_homework.md)
@@ -127,4 +128,3 @@
 * [Projects](projects.md)
    * [Unit 2](projects/unit_2.md)
    * [Unit 1](projects/unit_1.md)
-

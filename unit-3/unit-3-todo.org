@@ -1,20 +1,21 @@
-* TODO Week 1 [1/8]
-  - [-] Day 1 [1/2]
+* TODO Week 1 [3/6]
+  - [X] Day 1 [2/2]
     - [X] MVC
-    - [ ] Data Validation
-  - [-] Day 2 [2/3]
-    - [ ] Agile development
+    - [X] Data Validation
+  - [X] Day 2 [3/3]
+    - [X] Agile development
     - [X] Ruby intro
     - [X] Ruby Classes
-  - [-] Day 3 [1/2]
+  - [X] Day 3 [2/2]
     - [X] Intro to rails (static pages)
-    - [ ] Views
+    - [X] Views
   - [ ] Day 4 [0/2]
     - [ ] SQL
     - [ ] ActiveRecord
   - [ ] Day 5 [0/2]
     - [ ] Partials
     - [ ] Forms
-  - [ ] Heroku
-  - [X] SASS
-  - [ ] Web typography
+  - [-] Misc [1/3]
+    - [ ] Heroku
+    - [X] SASS
+    - [ ] Web typography
