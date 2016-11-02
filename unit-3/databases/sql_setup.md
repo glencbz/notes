@@ -1,8 +1,6 @@
 # SQL Setup, Insert, Update and Delete
 
 ### Objectives
-*After this lesson, students will be able to:*
-
 - Create a database table
 - Insert, retrieve, update, and delete a row or rows into a database table
 
@@ -32,28 +30,35 @@ Well, a database is just a repository to store the data and you need to use syst
 
 ...and all of these management systems use SQL (or some adaptation of it) as a language to manage data in the system.
 
-### SQL vs NoSQL
+### SQL vs MongoDB
 
 In unit 2, you used MongoDB, a NoSQL database. You might be wondering what the differences are and why and when to choose one over the other.
 
-|             |      SQL      |     NoSQL    |
-|-------------|:-------------:|:--------------:|
-| **Data Storage**|  Relational model with rows and columns| Non-relational model with JSON-like field-value pair documents
-| **Schemas & flexibility**    |    Fixed schema  | Dynamic Schema |
-| **Scalability**    | Vertical scalability | Horizontal scalability
-| **ACID Compliancy**   | Majority ACID compliant | Sacrifice ACID compliancy for performance and scalability
+|                           | SQL                                    | MongoDB                                  |
+| ------------------------- | -------------------------------------- | ---------------------------------------- |
+| **Data Storage**          | Relational model with rows and columns | Non-relational model with JSON-like field-value pair documents |
+| **Schemas & flexibility** | Fixed schema                           | Dynamic Schema                           |
+| **Scalability**           | Vertical scalability                   | Horizontal scalability                   |
+| **ACID Compliancy**       | Majority ACID compliant                | Sacrifice ACID compliancy for performance and scalability |
 
 NoSQL's schema-less nature and use of simpler data models makes it more flexible and ideal in cases which:
- - Require storage of large volumes of data with little structure
- - Have constantly evolving data requirements
+- Require storage of large volumes of data with little structure
+- Have constantly evolving data requirements
 
 SQL may seem more rigid, however the data integrity rules it allows you to enforce, minimizes the risk of having invalid data or records in the database. It is preferable when:
- - ACID compliancy is crucial
- - Querying and data keeping needs are complex
+- ACID compliancy is crucial
+- Querying and data keeping needs are complex
 
 ## Connect, Create a Database - Codealong
 
-Let's make a database!  First, make sure you have PostgreSQL running.  Once you do, open your terminal and type:
+Let's make a database!  First, make sure you have PostgreSQL running.
+
+```bash
+$ brew install postgres
+$ postgres
+```
+
+Once you do, open your terminal and type:
 
 ```bash
 $ psql
@@ -74,7 +79,7 @@ your_user_name=# CREATE DATABASE wdi;
 CREATE DATABASE
 ```
 
-The semicolon is important! Be sure to always end your SQL queries and commands with semicolons.
+The semicolon is important! Without it, the command won't run. Be sure to always end your SQL queries and commands with semicolons.
 
 Now let's _use_ that database we just created:
 
