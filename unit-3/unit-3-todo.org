@@ -1,4 +1,4 @@
-* TODO Week 1 [3/6]
+* TODO Week 1 [4/6]
   - [X] Day 1 [2/2]
     - [X] MVC
     - [X] Data Validation
@@ -9,11 +9,11 @@
   - [X] Day 3 [2/2]
     - [X] Intro to rails (static pages)
     - [X] Views
-  - [ ] Day 4 [0/2]
-    - [ ] SQL
-    - [ ] ActiveRecord
-  - [ ] Day 5 [0/2]
-    - [ ] Partials
+  - [X] Day 4 [2/2]
+    - [X] SQL
+    - [X] ActiveRecord
+  - [-] Day 5 [1/2]
+    - [X] Partials
     - [ ] Forms
   - [-] Misc [1/3]
     - [ ] Heroku
