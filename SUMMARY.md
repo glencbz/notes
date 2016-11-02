@@ -12,6 +12,7 @@
        * [Classes](unit-3/ruby/classes.md)
    * [Rails](unit-3/rails/readme.md)
        * [Intro to Rails](unit-3/rails/intro.md)
+       * [Layouts, Partials, and Views](unit-3/rails/rails_layouts_views.md)
    * [Intro to SQL](unit-3/databases/sql_setup.md)
    * [ActiveRecord and Migrations](unit-3/databases/building_models_with_AR.md)
    * [Extra reading](unit-3/extra_reading.md)
