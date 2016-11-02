@@ -1,6 +1,10 @@
 # Week 7 Homework
 
-## Day 2 (Monday)
+## Day 3 (Wednesday)
+
+Come up with ideas for your project! Do it individually.
+
+## Day 2 (Tuesday)
 
 Rails is magic! Don't try to do anything too fancy, just follow the tutorial strictly.
 
