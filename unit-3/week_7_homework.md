@@ -1,5 +1,12 @@
 # Week 7 Homework
 
+## Day 4 (Thursday)
+
+We'll be using Michael Hartl's Rails tutorial a lot this unit. Today we'll be reading chapters 3 and 5.
+
+* [Static pages](https://www.railstutorial.org/book/static_pages)
+* [Filling in the layout](https://www.railstutorial.org/book/filling_in_the_layout)
+
 ## Day 3 (Wednesday)
 
 Come up with ideas for your project! Do it individually.
