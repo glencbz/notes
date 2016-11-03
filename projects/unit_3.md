@@ -27,6 +27,7 @@ Your team has been put together in order to create a startup around a particular
 Your app must:
 
 * **Use Ruby on Rails and Active Record** to build an application
+* **Use AJAX (Rails or JQuery)** to dynamically modify content on the front end
 * **Create an application using at least 2 related models**, one of which should be a user
 * Include **all major CRUD functions** for at least one of those models
 * Create your own front-end with HTML, Javascript, & jQuery
@@ -84,11 +85,11 @@ Your app must:
 
 * __Total__: Your instructors will give you a total score on your project between:
 
-| Score | Expectations |
-| ----- | ------------ |
-| **0** | _Incomplete._ |
-| **1** | _Does not meet expectations._ |
-| **2** | _Meets expectations, good job!_ |
+| Score | Expectations                             |
+| ----- | ---------------------------------------- |
+| **0** | _Incomplete._                            |
+| **1** | _Does not meet expectations._            |
+| **2** | _Meets expectations, good job!_          |
 | **3** | _Exceeds expectations, you wonderful creature, you!_ |
 
  This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!

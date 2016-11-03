@@ -1,4 +1,4 @@
-* TODO Week 1 [4/6]
+* Doing Week 1 [4/5]
   - [X] Day 1 [2/2]
     - [X] MVC
     - [X] Data Validation
@@ -6,16 +6,31 @@
     - [X] Agile development
     - [X] Ruby intro
     - [X] Ruby Classes
-  - [X] Day 3 [2/2]
+  - [X] Day 3 [1/1]
     - [X] Intro to rails (static pages)
+  - [-] Day 4 [2/3]
     - [X] Views
-  - [X] Day 4 [2/2]
     - [X] SQL
+    - [ ] RSpec
+  - [X] Day 5 [2/2]
     - [X] ActiveRecord
-  - [-] Day 5 [1/2]
     - [X] Partials
+* TODO Week 2 [0/0]
+  - Day 1 [0/3]
     - [ ] Forms
-  - [-] Misc [1/3]
-    - [ ] Heroku
-    - [X] SASS
+    - [ ] Deployment (Heroku)
+    - [ ] Authentication(signup/user models)
+  - Day 2 [0/2]
+    - [ ] CRUD
+    - [ ] Other models and linking with user
+  - Day 3 [0/3]
+    - [ ] SASS
+    - [ ] Turbolinks
+    - [ ] JavaScript in Rails
+  - Day 4 [0/2]
+    - [ ] Rails API
+    - [ ] Rails AJAX
+  - Day 5 [0/3]
+    - [ ] Rails API
+    - [ ] Rails AJAX
     - [ ] Web typography
