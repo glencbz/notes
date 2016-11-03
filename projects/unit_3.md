@@ -43,6 +43,7 @@ Your app must:
 ### Necessary Deliverables
 
 * A **working app, built by the whole team**, hosted somewhere on the internet
+    * Soft launch on 16 November
 * A **link to your hosted working app** in the URL section of your Github repo
 * A **team git repository hosted on Github**, with a link to your hosted project, and frequent commits from _every_ team member dating back to the _very beginning_ of the project.
 * **A ``readme.md`` file** with:

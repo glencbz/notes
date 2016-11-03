@@ -6,6 +6,7 @@
 * [Class Culture](00-schedule/classroom_culture.md)
 * [Unit 3](unit-3/readme.md)
    * [Week 7 Homework](unit-3/week_7_homework.md)
+       * [Introduction to Testing](unit-3/intro_to_testing.md)
    * [Ruby](unit-3/ruby/readme.md)
        * [Intro to Ruby](unit-3/ruby/intro_to_ruby.md)
        * [Arrays, Hashes, Ranges & Blocks](unit-3/ruby/arr_hashes_ranges_blocks.md)
