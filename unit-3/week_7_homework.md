@@ -1,11 +1,17 @@
 # Week 7 Homework
 
+## Day 5 (Friday)
+
+- Finish up whatever Hartl stuff you haven't done!
+- [8. Basic Login](https://www.railstutorial.org/book/basic_login)
+  - You will submit this! Submit a working Heroku page
+
 ## Day 4 (Thursday)
 
 We'll be using Michael Hartl's Rails tutorial a lot this unit. Today we'll be reading chapters 3 and 5.
 
-* [Static pages](https://www.railstutorial.org/book/static_pages)
-* [Filling in the layout](https://www.railstutorial.org/book/filling_in_the_layout)
+* [3. Static pages](https://www.railstutorial.org/book/static_pages)
+* [5. Filling in the layout](https://www.railstutorial.org/book/filling_in_the_layout)
 
 ## Day 3 (Wednesday)
 
