@@ -4,6 +4,12 @@ Please submit the link(s) to the repo (github repository) with your homework (e.
 
 To keep your assignments neat, each piece of homework should have its own repo.
 
+### Week 7
+
+| Day        | Topic      | Homework |
+| ------     | -----      | -------- |
+| Friday    | Rails login | [Rails Tutorial login](https://www.railstutorial.org/book/basic_login)|            
+
 ### Week 4
 
 | Day        | Topic      | Homework |
