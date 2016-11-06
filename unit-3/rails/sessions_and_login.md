@@ -7,20 +7,20 @@
 - Explain the idea of being "logged in"
 - Describe how a cookie works with user sessions and which users are "logged in"
 - Create a cookie with a user's ID
-- Create a form that on looks up a user and creates a cookie
+- Create a form that looks up a user and creates a cookie
 - Write a helper for logged_in? & current_user to find a user by the ID in the cookie
 - Logout a user by deleting a cookie
 - Give access to specific routes only to logged users
 
-##Intro - It's all about sessions
+## Intro - It's all about sessions
 
-During the previous lesson, we've covered how to store critical data like passwords and how to know if a user is providing the right credentials; but this is the logic to authenticate a returning user who will enter their credentials and create a new record for a new user.  How do we keep track of the state of every user and make sure they don't have to authenticate each time they visit?
+During the previous lesson, we've covered how to store critical data like passwords and how to know if a user is providing the right credentials; but this is the logic to authenticate a returning user who will enter their credentials and create a new record for a new user. How do we keep track of the state of every user and make sure they don't have to authenticate each time they visit?
 
 The most common way of handling authentication - if all users are logged in or not - is to use cookies.
 
 According to royal.gov.uk:
 
-> "A cookie is a simple text file that is stored on a computer or mobile device by a website’s server and only that server will be able to retrieve or read the contents of that cookie. Each cookie is unique to a web browser, means that if you're logged in on Google with Chrome, you will still have to login to google if you open firefox on the same computer. Cookies will contain some anonymous information such as a user ID and the site name. It basically allows a website to remember things like user preferences or the content of a shopping basket."
+> "A cookie is a simple text file that is stored on a computer or mobile device by a website’s server and only that server will be able to retrieve or read the contents of that cookie. Each cookie is unique to a web browser, meaning that if you're logged in on Google with Chrome, you will still have to login to google if you open firefox on the same computer. Cookies will contain some anonymous information such as a user ID and the site name. It basically allows a website to remember things like user preferences or the contents of a shopping basket."
 
 ## Demo/Codealong - How to use Cookies
 
@@ -29,9 +29,8 @@ To illustrate how cookies are written and read from/by the server, let's create 
 ```bash
 rails new cookies_example
 cd cookies_example
-subl .
+atom .
 ```
-
 
 Now we are going to create a controller `cookies` with 3 methods:
 
@@ -221,7 +220,7 @@ And this is how you can restrict access to some resources!
 
 ## Independent Practice
 
-Using the [starter code](starter-code), create a controller `pages` with three different methods "everyone", "logged_in" and "logged_out".
+Using the [starter code](https://github.com/flamingAvos/rails-sessions-login-lab), create a `controller page` with three different methods "everyone", "logged_in" and "logged_out".
 
 The method "everyone" should be accessible for every visitor, the method logged_in should be accessed only by the people that are logged_in, and the method logged_out can only be accessed for users **NOT** logged_in.
 
