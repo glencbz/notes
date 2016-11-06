@@ -18,13 +18,13 @@
 * TODO Week 2 [0/0]
   - Day 1 [0/3]
     - [ ] Forms
-    - [ ] Deployment (Heroku)
-    - [ ] Authentication(signup/user models)
+    - [X] Deployment (Heroku)
+    - [X] Authentication(signup/user models)
   - Day 2 [0/2]
     - [ ] CRUD
     - [ ] Other models and linking with user
   - Day 3 [0/3]
-    - [ ] SASS
+    - [X] SASS
     - [ ] Turbolinks
     - [ ] JavaScript in Rails
   - Day 4 [0/2]
