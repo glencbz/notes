@@ -22,6 +22,7 @@
    * [Deployment to Heroku](unit-3/rails/deployment.md)
    * [SASS](unit-3/rails/sass.md)
    * [Extra reading](unit-3/extra_reading.md)
+   * Labs
 * [Unit 2](unit-2/readme.md)
    * [Week 5 Homework](unit-2/week_5_homework.md)
    * [Week 4 Homework](unit-2/week_4_homework.md)
@@ -136,3 +137,4 @@
    * [Unit 3](projects/unit_3.md)
    * [Unit 2](projects/unit_2.md)
    * [Unit 1](projects/unit_1.md)
+
