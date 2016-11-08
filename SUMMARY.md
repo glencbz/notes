@@ -23,7 +23,7 @@
    * [SASS](unit-3/rails/sass.md)
    * [Extra reading](unit-3/extra_reading.md)
    * [Labs](unit-3/labs.md)
-       * Models and Migrations
+       * [Models and Migrations](unit-3/models_and_migrations.md)
 * [Unit 2](unit-2/readme.md)
    * [Week 5 Homework](unit-2/week_5_homework.md)
    * [Week 4 Homework](unit-2/week_4_homework.md)
