@@ -62,10 +62,6 @@ Be sure to do the requirements below in order and keep an eye on your `schema.rb
 
 
 
-#### Starter code
-
-Use your code from class or grab the [starter-code](starter-code) to get started.
-
 #### Deliverable
 
 Your `schema.rb` file should look like this:
