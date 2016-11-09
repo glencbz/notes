@@ -29,10 +29,6 @@ Do not worry about creating controllers and views - we'll do that in part two.
 **Bonus:**
 - Create a few records of seed data for each model and run the seed rake task
 
-#### Starter code
-
-Grab the [starter-code](starter-code) to get started.
-
 #### Deliverable
 
 Once you're finished, from your app's root directory, you should be able to run the following commands to create your database:
