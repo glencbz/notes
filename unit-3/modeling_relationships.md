@@ -48,7 +48,7 @@ r1 = Recipe.create title: "pizza", description: "some crust and some toppings", 
 r2 = Recipe.create title: "pasta", description: "tastier with bolognese", servings: 3
 i1 = Ingredient.create name: "tomatoes"
 i2 = Ingredient.create name: "beef"
-c1 = Course.create name: "main"
+c1 = Course.create title: "main"
 r1.course = c1
 r1.save
 r2.course = c1
