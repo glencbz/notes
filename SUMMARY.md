@@ -4,6 +4,7 @@
 * [Calendar](00-schedule/calendar.md)
 * [Homework](00-schedule/homework.md)
 * [Class Culture](00-schedule/classroom_culture.md)
+* Unit 4
 * [Unit 3](unit-3/readme.md)
    * [Week 7 Homework](unit-3/week_7_homework.md)
    * [Introduction to Testing](unit-3/intro_to_testing.md)
@@ -139,5 +140,4 @@
    * [Unit 3](projects/unit_3.md)
    * [Unit 2](projects/unit_2.md)
    * [Unit 1](projects/unit_1.md)
-* Unit 4
 
