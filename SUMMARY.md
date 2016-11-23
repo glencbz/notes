@@ -138,6 +138,7 @@
        * [setTimeout and setInterval](unit-1/labs/settimeout_and_setinterval.md)
        * [Bootstrap](unit-1/labs/bootstrap.md)
 * [Projects](projects.md)
+   * [Unit 4](projects/unit_4.md)
    * [Unit 3](projects/unit_3.md)
    * [Unit 2](projects/unit_2.md)
    * [Unit 1](projects/unit_1.md)
