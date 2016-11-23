@@ -142,5 +142,4 @@
    * [Unit 3](projects/unit_3.md)
    * [Unit 2](projects/unit_2.md)
    * [Unit 1](projects/unit_1.md)
-   * [unit_4.md](unit_4.md)
 
