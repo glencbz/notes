@@ -34,12 +34,12 @@
 
 * __Total__: Your instructors will give you a total score on your project between:
 
-    Score | Expectations
-    ----- | ------------
-    **0** | _Incomplete._
-    **1** | _Does not meet expectations._
-    **2** | _Meets expectations, good job!_
-    **3** | _Exceeds expectations, you wonderful creature, you!_
+| Score| Expectations |
+| :----:| :---------: |
+| **0** | _Incomplete._ |
+| **1** | _Does not meet expectations._ |
+| **2** | _Meets expectations, good job!_ |
+| **3** | _Exceeds expectations, you wonderful creature, you!_ |
     
 ### Overview
 
