@@ -1,14 +1,56 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Unit #4 Project: Your Portfolio Project
 
+## Overview
+
+**You’ve come a long way, and it's time to show it.** This will be your most advanced project to date, and if you put creativity into it, it'll hopefully be the thing you want to show off most prominently in your portfolio. You can opt to work in groups of a maximum size of 4 or work individually for this project.
+
+**You get to call the shots and invent your own idea**, choosing a framework & tools that are appropriate for what you want to build. It doesn't need to be in React or Angular 2, but it's best if you do! :)
+
+Pull from everything you've learned so far, and **tackle something that'll push you a little outside of your comfort zone.** If you're eyeing to work at a specific company, try to understand the company's framework stack and develop something with similar stack.
+
+Make sure you review your project proposal with your instructor so you can make sure it's **something you can accomplish in the limited time we have**, and make sure it's **something that'll be impressive visually**. Sometimes people do judge a book by its cover – or an app by its design.
+
+---
+
+## Technical Requirements
+
+Your app must:
+
+* **Build a full-stack application** by making your own backend and your own front-end
+* **Have an interactive front-end**, preferably using a modern front-end framework
+* **Be a complete product**, which most likely means multiple relationships and CRUD functionality for at least a couple models
+* **Use a database**, whether that's one we've covered in class or one you want to learn
+* **Implement thoughtful user stories** that are significant enough to help you know which features to build and which to scrap
+* **Have a visually impressive design** to kick your portfolio up a notch and have something to wow future clients & employers
+* **Be deployed online** so it's publicly accessible
+
+---
+
+### Necessary Deliverables
+
+* A **working application**, hosted somewhere on the internet
+* A **link to your hosted working app** in the URL section of your GitHub repo
+* A **git repository hosted on GitHub**, with a link to your hosted project, and frequent commits dating back to the very beginning of the project
+* **A ``readme.md`` file** with:
+    * An embedded screenshot of the app
+    * Explanations of the **technologies** used
+    * A couple paragraphs about the **general approach you took**
+    * **Installation instructions** for any dependencies
+    * Link to your **user stories** – who are your users, what do they want, and why?
+    * Link to your **wireframes, ERDs, Use-cases, etc** – sketches of planning documentations of your application
+    * Link to your **pitch deck** – documentation of your wireframes, user stories, and proposed architecture
+    * Descriptions of any **unsolved problems** or **major hurdles** you had to overcome
+
+---
 ##Project Submission
 1. Soft launch of your project is on Heroku by **Wednesday 7th December 2016**.
-2. Submit your Project 4 repository details at the **[Project 4 submission page]** before 8AM on Friday 9th December 2016. 
+2. Submit your Project 4 repository details at the **[Project 4 submission page](https://docs.google.com/forms/d/e/1FAIpQLSeaRmf5yhEduQ5r1buMkZzlOmVF5SjiC9qBv8AQiTaDDkP8gQ/viewform)** before 8AM on Friday 9th December 2016. 
 2. Before the deadline ensure that the master branch contains your latest project codes.
 3. Before the deadline ensure that your apps are successfully deployed to heroku.
 
 ## Presentation format
-* Maximum of 20 mins for presentation and 5 mins for feedback/Q&A
-* Order of student presentations will be written on the board at the start of the day at 9AM. The order of the presentation will be random. 
+* Maximum of 10 mins for presentation and 5 mins for feedback/Q&A
+* The order of the presentation will be random. 
 * Student before the current presenter to give feedback in the form of one glow comment (One great thing about their project)
 * Student after the current presenter to give feedback in the form of one grow comment (A possible improvement to their project)
 
@@ -41,48 +83,6 @@
 | **2** | _Meets expectations, good job!_ |
 | **3** | _Exceeds expectations, you wonderful creature, you!_ |
     
-### Overview
-
-**You’ve come a long way, and it's time to show it.** This will be your most advanced project to date, and if you put creativity into it, it'll hopefully be the thing you want to show off most prominently in your portfolio. You can opt to work in groups of a maximum size of 4 or work individually for this project.
-
-**You get to call the shots and invent your own idea**, choosing a framework & tools that are appropriate for what you want to build. It doesn't need to be in React or Angular2, but it's best if you do! :)
-
-Pull from everything you've learned so far, and **tackle something that'll push you a little outside of your comfort zone.** If you're eyeing to work at a specific company, try to understand the company's framework stack and develop something with similar stack.
-
-Make sure you review your project proposal with your instructor so you can make sure it's **something you can accomplish in the limited time we have**, and make sure it's **something that'll be impressive visually**. Sometimes people do judge a book by its cover – or an app by its design.
-
----
-
-### Technical Requirements
-
-Your app must:
-
-* **Build a full-stack application** by making your own backend and your own front-end
-* **Have an interactive front-end**, preferably using a modern front-end framework
-* **Be a complete product**, which most likely means multiple relationships and CRUD functionality for at least a couple models
-* **Use a database**, whether that's one we've covered in class or one you want to learn
-* **Implement thoughtful user stories** that are significant enough to help you know which features to build and which to scrap
-* **Have a visually impressive design** to kick your portfolio up a notch and have something to wow future clients & employers
-* **Be deployed online** so it's publicly accessible
-
----
-
-### Necessary Deliverables
-
-* A **working application**, hosted somewhere on the internet
-* A **link to your hosted working app** in the URL section of your GitHub repo
-* A **git repository hosted on GitHub**, with a link to your hosted project, and frequent commits dating back to the very beginning of the project
-* **A ``readme.md`` file** with:
-    * An embedded screenshot of the app
-    * Explanations of the **technologies** used
-    * A couple paragraphs about the **general approach you took**
-    * **Installation instructions** for any dependencies
-    * Link to your **user stories** – who are your users, what do they want, and why?
-    * Link to your **wireframes, ERDs, Use-cases, etc** – sketches of planning documentations of your application
-    * Link to your **pitch deck** – documentation of your wireframes, user stories, and proposed architecture
-    * Descriptions of any **unsolved problems** or **major hurdles** you had to overcome
-
----
 
 ### Suggested Ways to Get Started
 
